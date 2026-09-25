@@ -1,0 +1,71 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGWB-12>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Mirjams Siegesgesang"@de ;
+    dcterms:title "Mirjams Seirssang"@en ;
+    dcterms:alternative "Cymbler klinge, Harper tone"@da ;
+    dcterms:alternative "Udvandringen af Ægypten"@da ;
+    dcterms:identifier "NWGW B 12" ;
+    cnw:cnwNumber "B 12" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/franz_schubert> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/franz_grillparzer> ;
+    cnw:arranger <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "Between 1855 and 1857" ;
+    cnw:dateNotBefore "1855"^^xsd:gYear ;
+    cnw:dateNotAfter "1857"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    frbr:realization <https://cnw-ld.org/work/NWGWB-12/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGWB-12/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGWB-12> ;
+    cnw:tempo "Allegro non troppo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb. ad libitum" ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soprano" ;
+    cnw:incipitText "Cymbler klinge, Harper tone"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/franz_schubert>
+    a foaf:Agent ;
+    foaf:name "Franz Schubert" .
+
+<https://cnw-ld.org/agent/franz_grillparzer>
+    a foaf:Agent ;
+    foaf:name "Franz Grillparzer" .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+

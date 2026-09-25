@@ -1,0 +1,62 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW253>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Reiters End"@de ;
+    dcterms:title "Rytterens Död"@da ;
+    dcterms:title "The Rider's End"@en ;
+    dcterms:alternative "Nun ruh' von deiner harten Wacht"@de ;
+    dcterms:alternative "Sov södt nu efter fuldendt Vagt"@da ;
+    dcterms:identifier "Opus 16:6" ;
+    dcterms:identifier "NWGW 253" ;
+    dcterms:identifier "GW IV:10" ;
+    cnw:cnwNumber "253" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "16:6" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/carl_schultes> ;
+    dcterms:created "1848" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22775692719873> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW253/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW253/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW253> ;
+    cnw:key "B minor" ;
+    cnw:tempo "Langsam und ernst (Andante con gravita)" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Nun ruh' von deiner harten Wacht"@de ;
+    cnw:incipitText "Sov södt nu efter fuldendt Vagt"@da ;
+    cnw:incipitImage "NWGW_253.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/carl_schultes>
+    a foaf:Agent ;
+    foaf:name "Carl Schultes" .
+

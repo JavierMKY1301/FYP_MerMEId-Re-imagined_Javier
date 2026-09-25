@@ -1,0 +1,75 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW19>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Novelletten"@de ;
+    dcterms:title "Novelletter"@da ;
+    dcterms:title "Novelettes"@en ;
+    dcterms:alternative "Vier Orchesterstücke für Streichinstrumente"@de ;
+    dcterms:alternative "Fire Orkesterstykker for Strygeinstrumenter"@da ;
+    dcterms:alternative "Four Orchestral Pieces for Strings"@en ;
+    dcterms:identifier "Opus 53" ;
+    dcterms:identifier "NWGW 19" ;
+    dcterms:identifier "GW I:12" ;
+    cnw:cnwNumber "19" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "53" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "Sept. to 20 Oct. 1874" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Other orchestral music" ;
+    cnw:manuscriptLocation "Dk-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW19/expression/1> ;
+    cnw:performanceCount 44 .
+
+<https://cnw-ld.org/work/NWGW19/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW19> ;
+    cnw:key "F major" ;
+    cnw:tempo "Andantino - Allegro vivace e grazioso" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc.1" ;
+    cnw:performingForce "vc.2" ;
+    cnw:performingForce "cb." ;
+    cnw:incipitImage "NWGW_019_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+

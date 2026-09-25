@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW309>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Havfruen"@da ;
+    dcterms:title "The Mermaid"@en ;
+    dcterms:alternative "Röd Maanen skinner"@da ;
+    dcterms:identifier "NWGW 309" ;
+    dcterms:identifier "GW V:1" ;
+    dcterms:identifier "DF 152:2" ;
+    cnw:cnwNumber "309" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/b_s_ingemann> ;
+    dcterms:created "April 1841" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22810439529809> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23563628363699> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW309/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW309/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW309> ;
+    cnw:key "F-sharp minor" ;
+    cnw:tempo "Temmelig hurtigt; med stigende Længsel / Allegro agitato in 2nd ed." ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Röd Maanen skinner blandt Stjerner smaa"@da ;
+    cnw:incipitImage "NWGW_309.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/b_s_ingemann>
+    a foaf:Agent ;
+    foaf:name "B.S. Ingemann" .
+

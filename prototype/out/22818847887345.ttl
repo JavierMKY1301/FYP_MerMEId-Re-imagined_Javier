@@ -1,0 +1,49 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW40>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kvartet for to violiner, bratsch og cello"@da ;
+    dcterms:title "Kvartett für zwei Violine, Bratsche und Cello"@de ;
+    dcterms:title "Quartet for Two Violins, Viola and Cello"@en ;
+    dcterms:identifier "NWGW 40" ;
+    dcterms:identifier "GW II:2" ;
+    cnw:cnwNumber "40" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "1877 / 1889" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:subject "String quartet" ;
+    cnw:manuscriptLocation "D-DS" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW40/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW40/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW40> ;
+    cnw:key "E minor" ;
+    cnw:tempo "Allegro" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "vl." ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:incipitImage "NWGW_040_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+

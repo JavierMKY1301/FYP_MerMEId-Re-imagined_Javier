@@ -1,0 +1,62 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW359>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Aftenstemning"@da ;
+    dcterms:title "Evening"@en ;
+    dcterms:alternative "Alt Skoven sig fordunkler"@da ;
+    dcterms:alternative "The woods are dimly listening"@en ;
+    dcterms:identifier "CNW 359" ;
+    dcterms:identifier "CNU III/6, 321" ;
+    dcterms:identifier "FS 48" ;
+    cnw:cnwNumber "359" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "48" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/mathias_claudius> ;
+    dcterms:created "1908" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW359/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW359/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW359> ;
+    cnw:tempo "Andante molto tranquillo (drømmende)" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Alt Skoven sig fordunkler"@da ;
+    cnw:incipitText "The woods are dimly listening"@en ;
+    cnw:incipitImage "cnw_359.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/mathias_claudius>
+    a foaf:Agent ;
+    foaf:name "Mathias Claudius" .
+
+<https://cnw-ld.org/agent/carsten_hauch>
+    a foaf:Agent ;
+    foaf:name "Carsten Hauch" .
+

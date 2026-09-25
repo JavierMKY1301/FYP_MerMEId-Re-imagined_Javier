@@ -1,0 +1,51 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW49>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kvartet for violin, bratsch, cello og klaver"@da ;
+    dcterms:title "Quatuor pour le pianoforte, violino, alto e basso"@fr ;
+    dcterms:title "Piano Quartet"@en ;
+    dcterms:identifier "HartW 49" ;
+    dcterms:identifier "Opus 2" ;
+    cnw:cnwNumber "49" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "2" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1823 or 1825" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "French" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:subject "Piano quartet" ;
+    frbr:realization <https://cnw-ld.org/work/HartW49/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW49/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW49> ;
+    cnw:key "F major" ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "vl." ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "hartw_049_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

@@ -1,0 +1,64 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGWA-28>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Nordens Folkeaand"@da ;
+    dcterms:title "The Spirit of the Nordic People"@en ;
+    dcterms:alternative "En mægtig Aand gjennem Norden foer"@da ;
+    dcterms:identifier "NWGW A 28" ;
+    dcterms:identifier "GW IV:11" ;
+    dcterms:identifier "DF 125" ;
+    cnw:cnwNumber "A 28" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/b_s_ingemann> ;
+    dcterms:created "1890-05-01" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Male choir" ;
+    cnw:manuscriptLocation "DK-Km" ;
+    frbr:realization <https://cnw-ld.org/work/NWGWA-28/expression/1> ;
+    cnw:performanceCount 5 .
+
+<https://cnw-ld.org/work/NWGWA-28/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGWA-28> ;
+    cnw:key "C minor" ;
+    cnw:tempo "Maestoso" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "cnt." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "flic.ctrl." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "En mægtig Aand gjennem Aanden foer"@da ;
+    cnw:incipitImage "NWGW_A_28.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/b_s_ingemann>
+    a foaf:Agent ;
+    foaf:name "B.S. Ingemann" .
+

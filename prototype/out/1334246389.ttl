@@ -1,0 +1,206 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW22>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musik til Adam Oehlenschlägers heltedigt \"Yrsa\""@da ;
+    dcterms:title "Music to Adam Oehlenschläger's Heroic Poem \"Yrsa\""@en ;
+    dcterms:identifier "Opus 78" ;
+    dcterms:identifier "HartW 22" ;
+    dcterms:identifier "DF 201" ;
+    cnw:cnwNumber "22" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "78" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/adam_oehlenschl_ger> ;
+    dcterms:created "1881-1882" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Incidental music" ;
+    dcterms:subject "Other orchestral music" ;
+    dcterms:subject "Choral music with instruments" ;
+    frbr:realization <https://cnw-ld.org/work/HartW22/expression/1> ;
+    cnw:performanceCount 15 .
+
+<https://cnw-ld.org/work/HartW22/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW22> ;
+    cnw:tempo "Poco Andante - Allegro risoluto, non troppo - Adagio" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "gr.c. e ptti." ;
+    cnw:performingForce "armon." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "gr.c. e ptti." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "O skjønne Borg! Hist kneiser den med sine Spir"@da ;
+    cnw:incipitText "Gaa! behold dit Hovedhaar"@da ;
+    cnw:incipitText "En sælsom Følelse, Reigin besjæler mig"@da ;
+    cnw:incipitText "En Hyrdepige nærmer sig med hviden Spand"@da ;
+    cnw:incipitText "Gid denne Drik maa styrke Dig"@da ;
+    cnw:incipitText "Med langsom List Flodernes Dronning hævner Ymerkæmpe"@da ;
+    cnw:incipitText "Nu græm dig ei meer!"@da ;
+    cnw:incipitText "Saa seile vi Hjem ved Medbørsvind"@da ;
+    cnw:incipitImage "hartw_022_0.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/adam_oehlenschl_ger>
+    a foaf:Agent ;
+    foaf:name "Adam Oehlenschläger" .
+

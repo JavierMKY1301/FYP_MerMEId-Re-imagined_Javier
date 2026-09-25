@@ -1,0 +1,81 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW33>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Symfonisk Rhapsodi"@da ;
+    dcterms:title "Symphonic Rhapsody"@en ;
+    dcterms:alternative "Symfonisk rapsodi"@en ;
+    dcterms:alternative "for orkester"@da ;
+    dcterms:alternative "for Orchestra"@en ;
+    dcterms:identifier "CNW 33" ;
+    dcterms:identifier "CNU II/7" ;
+    dcterms:identifier "CNS 68" ;
+    dcterms:identifier "FS 7" ;
+    cnw:cnwNumber "33" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "7" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "1888" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Other orchestral music" ;
+    cnw:editorialNote "Magisterafhandling." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "D-Dl" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW33/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW33/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW33> ;
+    cnw:tempo "Allegro" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:incipitImage "cnw_033.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+

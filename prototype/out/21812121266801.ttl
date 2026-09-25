@@ -1,0 +1,52 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartWB-13>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Ebbe Skammelsøn"@da ;
+    dcterms:alternative "Skammel han boer sig nør i Thy"@da ;
+    dcterms:identifier "HartW B 13" ;
+    cnw:cnwNumber "B 13" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:textAuthor <https://cnw-ld.org/agent/danish_folk_song> ;
+    cnw:arranger <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1844-12-30" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    cnw:editorialNote "Arrangement of a Danish folk tune." ;
+    frbr:realization <https://cnw-ld.org/work/HartWB-13/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartWB-13/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartWB-13> ;
+    cnw:tempo "Andantino" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Skammel han boer sig nør i Thy"@da ;
+    cnw:incipitImage "hartw_B_13.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/danish_folk_song>
+    a foaf:Agent ;
+    foaf:name "Danish folk song" .
+

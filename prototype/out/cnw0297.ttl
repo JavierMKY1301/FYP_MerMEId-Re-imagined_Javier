@@ -1,0 +1,56 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW297>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Stille, Guds Folk, o bøj dig ned"@da ;
+    dcterms:title "Silent, people of God, oh you bend down"@en ;
+    dcterms:identifier "CNW 297" ;
+    dcterms:identifier "CNU III/6, 425" ;
+    dcterms:identifier "CNS 242" ;
+    dcterms:identifier "FS 83" ;
+    cnw:cnwNumber "297" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "83" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/text_based_on_the_greek_liturgy_of_st_jacob_fourth_century> ;
+    dcterms:created "Between 1913 and 1914" ;
+    cnw:dateNotBefore "1913"^^xsd:gYear ;
+    cnw:dateNotAfter "1914"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/CNW297/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW297/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW297> ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "pf./SATB" ;
+    cnw:incipitText "Stille, Guds Folk, o bøj dig ned"@da ;
+    cnw:incipitImage "cnw_297.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/text_based_on_the_greek_liturgy_of_st_jacob_fourth_century>
+    a foaf:Agent ;
+    foaf:name "Text based on the Greek liturgy of St Jacob (fourth century)" .
+
+<https://cnw-ld.org/agent/i_a_free_translation_1908>
+    a foaf:Agent ;
+    foaf:name "I. A. (free translation, 1908)" .
+

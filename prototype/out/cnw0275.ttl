@@ -1,0 +1,54 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW275>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Æ Lastræ"@da ;
+    dcterms:title "The Haypole"@en ;
+    dcterms:alternative "Mi Håsbond wa en piinwon Rad"@da ;
+    dcterms:alternative "This farmer was a callous bloke"@en ;
+    dcterms:identifier "CNW 275" ;
+    dcterms:identifier "CNU III/5, 195" ;
+    dcterms:identifier "CNS 276" ;
+    dcterms:identifier "FS 115" ;
+    cnw:cnwNumber "275" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "115" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/anton_berntsen> ;
+    dcterms:created "[1913]" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/CNW275/expression/1> ;
+    cnw:performanceCount 4 .
+
+<https://cnw-ld.org/work/CNW275/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW275> ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Mi Håsbond wa en piinwon Rad"@da ;
+    cnw:incipitText "this farmer was a callous bloke"@en ;
+    cnw:incipitImage "cnw_275.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/anton_berntsen>
+    a foaf:Agent ;
+    foaf:name "Anton Berntsen" .
+

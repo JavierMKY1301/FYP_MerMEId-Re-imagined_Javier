@@ -1,0 +1,47 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW68>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Trio for violin, cello og klaver"@da ;
+    dcterms:title "Trio for Violin, Cello and Piano"@en ;
+    dcterms:identifier "CNW 68" ;
+    dcterms:identifier "CNU IV/1, Add. 7" ;
+    dcterms:identifier "CNS 31" ;
+    dcterms:identifier "FS 3i" ;
+    cnw:cnwNumber "68" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "3i" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "1880(?)" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    frbr:realization <https://cnw-ld.org/work/CNW68/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW68/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW68> ;
+    cnw:tempo "Andante" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "vl." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "cnw_068_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+

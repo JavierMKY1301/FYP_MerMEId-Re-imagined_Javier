@@ -1,0 +1,100 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW157>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Fædrelandets Muser"@da ;
+    dcterms:title "The Fatherland's Muses"@en ;
+    dcterms:alternative "Pantomimisk Forspil i 1 Akt af August Bournonville"@da ;
+    dcterms:alternative "Pantomimic Prelude in One Act by August Bournonville"@en ;
+    dcterms:identifier "NWGW 157" ;
+    dcterms:identifier "GW VI:4" ;
+    cnw:cnwNumber "157" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "1840" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Ballet" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW157/expression/1> ;
+    cnw:performanceCount 6 .
+
+<https://cnw-ld.org/work/NWGW157/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW157> ;
+    cnw:tempo "Allegro vivace - Moderato" ;
+    cnw:meter "12/8" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "gr.c. & ptti." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "str." ;
+    cnw:incipitImage "NWGW_157_0.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/august_bournonville>
+    a foaf:Agent ;
+    foaf:name "August Bournonville" .
+

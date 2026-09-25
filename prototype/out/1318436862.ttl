@@ -1,0 +1,54 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW290>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Frejas Stjerne"@da ;
+    dcterms:title "Freja's Star"@en ;
+    dcterms:alternative "Kun én er Frejas Stjerne"@da ;
+    dcterms:alternative "Til Freias Stjerne"@da ;
+    dcterms:identifier "HartW 290" ;
+    dcterms:identifier "DF 108:4" ;
+    cnw:cnwNumber "290" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/chr_k_f_molbech> ;
+    dcterms:created "June 1851" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    frbr:realization <https://cnw-ld.org/work/HartW290/expression/1> ;
+    cnw:performanceCount 8 .
+
+<https://cnw-ld.org/work/HartW290/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW290> ;
+    cnw:tempo "Poco Andante" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Kun én er Frejas Stierne"@da ;
+    cnw:incipitImage "hartw_290_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/chr_k_f_molbech>
+    a foaf:Agent ;
+    foaf:name "Chr. K.F. Molbech" .
+

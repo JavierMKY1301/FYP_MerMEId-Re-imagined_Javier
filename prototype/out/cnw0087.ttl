@@ -1,0 +1,84 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW87>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Thema med Variationer, opus 40"@da ;
+    dcterms:title "Theme and Variations, Opus 40"@en ;
+    dcterms:alternative "Tema med variationer"@da ;
+    dcterms:identifier "Opus 40" ;
+    dcterms:identifier "CNW 87" ;
+    dcterms:identifier "CNU II/12" ;
+    dcterms:identifier "FS 81" ;
+    cnw:cnwNumber "87" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:opus "40" ;
+    cnw:fsNumber "81" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "1917" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    cnw:editorialNote "3rd edn." ;
+    cnw:editorialNote "Specialeopgave." ;
+    cnw:editorialNote "DMA dissertation." ;
+    cnw:editorialNote "Ph.D. dissertation." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Edition Wilhelm Hansen AS" ;
+    cnw:manuscriptLocation "DK-København, Edition Wilhelm Hansen AS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Km" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "NL-DHnmi" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Frederikssund, J.F. Willumsens Museum" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW87/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW87/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW87> ;
+    cnw:tempo "Andante" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "cnw_087.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+

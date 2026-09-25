@@ -1,0 +1,50 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW458>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Annas Børnehjem"@da ;
+    dcterms:title "The Children's Home of Anna"@en ;
+    dcterms:alternative "Der er saa braskt i den store By"@da ;
+    dcterms:identifier "HartW 458" ;
+    dcterms:identifier "DF 129" ;
+    cnw:cnwNumber "458" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/andreas_munch> ;
+    dcterms:created "1881-02-09" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/HartW458/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW458/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW458> ;
+    cnw:tempo "Andante" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Der er saa barskt i den store By"@da ;
+    cnw:incipitImage "hartw_458.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/andreas_munch>
+    a foaf:Agent ;
+    foaf:name "Andreas Munch" .
+

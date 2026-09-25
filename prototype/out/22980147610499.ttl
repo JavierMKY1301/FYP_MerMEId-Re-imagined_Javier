@@ -1,0 +1,75 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-414>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Da den høysalige Konge, Frederik den Femte, blev samlet med sine Fædre, blev følgende Kantate opført"@da ;
+    dcterms:identifier "SchW B2:414" ;
+    cnw:cnwNumber "B2:414" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_ewald> ;
+    dcterms:created "1766" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote "'Aus diesem schönen Singgedichte, dessen Verf. Herr Joh. Ewald ist, wollen wir unsern Lesern diese Arie zur Probe mittheilen [...] Der Gedanke, daß das Grab ein sicherer Hafen der Ehre sey, ist eben nicht gewöhnlich; aber wie wahr ist er nicht! Und deswegen wird er vermuthlich auch vielen wohlgefallen.'" ;
+    cnw:editorialNote "There is no indication of character, but since the previous movement was assigned to 'En Undersaat' it seems most likely that the aria was performed by the same character." ;
+    cnw:editorialNote "There is no indication of character, but since the previous movement was assigned to 'En Stemme af Gravene' it seems most likely that the aria was performed by the same character." ;
+    cnw:editorialNote "Text book: 'De Afskedstagende Undersaatter'." ;
+    cnw:editorialNote "Text book, p. 13: 'Da den | Høysalige Konge | blev udført. | Motetto | Med Klage=Sange.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-414/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/SchWB2-414/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-414> ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:incipitText "Herrens Salvede"@da ;
+    cnw:incipitText "Jeg seer de majestætisk tause Huuler"@da ;
+    cnw:incipitText "Kan en Steen sin Stivhed glemme"@da ;
+    cnw:incipitText "En Lyd af Suk blev hørt i Tausheds Bolig"@da ;
+    cnw:incipitText "O Grav, du Ærens sikker Havn!"@da ;
+    cnw:incipitText "Det Navn, som Frederik fortiente"@da ;
+    cnw:incipitText "Naar Have tørres ud"@da ;
+    cnw:incipitText "See du, som Slaget ikke rører"@da ;
+    cnw:incipitText "Kan Viisdom selv ey holde Taarerne tilbage"@da ;
+    cnw:incipitText "Græder Nordens Nationer"@da ;
+    cnw:incipitText "O matte Skræk! – vi gyse – Tungen stræber"@da ;
+    cnw:incipitText "Vor Harpe er bleven til Sorrig"@da ;
+    cnw:incipitText "Derfor var vort Hierte svagt"@da ;
+    cnw:incipitText "Han vandrede for dit Ansigt"@da ;
+    cnw:incipitText "De skal udbrede din store Godheds Ihukommelse"@da ;
+    cnw:incipitText "Hyyl Fyr"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johannes_ewald>
+    a foaf:Agent ;
+    foaf:name "Johannes Ewald" .
+
+<https://cnw-ld.org/agent/king_frederik_v>
+    a foaf:Agent ;
+    foaf:name "King Frederik V" .
+

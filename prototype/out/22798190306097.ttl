@@ -1,0 +1,58 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW317>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "En Situation"@da ;
+    dcterms:title "Eine Situation"@de ;
+    dcterms:title "A Situation"@en ;
+    dcterms:alternative "Jeg lader Baaden glide frem"@da ;
+    dcterms:alternative "Ich lass' mein leichtes Boot"@de ;
+    dcterms:identifier "NWGW 317" ;
+    dcterms:identifier "GW V:1" ;
+    dcterms:identifier "DF 156:3" ;
+    cnw:cnwNumber "317" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_winther> ;
+    dcterms:created "1844" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22798193836449> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23563628363699> ;
+    frbr:realization <https://cnw-ld.org/work/NWGW317/expression/1> ;
+    cnw:performanceCount 2 .
+
+<https://cnw-ld.org/work/NWGW317/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW317> ;
+    cnw:key "F major" ;
+    cnw:tempo "Allegretto quasi Andantino" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Jeg lader Baaden glide frem saa jævnt ad Søens Vover"@da ;
+    cnw:incipitText "Ich lass' mein leichtes Boot nur sacht die Well des Sees durchschneiden"@de ;
+    cnw:incipitImage "NWGW_317.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/christian_winther>
+    a foaf:Agent ;
+    foaf:name "Christian Winther" .
+

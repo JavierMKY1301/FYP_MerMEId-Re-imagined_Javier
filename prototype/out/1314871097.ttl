@@ -1,0 +1,85 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW147>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sørge-Cantate over Kong Frederik den Sjette"@da ;
+    dcterms:title "Mourning Cantata for King Frederik VI"@en ;
+    dcterms:alternative "Død er vor Konge!"@da ;
+    dcterms:alternative "Cantate til Studenterforeningens Sørgefest over Kong Frederik den Sjette"@da ;
+    dcterms:identifier "Opus 27" ;
+    dcterms:identifier "HartW 147" ;
+    dcterms:identifier "DF 74" ;
+    cnw:cnwNumber "147" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "27" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/hans_christian_andersen> ;
+    dcterms:created "1839-1840" ;
+    cnw:dateNotBefore "1839-12-03"^^xsd:gYear ;
+    cnw:dateNotAfter "1840-01-28"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Male choir" ;
+    dcterms:subject "Cantata" ;
+    frbr:realization <https://cnw-ld.org/work/HartW147/expression/1> ;
+    cnw:performanceCount 3 .
+
+<https://cnw-ld.org/work/HartW147/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW147> ;
+    cnw:tempo "Maestoso - Allegro moderato assai" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:incipitText "Död er vor Konge! Död Kong Frederik!"@da ;
+    cnw:incipitText "Ved Sommerslottet suse Skovens Ege"@da ;
+    cnw:incipitText "Kongen er död! hör over Vangen Sörgesangen"@da ;
+    cnw:incipitText "Den danske Bonde bad"@da ;
+    cnw:incipitText "Lad Floret hænge ned over Sørgestaven"@da ;
+    cnw:incipitText "Hvad er mod Aandens Rige hist, den Pragt os Jorden viiste"@da ;
+    cnw:incipitText "I Kirkens gamle, hvælvede Gange"@da ;
+    cnw:incipitText "O, mangt et Træk, saa ærligt"@da ;
+    cnw:incipitText "Det trætte Støv de Hvile gav"@da ;
+    cnw:incipitImage "hartw_147_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/hans_christian_andersen>
+    a foaf:Agent ;
+    foaf:name "Hans Christian Andersen" .
+

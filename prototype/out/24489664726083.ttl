@@ -1,0 +1,89 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-047>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate: In Festo Pentecostes"@de ;
+    dcterms:alternative "Die Liebe Gottes ist ausgegoßen"@de ;
+    dcterms:identifier "SchW B2:047" ;
+    cnw:cnwNumber "B2:047" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:language "Italian" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Sacred" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-047/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-047/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-047> ;
+    cnw:key "D major" ;
+    cnw:tempo "Vivace" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "bc." ;
+    cnw:incipitText "Die Liebe Gottes ist ausgegoßen"@de ;
+    cnw:incipitText "Ach! dieser ist daß theure liebes Pfand"@de ;
+    cnw:incipitText "Entzündet euch, ihr reinen Flammen"@de ;
+    cnw:incipitText "Laß uns in deiner Liebe"@de ;
+    cnw:incipitImage "SchM_418_001.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

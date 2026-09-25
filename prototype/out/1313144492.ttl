@@ -1,0 +1,56 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartWColl-19>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "To Digte af Thor Lange"@da ;
+    dcterms:title "Zwei Gedichte von Thor Lange"@de ;
+    dcterms:title "Two Poems by Thor Lange"@en ;
+    dcterms:alternative "komponerede for blandet Kor"@da ;
+    dcterms:alternative "componiert für gemischten Chor"@de ;
+    dcterms:alternative "composed for mixed choir"@en ;
+    dcterms:identifier "HartW Coll. 19" ;
+    dcterms:identifier "DF 64" ;
+    cnw:cnwNumber "Coll. 19" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/thor_lange> ;
+    dcterms:created "1893" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    frbr:realization <https://cnw-ld.org/work/HartWColl-19/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartWColl-19/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartWColl-19> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/thor_lange>
+    a foaf:Agent ;
+    foaf:name "Thor Lange" .
+
+<https://cnw-ld.org/agent/georg_bachmann>
+    a foaf:Agent ;
+    foaf:name "Georg Bachmann" .
+
+<https://cnw-ld.org/agent/til_c_cilia_foreningen_i_kj_benhavn_dem_c_cilienverein_in_copenhagen>
+    a foaf:Agent ;
+    foaf:name "Til Cæcilia-Foreningen i Kjøbenhavn - Dem Cæcilienverein in Copenhagen" .
+

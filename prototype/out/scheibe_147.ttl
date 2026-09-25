@@ -1,0 +1,95 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-440>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Til begge deres kongel. Majestæters, den stormægtigste Arvekonges og Herres, Friderich den Femtes, den stormægtigste Dronnings, Lovises, fød kongel. Princesse til Storbritannien, høytidelige Salvingsfest, blev følgende Syngedigt opført"@da ;
+    dcterms:identifier "SchW B2:440" ;
+    cnw:cnwNumber "B2:440" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/lorentz_christian_reerslev> ;
+    dcterms:created "1747" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Secular" ;
+    cnw:editorialNote "No indication as to whether this is an aria or perhaps a recitative; neither is there any indication as to the character(s) singing this section. They are presumably Sikkerhed and Kongernes Skydsengel; cf. other text source." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-440/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-440/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-440> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "Tag nu, velsignede Konge! Din Krone"@da ;
+    cnw:incipitText "Med uudsigelig Fornøyelse og Glæde"@en ;
+    cnw:incipitText "En sød, en tryg, en stille Roe"@da ;
+    cnw:incipitText "Er Du allene Rigets Støtte?"@da ;
+    cnw:incipitText "Jeg er min Konges Vogtere"@da ;
+    cnw:incipitText "Du Landets Magt, min Støtte, kom"@da ;
+    cnw:incipitText "Ja, ja, alt dette er vel værd at prise"@da ;
+    cnw:incipitText "Her ere vi Helte, vi os strax tillave"@da ;
+    cnw:incipitText "Et Riges Herlighed vedvarer"@da ;
+    cnw:incipitText "Du Nordens Soel skal sildig dale"@da ;
+    cnw:incipitText "Bliv ved at tale, viise Mund!"@da ;
+    cnw:incipitText "Der, hvor man baade seer og hører"@da ;
+    cnw:incipitText "Det skal til Nordens Ære blive"@da ;
+    cnw:incipitText "Ja billigen enhver sig fryder"@da ;
+    cnw:incipitText "Du Landetsfader! Folkets Lyst!"@da ;
+    cnw:incipitText "Men hisset Mildhed staaer og bier"@da ;
+    cnw:incipitText "Den mildeste Konge, som findes paa Jorden"@da ;
+    cnw:incipitText "At giøre got imod enhver"@da ;
+    cnw:incipitText "Jeg staaer som henrykt ved at see"@da ;
+    cnw:incipitText "O! mægtige Beskyttere!"@da ;
+    cnw:incipitText "Her skal mit Øye altid vaage"@da ;
+    cnw:incipitText "O Store Kongepar!"@da ;
+    cnw:incipitText "Tag nu, Velsignede Konge! Din Krone"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/lorentz_christian_reerslev>
+    a foaf:Agent ;
+    foaf:name "Lorentz Christian Reerslev" .
+
+<https://cnw-ld.org/agent/king_frederik_v>
+    a foaf:Agent ;
+    foaf:name "King Frederik V" .
+
+<https://cnw-ld.org/agent/queen_louise>
+    a foaf:Agent ;
+    foaf:name "Queen Louise" .
+

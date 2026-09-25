@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_c19e991d">
+   <meiHead xml:id="meiHead_f8d34010">
+      <fileDesc xml:id="fileDesc_95079b7b">
+         <titleStmt xml:id="titleStmt_958f517f">
+            <title xml:id="title_5482e432">Liturgisk Musik</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_3c30c539">
+            <respStmt xml:id="respStmt_865dd036">
+               <resp xml:id="resp_219a7d8c">Publisher</resp>
+               <corpName xml:id="corpName_dafc13d7">
+                  <abbr xml:id="abbr_27aa5aff">DCM</abbr>
+                  <expan xml:id="expan_738a4c6e"/>
+                  <address xml:id="address_f3662938">
+                     <addrLine xml:id="addrLine_347005fb"/>
+                     <addrLine xml:id="addrLine_9610e569"/>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_9704f5c9">Inger Sørensen</persName>
+            </respStmt>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_ebcbc61d">
+            <title xml:id="title_e85fd171">J.P.E. Hartmann Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_e4a60823">HartW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_5981edb0">
+         <appInfo xml:id="appInfo_fd30b3da">
+            <application version="2013" xml:id="application_0c42d85f">
+               <name xml:id="name_33379659">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_0f306812">
+            <p xml:id="idm54">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_74d2eedf">
+         <work xml:id="work_95N20052">
+            <identifier label="HartW" xml:id="identifier_f9feefc5">Coll. 16</identifier>
+            <title xml:id="title_5b8cab25" xml:lang="da">Liturgisk Musik</title>
+            <title xml:id="title_d1f7a4c4" xml:lang="en">Liturgical Music</title>
+            <title type="subordinate" xml:id="title_3fce673d" xml:lang="da">Festcollecter og Chorsange</title>
+            <title type="subordinate" xml:id="title_4e727d4d" xml:lang="en">Festive Collects and Choral Songs</title>
+            <contributor xml:id="respStmt_a582b86b">
+               <persName role="composer" xml:id="persName_f1cd1472">J.P.E. Hartmann</persName>
+            </contributor>
+            <history xml:id="history_81e568f9">
+               <p xml:id="idm66"/>
+            </history>
+            <langUsage xml:id="langUsage_e24be41f">
+               <language xml:id="en">English</language>
+               <language xml:id="da">Danish</language>
+            </langUsage>
+            <classification xml:id="classification_88893ceb">
+               <termList xml:id="termList_1d0febe2">
+                  <term xml:id="term_76f04a74">Vocal music</term>
+                  <term xml:id="term_48647bc2">A cappella choral music</term>
+                  <term xml:id="term_5443e6cd">Mixed choir</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_2724894e">
+               <expression xml:id="expression_95N20073">
+                  <title xml:id="title_030f6e09" xml:lang="en"/>
+                  <history xml:id="history_ec5c8ac7">
+                     <p xml:id="idm86"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_da088360">
+                     <perfResList xml:id="perfResList_8c1a9c80">
+                        <perfResList codedval="ca" xml:id="perfResList_1df00e03">
+                           <head xml:id="head_b38f500e">Choir</head>
+                           <perfRes codedval="va" count="1" xml:id="perfRes_23261d79">S.</perfRes>
+                           <perfRes codedval="vc" count="1" xml:id="perfRes_efb3905c">A.</perfRes>
+                           <perfRes codedval="vd" count="1" xml:id="perfRes_6193a801">T.</perfRes>
+                           <perfRes codedval="vf" count="1" xml:id="perfRes_e75b3a5d">B.</perfRes>
+                        </perfResList>
+                        <perfRes codedval="ka" count="1" solo="false" xml:id="perfRes_6b812a83">pf. or</perfRes>
+                        <perfRes codedval="kb" count="1" solo="false" xml:id="perfRes_4e6fd9cf">org. or</perfRes>
+                        <perfRes codedval="kn" count="1" solo="false" xml:id="perfRes_c8068ed5">armon. ad libitum</perfRes>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_e12fdd9f">
+               <relation label="Trossalmen" rel="hasPart" target="1312979322.xml"
+                         xml:id="relation_9159687d"/>
+               <relation label="Collect til Julefesten" rel="hasPart" target="1312965333.xml"
+                         xml:id="relation_17ad1b75"/>
+               <relation label="Litaniet" rel="hasPart" target="1313062910.xml"
+                         xml:id="relation_d00fb0c9"/>
+               <relation label="Collect til Paaskefesten" rel="hasPart" target="1313079261.xml"
+                         xml:id="relation_14dd2cee"/>
+               <relation label="Collect til Pinsefesten" rel="hasPart" target="1313065911.xml"
+                         xml:id="relation_9988e32b"/>
+               <relation label="Anthiphoni" rel="hasPart" target="1313070972.xml"
+                         xml:id="relation_b1ee8b6e"/>
+               <relation label="Anthiphoni" rel="hasPart" target="1313071063.xml"
+                         xml:id="relation_512f423a"/>
+               <relation label="Davids 118 Psalme 28 Vers" rel="hasPart" target="1313071101.xml"
+                         xml:id="relation_699e2d4f"/>
+               <relation label="Davids 136 Psalme 26 Vers" rel="hasPart" target="1313143789.xml"
+                         xml:id="relation_639c5873"/>
+               <relation label="Amen" rel="hasPart" target="1313144157.xml" xml:id="relation_6df93e94"/>
+               <relation label="Amen " rel="hasPart" target="1313144773.xml" xml:id="relation_ffa9a245"/>
+            </relationList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_7da252e2">
+         <manifestation label="" xml:id="source_95N20024">
+            <titleStmt xml:id="titleStmt_dd78082a">
+               <title xml:id="title_a86a098f">Score, print, first edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_304c3d9d">
+               <publisher xml:id="publisher_c98b23da">Wilhelm Hansen</publisher>
+               <pubPlace xml:id="pubPlace_daa26e51">Copenhagen</pubPlace>
+               <date isodate="1881" xml:id="date_ab727054">1881</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_dc4779c0">
+               <titlePage label="" xml:id="titlePage_68639a6c">
+                  <p xml:id="idm29">Til vor Frue Menighed / i Kjøbenhavn. / Liturgisk Musik / Festcollecter og Chorsange / som benyttes ved Gudstjenesten i vor Frue Kirke / AF / J.P.E. HARTMANN. / Forlæggerens Eiendom / KJØBENHAVN. / Wilhelm Hansens Musik-Forlag. / Angaaende denne Samlings Benyttelse see næstsidste Side.</p>
+               </titlePage>
+               <extent xml:id="extent_708b3926">26 pages</extent>
+               <physMedium xml:id="physMedium_5ec01781">On the last unnumbered page:<lb xml:id="idm32"/>a. Chorsangene i nærværende Samling ere oprindeligt skrevne til at udføres a capella.<lb xml:id="idm33"/>b. De af Chorene som staae paa to Systemer kunne spilles paa Orgel, Harmonium eller Pianoforte <rend xml:id="idm34" rend="underline">uden Sang</rend>, eller som ledsagende denne.<lb xml:id="idm35"/>c.  Sangene kunne tildeels udføres af en enkelt Stemme med Ledsagelse af Orgel, Hamonium eller Pianofrote.</physMedium>
+               <plateNum xml:id="plateNum_43351bf8">8380</plateNum>
+            </physDesc>
+            <notesStmt xml:id="notesStmt_5cbe794e">
+               <annot type="source_description" xml:id="annot_f3e0b53d">
+                  <p xml:id="idm39">This collection was later published in numerous editions.</p>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_81c6eb31">
+               <termList xml:id="termList_6d4013bc">
+                  <term class="#DcmContentClass" xml:id="term_9ab46cfa">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_56c43547">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_2dfbe103"/>
+                  <term class="#DcmScoringClass" xml:id="term_4ba9cfbf">score</term>
+                  <term class="#DcmStateClass" xml:id="term_bafe405d">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_0bf4e909">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_8df33915"/>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm110">
+         <change isodate="2016-10-07" xml:id="change_95N10088">
+            <respStmt xml:id="idm112">
+               <name xml:id="idm113">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_15c7be98">
+               <p xml:id="p_6d6a3676"/>
+            </changeDesc>
+         </change>
+         <change xml:id="idm116" isodate="2017-04-04" n="2">
+            <respStmt xml:id="idm117">
+               <name xml:id="idm118">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm119">
+               <p xml:id="idm120">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-11-01T13:10:48.521Z" xml:id="change_144N101B4">
+            <respStmt xml:id="idm122">
+               <name xml:id="idm123">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm124">
+               <p xml:id="idm125"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-14T16:39:55+01:00" xml:id="change_142N10174">
+            <respStmt xml:id="idm127">
+               <name xml:id="idm128">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm129">
+               <p xml:id="idm130">Batch transformation removing empty elements</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_131d1e156">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_131d1e146">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm131"/>
+</mei>

@@ -1,0 +1,87 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW35>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Festmarsch og Sange til Mindefesten ved Skanderborg over høisalig Kong Frederik den Sjette"@da ;
+    dcterms:title "Festive March and Songs for the Memorial Feast at Skanderborg for the Blessed King Frederik VI"@en ;
+    dcterms:identifier "Opus 42" ;
+    dcterms:identifier "HartW 35" ;
+    dcterms:identifier "DF 76" ;
+    cnw:cnwNumber "35" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "42" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/hans_christian_andersen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/b_s_ingemann> ;
+    dcterms:created "July 1845" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Other orchestral music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Male choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW35/expression/1> ;
+    cnw:performanceCount 9 .
+
+<https://cnw-ld.org/work/HartW35/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW35> ;
+    cnw:tempo "Tempo moderato di Marcia" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cnt." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "flic.ten." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "tamb.picc." ;
+    cnw:performingForce "g.c. & ptti." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Kong Frederik den Sjette, Gud gav ham mange Aar"@da ;
+    cnw:incipitText "Sjette Frederik kjærligt mindes"@da ;
+    cnw:incipitImage "hartw_035_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/hans_christian_andersen>
+    a foaf:Agent ;
+    foaf:name "Hans Christian Andersen" .
+
+<https://cnw-ld.org/agent/b_s_ingemann>
+    a foaf:Agent ;
+    foaf:name "B.S. Ingemann" .
+

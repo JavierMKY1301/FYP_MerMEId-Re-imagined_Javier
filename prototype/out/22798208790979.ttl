@@ -1,0 +1,58 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW318>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Jægerens Sommerliv"@da ;
+    dcterms:title "The Hunter's Summer Life"@en ;
+    dcterms:alternative "Jeg gik mig i den dunkle Skov"@da ;
+    dcterms:alternative "Der var saa favert under Skovens Løv"@da ;
+    dcterms:identifier "NWGW 318" ;
+    dcterms:identifier "GW V:1" ;
+    dcterms:identifier "DF 157" ;
+    cnw:cnwNumber "318" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/henrik_hertz> ;
+    dcterms:created "23 April 1846" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW318/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW318/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW318> ;
+    cnw:key "A minor" ;
+    cnw:tempo "Allegretto" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Jeg gik mig i den dunkle Skov den Sommerdag saa lang"@da ;
+    cnw:incipitText "Der var saa favrt under Lindens Løv"@da ;
+    cnw:incipitImage "NWGW_318_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/henrik_hertz>
+    a foaf:Agent ;
+    foaf:name "Henrik Hertz" .
+
+<https://cnw-ld.org/agent/anna_nielsen>
+    a foaf:Agent ;
+    foaf:name "Anna Nielsen" .
+

@@ -1,0 +1,176 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/comala_demonstrates_advanced_source_descriptions>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Comala (demonstrates advanced source descriptions)"@de ;
+    dcterms:title "Comala"@da ;
+    dcterms:title "Dramatisches Gedicht nach Ossian für Solo, Chor und Orchester"@de ;
+    dcterms:title "Dramatisk Digt efter Ossian"@da ;
+    dcterms:identifier "Opus 12" ;
+    dcterms:identifier "Demo 2" ;
+    cnw:opus "12" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/julius_klengel_after_james_macpherson> ;
+    dcterms:created "1845–1846" ;
+    dcterms:language "Italian" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for choir, vocal soloists and instruments" ;
+    cnw:editorialNote "This file may be used to illustrate the use of items and components for the description of sources. For instance, note the description of specific copies of a print separate from the general description of the print run (sources A, D etc.), and the description of sets of parts (H and J), giving a general description of the set as well as descriptions of the individual parts. Source J combines these two options to describe a printed set of parts and a specific copy of it.Sources J and N also have reprint editions defined by means of relations between the sources.Please note: The content of this file has been modified for demonstration purposes and does not represent accurate real-world data." ;
+    cnw:manuscriptLocation "Private collection" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-Dl" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-B" ;
+    cnw:manuscriptLocation "D-B" ;
+    cnw:manuscriptLocation "D-B" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS Hessische Landes- und Hochschulbibliothek" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/comala_demonstrates_advanced_source_descriptions/expression/1> ;
+    cnw:performanceCount 13 .
+
+<https://cnw-ld.org/work/comala_demonstrates_advanced_source_descriptions/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/comala_demonstrates_advanced_source_descriptions> ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "MezzS" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "Bar" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl. (A, B♭, C)" ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor. (C, D, E)" ;
+    cnw:performingForce "cor. (C, E♭, E)" ;
+    cnw:performingForce "tr. (C, E♭, E)" ;
+    cnw:performingForce "trb.a." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "ptti." ;
+    cnw:performingForce "arpa" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "vla." ;
+    cnw:performingForce "vlc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "soloists" ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "Bar" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "MezzS" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "MezzS" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "MezzS" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "Bar" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "Bar" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "B" ;
+    cnw:incipitText "Auf, auf, auf, laut schallt das Horn"@de ;
+    cnw:incipitText "Frem, frem, frem, fremad til Kamp"@da ;
+    cnw:incipitText "Heute noch brech' ich des stolzen Königs Macht"@de ;
+    cnw:incipitText "Alt i Kvæld slaar jeg den stolte Konges Hær"@da ;
+    cnw:incipitText "Auf, auf in die Schlacht, Fingal führt uns zum Sieg!"@de ;
+    cnw:incipitText "Frem, fremad til Kamp, fremad til Kamp. Fingal fører til Seir."@da ;
+    cnw:incipitText "O grauenvolle Stille! Dahin, dahin sind die lieblichen Träume"@de ;
+    cnw:incipitText "Hvor alt er tyst og stille. De svandt, de svandt de livsalige Drømme!"@da ;
+    cnw:incipitText "Vom Lochlin kam gezogen Suaran, der stolze Held"@de ;
+    cnw:incipitText "Suaran, den Lochlins Konge, drog over Bølgen blaa"@da ;
+    cnw:incipitText "Still, still ist die Jagd, kein Laut ertönt, als das Brausen des Stroms"@de ;
+    cnw:incipitText "Ak! Snart er det Nat, alt Vinden suser i Granernes Top."@da ;
+    cnw:incipitText "Wir wandeln auf dem Sturm"@de ;
+    cnw:incipitText "Vi drage som Storm over Hede"@da ;
+    cnw:incipitText "O, o, dass ich nicht sitze an Caruns Wellen"@de ;
+    cnw:incipitText "O! o! sad jeg dog hist ved Caruns Vover!"@da ;
+    cnw:incipitText "Entfloh'n ist der Feind' Getöse, nicht sieht man sein Ross auf den Höhen"@de ;
+    cnw:incipitText "Nu flygter den stolte Caracul, hans Ganger foer bort over Heden"@da ;
+    cnw:incipitText "Lasst ab vom lauten Siegsgesang, ihr Krieger Fingals, schweigt, o schweigt!"@de ;
+    cnw:incipitText "O stands den glade Seierssang, du Fingals Kriger ti, o ti!"@da ;
+    cnw:incipitText "Lasst mich schauen die Geliebte, zeiget, wo die Holde schläft"@de ;
+    cnw:incipitText "Sorgens Taarer stille svæve om min Elsktes Hvilested."@da ;
+    cnw:incipitText "Aus den Wolken herab schauen die Geister der Ahnen"@de ;
+    cnw:incipitText "Høit fra Skyernes Krands skue de Henfarnes Aander"@da ;
+    cnw:incipitImage "NWGW_162_00.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/king_christian_viii_of_denmark>
+    a foaf:Agent ;
+    foaf:name "King Christian VIII of Denmark" .
+
+<https://cnw-ld.org/agent/julius_klengel_after_james_macpherson>
+    a foaf:Agent ;
+    foaf:name "Julius Klengel after James Macpherson" .
+

@@ -1,0 +1,91 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-305>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Gudelige Tanker over vor Frelseres Lidelse og Død. Et Passions-Oratorium"@da ;
+    dcterms:identifier "SchW B2:305" ;
+    cnw:cnwNumber "B2:305" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/gerhard_treschow> ;
+    dcterms:created "1747" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Oratorio" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Passion" ;
+    cnw:editorialNote "'Hermed bekiendt giøres for alle Liebhabere af Musiqven, at Torsdagen den 2 Martii bliver paa det Musicaliske Sælskabs Sahl opført et Passions-Oratorium kaldet Thränen der Sünder beym Creuze unsers Erlösers. Et Mesterstykke af den berømmelige Capellmester Scheibe.'" ;
+    cnw:editorialNote "'Torsdagen den 9 Martii, bliver paa det Musicaliske Sælskabs Sahl opført et Passions-Oratorium, kaldet: Poetische Betrachtung über das Leiden und Sterben unsers Erlösers, som er componeret af den berømmelige Capel-Mester Graun i Berlin.'" ;
+    cnw:editorialNote "'Torsdagen den 16 Martii førstkommende præcis Kl. 5, bliver paa det Musicaliske Sælskabs Sahl opført et Passions-Oratorium, kaldet: Seeliges Erwägen etc. som er componeret af den berømmelige Capelmester Telemann i Hamborg.'" ;
+    cnw:editorialNote "'Torsdagen den 23 Martii, bliver paa det Musicaliske Sælskabs Sahl opført et Passions-Oratorium, kaldet Gottselige Gedanken bey dem Creuze unsers Erlösers etc. etc. som er componeret af den berømmelige Capellmester Scheibe.'" ;
+    cnw:editorialNote "'Onsdagen den 29 Martii, bliver paa det Musicaliske Sælskabs Sahl igien opført det sidste Torsdag opførte Passions-Oratorium, kaldet: Gottselige Gedancken bey dem Creuze unsers Erlösers etc. Og Løverdagen den 1 April det ligeledes forhen opførte Danske Passions-Oratorium, kaldet: Gudelige Tanker over vor Frelseres Lidelse og Død etc.'" ;
+    cnw:editorialNote "'Tilkommende Tisdag den 26 Martii bliver opført een af Capellmester Scheibe componered Dansk Passions-Oratorium kaldet: Gudelige Tanker over vor Frelseres Lidelse og Død etc.'" ;
+    cnw:editorialNote "'Da det for nogen Tid siden ommeldte højanseelige Musicaliske Selskab, som holder sine Samlinger udi Raadhuus-Strædet, havde i Begyndelsen af Fasten sluttet sine Sindets Forlystelser med et behageligt Passions-Oratorio i det Danske Sprog, af Hr. Capellmester Scheibe: Saa har det den 15de hujus ved en Høy og anseelig Forsamling taget sin Begyndelse igien med en meget prægtig Gratulations-Musiqve til Hans Kongel. Majestets Allerhøyeste Fødsels-Fest, som formedelst Fastens Tid saa længe var opsat; og denne nye Aabning skeede med Pauker og Trompeter. Fornævnte Hr. Capellmester Scheibe har ved denne Leylighed atter viist en heldig Prøve paa sin Habilitet saa vel i Poesien som Musiqven, formedelst en Synge-Digt, under den Titel \"Minerva\" [SchW B2:429], som har fundet alle Kienderes og Liebhaberes almindelige Bifald.'" ;
+    cnw:editorialNote "'I Onsdags blev første Gang i Aaret opført af Velbemeldte Selskab i Raadhuus-Strædet efter Sædvane et Passions Oratorium, componeret ved den Kongl. Capelmester Scheibe, og Poesien af Hr. Treschow Sogne-Præst i Birkeroed.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-305/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-305/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-305> ;
+    cnw:performingForce "soloists" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloists" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloists" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:incipitText "Dette er skeet af HErren"@da ;
+    cnw:incipitText "Saa gaaer min JEsus da, da med Lovsang og med Glæde"@da ;
+    cnw:incipitText "Jeg derfor vil forsøge paa"@da ;
+    cnw:incipitText "Da kom JEsus med dem til den Have"@da ;
+    cnw:incipitText "Søde JEsu! Du begynder"@da ;
+    cnw:incipitText "Min JEsus føres fængslet hen til Annam"@da ;
+    cnw:incipitText "Jeg, o JEsu! mægtig styrkes"@da ;
+    cnw:incipitText "At ingen Ret skal gaaes forbi"@da ;
+    cnw:incipitText "JEsu! Du min Konge bliver"@da ;
+    cnw:incipitText "Saasnart er Dommen ey sagt af"@da ;
+    cnw:incipitText "Der er i JEsu Kors langt større Trøst og Glæde"@da ;
+    cnw:incipitText "Ach! JEsus døer!"@da ;
+    cnw:incipitText "Saa skal da JEsu Død"@da ;
+    cnw:incipitText "Ingen haver større Kierlighed"@da ;
+    cnw:incipitText "Ach! Ach! hvad hører jeg?"@da ;
+    cnw:incipitText "Jeg vil gierne underskrive"@da ;
+    cnw:incipitText "I ere dyrekiøbte"@da ;
+    cnw:incipitText "O! dyrekiøbte Siel"@da ;
+    cnw:incipitText "Søde JEsu! du vel ikke vredes over"@da ;
+    cnw:incipitText "Det neppe hedde kan at vi Dig lover"@da ;
+    cnw:incipitText "Syng, min Siel! og lad dig høre"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/gerhard_treschow>
+    a foaf:Agent ;
+    foaf:name "Gerhard Treschow" .
+

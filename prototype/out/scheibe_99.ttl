@@ -1,0 +1,237 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB1-001>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Artaban, ein neues Singspiel"@de ;
+    dcterms:identifier "SchW B1:001" ;
+    cnw:cnwNumber "B1:001" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1738" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Opera" ;
+    dcterms:subject "Singspiel" ;
+    dcterms:subject "Stage music" ;
+    cnw:editorialNote " 'Daß der critische Musicus die wahren Gründe und würcklichen Schönheiten der Music kenne, beweiset seine neulich in die Noten gesetzte Opera, die so künstlich gewesen, daß sie kaum hat können gesungen, und gespielet werden.'" ;
+    cnw:editorialNote "Ein prächtiger Vorhof des Tempels des Sieges. Mandane, Arbaces." ;
+    cnw:editorialNote "Der Tempel des Sieges eröfnet sich. Er ist mit Palmenzweigen und mit Blumen ausgezieret. Die Priester gehen dem Könige entgegen, welcher auf einen Triumphwagen kommt, der von Sechs medischen Sclaven gezogen wird. Vor dem Wagen her, gehen viele Soldaten mit Siegeszeichen, eroberten Fahnen und Waffen. Hinter dem Wagen folgen eine Menge medische Sclaven, worunter man die Prinzeßin Barsine und ihren Bruder den Prinzen Tigranes erblicket. Diesen Aufzug beschliessen die Soldaten und eine Menge Volks. Der König steigt von dem Wagen und gehet zum Altar. Die Siegeszeichen, die eroberten Fahnen und Waffen werden in dem Tempel gehangen.Phraates, Artaban, Tigranes, Barsine, die Vorigen." ;
+    cnw:editorialNote "Barsine, Tigranes, Artaban, Arbaces und einige Soldaten." ;
+    cnw:editorialNote "Arbaces, Tigranes, Barsine." ;
+    cnw:editorialNote "Ein Zimmer. Mandane allein." ;
+    cnw:editorialNote "Phraates, Arbaces." ;
+    cnw:editorialNote "Ein prächtiger Garten mit Satyren. Artaban allein." ;
+    cnw:editorialNote "Mandane, Artaban." ;
+    cnw:editorialNote "Ein wüster Ort mit Steinklippen und Hecken, wo die Medischen Sclaven arbeiten, und mit vieler Mühe die Steine fortschleppen. Von fern siehet man eine finstre Höhle, aus welcher Tigranes und Barsine gefeßelt herfürkommen.Tigranes, Barsine, hernach Artaban." ;
+    cnw:editorialNote "Tigranes, Barsine." ;
+    cnw:editorialNote "Arbaces. Die Vorigen." ;
+    cnw:editorialNote "Ein Garten mit einer Fontaine. Phraates, Mandane." ;
+    cnw:editorialNote "Arbaces, die Vorigen." ;
+    cnw:editorialNote "Mandane, Artabaces." ;
+    cnw:editorialNote "Des Artabans Zimmer. Tigranes, Barsine, Artaban." ;
+    cnw:editorialNote "Arbaces. Die Vorigen." ;
+    cnw:editorialNote "Ein großer Saal, in welchem der Raht versammlet ist. Phraates sitzt auf dem Throne, Mandane kommt und fält ihm zu Fuße." ;
+    cnw:editorialNote "Artaban, Tigranes und Barsine werden von einer Menge Soldaten gebracht. Die Vorigen." ;
+    cnw:editorialNote "Ein großer Platz auf dem königlichen Schloße. Arbaces allein." ;
+    cnw:editorialNote "Der Tempel des Krigesgottes. Am Ende des Tempels stehet die Bildsäule des Kriegesgottes in einer fürchterlichen Gestalt. Auf dem Altare, welcher ganz blutig ist, brennet ein beständiges Feuer. Zur rechten Seite stehet eine prächtig ausgezierte Bühne für den König, zur linken Seite aber befinden sich die Priester. Am Altare stehet der Opferpriester, welcher ein großes Opfermesser in der Hand hält. Unter einer traurigen Music bringen die Soldaten die drey Verurtheilten, welche ganz weiß gekleidet, und auf den Häuptern mit Blumenkränzen gezieret sind. Sie werden den Priestern übergeben, und zum Altare geführet. Artaban, Barsine, Tigranes, hernach Mandane." ;
+    cnw:editorialNote "Arbaces kommt mit einem blutigen Schwerdte. Ihm folgen eine Menge Soldaten mit bloßen Säbeln. Die Vorigen." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB1-001/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB1-001/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB1-001> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "Und ist Tigranes tod, so lieb ich seinen Schatten"@de ;
+    cnw:incipitText "Verwirfst du noch mein zärtlich Flehen?"@de ;
+    cnw:incipitText "Ja, ist dein Wunsch getreu, so kan er noch geschehn"@de ;
+    cnw:incipitText "Sieg und Ruhm und Lust und Glücke"@de ;
+    cnw:incipitText "So ist der stoltze Feind gedämpft"@de ;
+    cnw:incipitText "Die Unschuld erhebet ein redliches Herze"@de ;
+    cnw:incipitText "Der arme Stolz soll bald vergehn"@de ;
+    cnw:incipitText "Mit donnerndem Eifer, mit rasenden Waffen"@de ;
+    cnw:incipitText "Ja, König, ja, dein unerschrockner Muth"@de ;
+    cnw:incipitText "Wir sehen mit Wollust und Freuden dem Seegen"@de ;
+    cnw:incipitText "Was hilfts, von einem Helden"@de ;
+    cnw:incipitText "Prinz, sage selbst, geht nicht die wilde Grausamkeit"@de ;
+    cnw:incipitText "Der König ist ein armer Sclave"@de ;
+    cnw:incipitText "Kein Wunder, daß der Prinz nichts zu dem allen spricht"@de ;
+    cnw:incipitText "Da wir der Tugend Schutz geniessen"@de ;
+    cnw:incipitText "Wie viele Regungen verwirren meinen Sinn"@de ;
+    cnw:incipitText "Laß nur die Hoffnung nicht verschwinden"@de ;
+    cnw:incipitText "Tortora che il suo bene"@it ;
+    cnw:incipitText "Wenn die Turteltabe ihren Gatten"@de ;
+    cnw:incipitText "Ich mache mich bereit"@de ;
+    cnw:incipitText "Arbaces, ja, ich kenne deine Treu"@de ;
+    cnw:incipitText "Trotz und Verwegenheit"@de ;
+    cnw:incipitText "Was fass ich doch für einen Schluß?"@de ;
+    cnw:incipitText "O Printz! wie muß mein Herze sich"@de ;
+    cnw:incipitText "La sua virtù m' accesse"@it ;
+    cnw:incipitText "Seine Tugend hat meine Seele"@de ;
+    cnw:incipitText "Hoffnung, Seufzer, Wünsche, Thränen"@de ;
+    cnw:incipitText "Ja seyd getrost, und hoffet nur"@de ;
+    cnw:incipitText "Des Pöbels Ruhm, die Kunst zu lügen"@de ;
+    cnw:incipitText "Wohlan, so wollen wir mit zärtlichem Vertrauen"@de ;
+    cnw:incipitText "Wir küssen deine milden Hände"@de ;
+    cnw:incipitText "So siehst du doch, wie das Geschicke"@de ;
+    cnw:incipitText "Noch, Freunde, weiß ich keinen Raht"@de ;
+    cnw:incipitText "O! mögt ich doch mein ander Leben sehen"@de ;
+    cnw:incipitText "O! König, laß dich doch durch keine freche List"@de ;
+    cnw:incipitText "Furibonda a te d' inante"@it ;
+    cnw:incipitText "Der Schatten deines Sohnes irret"@de ;
+    cnw:incipitText "Dein billigs Wünschen soll geschehn"@de ;
+    cnw:incipitText "Die Triebe der gerechten Treu"@de ;
+    cnw:incipitText "Verdammter Bösewicht!"@de ;
+    cnw:incipitText "Geh hin zu Artaban"@de ;
+    cnw:incipitText "Arbaces sey vergnügt, dein zärtliches Verlangen"@de ;
+    cnw:incipitText "Wir danken mit gerührtem Herzen"@de ;
+    cnw:incipitText "So bald ich dich gesehn, hat mich dein edler Blick"@de ;
+    cnw:incipitText "Ich kenne kein gemeines Lieben"@de ;
+    cnw:incipitText "Prinz, Held und Freund, wie könnt ich die und deiner Liebe wiederstehn?"@de ;
+    cnw:incipitText "Er will von unsrer Lust ein froher Zeuge seyn"@de ;
+    cnw:incipitText "Mich macht mein redliches Gewissen"@de ;
+    cnw:incipitText "Ich habe dich bisher"@de ;
+    cnw:incipitText "È del reo grande il fallo"@it ;
+    cnw:incipitText "Das Verbrechen des Beklagten ist groß"@de ;
+    cnw:incipitText "Verschone mich"@de ;
+    cnw:incipitText "Verräther, kanst du noch vor meinem Angesichte stehn?"@de ;
+    cnw:incipitText "Kein Donner kan mein Herze rühren"@de ;
+    cnw:incipitText "Dein freches Reden macht dich doppelt sirafens werth"@de ;
+    cnw:incipitText "So muß man den Frevel belohnen"@de ;
+    cnw:incipitText "Wie martert sich mein unentschloßner Sinn?"@de ;
+    cnw:incipitText "Meinen Willen zu erfüllen"@de ;
+    cnw:incipitText "Ich will nicht in den Tempel gehn"@de ;
+    cnw:incipitText "Wenn man die Bösen straft"@de ;
+    cnw:incipitText "Mandane lebe wohl"@de ;
+    cnw:incipitText "Wofern ich dich beleidigt habe"@de ;
+    cnw:incipitText "Ist dieß Barsine dann"@de ;
+    cnw:incipitText "La tua innocenza ò Caro"@it ;
+    cnw:incipitText "Deine Unschuld, o Geliebter"@de ;
+    cnw:incipitText "Geliebter Prinz, nun müßen wir einander Abschied geben"@de ;
+    cnw:incipitText "So stirbest du?"@de ;
+    cnw:incipitText "Es sterbe der Tyrann!"@de ;
+    cnw:incipitText "Hier, König, ist der Arm, hier ist das blutge Schwerdt"@de ;
+    cnw:incipitText "Hier ist der Arm, der dich allein befreyt"@de ;
+    cnw:incipitText "Es lebe König Artaban"@de ;
+    cnw:incipitText "Last uns die holde Ruhe preisen"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe?" .
+

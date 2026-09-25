@@ -1,0 +1,66 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW277>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Maifeier"@de ;
+    dcterms:title "May"@en ;
+    dcterms:title "The Delight of May"@en ;
+    dcterms:title "Chant de Mai"@fr ;
+    dcterms:alternative "Ein Kuckuck hier, sein Buhle dort"@de ;
+    dcterms:alternative "A cuckoo here, his sweetheart there"@en ;
+    dcterms:alternative "A cuckoo here, and there his mate"@en ;
+    dcterms:alternative "O gais oiseaux"@fr ;
+    dcterms:identifier "Opus 9:9" ;
+    dcterms:identifier "NWGW 277" ;
+    dcterms:identifier "GW V:1" ;
+    cnw:cnwNumber "277" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "9:9" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/karl_rudolf_tanner> ;
+    dcterms:created "14 March 1845" ;
+    dcterms:language "English" ;
+    dcterms:language "French" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Duet" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22771633684435> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW277/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/NWGW277/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW277> ;
+    cnw:key "E major" ;
+    cnw:tempo "Allegretto vivace" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "sopranos" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Ein Kuckuck hier, sein Buhle dort"@de ;
+    cnw:incipitText "A cuckoo here, his sweetheart there"@en ;
+    cnw:incipitImage "NWGW_277.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/karl_rudolf_tanner>
+    a foaf:Agent ;
+    foaf:name "Karl Rudolf Tanner" .
+

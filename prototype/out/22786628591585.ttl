@@ -1,0 +1,67 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW7>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Symfoni nr. 7"@da ;
+    dcterms:title "Symphony No. 7"@en ;
+    dcterms:title "Sinfonie Nr. 7"@de ;
+    dcterms:identifier "Opus 45" ;
+    dcterms:identifier "NWGW 7" ;
+    dcterms:identifier "GW I:7" ;
+    cnw:cnwNumber "7" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "45" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "August to September 1864" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Symphony" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW7/expression/1> ;
+    cnw:performanceCount 9 .
+
+<https://cnw-ld.org/work/NWGW7/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW7> ;
+    cnw:key "F major" ;
+    cnw:tempo "Allegro risoluto" ;
+    cnw:meter "6/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:incipitImage "NWGW_007_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/niederl_ndischer_verein_zur_bef_rderung_der_tonkunst>
+    a foaf:Agent ;
+    foaf:name "Niederländischer Verein zur Beförderung der Tonkunst" .
+

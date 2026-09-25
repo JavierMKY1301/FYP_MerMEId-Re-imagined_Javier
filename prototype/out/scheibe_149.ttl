@@ -1,0 +1,43 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-436>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Singgedichte vor der neuaufgerichteten musikalischen Gesellschaft in Kopenhagen bey der Einweyhung des ihren wöchentlichen Zusammenkünften gewiedmeten Saales aufgeführet"@de ;
+    dcterms:identifier "SchW B2:436" ;
+    cnw:cnwNumber "B2:436" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1750" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Secular" ;
+    cnw:editorialNote "'I Onsdags, den 24 hujus, blev den til det ny oprettede Musicaliske Selskabs ugentlige Forsamlinger destinerede Sal udi den nybygte store Gaard i Raadhuus-Stræde udi adskillige høye Stands- og Rangs-Personer gracieuse Overværelse solenniter indviet, og i den Anledning en yndig Vocal- og Instrumental-Musiqve opført, hvis Poesie og Composition var af den Kongel. Capellmester Hr. Scheibe.'" ;
+    cnw:editorialNote "'Ungefehr im Februar 1751. ward ein zu den öffentlichen Zusammenkünften und Concerten wohl eingerichteter Saal in Gegenwart einer großen Anzahl ansehnlicher Personen, worunter sich viele aus dem ersten und andern Range befanden, durch eine wohlbesetzte Instrumental- und Vokalmusik unter Trompeten- und Pauckenschall aufs feyerlichste eingeweihet, wobey unter anders Se. Hochfürstl. Durchl. der Prinz von Anhalt-Cöthen nebst einigen Rittern und andern Großen selbst mitspielten. Auf Ersuchen der Gesellschaft hatte ich dazu Poesie und Musik verfertiget.'" ;
+    cnw:editorialNote "The journal gives the title of the printed text mentioning that 'Wir haben von dieser recht ruhmwürdigen Gesellschaft von Kennern und Liebhabern der Tonkunst schon in unserm neunzehenden Stück Nachricht gegeben.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-436/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-436/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-436> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

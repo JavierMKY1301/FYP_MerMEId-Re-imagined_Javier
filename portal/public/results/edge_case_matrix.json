@@ -1,0 +1,472 @@
+{
+  "corpus": [
+    "gade_comala.xml",
+    "incipit_demo.xml",
+    "nielsen_cnw0126.xml",
+    "nielsen_cnw0127.xml",
+    "nielsen_cnw0128.xml",
+    "nielsen_cnw0129.xml",
+    "nielsen_cnw0130.xml",
+    "nielsen_cnw0131.xml",
+    "nielsen_hjemvee.xml",
+    "nielsen_holstein_sange.xml",
+    "nielsen_maskarade.xml"
+  ],
+  "matrix": {
+    "E01": {
+      "category": "Meter as @count/@unit",
+      "status": "HANDLED",
+      "note": "Mapped directly to 'count/unit'.",
+      "records": [
+        "gade_comala.xml",
+        "nielsen_cnw0126.xml",
+        "nielsen_cnw0127.xml",
+        "nielsen_cnw0128.xml",
+        "nielsen_cnw0131.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 6
+    },
+    "E02": {
+      "category": "Meter as @sym (common/cut)",
+      "status": "HANDLED",
+      "note": "common->4/4, cut->2/2. Silently dropped before the fix.",
+      "records": [
+        "gade_comala.xml",
+        "nielsen_cnw0129.xml",
+        "nielsen_cnw0130.xml",
+        "nielsen_hjemvee.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 5
+    },
+    "E03": {
+      "category": "Meter absent entirely",
+      "status": "HANDLED",
+      "note": "Field omitted; no empty literal emitted.",
+      "records": [
+        "incipit_demo.xml",
+        "nielsen_holstein_sange.xml"
+      ],
+      "count": 2
+    },
+    "E04": {
+      "category": "No CNW catalogue number",
+      "status": "DEGRADED",
+      "note": "Falls back to title-slug IRI; fails the CNW SHACL shape.",
+      "records": [
+        "gade_comala.xml",
+        "incipit_demo.xml"
+      ],
+      "count": 2
+    },
+    "E05": {
+      "category": "Non-integer catalogue value (range)",
+      "status": "HANDLED",
+      "note": "Ordering must avoid xsd:integer casts.",
+      "records": [
+        "nielsen_holstein_sange.xml"
+      ],
+      "count": 1
+    },
+    "E06": {
+      "category": "Opus absent",
+      "status": "HANDLED",
+      "note": "Tolerated without failure.",
+      "records": [
+        "incipit_demo.xml",
+        "nielsen_cnw0127.xml",
+        "nielsen_hjemvee.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 4
+    },
+    "E07": {
+      "category": "Opus with irregular spacing",
+      "status": "HANDLED",
+      "note": "Normalised on output.",
+      "records": [],
+      "count": 0
+    },
+    "E08": {
+      "category": "Multiple expressions per work",
+      "status": "DEGRADED",
+      "note": "Only the first expression is mapped (known limitation).",
+      "records": [
+        "gade_comala.xml",
+        "incipit_demo.xml",
+        "nielsen_hjemvee.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 4
+    },
+    "E09": {
+      "category": "Renderable notation present (<score> + <body>)",
+      "status": "HANDLED",
+      "note": "Flagged cnw:hasNotatedMusic; Verovio renders it.",
+      "records": [
+        "nielsen_cnw0129.xml"
+      ],
+      "count": 1
+    },
+    "E10": {
+      "category": "<score> present but no <body> (unrenderable)",
+      "status": "HANDLED",
+      "note": "Detected during bulk render; skipped without aborting.",
+      "records": [
+        "incipit_demo.xml"
+      ],
+      "count": 1
+    },
+    "E11": {
+      "category": "Text incipit with image pointer only",
+      "status": "HANDLED",
+      "note": "Image reference captured; not engraved.",
+      "records": [
+        "gade_comala.xml",
+        "incipit_demo.xml",
+        "nielsen_cnw0126.xml",
+        "nielsen_cnw0127.xml",
+        "nielsen_cnw0128.xml",
+        "nielsen_cnw0129.xml",
+        "nielsen_cnw0130.xml",
+        "nielsen_cnw0131.xml",
+        "nielsen_hjemvee.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 10
+    },
+    "E12": {
+      "category": "Editorial annotation inside <work>",
+      "status": "HANDLED",
+      "note": "Mapped to cnw:editorialNote; nested <rend> flattened.",
+      "records": [
+        "gade_comala.xml",
+        "incipit_demo.xml",
+        "nielsen_cnw0126.xml",
+        "nielsen_cnw0127.xml",
+        "nielsen_cnw0128.xml",
+        "nielsen_cnw0129.xml",
+        "nielsen_cnw0130.xml",
+        "nielsen_cnw0131.xml",
+        "nielsen_hjemvee.xml",
+        "nielsen_holstein_sange.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 11
+    },
+    "E13": {
+      "category": "Source description outside <work>",
+      "status": "DEGRADED",
+      "note": "Present in source; work-scoped selector may miss it.",
+      "records": [
+        "gade_comala.xml",
+        "nielsen_cnw0129.xml",
+        "nielsen_hjemvee.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 4
+    },
+    "E14": {
+      "category": "Manuscript location (RISM siglum)",
+      "status": "DEGRADED",
+      "note": "Emitted as raw siglum; not resolved to an institution.",
+      "records": [
+        "gade_comala.xml",
+        "nielsen_cnw0126.xml",
+        "nielsen_cnw0127.xml",
+        "nielsen_cnw0128.xml",
+        "nielsen_cnw0129.xml",
+        "nielsen_cnw0130.xml",
+        "nielsen_cnw0131.xml",
+        "nielsen_hjemvee.xml",
+        "nielsen_holstein_sange.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 10
+    },
+    "E15": {
+      "category": "Bracketed / uncertain composer name",
+      "status": "DEGRADED",
+      "note": "Creates a second agent node; identity resolution needed.",
+      "records": [
+        "incipit_demo.xml"
+      ],
+      "count": 1
+    },
+    "E16": {
+      "category": "Composer without authority identifier",
+      "status": "DEGRADED",
+      "note": "No VIAF IRI; agent keyed on name slug instead.",
+      "records": [
+        "gade_comala.xml",
+        "incipit_demo.xml"
+      ],
+      "count": 2
+    },
+    "E17": {
+      "category": "Multiple titles in the same language",
+      "status": "DEGRADED",
+      "note": "Arbitrary title reaches the matcher; affects reconciliation.",
+      "records": [
+        "gade_comala.xml",
+        "nielsen_cnw0126.xml",
+        "nielsen_cnw0127.xml",
+        "nielsen_cnw0128.xml",
+        "nielsen_cnw0129.xml",
+        "nielsen_cnw0130.xml",
+        "nielsen_cnw0131.xml",
+        "nielsen_hjemvee.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 9
+    },
+    "E18": {
+      "category": "Relations to other works (isPartOf)",
+      "status": "HANDLED",
+      "note": "Mapped to dcterms:isPartOf.",
+      "records": [
+        "nielsen_cnw0126.xml",
+        "nielsen_cnw0127.xml",
+        "nielsen_cnw0128.xml",
+        "nielsen_cnw0129.xml",
+        "nielsen_cnw0130.xml",
+        "nielsen_cnw0131.xml"
+      ],
+      "count": 6
+    },
+    "E19": {
+      "category": "Performance events recorded",
+      "status": "DEGRADED",
+      "note": "Counted only; internal detail unmapped.",
+      "records": [
+        "gade_comala.xml",
+        "nielsen_cnw0126.xml",
+        "nielsen_cnw0127.xml",
+        "nielsen_cnw0128.xml",
+        "nielsen_cnw0129.xml",
+        "nielsen_cnw0130.xml",
+        "nielsen_cnw0131.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 8
+    },
+    "E20": {
+      "category": "Related bibliography (biblList)",
+      "status": "UNHANDLED",
+      "note": "Deliberately out of scope for the current model.",
+      "records": [
+        "gade_comala.xml",
+        "nielsen_cnw0126.xml",
+        "nielsen_cnw0127.xml",
+        "nielsen_cnw0128.xml",
+        "nielsen_cnw0129.xml",
+        "nielsen_cnw0130.xml",
+        "nielsen_cnw0131.xml",
+        "nielsen_holstein_sange.xml",
+        "nielsen_maskarade.xml"
+      ],
+      "count": 9
+    },
+    "E21": {
+      "category": "Non-Latin / diacritic-heavy titles",
+      "status": "HANDLED",
+      "note": "UTF-8 preserved; affects string-similarity matching.",
+      "records": [
+        "gade_comala.xml",
+        "nielsen_cnw0126.xml",
+        "nielsen_cnw0127.xml",
+        "nielsen_cnw0128.xml",
+        "nielsen_cnw0129.xml"
+      ],
+      "count": 5
+    },
+    "E22": {
+      "category": "Work from a non-CNW catalogue",
+      "status": "DEGRADED",
+      "note": "Exposes CNW-specific assumptions in shapes and IRIs.",
+      "records": [
+        "gade_comala.xml",
+        "incipit_demo.xml"
+      ],
+      "count": 2
+    },
+    "E23": {
+      "category": "Empty <work> element",
+      "status": "UNTESTED",
+      "note": "No such record available; behaviour unverified.",
+      "records": [],
+      "count": 0
+    },
+    "E24": {
+      "category": "Malformed / invalid MEI",
+      "status": "UNTESTED",
+      "note": "Would fail at parse; no fixture available.",
+      "records": [],
+      "count": 0
+    },
+    "E25": {
+      "category": "Duplicate catalogue numbers across records",
+      "status": "UNTESTED",
+      "note": "Would collide on work IRI; not exercised by the corpus.",
+      "records": [],
+      "count": 0
+    }
+  },
+  "per_file": {
+    "gade_comala.xml": [
+      "E01",
+      "E02",
+      "E04",
+      "E08",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E16",
+      "E17",
+      "E19",
+      "E20",
+      "E21",
+      "E22"
+    ],
+    "nielsen_cnw0126.xml": [
+      "E01",
+      "E11",
+      "E12",
+      "E14",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21"
+    ],
+    "nielsen_cnw0127.xml": [
+      "E01",
+      "E06",
+      "E11",
+      "E12",
+      "E14",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21"
+    ],
+    "nielsen_cnw0128.xml": [
+      "E01",
+      "E11",
+      "E12",
+      "E14",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21"
+    ],
+    "nielsen_cnw0131.xml": [
+      "E01",
+      "E11",
+      "E12",
+      "E14",
+      "E17",
+      "E18",
+      "E19",
+      "E20"
+    ],
+    "nielsen_maskarade.xml": [
+      "E01",
+      "E02",
+      "E06",
+      "E08",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E17",
+      "E19",
+      "E20"
+    ],
+    "nielsen_cnw0129.xml": [
+      "E02",
+      "E09",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21"
+    ],
+    "nielsen_cnw0130.xml": [
+      "E02",
+      "E11",
+      "E12",
+      "E14",
+      "E17",
+      "E18",
+      "E19",
+      "E20"
+    ],
+    "nielsen_hjemvee.xml": [
+      "E02",
+      "E06",
+      "E08",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E17"
+    ],
+    "incipit_demo.xml": [
+      "E03",
+      "E04",
+      "E06",
+      "E08",
+      "E10",
+      "E11",
+      "E12",
+      "E15",
+      "E16",
+      "E22"
+    ],
+    "nielsen_holstein_sange.xml": [
+      "E03",
+      "E05",
+      "E12",
+      "E14",
+      "E20"
+    ]
+  },
+  "covered": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E08",
+    "E09",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "E20",
+    "E21",
+    "E22"
+  ],
+  "uncovered": [
+    "E07",
+    "E23",
+    "E24",
+    "E25"
+  ]
+}

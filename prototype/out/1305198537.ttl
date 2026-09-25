@@ -1,0 +1,53 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW43>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Indledningsmusik ved Universitetets Jubelfest"@da ;
+    dcterms:title "Prelude for the University Jubilee Feast"@en ;
+    dcterms:title "Festklänge"@de ;
+    dcterms:alternative "Festmarch ved Universitetets Jubelfest"@da ;
+    dcterms:identifier "HartW 43" ;
+    dcterms:identifier "DF 8" ;
+    cnw:cnwNumber "43" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1879" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Other orchestral music" ;
+    frbr:realization <https://cnw-ld.org/work/HartW43/expression/1> ;
+    cnw:performanceCount 7 .
+
+<https://cnw-ld.org/work/HartW43/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW43> ;
+    cnw:key "C major" ;
+    cnw:tempo "Moderato assai, festivo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "cnt. (E flat)" ;
+    cnw:performingForce "cnt. (B flat)" ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "org." ;
+    cnw:incipitImage "" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

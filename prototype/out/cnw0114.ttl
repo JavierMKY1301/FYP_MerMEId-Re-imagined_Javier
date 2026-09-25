@@ -1,0 +1,92 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW114>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kantate ved Foreningen til unge Handelsmænds Uddannelses 50-Aars Jubilæum"@da ;
+    dcterms:title "Cantata for the Fiftieth Anniversary of the Society for the Education of Young Merchants"@en ;
+    dcterms:alternative "Kantate ved Foreningen til unge Handelsmænds Uddannelses 50-års Jubilæum"@da ;
+    dcterms:identifier "CNW 114" ;
+    dcterms:identifier "CNU III/3" ;
+    dcterms:identifier "CNS 318" ;
+    dcterms:identifier "FS 153" ;
+    cnw:cnwNumber "114" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "153" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/hans_hartvig_seedorff_pedersen> ;
+    dcterms:created "1930" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Gu" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW114/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW114/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW114> ;
+    cnw:tempo "Tempo moderato, ma energico" ;
+    cnw:meter "9/8" ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "reciter" ;
+    cnw:performingForce "Bar." ;
+    cnw:incipitText "Skove, kun Skove"@da ;
+    cnw:incipitText "En Bølge fødte vort lyse Land"@da ;
+    cnw:incipitText "Han fødtes af Hellas"@da ;
+    cnw:incipitText "Dit Nu er kort, din Dag har hast"@da ;
+    cnw:incipitText "Hver Tid værner om sit Eje"@da ;
+    cnw:incipitImage "cnw_114_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/hans_hartvig_seedorff_pedersen>
+    a foaf:Agent ;
+    foaf:name "Hans Hartvig Seedorff Pedersen" .
+

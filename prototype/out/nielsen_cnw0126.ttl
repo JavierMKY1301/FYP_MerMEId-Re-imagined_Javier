@@ -1,0 +1,73 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW126>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Æbleblomst"@da ;
+    dcterms:title "Apple Blossom"@en ;
+    dcterms:alternative "Du fine, hvide Æbleblomst!"@da ;
+    dcterms:alternative "You apple blossom fine and white"@en ;
+    dcterms:identifier "Opus 10. 1" ;
+    dcterms:identifier "CNW 126" ;
+    dcterms:identifier "CNU lll/4, 11" ;
+    dcterms:identifier "CNS 277" ;
+    dcterms:identifier "FS 18" ;
+    dcterms:identifier "Demo 4" ;
+    cnw:cnwNumber "126" ;
+    cnw:opus "10.1" ;
+    cnw:fsNumber "18" ;
+    dcterms:creator <https://cnw-ld.org/agent/viaf/197250> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/viaf/66792857> ;
+    dcterms:created "Between 1895 and 1896" ;
+    cnw:dateNotBefore "1895"^^xsd:gYear ;
+    cnw:dateNotAfter "1896"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/nielsen_holstein_sange> ;
+    cnw:editorialNote "This file demonstrates how to use relations to other files (works) to describe a song cycle, collection, or anthology. Details about the first source listed ('Score, print') is not contained in this file but is extracted from the containing song collection's list of sources.Please note: The content of this file has been modified for demonstration purposes and does not represent accurate real-world data." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "Carl Nielsen Museet, Odense" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW126/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/CNW126/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW126> ;
+    cnw:key "E major" ;
+    cnw:tempo "Poco allegretto" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Du fine hvide Æbleblomst!"@da ;
+    cnw:incipitText "You apple blossom fine and white!"@en ;
+    cnw:incipitImage "cnw_126.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/viaf/197250>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" ;
+    owl:sameAs <http://viaf.org/viaf/197250> .
+
+<https://cnw-ld.org/agent/viaf/66792857>
+    a foaf:Agent ;
+    foaf:name "Ludvig Holstein" ;
+    owl:sameAs <http://viaf.org/viaf/66792857> .
+

@@ -1,0 +1,60 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW365>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kvadet om Nordens Harpe"@da ;
+    dcterms:title "Lay of the Nordic Harp"@en ;
+    dcterms:alternative "Nordens herlige Harpe!"@da ;
+    dcterms:alternative "Nordic harp, how resplendent!"@en ;
+    dcterms:identifier "CNW 365" ;
+    dcterms:identifier "CNU III/6, 332" ;
+    dcterms:identifier "CNS 299" ;
+    dcterms:identifier "FS 158" ;
+    cnw:cnwNumber "365" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "158" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/aage_berntsen> ;
+    dcterms:created "Apr. 1931" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW365/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW365/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW365> ;
+    cnw:tempo "Stolt og fast, ikke for langsomt" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Nordens herlige Harpe!"@da ;
+    cnw:incipitText "Nordic harp, how resplendent!"@en ;
+    cnw:incipitImage "cnw_365.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/aage_berntsen>
+    a foaf:Agent ;
+    foaf:name "Aage Berntsen" .
+

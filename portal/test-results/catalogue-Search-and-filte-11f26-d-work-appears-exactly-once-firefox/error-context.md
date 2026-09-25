@@ -1,0 +1,431 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: catalogue.spec.ts >> Search and filtering >> a filtered work appears exactly once
+- Location: e2e\catalogue.spec.ts:107:3
+
+# Error details
+
+```
+Error: browserContext.close: Protocol error (Browser.removeBrowserContext): can't access property "_maybeDontRestoreTabs", this._windows[aWindow.__SSi] is undefined
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: MerMEId Re-imagined
+        - generic [ref=e8]: Danish Centre for Music Editing catalogues - Linked Data portal
+      - link "Works" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - link "Evaluation" [ref=e10] [cursor=pointer]:
+        - /url: /evaluation
+      - generic [ref=e11]: 65,376 triples . rdflib
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - heading "Works" [level=1] [ref=e14]
+      - paragraph [ref=e15]: "Browse four thematic catalogues together: Carl Nielsen, Niels W. Gade, J.P.E. Hartmann and J.A. Scheibe. Filtering by genre, key or metre across every work, in every catalogue, is a cross-cutting query that the original per-file XML cannot answer without external tooling."
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: Search title or catalogue number
+          - textbox "Search title or catalogue number" [ref=e19]:
+            - /placeholder: e.g. Summer Song or CNW 129
+        - generic [ref=e20]:
+          - generic [ref=e21]: Catalogue
+          - combobox "Catalogue" [ref=e22]:
+            - option "All catalogues" [selected]
+            - option "J.P.E. Hartmann (HartW) (590)"
+            - option "Niels W. Gade (NWGW) (483)"
+            - option "Carl Nielsen (CNW) (446)"
+            - option "J.A. Scheibe (SchW) (401)"
+        - generic [ref=e23]:
+          - generic [ref=e24]: Genre
+          - combobox "Genre" [ref=e25]:
+            - option "All genres"
+            - option "Vocal music (1357)" [selected]
+            - option "Song (783)"
+            - option "Instrumental music (468)"
+            - option "A cappella choral music (313)"
+            - option "Music for one instrument (261)"
+            - option "Music for vocal soloists and instruments with or without choir (222)"
+            - option "Male choir (177)"
+            - option "Mixed choir (168)"
+            - option "Cantata (157)"
+            - option "Chamber music (100)"
+            - option "Choral music with instruments (97)"
+            - option "Piano (95)"
+            - option "Sacred (88)"
+            - option "Other orchestral music (77)"
+            - option "Piano music (74)"
+            - option "Stage music (69)"
+            - option "Community singing (63)"
+            - option "Children's songs (54)"
+            - option "Incidental music (48)"
+            - option "Text (42)"
+            - option "Occasional (38)"
+            - option "Secular (30)"
+            - option "Sonata (26)"
+            - option "Concerto (24)"
+            - option "Overture (24)"
+            - option "Duet (20)"
+            - option "Symphony (17)"
+            - option "String quartet (17)"
+            - option "Organ (16)"
+            - option "Sinfonia (14)"
+            - option "Passion (14)"
+            - option "Music theory, analysis and criticism (13)"
+            - option "Translations (13)"
+            - option "Organ music (12)"
+            - option "Opera (11)"
+            - option "Aria (11)"
+            - option "Poetry (11)"
+            - option "Ballet (10)"
+            - option "Strygekvartet (9)"
+            - option "Partita (9)"
+            - option "Oratorio (9)"
+            - option "Ode (9)"
+            - option "Women's choir (8)"
+            - option "Violin and piano (8)"
+            - option "Suite (8)"
+            - option "Piano four hands (7)"
+            - option "Male Choir (6)"
+            - option "Equal voices (6)"
+            - option "Music for choir and instruments (5)"
+            - option "Piano trio (5)"
+            - option "Canticle (5)"
+            - option "Analysis (5)"
+            - option "Text setting (5)"
+            - option "Kantate (4)"
+            - option "Unison choir (4)"
+            - option "Violin sonata (4)"
+            - option "Recitative (4)"
+            - option "Criticism (4)"
+            - option "Motet (3)"
+            - option "Trio (3)"
+            - option "String quintet (3)"
+            - option "Melodrama (3)"
+            - option "cantata (3)"
+            - option "Church (3)"
+            - option "Compositional theory (3)"
+            - option "Play (3)"
+            - option "Theatre (3)"
+            - option "Wind quartet (2)"
+            - option "Piano quartet (2)"
+            - option "Piano duo (2)"
+            - option "Songs (2)"
+            - option "sinfonia (2)"
+            - option "Quartet (2)"
+            - option "Theatre music (2)"
+            - option "Serenata (2)"
+            - option "Singspiel (2)"
+            - option "Music history (2)"
+            - option "Performance practice (2)"
+            - option "Satirical and political texts (2)"
+            - option "The Mist is Rising (1)"
+            - option "Tågen letter (1)"
+            - option "Lille suite (1)"
+            - option "Påskeblomst! hvad vil du her? (1)"
+            - option "Violinkoncert (1)"
+            - option "Fløjtekoncert (1)"
+            - option "Klarinetkoncert (1)"
+            - option "Strygekvintet (1)"
+            - option "Blæserkvintet (1)"
+            - option "Music for vocal soloists and instruments (1)"
+            - option "A capella choral music (1)"
+            - option "Make choir (1)"
+            - option "Sang (1)"
+            - option "Flute and piano (1)"
+            - option "String octet (1)"
+            - option "Flute and organ (1)"
+            - option "Equal Voices (1)"
+            - option "Octet (1)"
+            - option "Sextet (1)"
+            - option "Violin (1)"
+            - option "Duets (1)"
+            - option "Keyboard (1)"
+            - option "Duo (1)"
+            - option "sonata (1)"
+            - option "Oratorium (1)"
+            - option "Cantate (1)"
+            - option "secular (1)"
+            - option "Psalm (1)"
+            - option "Chorale (1)"
+            - option "Mass ordinary (1)"
+            - option "Canticale (1)"
+            - option "Translation (1)"
+            - option "Commiunity singing (1)"
+            - option "Intervals (1)"
+            - option "Music aesthetics (1)"
+            - option "Reception (1)"
+            - option "Ilsabe Müller (1)"
+            - option "Appraisal (1)"
+            - option "Politics (1)"
+            - option "Biographies and letters (1)"
+            - option "Other texts (1)"
+            - option "Doubtful works (1)"
+            - option "Satirical (1)"
+        - generic [ref=e26]:
+          - generic [ref=e27]: Key
+          - combobox "Key" [ref=e28]:
+            - option "All keys" [selected]
+            - option "F major (94)"
+            - option "A major (82)"
+            - option "D major (74)"
+            - option "G major (73)"
+            - option "E-flat major (57)"
+            - option "E major (56)"
+            - option "B-flat major (53)"
+            - option "C major (50)"
+            - option "G minor (45)"
+            - option "A minor (42)"
+            - option "C minor (34)"
+            - option "E minor (24)"
+            - option "D minor (23)"
+            - option "F minor (19)"
+            - option "B minor (19)"
+            - option "A-flat major (19)"
+            - option "F-sharp minor (13)"
+            - option "D-flat major (11)"
+            - option "B major (10)"
+            - option "C-sharp minor (7)"
+            - option "B-flat minor (4)"
+            - option "F-sharp major (2)"
+            - option "F (1)"
+        - generic [ref=e29]:
+          - generic [ref=e30]: Metre
+          - combobox "Metre" [ref=e31]:
+            - option "All metres" [selected]
+            - option "4/4 (661)"
+            - option "2/4 (270)"
+            - option "6/8 (264)"
+            - option "3/4 (183)"
+            - option "2/2 (129)"
+            - option "3/8 (34)"
+            - option "6/4 (32)"
+            - option "3/2 (24)"
+            - option "12/8 (23)"
+            - option "9/8 (19)"
+            - option "4/8 (6)"
+            - option "4/2 (2)"
+            - option "5/4 (1)"
+            - option "2/1 (1)"
+        - button "Clear filters" [ref=e32] [cursor=pointer]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]: Sort by
+            - combobox "Sort by" [ref=e37]:
+              - option "Catalogue number (low to high)" [selected]
+              - option "Catalogue number (high to low)"
+              - option "Catalogue, then number"
+              - option "Title (A to Z)"
+              - option "Title (Z to A)"
+              - option "Key"
+              - option "Metre"
+          - generic [ref=e38]:
+            - generic [ref=e39]: Per page
+            - combobox "Per page" [ref=e40]:
+              - option "10"
+              - option "20" [selected]
+              - option "50"
+              - option "100"
+        - paragraph [ref=e41]: 1357 works match · page 1 of 68
+      - generic [ref=e42]:
+        - link "CNW 7 Music for Holger Drachmann's Melodrama 'Sir Oluf He Rides–' 4/4 Incidental music Instrumental music Music for one instrument" [ref=e43] [cursor=pointer]:
+          - /url: /works/7?catalogue=CNW
+          - generic [ref=e44]: CNW 7
+          - generic [ref=e45]: Music for Holger Drachmann's Melodrama 'Sir Oluf He Rides–'
+          - generic [ref=e46]: 4/4
+          - generic [ref=e47]:
+            - generic [ref=e48]: Incidental music
+            - generic [ref=e49]: Instrumental music
+            - generic [ref=e50]: Music for one instrument
+        - link "CNW 11 Music for Jeppe Aakjær's Play 'The Wolf's Son' F major · 4/4 Incidental music Song Stage music" [ref=e51] [cursor=pointer]:
+          - /url: /works/11?catalogue=CNW
+          - generic [ref=e52]: CNW 11
+          - generic [ref=e53]: Music for Jeppe Aakjær's Play 'The Wolf's Son'
+          - generic [ref=e54]: F major · 4/4
+          - generic [ref=e55]:
+            - generic [ref=e56]: Incidental music
+            - generic [ref=e57]: Song
+            - generic [ref=e58]: Stage music
+        - link "CNW 17 Music for Adam Oehlenschläger's Play 'Aladdin or the Wonderful Lamp', Opus 34 6/8 Choral music with instruments Incidental music Instrumental music" [ref=e59] [cursor=pointer]:
+          - /url: /works/17?catalogue=CNW
+          - generic [ref=e60]: CNW 17
+          - generic [ref=e61]: Music for Adam Oehlenschläger's Play 'Aladdin or the Wonderful Lamp', Opus 34
+          - generic [ref=e62]: 6/8
+          - generic [ref=e63]:
+            - generic [ref=e64]: Choral music with instruments
+            - generic [ref=e65]: Incidental music
+            - generic [ref=e66]: Instrumental music
+        - link "CNW 18 Music for Helge Rode's Play 'The Mother', Opus 41 4/4 Incidental music Song Stage music" [ref=e67] [cursor=pointer]:
+          - /url: /works/18?catalogue=CNW
+          - generic [ref=e68]: CNW 18
+          - generic [ref=e69]: Music for Helge Rode's Play 'The Mother', Opus 41
+          - generic [ref=e70]: 4/4
+          - generic [ref=e71]:
+            - generic [ref=e72]: Incidental music
+            - generic [ref=e73]: Song
+            - generic [ref=e74]: Stage music
+        - link "HartW 24 \"Song around the Christmas Tree\", from \"Nøddebo Præstegaard\" F major · 2/2 A cappella choral music Incidental music Mixed choir" [ref=e75] [cursor=pointer]:
+          - /url: /works/24?catalogue=HartW
+          - generic [ref=e76]: HartW 24
+          - generic [ref=e77]: "\"Song around the Christmas Tree\", from \"Nøddebo Præstegaard\""
+          - generic [ref=e78]: F major · 2/2
+          - generic [ref=e79]:
+            - generic [ref=e80]: A cappella choral music
+            - generic [ref=e81]: Incidental music
+            - generic [ref=e82]: Mixed choir
+        - link "CNW 100 Hymnus Amoris, Opus 12 3/4 Cantata Music for vocal soloists and instruments with or without choir Vocal music" [ref=e83] [cursor=pointer]:
+          - /url: /works/100?catalogue=CNW
+          - generic [ref=e84]: CNW 100
+          - generic [ref=e85]: Hymnus Amoris, Opus 12
+          - generic [ref=e86]: 3/4
+          - generic [ref=e87]:
+            - generic [ref=e88]: Cantata
+            - generic [ref=e89]: Music for vocal soloists and instruments with or without choir
+            - generic [ref=e90]: Vocal music
+        - link "CNW 101 Sleep, Opus 18 4/4 Cantata Choral music with instruments Vocal music" [ref=e91] [cursor=pointer]:
+          - /url: /works/101?catalogue=CNW
+          - generic [ref=e92]: CNW 101
+          - generic [ref=e93]: Sleep, Opus 18
+          - generic [ref=e94]: 4/4
+          - generic [ref=e95]:
+            - generic [ref=e96]: Cantata
+            - generic [ref=e97]: Choral music with instruments
+            - generic [ref=e98]: Vocal music
+        - link "CNW 102 Springtime on Funen, Opus 42 2/4 Cantata Music for vocal soloists and instruments with or without choir Vocal music" [ref=e99] [cursor=pointer]:
+          - /url: /works/102?catalogue=CNW
+          - generic [ref=e100]: CNW 102
+          - generic [ref=e101]: Springtime on Funen, Opus 42
+          - generic [ref=e102]: 2/4
+          - generic [ref=e103]:
+            - generic [ref=e104]: Cantata
+            - generic [ref=e105]: Music for vocal soloists and instruments with or without choir
+            - generic [ref=e106]: Vocal music
+        - link "CNW 103 Cantata for the Lorenz Frølich Celebration 4/4 Cantata Music for vocal soloists and instruments with or without choir Vocal music" [ref=e107] [cursor=pointer]:
+          - /url: /works/103?catalogue=CNW
+          - generic [ref=e108]: CNW 103
+          - generic [ref=e109]: Cantata for the Lorenz Frølich Celebration
+          - generic [ref=e110]: 4/4
+          - generic [ref=e111]:
+            - generic [ref=e112]: Cantata
+            - generic [ref=e113]: Music for vocal soloists and instruments with or without choir
+            - generic [ref=e114]: Vocal music
+        - link "CNW 104 Cantata for the Inauguration of the Student Union Building 3/4 Cantata Music for vocal soloists and instruments with or without choir Vocal music" [ref=e115] [cursor=pointer]:
+          - /url: /works/104?catalogue=CNW
+          - generic [ref=e116]: CNW 104
+          - generic [ref=e117]: Cantata for the Inauguration of the Student Union Building
+          - generic [ref=e118]: 3/4
+          - generic [ref=e119]:
+            - generic [ref=e120]: Cantata
+            - generic [ref=e121]: Music for vocal soloists and instruments with or without choir
+            - generic [ref=e122]: Vocal music
+        - link "CNW 105 Cantata for the Annual University Commemoration, Opus 24 2/4 Cantata Music for vocal soloists and instruments with or without choir Vocal music" [ref=e123] [cursor=pointer]:
+          - /url: /works/105?catalogue=CNW
+          - generic [ref=e124]: CNW 105
+          - generic [ref=e125]: Cantata for the Annual University Commemoration, Opus 24
+          - generic [ref=e126]: 2/4
+          - generic [ref=e127]:
+            - generic [ref=e128]: Cantata
+            - generic [ref=e129]: Music for vocal soloists and instruments with or without choir
+            - generic [ref=e130]: Vocal music
+        - link "CNW 106 Cantata for the Commemoration of the 250th Anniversary of the Storming of Copenhagen 4/4 A cappella choral music Cantata Vocal music" [ref=e131] [cursor=pointer]:
+          - /url: /works/106?catalogue=CNW
+          - generic [ref=e132]: CNW 106
+          - generic [ref=e133]: Cantata for the Commemoration of the 250th Anniversary of the Storming of Copenhagen
+          - generic [ref=e134]: 4/4
+          - generic [ref=e135]:
+            - generic [ref=e136]: A cappella choral music
+            - generic [ref=e137]: Cantata
+            - generic [ref=e138]: Vocal music
+        - link "CNW 107 Cantata for the Opening Ceremony of the National Exhibition in Aarhus 1909 6/8 A cappella choral music Cantata Music for vocal soloists and instruments with or without choir" [ref=e139] [cursor=pointer]:
+          - /url: /works/107?catalogue=CNW
+          - generic [ref=e140]: CNW 107
+          - generic [ref=e141]: Cantata for the Opening Ceremony of the National Exhibition in Aarhus 1909
+          - generic [ref=e142]: 6/8
+          - generic [ref=e143]:
+            - generic [ref=e144]: A cappella choral music
+            - generic [ref=e145]: Cantata
+            - generic [ref=e146]: Music for vocal soloists and instruments with or without choir
+        - link "CNW 108 Cantata for the Commemoration of P.S. Krøyer 3/4 Cantata Music for vocal soloists and instruments with or without choir Vocal music" [ref=e147] [cursor=pointer]:
+          - /url: /works/108?catalogue=CNW
+          - generic [ref=e148]: CNW 108
+          - generic [ref=e149]: Cantata for the Commemoration of P.S. Krøyer
+          - generic [ref=e150]: 3/4
+          - generic [ref=e151]:
+            - generic [ref=e152]: Cantata
+            - generic [ref=e153]: Music for vocal soloists and instruments with or without choir
+            - generic [ref=e154]: Vocal music
+        - link "CNW 109 Franz Neruda in Memoriam Cantata Kantate Music for vocal soloists and instruments with or without choir" [ref=e155] [cursor=pointer]:
+          - /url: /works/109?catalogue=CNW
+          - generic [ref=e156]: CNW 109
+          - generic [ref=e157]: Franz Neruda in Memoriam
+          - generic [ref=e158]:
+            - generic [ref=e159]: Cantata
+            - generic [ref=e160]: Kantate
+            - generic [ref=e161]: Music for vocal soloists and instruments with or without choir
+        - link "CNW 110 Hymn for the Commemoration of the Niels W. Gade Centenary 3/4 Cantata Choral music with instruments Kantate" [ref=e162] [cursor=pointer]:
+          - /url: /works/110?catalogue=CNW
+          - generic [ref=e163]: CNW 110
+          - generic [ref=e164]: Hymn for the Commemoration of the Niels W. Gade Centenary
+          - generic [ref=e165]: 3/4
+          - generic [ref=e166]:
+            - generic [ref=e167]: Cantata
+            - generic [ref=e168]: Choral music with instruments
+            - generic [ref=e169]: Kantate
+        - link "CNW 111 Cantata for the Centenary of the Chamber of Commerce, Opus 31 4/4 A cappella choral music Cantata Music for vocal soloists and instruments with or without choir" [ref=e170] [cursor=pointer]:
+          - /url: /works/111?catalogue=CNW
+          - generic [ref=e171]: CNW 111
+          - generic [ref=e172]: Cantata for the Centenary of the Chamber of Commerce, Opus 31
+          - generic [ref=e173]: 4/4
+          - generic [ref=e174]:
+            - generic [ref=e175]: A cappella choral music
+            - generic [ref=e176]: Cantata
+            - generic [ref=e177]: Music for vocal soloists and instruments with or without choir
+        - link "CNW 112 Cantata for the Centenary of the Polytechnic College 9/8 Cantata Music for vocal soloists and instruments with or without choir Vocal music" [ref=e178] [cursor=pointer]:
+          - /url: /works/112?catalogue=CNW
+          - generic [ref=e179]: CNW 112
+          - generic [ref=e180]: Cantata for the Centenary of the Polytechnic College
+          - generic [ref=e181]: 9/8
+          - generic [ref=e182]:
+            - generic [ref=e183]: Cantata
+            - generic [ref=e184]: Music for vocal soloists and instruments with or without choir
+            - generic [ref=e185]: Vocal music
+        - link "CNW 113 Hymn to Art 3/4 Cantata Kantate Music for vocal soloists and instruments with or without choir" [ref=e186] [cursor=pointer]:
+          - /url: /works/113?catalogue=CNW
+          - generic [ref=e187]: CNW 113
+          - generic [ref=e188]: Hymn to Art
+          - generic [ref=e189]: 3/4
+          - generic [ref=e190]:
+            - generic [ref=e191]: Cantata
+            - generic [ref=e192]: Kantate
+            - generic [ref=e193]: Music for vocal soloists and instruments with or without choir
+        - link "CNW 114 Cantata for the Fiftieth Anniversary of the Society for the Education of Young Merchants 9/8 Cantata Music for vocal soloists and instruments with or without choir Vocal music" [ref=e194] [cursor=pointer]:
+          - /url: /works/114?catalogue=CNW
+          - generic [ref=e195]: CNW 114
+          - generic [ref=e196]: Cantata for the Fiftieth Anniversary of the Society for the Education of Young Merchants
+          - generic [ref=e197]: 9/8
+          - generic [ref=e198]:
+            - generic [ref=e199]: Cantata
+            - generic [ref=e200]: Music for vocal soloists and instruments with or without choir
+            - generic [ref=e201]: Vocal music
+      - navigation "Pagination" [ref=e202]:
+        - button "Previous" [disabled] [ref=e203]
+        - button "1" [ref=e204] [cursor=pointer]
+        - button "2" [ref=e205] [cursor=pointer]
+        - generic [ref=e206]: …
+        - button "68" [ref=e207] [cursor=pointer]
+        - button "Next" [ref=e208] [cursor=pointer]
+      - paragraph [ref=e209]: Works without a catalogue number are listed but not addressable by number, a documented edge case (E04).
+  - contentinfo [ref=e210]:
+    - generic [ref=e211]: "Data: thematic catalogues of Carl Nielsen, Niels W. Gade, J.P.E. Hartmann and J.A. Scheibe, created 2010-2020 by the Danish Centre for Music Editing, Royal Danish Library, and released as MEI under CC0. CM3070 project."
+```

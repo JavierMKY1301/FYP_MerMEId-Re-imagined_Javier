@@ -1,0 +1,164 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW158>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Napoli eller Fiskeren og hans Brud (Anden Akt)"@da ;
+    dcterms:title "Napoli, or The Fisherman and his Bride (Act Two)"@en ;
+    dcterms:title "Napoli oder Der Fischer und seine Braut (Zweiter Akt)"@de ;
+    dcterms:alternative "Ballet i tre Akter"@da ;
+    dcterms:alternative "Ballet in Three Acts"@en ;
+    dcterms:alternative "Ballett in drei Akten"@de ;
+    dcterms:identifier "NWGW 158" ;
+    dcterms:identifier "DF 168" ;
+    cnw:cnwNumber "158" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "End-dated 20 February 1842" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Ballet" ;
+    dcterms:subject "Other orchestral music" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW158/expression/1> ;
+    cnw:performanceCount 219 .
+
+<https://cnw-ld.org/work/NWGW158/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW158> ;
+    cnw:tempo "Andantino grazioso" ;
+    cnw:meter "12/8" ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "cnt." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "gr.c & ptti." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl. solo" ;
+    cnw:performingForce "vc. solo" ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vc. solo" ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "cnt." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "vc. solo" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl. solo" ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl. solo" ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vc. solo" ;
+    cnw:performingForce "str." ;
+    cnw:incipitImage "NWGW_158_0.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/august_bournonville>
+    a foaf:Agent ;
+    foaf:name "August Bournonville" .
+

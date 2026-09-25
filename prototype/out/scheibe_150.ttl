@@ -1,0 +1,90 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-429>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Minerva, ein Singgedicht. An dem hohen Geburthsfeste des allerdurchlauchtigsten und großmächtigsten Königes und Herrn Friderich des Fünften musikalisch aufgeführet"@de ;
+    dcterms:identifier "SchW B2:429" ;
+    cnw:cnwNumber "B2:429" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1751" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Secular" ;
+    cnw:editorialNote "'Da det for nogen Tid siden ommeldte højanseelige Musicaliske Selskab, som holder sine Samlinger udi Raadhuus-Strædet, havde i Begyndelsen af Fasten sluttet sine Sindets Forlystelser med et behageligt Passions-Oratorio i det Danske Sprog, af Hr. Capellmester Scheibe [SchW B2:305]: Saa har det den 15de hujus ved en Høy og anseelig Forsamling taget sin Begyndelse igien med en meget prægtig Gratulations-Musiqve til Hans Kongel. Majestets Allerhøyeste Fødsels-Fest, som formedelst Fastens Tid saa længe var opsat; og denne nye Aabning skeede med Pauker og Trompeter. Fornævnte Hr. Capellmester Scheibe har ved denne Leylighed atter viist en heldig Prøve paa sin Habilitet saa vel i Poesien som Musiqven, formedelst en Synge-Digt, under den Titel \"Minerva\", som har fundet alle Kienderes og Liebhaberes almindelige Bifald'." ;
+    cnw:editorialNote " 'Die hiesige berühmte musikalische Gesellschaft hat die auf das hohe und erfreuliche Königl. Geburtsfest verfertigte Gratulations-Musik bereits zum drittenmal mit allgemeinen Beyfall aufgeführet.'" ;
+    cnw:editorialNote " 'Da Hans Kongel. Majestæts vor allernaadigste Konges Fødselsfest indfaldt denne sidste Gang paa en Onsdag i Fasten, og der paa samme Dag blev opført en Musiqve ved Hoffet; saa har det musikaliskse Sælskab her i Staden opsat Dets Høytidelige Glædestegn indtil Onsdagen efter Paaske, den 14 hujus. Paa de  Dag opførte Selskabet med Høytidelighed et Tanke-Digt, under Titel: Minerva. Poesien og Musiqven var af Hr. Kapelmester Scheibe, og Stykket selv er Kiendere her i Staden forhen bekiendt. Det var nu af Forfatteren paa nye overseet og forbædret, og dets Udførsel fornøyede Tilhørernes talrige Mængde.'" ;
+    cnw:editorialNote "The text to the present aria was revised in the 1752-edition and appears here as 'Lust und Ruh, wird nach viel vergoßnen Thränen'." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-429/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-429/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-429> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "Landesvater! lebe lange"@en ;
+    cnw:incipitText "An diesen erhabenen göttlichen Feste"@de ;
+    cnw:incipitText "Stark, wie der Strahl der heitern Sonne"@de ;
+    cnw:incipitText "Wie? streitet man an diesem Tage"@de ;
+    cnw:incipitText "Brauset, ihr Wellen! schäumt stürmend ihr Wogen!"@de ;
+    cnw:incipitText "Laßt uns, indem sie streiten, singen"@de ;
+    cnw:incipitText "Wir preisen den König"@de ;
+    cnw:incipitText "So recht! ich mische mich in eure Töne"@de ;
+    cnw:incipitText "Ja! preiset den König: singet tönende Lieder!"@de ;
+    cnw:incipitText "O König! der Festtag komme seegnend zurücke!"@de ;
+    cnw:incipitText "Ja, ja! man singe nur"@de ;
+    cnw:incipitText "Wir preisen den König. Friderich! Vater der Meere"@de ;
+    cnw:incipitText "O! die Vereinigung zum Lobe meines Königs"@de ;
+    cnw:incipitText "Königinn! Dieses holden Festes Prangen"@de ;
+    cnw:incipitText "Ein König, der wie du, erhabner Fridrich!"@de ;
+    cnw:incipitText "Wachse, Prinz! zum Heil des Länder!"@de ;
+    cnw:incipitText "Auf! Ihr Glückseeligkeiten!"@de ;
+    cnw:incipitText "Unschätzbare Stunden! kehrt öfters zurücke"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/king_frederik_v>
+    a foaf:Agent ;
+    foaf:name "King Frederik V" .
+

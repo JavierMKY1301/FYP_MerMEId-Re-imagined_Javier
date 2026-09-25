@@ -1,0 +1,56 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-413>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Da den højstsalige Konge, Frederik den Femte skulde føres til sit Hvilested, blev paa det kongelige Universitet følgende Klage-Sange opførte"@da ;
+    dcterms:identifier "SchW B2:413" ;
+    cnw:cnwNumber "B2:413" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_ewald> ;
+    dcterms:created "1766" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Secular" ;
+    cnw:editorialNote "'Den 18 Martii blev paa den øverste Høre-Sahl ved den Kongl. Kiøbenhavnske Høye Skole, holdet en ziirlig Tale af Hans Magnificence h. a. Rector Academiæ, Hr. Professor Kratzenstein, i Overværelse af Hans Excellence Hr. Geheime-Raad Thott, som Academiets høye Patron, tillige med den hele Academiske Øvrighed og et stort Antall Tilhørere. For og efter Talen, som holdtes om Formiddagen, blev af endeel Studentere opført en smuk Sørge-Musiqve, som bestod af alle Slags strygende, blæsende og klingende Instrumenter, og et tallrige Synge-Chor. Digten var sammensat af Msr. Ewald, og ved Musiqven udtrykt af Hr. Capellmester Scheibe.'" ;
+    cnw:editorialNote "Regarding publications: '[...] udkommen fra Hans Kongelige Majestæts og Universitets Bogtrykkerie sælges der for 4 ß. - Klage-Sange opførte af Cantor Nissen paa det Kongelige Universitet den 18 Martii, hvortil Poesien er af Mr. Johannes Ewald og Musiqven af Hr. Capelmester Scheibe.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-413/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-413/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-413> ;
+    cnw:incipitText "Vort Hoveds Crone er affalden"@da ;
+    cnw:incipitText "Mistrøstighed, som ønsker at forhæles"@da ;
+    cnw:incipitText "Den engang visse Død! – Hans Fryd! – vor Christian!"@da ;
+    cnw:incipitText "Hvor Slaget traf det ømme Hierte"@da ;
+    cnw:incipitText "Udødelige Eftermæle"@da ;
+    cnw:incipitText "Slægt sige Slægt, hvad vores Alder taber!"@da ;
+    cnw:incipitText "Vor Klage trænge til de sidste Sønne-Sønner"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johannes_ewald>
+    a foaf:Agent ;
+    foaf:name "Johannes Ewald" .
+
+<https://cnw-ld.org/agent/king_frederik_v>
+    a foaf:Agent ;
+    foaf:name "King Frederik V" .
+

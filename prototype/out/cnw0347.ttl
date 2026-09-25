@@ -1,0 +1,54 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW345>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Afflictus sum, opus 55.1"@la ;
+    dcterms:alternative "Psalms 38:8"@en ;
+    dcterms:identifier "Opus 55.1" ;
+    dcterms:identifier "CNW 345" ;
+    dcterms:identifier "CNU III/6, 297" ;
+    dcterms:identifier "CNS 308" ;
+    dcterms:identifier "FS 139" ;
+    cnw:cnwNumber "345" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:opus "55.1" ;
+    cnw:fsNumber "139" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "1929-06-15" ;
+    dcterms:language "Danish" ;
+    dcterms:language "Latin" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Motet" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/1e8927e2_8d44_48cc_ac90_8b654ece935b> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW345/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW345/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW345> ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Afflictus sum"@la ;
+    cnw:incipitImage "cnw_345.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+

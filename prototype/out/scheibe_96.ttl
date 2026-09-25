@@ -1,0 +1,52 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB5-Coll-006>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Vollständiges Liederbuch der Freymäurer mit Melodieen"@de ;
+    dcterms:identifier "SchW B5:Coll.006" ;
+    cnw:cnwNumber "B5:Coll.006" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_elias_schlegel> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/anonymous> ;
+    dcterms:created "1776" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Commiunity singing" ;
+    cnw:editorialNote " 2. Weltliche, mit dem Clavier oder andern Instrumenten. a. Lieder: 'Vollständiges Liederbuch der Freymäurer, mit Melodien, in zwey Büchern, herausgegeben von einem alten Mitgliede der Loge Zorobabel. Kopenhagen und Leipzig 1776. 4to. 2 thl. 16 gl.'" ;
+    cnw:editorialNote " 'Er giebt in der Vorerinnerung Rechenschaft von seiner Arbeit, die ihm gelingen muste, da er bey seiner groβen Stärke in der Tonkunst, zugleich viel in den lichtern Dichtungsarten gearbeitet, wie denn in jene Sammlung sehr viele Lieder, beydes Text und Melodien ihm gehören. In eben der Vorerinnerung verspricht er die Fortsetzung der Sammlung, und nur seine sehr bald darauf erfolgter Tod, hat ihn an der Erfüllung dieses Versprechens gehindert'." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB5-Coll-006/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB5-Coll-006/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB5-Coll-006> ;
+    cnw:performingForce "voce" ;
+    cnw:performingForce "coro" ;
+    cnw:performingForce "cemb." ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johann_elias_schlegel>
+    a foaf:Agent ;
+    foaf:name "Johann Elias Schlegel" .
+
+<https://cnw-ld.org/agent/anonymous>
+    a foaf:Agent ;
+    foaf:name "Anonymous" .
+

@@ -1,0 +1,57 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGWColl-11>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "5 Gedichte aus \"Bilder des Orients\" von Stieglitz, Opus 24"@de ;
+    dcterms:title "5 Digte af \"Bilder des Orients\" af Stieglitz oversatte af A. Zinck, Opus 24"@da ;
+    dcterms:alternative "für eine Singstimme und Pianoforte componiert"@de ;
+    dcterms:alternative "for en Syngestemme og Pianoforte"@da ;
+    dcterms:identifier "Opus 24" ;
+    dcterms:identifier "NWGW Coll. 11" ;
+    dcterms:identifier "GW V:1" ;
+    cnw:cnwNumber "Coll. 11" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "24" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/heinrich_wilhelm_august_stieglitz> ;
+    dcterms:created "1850-1853" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    cnw:editorialNote "Probably written during Gade's stay in Leipzig from December 1852 to March 1853." ;
+    cnw:manuscriptLocation "D-Mbs" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGWColl-11/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/NWGWColl-11/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGWColl-11> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/heinrich_wilhelm_august_stieglitz>
+    a foaf:Agent ;
+    foaf:name "Heinrich Wilhelm August Stieglitz" .
+
+<https://cnw-ld.org/agent/august_georg_ludvig_zinck>
+    a foaf:Agent ;
+    foaf:name "August Georg Ludvig Zinck" .
+

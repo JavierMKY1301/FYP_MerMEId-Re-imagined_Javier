@@ -1,0 +1,63 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGWA-18>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Siegfried og Brunhilde"@da ;
+    dcterms:title "Siegfried und Brunhilde"@de ;
+    dcterms:title "Siegfried and Brunhilde"@en ;
+    dcterms:alternative "Et Operafragment"@da ;
+    dcterms:alternative "Ein Opernfragment"@de ;
+    dcterms:alternative "An Opera Fragment"@en ;
+    dcterms:identifier "NWGW A 18" ;
+    cnw:cnwNumber "A 18" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/louise_otto> ;
+    dcterms:created "January to March 1847" ;
+    dcterms:language "Italian" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Opera" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGWA-18/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGWA-18/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGWA-18> ;
+    cnw:tempo "Andante maestoso - Allegro moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Der König ist gelandet"@de ;
+    cnw:incipitText "Held Siegfried ist gekommen"@de ;
+    cnw:incipitText "Wilkommen von dem Rhein!"@de ;
+    cnw:incipitText "Empfangt im Heimatlande die liebe Traute mein!"@de ;
+    cnw:incipitText "Ein Festtag ist mir heute angebrochen"@de ;
+    cnw:incipitText "Darf auch der Fiedler nahn zum frohen Fest im Königshaus?"@de ;
+    cnw:incipitText "Die reichen Königshelden Schilbung und Niebelung"@de ;
+    cnw:incipitImage "NWGW_A_18_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/louise_otto>
+    a foaf:Agent ;
+    foaf:name "Louise Otto" .
+

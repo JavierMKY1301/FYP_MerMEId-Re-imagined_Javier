@@ -1,0 +1,67 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW203>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Ud gaar du nu paa Livets Vej"@da ;
+    dcterms:title "Now you must find your path in life"@en ;
+    dcterms:alternative "Ud går du nu på livets vej"@da ;
+    dcterms:identifier "CNW 203" ;
+    dcterms:identifier "CNU III/4, 88; III/5, 212; III/6, 372" ;
+    dcterms:identifier "CNS 255" ;
+    dcterms:identifier "FS 70, 75, 111, 125" ;
+    cnw:cnwNumber "203" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "70, 75, 111, 125" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/steen_steensen_blicher> ;
+    dcterms:created "1914-12-28" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22157659832449> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22225579311185> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW203/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW203/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW203> ;
+    cnw:tempo "Mandigt og roligt" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Ud gaar du nu paa Livets Vej"@da ;
+    cnw:incipitText "Now you must find your path in life"@en ;
+    cnw:incipitText "Ud gaar du nu paa Livets Vej"@da ;
+    cnw:incipitText "Now you must find your path in life"@en ;
+    cnw:incipitText "Ud går du nu på livets vej"@da ;
+    cnw:incipitText "Now you must find your path in life"@en ;
+    cnw:incipitImage "cnw_203.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/steen_steensen_blicher>
+    a foaf:Agent ;
+    foaf:name "Steen Steensen Blicher" .
+

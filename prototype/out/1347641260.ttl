@@ -1,0 +1,57 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartWB-06>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Der Dombau"@de ;
+    dcterms:alternative "Zu Köllen wo vom breiten Strom"@de ;
+    dcterms:identifier "HartW B 06" ;
+    cnw:cnwNumber "B 06" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/adolph_henselt> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/wilhelm_von_waldbr_hl_wilhelm_von_zuccalmaglio> ;
+    cnw:arranger <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1843-11-14" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    frbr:realization <https://cnw-ld.org/work/HartWB-06/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartWB-06/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartWB-06> ;
+    cnw:key "G minor" ;
+    cnw:tempo "Moderato, con moto" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Zu Köllen wo vom breiten Strom der Wellengruss erklingt"@de ;
+    cnw:incipitImage "hartw_B_06.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/adolph_henselt>
+    a foaf:Agent ;
+    foaf:name "Adolph Henselt" .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/wilhelm_von_waldbr_hl_wilhelm_von_zuccalmaglio>
+    a foaf:Agent ;
+    foaf:name "Wilhelm von Waldbrühl (Wilhelm von Zuccalmaglio)" .
+

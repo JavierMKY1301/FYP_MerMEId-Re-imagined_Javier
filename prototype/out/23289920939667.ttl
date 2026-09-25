@@ -1,0 +1,50 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartWA-13>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Saa mange i Tal de ere"@da ;
+    dcterms:identifier "HartW A 13" ;
+    cnw:cnwNumber "A 13" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/berthold_auerbach> ;
+    dcterms:created "1873" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/HartWA-13/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartWA-13/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartWA-13> ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Saa mange i Tal de ere, de Stjerner, som glimte her"@da ;
+    cnw:incipitImage "hartw_A_14.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/berthold_auerbach>
+    a foaf:Agent ;
+    foaf:name "Berthold Auerbach" .
+
+<https://cnw-ld.org/agent/julius_christian_gerson>
+    a foaf:Agent ;
+    foaf:name "Julius Christian Gerson" .
+

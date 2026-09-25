@@ -1,0 +1,57 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW201>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Ved Løvfald"@da ;
+    dcterms:title "At Leaf Fall"@en ;
+    dcterms:alternative "Taagen isner, Rosen visner"@da ;
+    dcterms:identifier "HartW 201" ;
+    cnw:cnwNumber "201" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_richardt> ;
+    dcterms:created "1864" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Male choir" ;
+    cnw:editorialNote "Mindre Kor" ;
+    cnw:editorialNote "Hele Koret." ;
+    frbr:realization <https://cnw-ld.org/work/HartW201/expression/1> ;
+    cnw:performanceCount 14 .
+
+<https://cnw-ld.org/work/HartW201/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW201> ;
+    cnw:tempo "Allegro moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Taagen isner, Rosen visner"@da ;
+    cnw:incipitText "Griske Storm, saa spænd din Vinge"@da ;
+    cnw:incipitText "Taagen isner, Rosen visner"@da ;
+    cnw:incipitText "Men skal vi til et Foraar naa"@da ;
+    cnw:incipitImage "hartw_201_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/christian_richardt>
+    a foaf:Agent ;
+    foaf:name "Christian Richardt" .
+

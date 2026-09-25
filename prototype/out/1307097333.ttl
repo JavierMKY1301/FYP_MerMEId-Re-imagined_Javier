@@ -1,0 +1,182 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW163>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Dryadens Bryllup"@da ;
+    dcterms:title "The Wedding of the Dryad"@en ;
+    dcterms:title "Die Hochzeit der Dryade"@de ;
+    dcterms:alternative "Digt af Fr. Paludan-Müller komponeret for Soli, Kor og Orkester"@da ;
+    dcterms:alternative "Poem by Fr. Paludan-Müller composed for Soli Choir and Orchestra"@en ;
+    dcterms:alternative "Gedicht von Fr. Paludan-Müller komponiert für Soli, Chor und Orchester"@de ;
+    dcterms:identifier "Opus 60" ;
+    dcterms:identifier "HartW 163" ;
+    dcterms:identifier "DF 52" ;
+    cnw:cnwNumber "163" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "60" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/fr_paludan_m_ller> ;
+    dcterms:created "1858" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW163/expression/1> ;
+    cnw:performanceCount 17 .
+
+<https://cnw-ld.org/work/HartW163/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW163> ;
+    cnw:tempo "Allegro non troppo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "MezzS" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "MezzT" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "MezzS" ;
+    cnw:performingForce "B" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "A" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "MezzT" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "MezzT" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "MezzT" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "MezzT" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "S" ;
+    cnw:performingForce "T" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Du bringer Bud mig fra Olympens Konge?"@da ;
+    cnw:incipitText "Du bringst mir Botschaft von Olymps Beherrscher?"@de ;
+    cnw:incipitText "Snart, I Smaa, vi her kan hvile"@da ;
+    cnw:incipitText "Bald, Ihr Kleinen, könnt Ihr ruhen"@de ;
+    cnw:incipitText "Fremad! Hør, med sagte Susen"@da ;
+    cnw:incipitText "Vorwärts! Hör, der Baüme Säuseln"@de ;
+    cnw:incipitText "Hil Apollo! herlig steg fra Oven ned"@da ;
+    cnw:incipitText "Heil Apollo! von den hohen Hallen"@de ;
+    cnw:incipitText "Der er Phantasus, min lille Tjener"@da ;
+    cnw:incipitText "Da ist Phantasus, mein kleiner Bote"@de ;
+    cnw:incipitText "Gjennem Skovens dybe Stilhed"@da ;
+    cnw:incipitText "Durch die Stille des Walds"@de ;
+    cnw:incipitText "Du vor straalende Drot"@da ;
+    cnw:incipitText "Unser strahlender Fürst"@de ;
+    cnw:incipitText "Fornemmer Du Nymphernes Ord?"@da ;
+    cnw:incipitText "Erfreuet der Klang nicht dein Ohr?"@de ;
+    cnw:incipitText "Her er Nectarens skummende Bæger"@da ;
+    cnw:incipitText "Dieser Becher voll schäumenden Nectars"@de ;
+    cnw:incipitText "O faure Lyra! sidste Trøst i Nøden"@da ;
+    cnw:incipitText "O traute Lyra! letzter Trost im Tode!"@de ;
+    cnw:incipitText "Jeg skal bort fra Livet"@da ;
+    cnw:incipitText "Ich soll fort vom Leben"@de ;
+    cnw:incipitText "Fra hendes Læbe Sjælen bort er flygtet"@da ;
+    cnw:incipitText "Von ihrer Lippe schon entweicht die Seele"@de ;
+    cnw:incipitText "Nu flygter Dagens Glands"@da ;
+    cnw:incipitText "Nun schwindet hinter Wald"@de ;
+    cnw:incipitImage "hartw_163_00.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/fr_paludan_m_ller>
+    a foaf:Agent ;
+    foaf:name "Fr. Paludan-Müller" .
+
+<https://cnw-ld.org/agent/c_j_rs>
+    a foaf:Agent ;
+    foaf:name "C. Jürs" .
+
+<https://cnw-ld.org/agent/king_frederik_vii>
+    a foaf:Agent ;
+    foaf:name "King Frederik VII" .
+

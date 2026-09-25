@@ -1,0 +1,71 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW191>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Mindefest for Professor N.P. Nielsen"@da ;
+    dcterms:title "Memorial Feast for N.P. Nielsen"@en ;
+    dcterms:identifier "NWGW 191" ;
+    dcterms:identifier "GW IV:8" ;
+    cnw:cnwNumber "191" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/h_p_holst> ;
+    dcterms:created "March 1860" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Mixed choir" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW191/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW191/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW191> ;
+    cnw:tempo "Andante con Moto" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Reciter" ;
+    cnw:performingForce "Reciter" ;
+    cnw:performingForce "Reciter" ;
+    cnw:incipitText "Sværdtid og Spydtid! Ygdrasil skjælver"@da ;
+    cnw:incipitText "Som en Columbus har han Landet fundet"@da ;
+    cnw:incipitText "For Øiet fjerner sig den kjendte Strand"@da ;
+    cnw:incipitText "God Tid og Fredstid Nornerne varsle"@en ;
+    cnw:incipitImage "NWGW_191_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/h_p_holst>
+    a foaf:Agent ;
+    foaf:name "H.P. Holst" .
+

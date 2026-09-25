@@ -1,0 +1,1331 @@
+== 1. Transform (Saxon XSLT 3.0) ==
+   transformed 446 MEI records
+   merged graph: 15819 triples (pre-reconciliation)
+== 2. Reconciliation ==
+   added 3 verified owl:sameAs links to composer
+   total graph: 15822 triples -> out/cnw_combined.ttl
+== 3. SHACL validation ==
+   conforms: True
+   constraint violations: 0
+== 4. Coverage / losslessness ==
+   CNW Coll. 18: 7/7 data points = 100.0%
+   CNW 339: 9/9 data points = 100.0%
+   CNW 53: 6/6 data points = 100.0%
+   CNW Coll. 24: 8/8 data points = 100.0%
+   CNW Coll. 21: 7/7 data points = 100.0%
+   CNW Coll. 11: 7/7 data points = 100.0%
+   CNW Coll. 9: 7/7 data points = 100.0%
+   CNW Coll. 17: 7/7 data points = 100.0%
+   CNW Coll. 22: 7/7 data points = 100.0%
+   CNW Coll. 1: 8/8 data points = 100.0%
+   CNW Coll. 2: 8/8 data points = 100.0%
+   CNW Coll. 4: 8/8 data points = 100.0%
+   CNW Coll. 5: 8/8 data points = 100.0%
+   CNW Coll. 14: 6/6 data points = 100.0%
+   CNW Coll. 13: 7/7 data points = 100.0%
+   CNW 355: 11/11 data points = 100.0%
+   CNW 416: 9/9 data points = 100.0%
+   CNW 419: 8/8 data points = 100.0%
+   CNW Coll. 16: 7/7 data points = 100.0%
+   CNW 414: 6/6 data points = 100.0%
+   CNW 417: 9/9 data points = 100.0%
+   CNW Coll. 10: 8/8 data points = 100.0%
+   CNW Coll. 7: 6/6 data points = 100.0%
+   CNW Coll. 20: 6/6 data points = 100.0%
+   CNW Coll. 27: 6/6 data points = 100.0%
+   CNW Coll. 6: 6/6 data points = 100.0%
+   CNW 412: 7/7 data points = 100.0%
+   CNW Coll. 8: 6/6 data points = 100.0%
+   CNW 391: 7/7 data points = 100.0%
+   CNW Coll. 3: 6/6 data points = 100.0%
+   CNW Coll. 26: 7/7 data points = 100.0%
+   CNW Coll. 15: 8/8 data points = 100.0%
+   CNW 1: 13/13 data points = 100.0%
+   CNW 2: 13/13 data points = 100.0%
+   CNW 3: 11/11 data points = 100.0%
+   CNW 4: 13/13 data points = 100.0%
+   CNW 5: 11/11 data points = 100.0%
+   CNW 6: 12/12 data points = 100.0%
+   CNW 7: 12/12 data points = 100.0%
+   CNW 8: 13/13 data points = 100.0%
+   CNW 9: 11/12 data points = 91.7%
+   CNW 10: 12/12 data points = 100.0%
+   CNW 11: 13/13 data points = 100.0%
+   CNW 12: 13/13 data points = 100.0%
+   CNW 13: 12/12 data points = 100.0%
+   CNW 14: 12/12 data points = 100.0%
+   CNW 15: 12/12 data points = 100.0%
+   CNW 16: 10/11 data points = 90.9%
+   CNW 17: 13/13 data points = 100.0%
+   CNW 18: 12/12 data points = 100.0%
+   CNW 19: 12/12 data points = 100.0%
+   CNW 20: 12/12 data points = 100.0%
+   CNW 21: 12/12 data points = 100.0%
+   CNW 22: 10/10 data points = 100.0%
+   CNW 23: 12/12 data points = 100.0%
+   CNW 24: 12/12 data points = 100.0%
+   CNW 25: 12/13 data points = 92.3%
+   CNW 26: 11/12 data points = 91.7%
+   CNW 27: 11/12 data points = 91.7%
+   CNW 28: 11/12 data points = 91.7%
+   CNW 29: 11/12 data points = 91.7%
+   CNW 30: 11/12 data points = 91.7%
+   CNW 31: 11/12 data points = 91.7%
+   CNW 32: 11/12 data points = 91.7%
+   CNW 33: 11/11 data points = 100.0%
+   CNW 34: 11/11 data points = 100.0%
+   CNW 35: 12/12 data points = 100.0%
+   CNW 36: 11/11 data points = 100.0%
+   CNW 37: 10/10 data points = 100.0%
+   CNW 38: 11/11 data points = 100.0%
+   CNW 39: 10/10 data points = 100.0%
+   CNW 40: 10/10 data points = 100.0%
+   CNW 41: 11/11 data points = 100.0%
+   CNW 42: 11/12 data points = 91.7%
+   CNW 43: 11/12 data points = 91.7%
+   CNW 44: 8/8 data points = 100.0%
+   CNW 45: 10/10 data points = 100.0%
+   CNW 46: 9/9 data points = 100.0%
+   CNW 47: 10/11 data points = 90.9%
+   CNW 48: 9/10 data points = 90.0%
+   CNW 49: 11/12 data points = 91.7%
+   CNW 50: 10/10 data points = 100.0%
+   CNW 51: 9/9 data points = 100.0%
+   CNW 52: 9/9 data points = 100.0%
+   CNW 54: 8/8 data points = 100.0%
+   CNW 55: 11/12 data points = 91.7%
+   CNW 56: 11/12 data points = 91.7%
+   CNW 57: 11/12 data points = 91.7%
+   CNW 58: 12/13 data points = 92.3%
+   CNW 59: 11/12 data points = 91.7%
+   CNW 60: 10/10 data points = 100.0%
+   CNW 61: 9/9 data points = 100.0%
+   CNW 62: 11/12 data points = 91.7%
+   CNW 63: 11/12 data points = 91.7%
+   CNW 64: 11/12 data points = 91.7%
+   CNW 65: 11/12 data points = 91.7%
+   CNW 66: 9/9 data points = 100.0%
+   CNW 67: 10/10 data points = 100.0%
+   CNW 68: 9/10 data points = 90.0%
+   CNW 69: 10/10 data points = 100.0%
+   CNW 70: 11/12 data points = 91.7%
+   CNW 71: 10/11 data points = 90.9%
+   CNW 72: 9/9 data points = 100.0%
+   CNW 73: 10/11 data points = 90.9%
+   CNW 74: 9/9 data points = 100.0%
+   CNW 75: 9/9 data points = 100.0%
+   CNW 76: 9/9 data points = 100.0%
+   CNW 77: 8/8 data points = 100.0%
+   CNW 78: 8/8 data points = 100.0%
+   CNW 79: 7/7 data points = 100.0%
+   CNW 80: 7/7 data points = 100.0%
+   CNW 81: 11/12 data points = 91.7%
+   CNW 82: 11/12 data points = 91.7%
+   CNW 83: 11/12 data points = 91.7%
+   CNW 84: 10/10 data points = 100.0%
+   CNW 85: 9/9 data points = 100.0%
+   CNW 86: 11/11 data points = 100.0%
+   CNW 87: 11/11 data points = 100.0%
+   CNW 88: 11/12 data points = 91.7%
+   CNW 89: 8/8 data points = 100.0%
+   CNW 90: 11/12 data points = 91.7%
+   CNW 91: 9/9 data points = 100.0%
+   CNW 92: 11/12 data points = 91.7%
+   CNW 93: 8/8 data points = 100.0%
+   CNW 94: 9/9 data points = 100.0%
+   CNW 95: 8/8 data points = 100.0%
+   CNW 96: 9/11 data points = 81.8%
+   CNW 97: 9/9 data points = 100.0%
+   CNW 98: 8/10 data points = 80.0%
+   CNW 99: 11/11 data points = 100.0%
+   CNW 100: 13/13 data points = 100.0%
+   CNW 101: 13/13 data points = 100.0%
+   CNW 102: 13/13 data points = 100.0%
+   CNW 103: 12/12 data points = 100.0%
+   CNW 104: 12/12 data points = 100.0%
+   CNW 105: 13/13 data points = 100.0%
+   CNW 106: 12/12 data points = 100.0%
+   CNW 107: 12/12 data points = 100.0%
+   CNW 108: 12/12 data points = 100.0%
+   CNW 109: 10/10 data points = 100.0%
+   CNW 110: 11/11 data points = 100.0%
+   CNW 111: 12/12 data points = 100.0%
+   CNW 112: 12/12 data points = 100.0%
+   CNW 113: 12/12 data points = 100.0%
+   CNW 114: 12/12 data points = 100.0%
+   CNW 115: 12/12 data points = 100.0%
+   CNW 116: 15/15 data points = 100.0%
+   CNW 117: 15/15 data points = 100.0%
+   CNW 118: 13/13 data points = 100.0%
+   CNW 119: 14/14 data points = 100.0%
+   CNW 120: 13/13 data points = 100.0%
+   CNW 121: 14/14 data points = 100.0%
+   CNW 122: 14/14 data points = 100.0%
+   CNW 123: 13/13 data points = 100.0%
+   CNW 124: 13/13 data points = 100.0%
+   CNW 125: 14/14 data points = 100.0%
+   CNW 126: 14/14 data points = 100.0%
+   CNW 127: 14/14 data points = 100.0%
+   CNW 128: 14/14 data points = 100.0%
+   CNW 129: 14/14 data points = 100.0%
+   CNW 130: 14/14 data points = 100.0%
+   CNW 131: 14/14 data points = 100.0%
+   CNW 132: 13/13 data points = 100.0%
+   CNW 133: 12/12 data points = 100.0%
+   CNW 134: 12/12 data points = 100.0%
+   CNW 135: 13/13 data points = 100.0%
+   CNW 136: 14/14 data points = 100.0%
+   CNW 137: 14/14 data points = 100.0%
+   CNW 138: 13/13 data points = 100.0%
+   CNW 139: 13/13 data points = 100.0%
+   CNW 140: 14/14 data points = 100.0%
+   CNW 141: 14/14 data points = 100.0%
+   CNW 142: 12/12 data points = 100.0%
+   CNW 143: 12/12 data points = 100.0%
+   CNW 144: 9/9 data points = 100.0%
+   CNW 145: 14/14 data points = 100.0%
+   CNW 146: 14/14 data points = 100.0%
+   CNW 147: 13/13 data points = 100.0%
+   CNW 148: 13/13 data points = 100.0%
+   CNW 149: 13/13 data points = 100.0%
+   CNW 150: 13/13 data points = 100.0%
+   CNW 151: 14/14 data points = 100.0%
+   CNW 152: 14/14 data points = 100.0%
+   CNW 153: 12/12 data points = 100.0%
+   CNW 154: 13/13 data points = 100.0%
+   CNW 155: 11/11 data points = 100.0%
+   CNW 156: 11/11 data points = 100.0%
+   CNW 157: 11/11 data points = 100.0%
+   CNW 158: 12/12 data points = 100.0%
+   CNW 159: 11/11 data points = 100.0%
+   CNW 160: 11/11 data points = 100.0%
+   CNW 161: 12/12 data points = 100.0%
+   CNW 162: 11/11 data points = 100.0%
+   CNW 163: 11/11 data points = 100.0%
+   CNW 164: 12/12 data points = 100.0%
+   CNW 165: 12/12 data points = 100.0%
+   CNW 166: 12/12 data points = 100.0%
+   CNW 167: 11/11 data points = 100.0%
+   CNW 168: 11/11 data points = 100.0%
+   CNW 169: 11/11 data points = 100.0%
+   CNW 170: 12/12 data points = 100.0%
+   CNW 171: 11/11 data points = 100.0%
+   CNW 172: 11/11 data points = 100.0%
+   CNW 173: 11/11 data points = 100.0%
+   CNW 174: 11/11 data points = 100.0%
+   CNW 175: 11/11 data points = 100.0%
+   CNW 176: 11/11 data points = 100.0%
+   CNW 177: 11/11 data points = 100.0%
+   CNW 178: 11/11 data points = 100.0%
+   CNW 179: 11/11 data points = 100.0%
+   CNW 180: 11/11 data points = 100.0%
+   CNW 181: 12/12 data points = 100.0%
+   CNW 182: 12/12 data points = 100.0%
+   CNW 183: 12/12 data points = 100.0%
+   CNW 184: 11/11 data points = 100.0%
+   CNW 185: 12/12 data points = 100.0%
+   CNW 186: 11/11 data points = 100.0%
+   CNW 187: 11/11 data points = 100.0%
+   CNW 188: 11/11 data points = 100.0%
+   CNW 189: 11/11 data points = 100.0%
+   CNW 190: 11/11 data points = 100.0%
+   CNW 191: 12/12 data points = 100.0%
+   CNW 192: 11/11 data points = 100.0%
+   CNW 193: 11/11 data points = 100.0%
+   CNW 194: 11/11 data points = 100.0%
+   CNW 195: 11/11 data points = 100.0%
+   CNW 196: 11/11 data points = 100.0%
+   CNW 197: 11/11 data points = 100.0%
+   CNW 198: 12/12 data points = 100.0%
+   CNW 199: 12/12 data points = 100.0%
+   CNW 200: 11/11 data points = 100.0%
+   CNW 201: 11/11 data points = 100.0%
+   CNW 202: 13/13 data points = 100.0%
+   CNW 203: 13/13 data points = 100.0%
+   CNW 204: 14/14 data points = 100.0%
+   CNW 205: 14/14 data points = 100.0%
+   CNW 206: 13/13 data points = 100.0%
+   CNW 207: 13/13 data points = 100.0%
+   CNW 208: 13/13 data points = 100.0%
+   CNW 209: 13/13 data points = 100.0%
+   CNW 210: 13/13 data points = 100.0%
+   CNW 211: 13/13 data points = 100.0%
+   CNW 212: 13/13 data points = 100.0%
+   CNW 213: 13/13 data points = 100.0%
+   CNW 214: 13/13 data points = 100.0%
+   CNW 215: 13/13 data points = 100.0%
+   CNW 216: 13/13 data points = 100.0%
+   CNW 217: 13/13 data points = 100.0%
+   CNW 218: 13/13 data points = 100.0%
+   CNW 219: 13/13 data points = 100.0%
+   CNW 220: 13/13 data points = 100.0%
+   CNW 221: 13/13 data points = 100.0%
+   CNW 222: 13/13 data points = 100.0%
+   CNW 223: 13/13 data points = 100.0%
+   CNW 224: 13/13 data points = 100.0%
+   CNW 225: 13/13 data points = 100.0%
+   CNW 226: 14/14 data points = 100.0%
+   CNW 227: 13/13 data points = 100.0%
+   CNW 228: 12/12 data points = 100.0%
+   CNW 229: 12/12 data points = 100.0%
+   CNW 230: 12/12 data points = 100.0%
+   CNW 231: 12/12 data points = 100.0%
+   CNW 232: 12/12 data points = 100.0%
+   CNW 233: 12/12 data points = 100.0%
+   CNW 234: 12/12 data points = 100.0%
+   CNW 235: 12/12 data points = 100.0%
+   CNW 236: 12/12 data points = 100.0%
+   CNW 237: 14/14 data points = 100.0%
+   CNW 238: 13/13 data points = 100.0%
+   CNW 239: 13/13 data points = 100.0%
+   CNW 240: 13/13 data points = 100.0%
+   CNW 241: 13/13 data points = 100.0%
+   CNW 242: 13/13 data points = 100.0%
+   CNW 243: 13/13 data points = 100.0%
+   CNW 244: 13/13 data points = 100.0%
+   CNW 245: 14/14 data points = 100.0%
+   CNW 246: 13/13 data points = 100.0%
+   CNW 247: 13/13 data points = 100.0%
+   CNW 248: 13/13 data points = 100.0%
+   CNW 249: 13/13 data points = 100.0%
+   CNW 250: 13/13 data points = 100.0%
+   CNW 251: 13/13 data points = 100.0%
+   CNW 252: 13/13 data points = 100.0%
+   CNW 253: 13/13 data points = 100.0%
+   CNW 254: 13/13 data points = 100.0%
+   CNW 255: 13/13 data points = 100.0%
+   CNW 256: 13/13 data points = 100.0%
+   CNW 257: 14/14 data points = 100.0%
+   CNW 258: 12/13 data points = 92.3%
+   CNW 259: 12/13 data points = 92.3%
+   CNW 260: 12/12 data points = 100.0%
+   CNW 261: 12/12 data points = 100.0%
+   CNW 262: 13/13 data points = 100.0%
+   CNW 263: 13/13 data points = 100.0%
+   CNW 264: 13/13 data points = 100.0%
+   CNW 265: 13/13 data points = 100.0%
+   CNW 266: 13/13 data points = 100.0%
+   CNW 267: 13/13 data points = 100.0%
+   CNW 268: 13/13 data points = 100.0%
+   CNW 269: 12/12 data points = 100.0%
+   CNW 270: 13/13 data points = 100.0%
+   CNW 271: 13/13 data points = 100.0%
+   CNW 272: 12/12 data points = 100.0%
+   CNW 273: 12/12 data points = 100.0%
+   CNW 274: 12/12 data points = 100.0%
+   CNW 275: 11/11 data points = 100.0%
+   CNW 276: 11/11 data points = 100.0%
+   CNW 277: 12/12 data points = 100.0%
+   CNW 278: 12/12 data points = 100.0%
+   CNW 279: 11/11 data points = 100.0%
+   CNW 280: 12/12 data points = 100.0%
+   CNW 281: 10/10 data points = 100.0%
+   CNW 282: 11/11 data points = 100.0%
+   CNW 283: 12/12 data points = 100.0%
+   CNW 284: 10/10 data points = 100.0%
+   CNW 285: 13/13 data points = 100.0%
+   CNW 286: 10/10 data points = 100.0%
+   CNW 287: 12/12 data points = 100.0%
+   CNW 288: 14/14 data points = 100.0%
+   CNW 289: 11/11 data points = 100.0%
+   CNW 290: 13/13 data points = 100.0%
+   CNW 291: 14/14 data points = 100.0%
+   CNW 292: 12/12 data points = 100.0%
+   CNW 293: 13/13 data points = 100.0%
+   CNW 294: 13/13 data points = 100.0%
+   CNW 295: 12/12 data points = 100.0%
+   CNW 296: 13/13 data points = 100.0%
+   CNW 297: 10/10 data points = 100.0%
+   CNW 298: 10/10 data points = 100.0%
+   CNW 299: 10/10 data points = 100.0%
+   CNW 300: 11/11 data points = 100.0%
+   CNW 301: 12/12 data points = 100.0%
+   CNW 302: 13/13 data points = 100.0%
+   CNW 303: 13/13 data points = 100.0%
+   CNW 304: 12/12 data points = 100.0%
+   CNW 305: 12/12 data points = 100.0%
+   CNW 306: 13/13 data points = 100.0%
+   CNW 307: 12/12 data points = 100.0%
+   CNW 308: 13/13 data points = 100.0%
+   CNW 309: 12/12 data points = 100.0%
+   CNW 310: 12/12 data points = 100.0%
+   CNW 311: 11/11 data points = 100.0%
+   CNW 312: 13/13 data points = 100.0%
+   CNW 313: 13/13 data points = 100.0%
+   CNW 314: 12/12 data points = 100.0%
+   CNW 315: 14/14 data points = 100.0%
+   CNW 316: 10/10 data points = 100.0%
+   CNW 317: 10/10 data points = 100.0%
+   CNW 318: 12/12 data points = 100.0%
+   CNW 319: 12/12 data points = 100.0%
+   CNW 320: 12/12 data points = 100.0%
+   CNW 321: 12/12 data points = 100.0%
+   CNW 322: 12/12 data points = 100.0%
+   CNW 323: 12/12 data points = 100.0%
+   CNW 324: 12/12 data points = 100.0%
+   CNW 325: 13/13 data points = 100.0%
+   CNW 326: 12/12 data points = 100.0%
+   CNW 327: 12/12 data points = 100.0%
+   CNW 328: 11/11 data points = 100.0%
+   CNW 329: 12/12 data points = 100.0%
+   CNW 330: 12/12 data points = 100.0%
+   CNW 331: 12/12 data points = 100.0%
+   CNW 332: 12/12 data points = 100.0%
+   CNW 333: 11/11 data points = 100.0%
+   CNW 334: 12/12 data points = 100.0%
+   CNW 335: 12/12 data points = 100.0%
+   CNW 336: 12/12 data points = 100.0%
+   CNW 337: 13/13 data points = 100.0%
+   CNW 338: 11/11 data points = 100.0%
+   CNW 340: 11/11 data points = 100.0%
+   CNW 341: 12/12 data points = 100.0%
+   CNW 342: 12/12 data points = 100.0%
+   CNW 343: 13/13 data points = 100.0%
+   CNW 344: 13/13 data points = 100.0%
+   CNW 345: 11/11 data points = 100.0%
+   CNW 346: 11/12 data points = 91.7%
+   CNW 347: 12/12 data points = 100.0%
+   CNW 348: 14/14 data points = 100.0%
+   CNW 349: 13/13 data points = 100.0%
+   CNW 350: 12/12 data points = 100.0%
+   CNW 351: 13/13 data points = 100.0%
+   CNW 352: 13/13 data points = 100.0%
+   CNW 353: 13/13 data points = 100.0%
+   CNW 354: 13/13 data points = 100.0%
+   CNW 356: 11/11 data points = 100.0%
+   CNW 357: 11/11 data points = 100.0%
+   CNW 358: 11/11 data points = 100.0%
+   CNW 359: 13/13 data points = 100.0%
+   CNW 360: 12/12 data points = 100.0%
+   CNW 361: 14/14 data points = 100.0%
+   CNW 362: 12/12 data points = 100.0%
+   CNW 363: 11/11 data points = 100.0%
+   CNW 364: 13/13 data points = 100.0%
+   CNW 365: 13/13 data points = 100.0%
+   CNW 366: 12/13 data points = 92.3%
+   CNW 367: 11/11 data points = 100.0%
+   CNW 368: 12/12 data points = 100.0%
+   CNW 369: 12/12 data points = 100.0%
+   CNW 370: 11/11 data points = 100.0%
+   CNW 371: 11/11 data points = 100.0%
+   CNW 372: 12/12 data points = 100.0%
+   CNW 373: 12/12 data points = 100.0%
+   CNW 374: 12/12 data points = 100.0%
+   CNW 375: 14/14 data points = 100.0%
+   CNW 376: 13/13 data points = 100.0%
+   CNW 377: 10/10 data points = 100.0%
+   CNW 378: 13/13 data points = 100.0%
+   CNW 379: 11/11 data points = 100.0%
+   CNW 380: 11/11 data points = 100.0%
+   CNW 381: 12/12 data points = 100.0%
+   CNW 382: 11/11 data points = 100.0%
+   CNW 383: 11/11 data points = 100.0%
+   CNW 384: 11/11 data points = 100.0%
+   CNW 385: 11/11 data points = 100.0%
+   CNW 386: 13/13 data points = 100.0%
+   CNW 387: 11/12 data points = 91.7%
+   CNW 388: 11/11 data points = 100.0%
+   CNW 389: 10/10 data points = 100.0%
+   CNW 390: 11/11 data points = 100.0%
+   CNW 392: 12/12 data points = 100.0%
+   CNW 393: 10/10 data points = 100.0%
+   CNW 394: 11/11 data points = 100.0%
+   CNW 395: 13/13 data points = 100.0%
+   CNW 396: 13/13 data points = 100.0%
+   CNW 397: 13/13 data points = 100.0%
+   CNW 398: 13/13 data points = 100.0%
+   CNW 399: 13/13 data points = 100.0%
+   CNW 400: 13/13 data points = 100.0%
+   CNW 401: 13/13 data points = 100.0%
+   CNW 402: 13/13 data points = 100.0%
+   CNW 403: 13/13 data points = 100.0%
+   CNW 404: 13/13 data points = 100.0%
+   CNW 405: 13/13 data points = 100.0%
+   CNW 406: 13/13 data points = 100.0%
+   CNW 407: 13/13 data points = 100.0%
+   CNW 408: 10/10 data points = 100.0%
+   CNW 409: 14/14 data points = 100.0%
+   CNW 410: 10/10 data points = 100.0%
+   CNW 411: 10/10 data points = 100.0%
+   CNW 413: 7/7 data points = 100.0%
+   CNW 418: 7/7 data points = 100.0%
+   CNW Coll. 19: 7/7 data points = 100.0%
+   CNW 415: 7/7 data points = 100.0%
+   CNW Coll. 25: 7/7 data points = 100.0%
+   CNW Coll. 23: 7/7 data points = 100.0%
+   CNW Coll. 12: 7/7 data points = 100.0%
+   OVERALL field coverage: 5095/5138 = 99.2%
+== 5. SPARQL competency questions ==
+
+   [CQ1  All works: CNW number, title (en), key  [cross-work listing]]  -> 21 rows
+      11 | Music for Jeppe Aakjær's Play 'The Wolf's Son' | F major
+      12 | Music for Adam Oehlenschläger's Play 'Hagbarth and Signe' | G minor
+      25 | Symphony No. 1, Opus 7 | G minor
+      45 | Greeting | G major
+      45 | for Violin | G major
+      49 | Quartet for Two Violins, Viola and Cello | D minor
+      50 | Movement for Two Violins, Viola and Cello | F major
+      51 | Movement for Two Violins, Viola and Cello | F major
+      52 | Movement for Two Violins, Viola and Cello | F major
+      54 | Movement for Two Violins, Viola and Cello | F-sharp minor
+      55 | Quartet for Two Violins, Viola and Cello, Opus 13 | G minor
+      56 | Quartet for Two Violins, Viola and Cello, Opus 5 | F minor
+      57 | Quartet for Two Violins, Viola and Cello, Opus 14 | E-flat major
+      58 | Quartet for Two Violins, Viola and Cello, Opus 44 | F major
+      60 | Romance for Violin and Piano | G major
+      61 | Romance for Violin and Piano | D major
+      62 | Sonata for Violin and Piano | G major
+      63 | Sonata No. 1 for Violin and Piano, Opus 9 | A major
+      67 | Canto Serioso | C major
+      67 | for French Horn and Piano | C major
+      73 | Two Character Pieces for Piano | F major
+
+   [CQ2  Works in D major  [cross-cutting filter impossible per-file]]  -> 1 rows
+      61 | Romance for Violin and Piano
+
+   [CQ3  Works belonging to the same collection]  -> 393 rows
+      116 | https://cnw-ld.org/collection/22228336520259
+      117 | https://cnw-ld.org/collection/22228336520259
+      117 | https://cnw-ld.org/collection/c6e3b565_5e1b_4ff0_b796_a2e1ffc7a8ef
+      118 | https://cnw-ld.org/collection/22228336520259
+      119 | https://cnw-ld.org/collection/22228336520259
+      119 | https://cnw-ld.org/collection/c6e3b565_5e1b_4ff0_b796_a2e1ffc7a8ef
+      120 | https://cnw-ld.org/collection/22228336520259
+      120 | https://cnw-ld.org/collection/c6e3b565_5e1b_4ff0_b796_a2e1ffc7a8ef
+      121 | https://cnw-ld.org/collection/c6e3b565_5e1b_4ff0_b796_a2e1ffc7a8ef
+      121 | https://cnw-ld.org/collection/22228347081665
+      122 | https://cnw-ld.org/collection/22228347081665
+      123 | https://cnw-ld.org/collection/c6e3b565_5e1b_4ff0_b796_a2e1ffc7a8ef
+      123 | https://cnw-ld.org/collection/22228347081665
+      124 | https://cnw-ld.org/collection/c6e3b565_5e1b_4ff0_b796_a2e1ffc7a8ef
+      124 | https://cnw-ld.org/collection/22228347081665
+      125 | https://cnw-ld.org/collection/22228347081665
+      126 | https://cnw-ld.org/collection/22228421720417
+      127 | https://cnw-ld.org/collection/22228421720417
+      128 | https://cnw-ld.org/collection/22228421720417
+      129 | https://cnw-ld.org/collection/22228421720417
+      129 | https://cnw-ld.org/collection/22225579311185
+      129 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      130 | https://cnw-ld.org/collection/22228421720417
+      131 | https://cnw-ld.org/collection/22228421720417
+      135 | https://cnw-ld.org/collection/22228475173875
+      136 | https://cnw-ld.org/collection/22228475173875
+      137 | https://cnw-ld.org/collection/22225579311185
+      137 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      137 | https://cnw-ld.org/collection/22228475173875
+      137 | https://cnw-ld.org/collection/a601140e_d48d_48c3_b103_bc0c365082d4
+      138 | https://cnw-ld.org/collection/22228475173875
+      139 | https://cnw-ld.org/collection/22228475173875
+      140 | https://cnw-ld.org/collection/22228475173875
+      140 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      141 | https://cnw-ld.org/collection/22228475173875
+      142 | https://cnw-ld.org/collection/8bf1d20f_4d9b_41a7_a00b_1bcd41c7448f
+      143 | https://cnw-ld.org/collection/8bf1d20f_4d9b_41a7_a00b_1bcd41c7448f
+      144 | https://cnw-ld.org/collection/8bf1d20f_4d9b_41a7_a00b_1bcd41c7448f
+      145 | https://cnw-ld.org/collection/8bf1d20f_4d9b_41a7_a00b_1bcd41c7448f
+      146 | https://cnw-ld.org/collection/22225579311185
+      146 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      146 | https://cnw-ld.org/collection/a601140e_d48d_48c3_b103_bc0c365082d4
+      146 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      146 | https://cnw-ld.org/collection/8bf1d20f_4d9b_41a7_a00b_1bcd41c7448f
+      146 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      147 | https://cnw-ld.org/collection/22225579311185
+      147 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      147 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      147 | https://cnw-ld.org/collection/aa9d5567_7e44_407a_8e34_1e002cd680fa
+      148 | https://cnw-ld.org/collection/aa9d5567_7e44_407a_8e34_1e002cd680fa
+      149 | https://cnw-ld.org/collection/aa9d5567_7e44_407a_8e34_1e002cd680fa
+      150 | https://cnw-ld.org/collection/aa9d5567_7e44_407a_8e34_1e002cd680fa
+      151 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      151 | https://cnw-ld.org/collection/cnw0011
+      152 | https://cnw-ld.org/collection/cnw0011
+      153 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      154 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      155 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      156 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      157 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      158 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      159 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      160 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      161 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      162 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      163 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      164 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      165 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      166 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      167 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      168 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      169 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      170 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      171 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      172 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      173 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      174 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      175 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      176 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      177 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      178 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      179 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      180 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      181 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      182 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      183 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      184 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      185 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      186 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      186 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      187 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      188 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      189 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      190 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      191 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      192 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      193 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      194 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      195 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      196 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      197 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      198 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      199 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      200 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      201 | https://cnw-ld.org/collection/80cd1305_3df6_4253_936d_25b73a91fb5d
+      202 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      202 | https://cnw-ld.org/collection/22157659832449
+      202 | https://cnw-ld.org/collection/22225400586721
+      202 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      203 | https://cnw-ld.org/collection/22225579311185
+      203 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      203 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      203 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      203 | https://cnw-ld.org/collection/22157659832449
+      204 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      204 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      204 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      204 | https://cnw-ld.org/collection/22157659832449
+      204 | https://cnw-ld.org/collection/22225400586721
+      204 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      205 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      205 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      205 | https://cnw-ld.org/collection/22157659832449
+      205 | https://cnw-ld.org/collection/22225400586721
+      205 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      206 | https://cnw-ld.org/collection/22157659832449
+      207 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      207 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      207 | https://cnw-ld.org/collection/22157659832449
+      207 | https://cnw-ld.org/collection/22225400586721
+      207 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      208 | https://cnw-ld.org/collection/22157659832449
+      209 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      209 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      209 | https://cnw-ld.org/collection/22157659832449
+      209 | https://cnw-ld.org/collection/22225400586721
+      209 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      210 | https://cnw-ld.org/collection/22157659832449
+      211 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      211 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      211 | https://cnw-ld.org/collection/22157659832449
+      211 | https://cnw-ld.org/collection/22225400586721
+      211 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      212 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      212 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      212 | https://cnw-ld.org/collection/22157659832449
+      212 | https://cnw-ld.org/collection/22225400586721
+      212 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      213 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      213 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      213 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      213 | https://cnw-ld.org/collection/22157659832449
+      213 | https://cnw-ld.org/collection/22225400586721
+      213 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      214 | https://cnw-ld.org/collection/22131671612451
+      215 | https://cnw-ld.org/collection/22131671612451
+      216 | https://cnw-ld.org/collection/22131671612451
+      217 | https://cnw-ld.org/collection/22131671612451
+      218 | https://cnw-ld.org/collection/22131671612451
+      219 | https://cnw-ld.org/collection/22131671612451
+      220 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      220 | https://cnw-ld.org/collection/22225400586721
+      220 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      220 | https://cnw-ld.org/collection/22131671612451
+      221 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      221 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      221 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      221 | https://cnw-ld.org/collection/22225400586721
+      221 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      221 | https://cnw-ld.org/collection/22131671612451
+      222 | https://cnw-ld.org/collection/22225579311185
+      222 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      222 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      222 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      222 | https://cnw-ld.org/collection/22131671612451
+      223 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      223 | https://cnw-ld.org/collection/22131671612451
+      224 | https://cnw-ld.org/collection/22131671612451
+      226 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      227 | https://cnw-ld.org/collection/29ed9322_a12d_4efe_bb1a_513797128bfe
+      228 | https://cnw-ld.org/collection/29ed9322_a12d_4efe_bb1a_513797128bfe
+      229 | https://cnw-ld.org/collection/29ed9322_a12d_4efe_bb1a_513797128bfe
+      230 | https://cnw-ld.org/collection/cnw0018
+      231 | https://cnw-ld.org/collection/cnw0018
+      232 | https://cnw-ld.org/collection/cnw0018
+      233 | https://cnw-ld.org/collection/cnw0018
+      234 | https://cnw-ld.org/collection/cnw0018
+      235 | https://cnw-ld.org/collection/cnw0018
+      236 | https://cnw-ld.org/collection/cnw0018
+      237 | https://cnw-ld.org/collection/cnw0018
+      237 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      237 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      237 | https://cnw-ld.org/collection/22225400586721
+      237 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      238 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      238 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      238 | https://cnw-ld.org/collection/22225400586721
+      238 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      238 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      239 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      239 | https://cnw-ld.org/collection/22225400586721
+      239 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      239 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      240 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      240 | https://cnw-ld.org/collection/22225400586721
+      240 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      240 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      241 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      241 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      241 | https://cnw-ld.org/collection/22225400586721
+      241 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      241 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      242 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      242 | https://cnw-ld.org/collection/22225400586721
+      242 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      242 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      243 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      243 | https://cnw-ld.org/collection/22225400586721
+      243 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      243 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      243 | https://cnw-ld.org/collection/241295ab_c694_42de_8023_2776e7401166
+      244 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      244 | https://cnw-ld.org/collection/22225400586721
+      244 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      244 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      245 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      245 | https://cnw-ld.org/collection/22225400586721
+      245 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      245 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      246 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      246 | https://cnw-ld.org/collection/22225400586721
+      246 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      246 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      247 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      247 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      247 | https://cnw-ld.org/collection/22225400586721
+      247 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      247 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      248 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      248 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      248 | https://cnw-ld.org/collection/22225400586721
+      248 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      248 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      249 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      249 | https://cnw-ld.org/collection/22225400586721
+      249 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      249 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      250 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      250 | https://cnw-ld.org/collection/22225400586721
+      250 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      250 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      251 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      251 | https://cnw-ld.org/collection/22225400586721
+      251 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      251 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      252 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      253 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      253 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      253 | https://cnw-ld.org/collection/22225400586721
+      253 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      253 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      253 | https://cnw-ld.org/collection/241295ab_c694_42de_8023_2776e7401166
+      254 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      254 | https://cnw-ld.org/collection/22225400586721
+      254 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      254 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      255 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      255 | https://cnw-ld.org/collection/22225400586721
+      255 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      255 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      256 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      256 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      256 | https://cnw-ld.org/collection/22225400586721
+      256 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      256 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      257 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      257 | https://cnw-ld.org/collection/22225400586721
+      257 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      257 | https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885
+      258 | https://cnw-ld.org/collection/22225579311185
+      258 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      258 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      258 | https://cnw-ld.org/collection/50911efc_3712_40bf_8695_bf4614e722c4
+      259 | https://cnw-ld.org/collection/22225579311185
+      259 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      259 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      259 | https://cnw-ld.org/collection/50911efc_3712_40bf_8695_bf4614e722c4
+      260 | https://cnw-ld.org/collection/22225579311185
+      260 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      260 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      260 | https://cnw-ld.org/collection/50911efc_3712_40bf_8695_bf4614e722c4
+      261 | https://cnw-ld.org/collection/22225579311185
+      261 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      261 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      261 | https://cnw-ld.org/collection/50911efc_3712_40bf_8695_bf4614e722c4
+      262 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      262 | https://cnw-ld.org/collection/9cc39f99_2d56_404b_bc95_ec21dfa136dc
+      263 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      263 | https://cnw-ld.org/collection/9cc39f99_2d56_404b_bc95_ec21dfa136dc
+      264 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      264 | https://cnw-ld.org/collection/9cc39f99_2d56_404b_bc95_ec21dfa136dc
+      265 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      265 | https://cnw-ld.org/collection/9cc39f99_2d56_404b_bc95_ec21dfa136dc
+      265 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      266 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      266 | https://cnw-ld.org/collection/9cc39f99_2d56_404b_bc95_ec21dfa136dc
+      267 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      267 | https://cnw-ld.org/collection/9cc39f99_2d56_404b_bc95_ec21dfa136dc
+      268 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      268 | https://cnw-ld.org/collection/9cc39f99_2d56_404b_bc95_ec21dfa136dc
+      268 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      269 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      269 | https://cnw-ld.org/collection/9cc39f99_2d56_404b_bc95_ec21dfa136dc
+      270 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      270 | https://cnw-ld.org/collection/9cc39f99_2d56_404b_bc95_ec21dfa136dc
+      271 | https://cnw-ld.org/collection/9cc39f99_2d56_404b_bc95_ec21dfa136dc
+      288 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      288 | https://cnw-ld.org/collection/a601140e_d48d_48c3_b103_bc0c365082d4
+      288 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      288 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      288 | https://cnw-ld.org/collection/22225400586721
+      288 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      291 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      291 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      291 | https://cnw-ld.org/collection/22225400586721
+      291 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      304 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      307 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      318 | https://cnw-ld.org/collection/22225579311185
+      318 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      318 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      318 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      319 | https://cnw-ld.org/collection/22225579311185
+      319 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      320 | https://cnw-ld.org/collection/22225579311185
+      320 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      321 | https://cnw-ld.org/collection/22225579311185
+      321 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      322 | https://cnw-ld.org/collection/22225579311185
+      322 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      323 | https://cnw-ld.org/collection/22225579311185
+      323 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      324 | https://cnw-ld.org/collection/22225579311185
+      324 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      341 | https://cnw-ld.org/collection/c473b2ec_0cd5_40cd_ae07_e3e620c5ed59
+      342 | https://cnw-ld.org/collection/c473b2ec_0cd5_40cd_ae07_e3e620c5ed59
+      343 | https://cnw-ld.org/collection/ec6dec55_b2a4_4b7f_a0c1_aba93dbeda62
+      344 | https://cnw-ld.org/collection/ec6dec55_b2a4_4b7f_a0c1_aba93dbeda62
+      345 | https://cnw-ld.org/collection/1e8927e2_8d44_48cc_ac90_8b654ece935b
+      346 | https://cnw-ld.org/collection/1e8927e2_8d44_48cc_ac90_8b654ece935b
+      347 | https://cnw-ld.org/collection/1e8927e2_8d44_48cc_ac90_8b654ece935b
+      35 | https://cnw-ld.org/collection/cnw0018
+      351 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      353 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      361 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      361 | https://cnw-ld.org/collection/22225400586721
+      361 | https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a
+      366 | https://cnw-ld.org/collection/ca2b530c_60fd_447a_9b3d_b5aa9cfda1f5
+      367 | https://cnw-ld.org/collection/ca2b530c_60fd_447a_9b3d_b5aa9cfda1f5
+      368 | https://cnw-ld.org/collection/ca2b530c_60fd_447a_9b3d_b5aa9cfda1f5
+      369 | https://cnw-ld.org/collection/ca2b530c_60fd_447a_9b3d_b5aa9cfda1f5
+      370 | https://cnw-ld.org/collection/ca2b530c_60fd_447a_9b3d_b5aa9cfda1f5
+      371 | https://cnw-ld.org/collection/ca2b530c_60fd_447a_9b3d_b5aa9cfda1f5
+      375 | https://cnw-ld.org/collection/22225579311185
+      375 | https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6
+      375 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      378 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      379 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      380 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      381 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      382 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      383 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      384 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      385 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      386 | https://cnw-ld.org/collection/a601140e_d48d_48c3_b103_bc0c365082d4
+      386 | https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33
+      386 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      387 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      388 | https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511
+      395 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      396 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      397 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      398 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      399 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      400 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      401 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      402 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      403 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      404 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      405 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      406 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      407 | https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb
+      416 | https://cnw-ld.org/collection/appendix_xq_cnw_a_1
+
+   [CQ4  Composer external authority links  [reconciliation]]  -> 0 rows
+
+   [CQ5  Incipit type per work: notated incipit vs renderable notation]  -> 446 rows
+      1 | false | false
+      10 | false | false
+      100 | false | false
+      101 | false | false
+      102 | false | false
+      103 | false | false
+      104 | false | false
+      105 | false | false
+      106 | false | false
+      107 | false | false
+      108 | false | false
+      109 | false | false
+      11 | false | false
+      110 | false | false
+      111 | false | false
+      112 | false | false
+      113 | false | false
+      114 | false | false
+      115 | false | false
+      116 | false | false
+      117 | false | false
+      118 | false | false
+      119 | false | false
+      12 | false | false
+      120 | false | false
+      121 | false | false
+      122 | false | false
+      123 | false | false
+      124 | false | false
+      125 | false | false
+      126 | false | false
+      127 | false | false
+      128 | false | false
+      129 | false | false
+      13 | false | false
+      130 | false | false
+      131 | false | false
+      132 | false | false
+      133 | false | false
+      134 | false | false
+      135 | false | false
+      136 | false | false
+      137 | false | false
+      138 | false | false
+      139 | false | false
+      14 | false | false
+      140 | false | false
+      141 | false | false
+      142 | false | false
+      143 | false | false
+      144 | false | false
+      145 | false | false
+      146 | false | false
+      147 | false | false
+      148 | false | false
+      149 | false | false
+      15 | false | false
+      150 | false | false
+      151 | false | false
+      152 | false | false
+      153 | false | false
+      154 | false | false
+      155 | false | false
+      156 | false | false
+      157 | false | false
+      158 | false | false
+      159 | false | false
+      16 | false | false
+      160 | false | false
+      161 | false | false
+      162 | false | false
+      163 | false | false
+      164 | false | false
+      165 | false | false
+      166 | false | false
+      167 | false | false
+      168 | false | false
+      169 | false | false
+      17 | false | false
+      170 | false | false
+      171 | false | false
+      172 | false | false
+      173 | false | false
+      174 | false | false
+      175 | false | false
+      176 | false | false
+      177 | false | false
+      178 | false | false
+      179 | false | false
+      18 | false | false
+      180 | false | false
+      181 | false | false
+      182 | false | false
+      183 | false | false
+      184 | false | false
+      185 | false | false
+      186 | false | false
+      187 | false | false
+      188 | false | false
+      189 | false | false
+      19 | false | false
+      190 | false | false
+      191 | false | false
+      192 | false | false
+      193 | false | false
+      194 | false | false
+      195 | false | false
+      196 | false | false
+      197 | false | false
+      198 | false | false
+      199 | false | false
+      2 | false | false
+      20 | false | false
+      200 | false | false
+      201 | false | false
+      202 | false | false
+      203 | false | false
+      204 | false | false
+      205 | false | false
+      206 | false | false
+      207 | false | false
+      208 | false | false
+      209 | false | false
+      21 | false | false
+      210 | false | false
+      211 | false | false
+      212 | false | false
+      213 | false | false
+      214 | false | false
+      215 | false | false
+      216 | false | false
+      217 | false | false
+      218 | false | false
+      219 | false | false
+      22 | false | false
+      220 | false | false
+      221 | false | false
+      222 | false | false
+      223 | false | false
+      224 | false | false
+      225 | false | false
+      226 | false | false
+      227 | false | false
+      228 | false | false
+      229 | false | false
+      23 | false | false
+      230 | false | false
+      231 | false | false
+      232 | false | false
+      233 | false | false
+      234 | false | false
+      235 | false | false
+      236 | false | false
+      237 | false | false
+      238 | false | false
+      239 | false | false
+      24 | false | false
+      240 | false | false
+      241 | false | false
+      242 | false | false
+      243 | false | false
+      244 | false | false
+      245 | false | false
+      246 | false | false
+      247 | false | false
+      248 | false | false
+      249 | false | false
+      25 | false | false
+      250 | false | false
+      251 | false | false
+      252 | false | false
+      253 | false | false
+      254 | false | false
+      255 | false | false
+      256 | false | false
+      257 | false | false
+      258 | false | false
+      259 | false | false
+      26 | false | false
+      260 | false | false
+      261 | false | false
+      262 | false | false
+      263 | false | false
+      264 | false | false
+      265 | false | false
+      266 | false | false
+      267 | false | false
+      268 | false | false
+      269 | false | false
+      27 | false | false
+      270 | false | false
+      271 | false | false
+      272 | false | false
+      273 | false | false
+      274 | false | false
+      275 | false | false
+      276 | false | false
+      277 | false | false
+      278 | false | false
+      279 | false | false
+      28 | false | false
+      280 | false | false
+      281 | false | false
+      282 | false | false
+      283 | false | false
+      284 | false | false
+      285 | false | false
+      286 | false | false
+      287 | false | false
+      288 | false | false
+      289 | false | false
+      29 | false | false
+      290 | false | false
+      291 | false | false
+      292 | false | false
+      293 | false | false
+      294 | false | false
+      295 | false | false
+      296 | false | false
+      297 | false | false
+      298 | false | false
+      299 | false | false
+      3 | false | false
+      30 | false | false
+      300 | false | false
+      301 | false | false
+      302 | false | false
+      303 | false | false
+      304 | false | false
+      305 | false | false
+      306 | false | false
+      307 | false | false
+      308 | false | false
+      309 | false | false
+      31 | false | false
+      310 | false | false
+      311 | false | false
+      312 | false | false
+      313 | false | false
+      314 | false | false
+      315 | false | false
+      316 | false | false
+      317 | false | false
+      318 | false | false
+      319 | false | false
+      32 | false | false
+      320 | false | false
+      321 | false | false
+      322 | false | false
+      323 | false | false
+      324 | false | false
+      325 | false | false
+      326 | false | false
+      327 | false | false
+      328 | false | false
+      329 | false | false
+      33 | false | false
+      330 | false | false
+      331 | false | false
+      332 | false | false
+      333 | false | false
+      334 | false | false
+      335 | false | false
+      336 | false | false
+      337 | false | false
+      338 | false | false
+      339 | false | false
+      34 | false | false
+      340 | false | false
+      341 | false | false
+      342 | false | false
+      343 | false | false
+      344 | false | false
+      345 | false | false
+      346 | false | false
+      347 | false | false
+      348 | false | false
+      349 | false | false
+      35 | false | false
+      350 | false | false
+      351 | false | false
+      352 | false | false
+      353 | false | false
+      354 | false | false
+      355 | false | false
+      356 | false | false
+      357 | false | false
+      358 | false | false
+      359 | false | false
+      36 | false | false
+      360 | false | false
+      361 | false | false
+      362 | false | false
+      363 | false | false
+      364 | false | false
+      365 | false | false
+      366 | false | false
+      367 | false | false
+      368 | false | false
+      369 | false | false
+      37 | false | false
+      370 | false | false
+      371 | false | false
+      372 | false | false
+      373 | false | false
+      374 | false | false
+      375 | false | false
+      376 | false | false
+      377 | false | false
+      378 | false | false
+      379 | false | false
+      38 | false | false
+      380 | false | false
+      381 | false | false
+      382 | false | false
+      383 | false | false
+      384 | false | false
+      385 | false | false
+      386 | false | false
+      387 | false | false
+      388 | false | false
+      389 | false | false
+      39 | false | false
+      390 | false | false
+      391 | false | false
+      392 | false | false
+      393 | false | false
+      394 | false | false
+      395 | false | false
+      396 | false | false
+      397 | false | false
+      398 | false | false
+      399 | false | false
+      4 | false | false
+      40 | false | false
+      400 | false | false
+      401 | false | false
+      402 | false | false
+      403 | false | false
+      404 | false | false
+      405 | false | false
+      406 | false | false
+      407 | false | false
+      408 | false | false
+      409 | false | false
+      41 | false | false
+      410 | false | false
+      411 | false | false
+      412 | false | false
+      413 | false | false
+      414 | false | false
+      415 | false | false
+      416 | false | false
+      417 | false | false
+      418 | false | false
+      419 | false | false
+      42 | false | false
+      43 | false | false
+      44 | false | false
+      45 | false | false
+      46 | false | false
+      47 | false | false
+      48 | false | false
+      49 | false | false
+      5 | false | false
+      50 | false | false
+      51 | false | false
+      52 | false | false
+      53 | false | false
+      54 | false | false
+      55 | false | false
+      56 | false | false
+      57 | false | false
+      58 | false | false
+      59 | false | false
+      6 | false | false
+      60 | false | false
+      61 | false | false
+      62 | false | false
+      63 | false | false
+      64 | false | false
+      65 | false | false
+      66 | false | false
+      67 | false | false
+      68 | false | false
+      69 | false | false
+      7 | false | false
+      70 | false | false
+      71 | false | false
+      72 | false | false
+      73 | false | false
+      74 | false | false
+      75 | false | false
+      76 | false | false
+      77 | false | false
+      78 | false | false
+      79 | false | false
+      8 | false | false
+      80 | false | false
+      81 | false | false
+      82 | false | false
+      83 | false | false
+      84 | false | false
+      85 | false | false
+      86 | false | false
+      87 | false | false
+      88 | false | false
+      89 | false | false
+      9 | false | false
+      90 | false | false
+      91 | false | false
+      92 | false | false
+      93 | false | false
+      94 | false | false
+      95 | false | false
+      96 | false | false
+      97 | false | false
+      98 | false | false
+      99 | false | false
+      Coll. 1 | false | false
+      Coll. 10 | false | false
+      Coll. 11 | false | false
+      Coll. 12 | false | false
+      Coll. 13 | false | false
+      Coll. 14 | false | false
+      Coll. 15 | false | false
+      Coll. 16 | false | false
+      Coll. 17 | false | false
+      Coll. 18 | false | false
+      Coll. 19 | false | false
+      Coll. 2 | false | false
+      Coll. 20 | false | false
+      Coll. 21 | false | false
+      Coll. 22 | false | false
+      Coll. 23 | false | false
+      Coll. 24 | false | false
+      Coll. 25 | false | false
+      Coll. 26 | false | false
+      Coll. 27 | false | false
+      Coll. 3 | false | false
+      Coll. 4 | false | false
+      Coll. 5 | false | false
+      Coll. 6 | false | false
+      Coll. 7 | false | false
+      Coll. 8 | false | false
+      Coll. 9 | false | false
+
+   wrote out/results_summary.json

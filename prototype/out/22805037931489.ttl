@@ -1,0 +1,64 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW265>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Lied"@de ;
+    dcterms:title "Song"@en ;
+    dcterms:alternative "Noch ist die blühende, goldene Zeit"@de ;
+    dcterms:alternative "Now in its bloom Is the age of gold"@en ;
+    dcterms:identifier "Opus 33:5" ;
+    dcterms:identifier "NWGW 265" ;
+    dcterms:identifier "GW IV:10" ;
+    cnw:cnwNumber "265" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "33:5" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/otto_roquette> ;
+    dcterms:created "1858" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22785241455923> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW265/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW265/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW265> ;
+    cnw:key "B-flat major" ;
+    cnw:tempo "Frisch und fröhlich" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Noch ist die blühende, goldene Zeit"@de ;
+    cnw:incipitText "Now in its bloom is the age of gold"@en ;
+    cnw:incipitImage "NWGW_265.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/otto_roquette>
+    a foaf:Agent ;
+    foaf:name "Otto Roquette" .
+
+<https://cnw-ld.org/agent/k_lner_m_nner_gesang_verein>
+    a foaf:Agent ;
+    foaf:name "Kölner Männer-Gesang-Verein" .
+

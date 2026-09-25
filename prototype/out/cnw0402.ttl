@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW400>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "En Sømand med et modigt Bryst"@da ;
+    dcterms:title "A sailor with a plucky breast"@en ;
+    dcterms:identifier "CNW 400" ;
+    dcterms:identifier "CNU III/6, 409" ;
+    dcterms:identifier "FS 120" ;
+    cnw:cnwNumber "400" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "120" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_ewald> ;
+    dcterms:created "1926-05-23" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW400/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW400/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW400> ;
+    cnw:tempo "Djærvt" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "En Sømand med et modigt Bryst"@da ;
+    cnw:incipitText "A sailor with a plucky breast"@en ;
+    cnw:incipitImage "cnw_400.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/johannes_ewald>
+    a foaf:Agent ;
+    foaf:name "Johannes Ewald" .
+

@@ -1,0 +1,78 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW149>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musik til Adam Oehlenschlägers skuespil \"Aladdin\""@da ;
+    dcterms:title "Music for Adam Oehlenschläger's Play \"Aladdin eller den forunderlige Lampe\""@en ;
+    dcterms:alternative "Aladdin"@da ;
+    dcterms:identifier "NWGW 149" ;
+    cnw:cnwNumber "149" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/adam_oehlenschl_ger> ;
+    dcterms:created "1839-03-11" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW149/expression/1> ;
+    cnw:performanceCount 23 .
+
+<https://cnw-ld.org/work/NWGW149/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW149> ;
+    cnw:tempo "Allegro con fuoco - Allegro moderato" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "Actor" ;
+    cnw:performingForce "Actor" ;
+    cnw:performingForce "Actor" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl. solo" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "Actor" ;
+    cnw:performingForce "Actor" ;
+    cnw:performingForce "Actor" ;
+    cnw:performingForce "vl. solo" ;
+    cnw:performingForce "Actor" ;
+    cnw:performingForce "Actor" ;
+    cnw:performingForce "Actor" ;
+    cnw:performingForce "Actor" ;
+    cnw:incipitText "Nu, hvi gnide du saa voldsomt"@da ;
+    cnw:incipitText "Stærke Herre! siig hvad vil du?"@da ;
+    cnw:incipitText "Nok alt! nok min ædle Mester!"@da ;
+    cnw:incipitText "Min troe Veninde Forføj dig til dit Kammer"@da ;
+    cnw:incipitText "Jeg mener sjelden, hvad mig Allahs Bud har skjenket"@da ;
+    cnw:incipitImage "NWGW_149_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/adam_oehlenschl_ger>
+    a foaf:Agent ;
+    foaf:name "Adam Oehlenschläger" .
+

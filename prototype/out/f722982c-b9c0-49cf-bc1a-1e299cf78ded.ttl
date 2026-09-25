@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB5-106>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Der Tod"@de ;
+    dcterms:alternative "Es sterben Greise"@de ;
+    dcterms:identifier "SchW B5:106" ;
+    cnw:cnwNumber "B5:106" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_felix_wei_e> ;
+    dcterms:created "1765" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Children's songs" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/scheibe_95> ;
+    frbr:realization <https://cnw-ld.org/work/SchWB5-106/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB5-106/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB5-106> ;
+    cnw:key "C major" ;
+    cnw:tempo "Ernsthaft doch lebhaft" ;
+    cnw:meter "3/8" ;
+    cnw:performingForce "voce" ;
+    cnw:performingForce "cemb." ;
+    cnw:incipitText "Es sterben Greise"@de ;
+    cnw:incipitImage "SchM_299.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/christian_felix_wei_e>
+    a foaf:Agent ;
+    foaf:name "Christian Felix Weiße" .
+
+<https://cnw-ld.org/agent/christiane_elisabeth_wei_e>
+    a foaf:Agent ;
+    foaf:name "Christiane Elisabeth Weiße" .
+

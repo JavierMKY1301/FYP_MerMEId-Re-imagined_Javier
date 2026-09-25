@@ -1,0 +1,52 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW342>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Vuggevise"@da ;
+    dcterms:title "Cradle Song"@en ;
+    dcterms:alternative "Min egen stærke Dreng"@da ;
+    dcterms:identifier "NWGW 342" ;
+    dcterms:identifier "GW V:1" ;
+    cnw:cnwNumber "342" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/hans_christian_andersen> ;
+    dcterms:created "May 1855" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22857210484673> ;
+    frbr:realization <https://cnw-ld.org/work/NWGW342/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW342/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW342> ;
+    cnw:key "F major" ;
+    cnw:tempo "Andantino" ;
+    cnw:meter "9/8" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Min egen stærke Dreng, min fine Pige"@da ;
+    cnw:incipitImage "NWGW_342.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/hans_christian_andersen>
+    a foaf:Agent ;
+    foaf:name "Hans Christian Andersen" .
+

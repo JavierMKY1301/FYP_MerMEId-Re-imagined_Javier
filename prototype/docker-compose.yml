@@ -1,0 +1,17 @@
+services:
+  fuseki:
+    image: stain/jena-fuseki:4.8.0
+    container_name: cnw-fuseki
+    ports:
+      - "3030:3030"
+    environment:
+      # Dev-only credentials. Do not reuse in a public deployment.
+      ADMIN_PASSWORD: cnwadmin
+      # Create a persistent TDB2 dataset named "cnw" on first boot
+      FUSEKI_DATASET_1: cnw
+      JVM_ARGS: -Xmx2g
+    volumes:
+      - fuseki-data:/fuseki
+
+volumes:
+  fuseki-data:

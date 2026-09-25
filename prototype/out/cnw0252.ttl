@@ -1,0 +1,63 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW252>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Det danske Brød paa Sletten gror"@da ;
+    dcterms:title "The Danish bread, it grows on plains"@en ;
+    dcterms:alternative "Det danske brød på sletten gror"@da ;
+    dcterms:identifier "CNW 252" ;
+    dcterms:identifier "CNU III/4, 139; III/5, 244" ;
+    dcterms:identifier "CNS 109" ;
+    dcterms:identifier "FS 95" ;
+    cnw:cnwNumber "252" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "95" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/jeppe_aakj_r> ;
+    dcterms:created "1921" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW252/expression/1> ;
+    cnw:performanceCount 2 .
+
+<https://cnw-ld.org/work/CNW252/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW252> ;
+    cnw:tempo "Jævnt og varmt" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "(voice)" ;
+    cnw:incipitText "Det danske Brød paa Sletten gror"@da ;
+    cnw:incipitText "The Danish bread, it grows on plains"@en ;
+    cnw:incipitText "Det danske Brød paa Sletten gror"@da ;
+    cnw:incipitText "The Danish bread, it grows on plains"@en ;
+    cnw:incipitImage "cnw_252b.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/jeppe_aakj_r>
+    a foaf:Agent ;
+    foaf:name "Jeppe Aakjær" .
+

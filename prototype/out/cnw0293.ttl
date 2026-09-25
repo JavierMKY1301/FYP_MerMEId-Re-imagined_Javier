@@ -1,0 +1,66 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW293>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Børnehjælpsdagens Sang"@da ;
+    dcterms:title "Child Welfare Day Song"@en ;
+    dcterms:alternative "Vi Børn, vi Børn, vi vaagner"@da ;
+    dcterms:alternative "We boys and girls we waken"@en ;
+    dcterms:alternative "Vi børn, vi børn, vi vågner"@da ;
+    dcterms:identifier "CNW 293" ;
+    dcterms:identifier "CNU III/5, 230; III/6, 305, 325, 388" ;
+    dcterms:identifier "CNS 288" ;
+    dcterms:identifier "FS 62" ;
+    cnw:cnwNumber "293" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "62" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_j_rgensen> ;
+    dcterms:created "1911" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "A cappella choral music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Km" ;
+    frbr:realization <https://cnw-ld.org/work/CNW293/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW293/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW293> ;
+    cnw:tempo "Poco andantino" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "(voice)" ;
+    cnw:incipitText "Vi Børn, vi Børn, vi vaagner længe"@da ;
+    cnw:incipitText "We boys and girls we waken"@en ;
+    cnw:incipitText "Vi Børn, vi Børn, vi vaagner længe"@da ;
+    cnw:incipitText "We boys and girls we waken"@en ;
+    cnw:incipitText "Vi Børn, vi Børn, vi vaagner længe"@da ;
+    cnw:incipitText "We boys and girls we waken"@en ;
+    cnw:incipitText "Vi Børn, vi Børn, vi vaagner længe"@da ;
+    cnw:incipitText "We boys and girls we waken"@en ;
+    cnw:incipitImage "cnw_293.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/johannes_j_rgensen>
+    a foaf:Agent ;
+    foaf:name "Johannes Jørgensen" .
+

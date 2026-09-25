@@ -1,0 +1,54 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW369>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Ikke det altid slaar til"@da ;
+    dcterms:title "It is not always the case"@en ;
+    dcterms:alternative "Ikke det altid slår til"@da ;
+    dcterms:identifier "CNW 369" ;
+    dcterms:identifier "CNU III/6, 380" ;
+    dcterms:identifier "CNS 280" ;
+    dcterms:identifier "FS 152" ;
+    cnw:cnwNumber "369" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "152" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/ludvig_holberg> ;
+    dcterms:created "1930-05-09" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/ca2b530c_60fd_447a_9b3d_b5aa9cfda1f5> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW369/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW369/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW369> ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "three equal voices" ;
+    cnw:incipitText "Ikke det altid slaar til"@da ;
+    cnw:incipitText "It is not always the case"@en ;
+    cnw:incipitImage "cnw_369.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/ludvig_holberg>
+    a foaf:Agent ;
+    foaf:name "Ludvig Holberg" .
+

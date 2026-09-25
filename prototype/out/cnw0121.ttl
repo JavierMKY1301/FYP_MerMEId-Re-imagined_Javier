@@ -1,0 +1,70 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW121>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Genrebillede, opus 6.1"@da ;
+    dcterms:title "Genre Painting, Opus 6.1"@en ;
+    dcterms:alternative "Pagen højt paa Taarnet sad"@da ;
+    dcterms:alternative "In the tower sat the page"@en ;
+    dcterms:alternative "Pagen højt på tårnet sad"@da ;
+    dcterms:identifier "Opus 6.1" ;
+    dcterms:identifier "CNW 121" ;
+    dcterms:identifier "CNU III/4, 6" ;
+    dcterms:identifier "CNS 131" ;
+    dcterms:identifier "FS 14" ;
+    cnw:cnwNumber "121" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:opus "6.1" ;
+    cnw:fsNumber "14" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/j_p_jacobsen> ;
+    dcterms:created "[1893]" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22228347081665> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/c6e3b565_5e1b_4ff0_b796_a2e1ffc7a8ef> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW121/expression/1> ;
+    cnw:performanceCount 62 .
+
+<https://cnw-ld.org/work/CNW121/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW121> ;
+    cnw:tempo "Andantino" ;
+    cnw:meter "6/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Pagen højt paa Taarnet sad"@da ;
+    cnw:incipitText "In the tower sat the page"@da ;
+    cnw:incipitImage "cnw_121.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/rudolph_bergh>
+    a foaf:Agent ;
+    foaf:name "Rudolph Bergh" .
+
+<https://cnw-ld.org/agent/j_p_jacobsen>
+    a foaf:Agent ;
+    foaf:name "J.P. Jacobsen" .
+

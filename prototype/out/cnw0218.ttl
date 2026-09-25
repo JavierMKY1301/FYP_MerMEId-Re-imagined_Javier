@@ -1,0 +1,56 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW218>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Hun mig har glemt! min Sorg hun ej see!"@da ;
+    dcterms:title "Forget she did! my woe is in vain!"@en ;
+    dcterms:alternative "Hun mig har glemt! min sorg hun ej se!"@da ;
+    dcterms:identifier "CNW 218" ;
+    dcterms:identifier "CNU III/4, 103" ;
+    dcterms:identifier "CNS 183" ;
+    dcterms:identifier "FS 78" ;
+    cnw:cnwNumber "218" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "78" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/h_c_andersen> ;
+    dcterms:created "1916" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22131671612451> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW218/expression/1> ;
+    cnw:performanceCount 3 .
+
+<https://cnw-ld.org/work/CNW218/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW218> ;
+    cnw:tempo "Klagende" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Hun mig har glemt! min Sorg hun ej see!"@da ;
+    cnw:incipitText "Forget she did! my woe is in vain!"@en ;
+    cnw:incipitImage "cnw_218.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/h_c_andersen>
+    a foaf:Agent ;
+    foaf:name "H.C. Andersen" .
+

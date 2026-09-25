@@ -1,0 +1,91 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW138>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Orglets Priis"@da ;
+    dcterms:title "Praise of the Organ"@en ;
+    dcterms:alternative "Nu Orgel med din rene Klang"@da ;
+    dcterms:alternative "Hymne af Professor Oehlenschläger"@da ;
+    dcterms:identifier "Opus 5:1" ;
+    dcterms:identifier "HartW 138" ;
+    cnw:cnwNumber "138" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "5:1" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/adam_oehlenschl_ger> ;
+    dcterms:created "1825-10-19" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Mixed choir" ;
+    frbr:realization <https://cnw-ld.org/work/HartW138/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW138/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW138> ;
+    cnw:tempo "Allegro moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "trb.s." ;
+    cnw:performingForce "trb.a" ;
+    cnw:performingForce "trb.t" ;
+    cnw:performingForce "trb.b" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "trb.b ad libitum" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "trb.s." ;
+    cnw:performingForce "trb.a" ;
+    cnw:performingForce "trb.t" ;
+    cnw:performingForce "trb.b" ;
+    cnw:performingForce "trb.b ad libitum" ;
+    cnw:performingForce "org." ;
+    cnw:incipitText "Nu Orgel med din rene Klang"@da ;
+    cnw:incipitText "Ei skurre dine Fløiter meer"@da ;
+    cnw:incipitText "Ja Orgel ja din Vælde tvang flerstemmigt Raab til ædel Sang"@da ;
+    cnw:incipitText "Men ogsaa Melodiens Røst udstrømmer fra Dit Kæmpe Bryst"@da ;
+    cnw:incipitText "Hvor sindrigt og hvor underfuldt!"@da ;
+    cnw:incipitText "Ja Orgel som Basunen stærk"@da ;
+    cnw:incipitText "O kjære Sjæl af Orglet lær"@da ;
+    cnw:incipitImage "" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/adam_oehlenschl_ger>
+    a foaf:Agent ;
+    foaf:name "Adam Oehlenschläger" .
+

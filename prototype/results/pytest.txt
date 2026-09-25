@@ -1,0 +1,174 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.6, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\javie\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\javie\OneDrive\Desktop\SIM stuff\FYP\CNW_feature_prototype\prototype
+plugins: anyio-4.14.2, locust-2.46.6
+collecting ... collected 97 items
+
+tests/test_api_contract.py::TestContract::test_health_reports_engine_and_size PASSED [  1%]
+tests/test_api_contract.py::TestContract::test_works_returns_declared_fields PASSED [  2%]
+tests/test_api_contract.py::TestContract::test_total_count_header_is_present_and_sane PASSED [  3%]
+tests/test_api_contract.py::TestContract::test_paging_does_not_repeat_or_skip PASSED [  4%]
+tests/test_api_contract.py::TestContract::test_facets_come_from_the_data PASSED [  5%]
+tests/test_api_contract.py::TestContract::test_every_facet_value_returns_results PASSED [  6%]
+tests/test_api_contract.py::TestContract::test_filters_compose PASSED    [  7%]
+tests/test_api_contract.py::TestContract::test_search_matches_titles_and_numbers PASSED [  8%]
+tests/test_api_contract.py::TestContract::test_catalogue_prefix_is_ignored_in_search PASSED [  9%]
+tests/test_api_contract.py::TestContract::test_unknown_work_is_404 PASSED [ 10%]
+tests/test_api_contract.py::TestContract::test_detail_matches_summary PASSED [ 11%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[x") } INSERT DATA { <a:a> <a:b> <a:c> } #] PASSED [ 12%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[x"} ; DROP GRAPH <https://cnw-ld.org/> ; #] PASSED [ 13%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[" } UNION { ?s ?p ?o } #] PASSED [ 14%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable['; DELETE WHERE { ?s ?p ?o } ;#] PASSED [ 15%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[x\\" } #] PASSED [ 16%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[<script>alert(1)</script>] PASSED [ 17%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[../../etc/passwd] PASSED [ 18%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[%00] PASSED [ 19%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[\x00truncated] PASSED [ 20%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[catalogue] PASSED [ 21%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[genre] PASSED [ 22%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[key] PASSED [ 23%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[meter] PASSED [ 24%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[q] PASSED [ 25%]
+tests/test_api_contract.py::TestInjection::test_path_parameter_is_escaped PASSED [ 26%]
+tests/test_api_contract.py::TestInjection::test_errors_do_not_leak_internals PASSED [ 27%]
+tests/test_api_contract.py::TestResilience::test_out_of_range_paging_is_empty_not_an_error PASSED [ 28%]
+tests/test_api_contract.py::TestResilience::test_invalid_parameters_are_rejected_cleanly PASSED [ 29%]
+tests/test_api_contract.py::TestResilience::test_service_survives_a_bad_request PASSED [ 30%]
+tests/test_api_contract.py::TestResilience::test_empty_search_is_rejected_rather_than_scanning PASSED [ 31%]
+tests/test_api_contract.py::TestResilience::test_unicode_and_long_input_are_handled PASSED [ 32%]
+tests/test_api_contract.py::TestResilience::test_repeated_requests_are_stable PASSED [ 34%]
+tests/test_api_contract.py::TestResilience::test_concurrent_requests_do_not_corrupt_results PASSED [ 35%]
+tests/test_api_contract.py::TestRecovery::test_missing_graph_file_fails_loudly_at_startup PASSED [ 36%]
+tests/test_api_contract.py::TestRecovery::test_unreachable_fuseki_falls_back_to_rdflib PASSED [ 37%]
+tests/test_api_contract.py::TestRecovery::test_required_fuseki_fails_rather_than_pretending PASSED [ 38%]
+tests/test_architecture.py::TestLayering::test_api_does_not_import_the_pipeline PASSED [ 39%]
+tests/test_architecture.py::TestLayering::test_pipeline_does_not_import_the_api PASSED [ 40%]
+tests/test_architecture.py::TestLayering::test_api_does_not_read_source_mei PASSED [ 41%]
+tests/test_architecture.py::TestLayering::test_api_has_no_write_path PASSED [ 42%]
+tests/test_architecture.py::TestTransformationLocus::test_xslt_carries_the_mapping PASSED [ 43%]
+tests/test_architecture.py::TestTransformationLocus::test_pipeline_does_not_build_rdf_by_hand PASSED [ 44%]
+tests/test_architecture.py::TestQueryLocus::test_api_uses_sparql PASSED  [ 45%]
+tests/test_architecture.py::TestQueryLocus::test_api_does_not_walk_triples_directly PASSED [ 46%]
+tests/test_architecture.py::TestEngineIndependence::test_no_engine_specific_syntax PASSED [ 47%]
+tests/test_architecture.py::TestEngineIndependence::test_both_backends_are_reachable_through_one_interface PASSED [ 48%]
+tests/test_multicatalogue.py::TestIdentity::test_catalogue_numbers_are_near_universal PASSED [ 49%]
+tests/test_multicatalogue.py::TestIdentity::test_declared_catalogue_codes_are_known PASSED [ 50%]
+tests/test_multicatalogue.py::TestIdentity::test_numbered_works_declare_their_catalogue PASSED [ 51%]
+tests/test_multicatalogue.py::TestIdentity::test_no_work_declares_two_catalogues PASSED [ 52%]
+tests/test_multicatalogue.py::TestIdentity::test_work_count_matches_distinct_iris PASSED [ 53%]
+tests/test_multicatalogue.py::TestIdentity::test_same_number_in_two_catalogues_stays_distinct PASSED [ 54%]
+tests/test_multicatalogue.py::TestIdentity::test_iris_are_serialisable PASSED [ 55%]
+tests/test_multicatalogue.py::TestTitles::test_one_english_title_per_work FAILED [ 56%]
+tests/test_multicatalogue.py::TestTitles::test_every_work_has_some_title PASSED [ 57%]
+tests/test_multicatalogue.py::TestTitles::test_works_without_english_titles_are_still_titled PASSED [ 58%]
+tests/test_multicatalogue.py::TestAttribution::test_every_work_names_a_composer_or_arranger PASSED [ 59%]
+tests/test_multicatalogue.py::TestAttribution::test_agents_have_names PASSED [ 60%]
+tests/test_multicatalogue.py::TestReconciliation::test_sameas_only_points_outward PASSED [ 61%]
+tests/test_multicatalogue.py::TestReconciliation::test_sameas_targets_are_known_authorities PASSED [ 62%]
+tests/test_multicatalogue.py::TestReconciliation::test_no_placeholder_agent_is_reconciled PASSED [ 63%]
+tests/test_multicatalogue.py::TestReconciliation::test_fuzzy_matches_are_not_identity_claims PASSED [ 64%]
+tests/test_pipeline.py::TestStructural::test_source_files_exist PASSED   [ 65%]
+tests/test_pipeline.py::TestStructural::test_every_source_is_wellformed_xml PASSED [ 67%]
+tests/test_pipeline.py::TestStructural::test_every_source_has_a_work_element PASSED [ 68%]
+tests/test_pipeline.py::TestStructural::test_graph_parses_and_is_nonempty PASSED [ 69%]
+tests/test_pipeline.py::TestStructural::test_no_orphan_expressions PASSED [ 70%]
+tests/test_pipeline.py::TestStructural::test_all_iris_are_absolute PASSED [ 71%]
+tests/test_pipeline.py::TestSemantic::test_titles_survive_transformation PASSED [ 72%]
+tests/test_pipeline.py::TestSemantic::test_cnw_number_roundtrip PASSED   [ 73%]
+tests/test_pipeline.py::TestSemantic::test_language_tags_present_on_titles PASSED [ 74%]
+tests/test_pipeline.py::TestSemantic::test_composer_linked_to_authority PASSED [ 75%]
+tests/test_pipeline.py::TestSemantic::test_every_work_has_a_title PASSED [ 76%]
+tests/test_pipeline.py::TestConstraint::test_shacl_runs_and_reports PASSED [ 77%]
+tests/test_pipeline.py::TestConstraint::test_expected_two_violations_from_numberless_works FAILED [ 78%]
+tests/test_pipeline.py::TestEdgeCases::test_meter_sym_common_resolved PASSED [ 79%]
+tests/test_pipeline.py::TestEdgeCases::test_meter_never_empty_when_present PASSED [ 80%]
+tests/test_pipeline.py::TestEdgeCases::test_notated_incipit_distinct_from_notated_music FAILED [ 81%]
+tests/test_pipeline.py::TestEdgeCases::test_cnw129_flagged_renderable FAILED [ 82%]
+tests/test_pipeline.py::TestEdgeCases::test_opus_spacing_normalised PASSED [ 83%]
+tests/test_pipeline.py::TestEdgeCases::test_missing_opus_tolerated PASSED [ 84%]
+tests/test_pipeline.py::TestEdgeCases::test_numberless_works_get_fallback_iri FAILED [ 85%]
+tests/test_pipeline.py::TestEdgeCases::test_non_integer_catalogue_value_present PASSED [ 86%]
+tests/test_pipeline.py::TestEdgeCases::test_queries_tolerate_non_integer_cnw PASSED [ 87%]
+tests/test_pipeline.py::TestEdgeCases::test_editorial_fields_mapped PASSED [ 88%]
+tests/test_pipeline.py::TestEdgeCases::test_multi_expression_work_limitation_is_visible FAILED [ 89%]
+tests/test_pipeline.py::TestRestApi::test_health PASSED                  [ 90%]
+tests/test_pipeline.py::TestRestApi::test_list_works PASSED              [ 91%]
+tests/test_pipeline.py::TestRestApi::test_cross_cutting_key_filter FAILED [ 92%]
+tests/test_pipeline.py::TestRestApi::test_work_detail FAILED             [ 93%]
+tests/test_pipeline.py::TestRestApi::test_unknown_work_404 PASSED        [ 94%]
+tests/test_pipeline.py::TestRestApi::test_search PASSED                  [ 95%]
+tests/test_pipeline.py::TestReproducibility::test_summary_matches_graph PASSED [ 96%]
+tests/test_pipeline.py::TestReproducibility::test_coverage_fields_are_consistent PASSED [ 97%]
+tests/test_pipeline.py::TestConcurrency::test_concurrent_sparql_on_shared_graph PASSED [ 98%]
+tests/test_pipeline.py::TestConcurrency::test_api_survives_concurrent_requests PASSED [100%]
+
+================================== FAILURES ===================================
+_________________ TestTitles.test_one_english_title_per_work __________________
+tests\test_multicatalogue.py:151: in test_one_english_title_per_work
+    assert not offenders, (
+E   AssertionError: 3 works carry more than one English title, which the portal renders as duplicate cards: [('https://cnw-ld.org/work/NWGW285', ['The Rosebud on the Heather', 'The Wild Rose']), ('https://cnw-ld.org/work/NWGW277', ['May', 'The Delight of May'])]
+E   assert not [('https://cnw-ld.org/work/NWGW285', ['The Rosebud on the Heather', 'The Wild Rose']), ('https://cnw-ld.org/work/NWGW277', ['May', 'The Delight of May']), ('https://cnw-ld.org/work/HartW311', ['At the Funeral of Carl Ploug', 'At the Funeral of H.N. Clausen on 6 April 1877'])]
+______ TestConstraint.test_expected_two_violations_from_numberless_works ______
+tests\test_pipeline.py:198: in test_expected_two_violations_from_numberless_works
+    assert n == 2, f"expected 2 documented violations, found {n}"
+E   AssertionError: expected 2 documented violations, found 35
+E   assert 35 == 2
+_______ TestEdgeCases.test_notated_incipit_distinct_from_notated_music ________
+tests\test_pipeline.py:219: in test_notated_incipit_distinct_from_notated_music
+    assert "true" in nm, "no work flagged as having renderable notation"
+E   AssertionError: no work flagged as having renderable notation
+E   assert 'true' in {'false'}
+________________ TestEdgeCases.test_cnw129_flagged_renderable _________________
+tests\test_pipeline.py:223: in test_cnw129_flagged_renderable
+    assert (e, CNW.hasNotatedMusic, Literal(True)) in graph
+E   AssertionError: assert (rdflib.term.URIRef('https://cnw-ld.org/work/CNW129/expression/1'), rdflib.term.URIRef('https://cnw-ld.org/ontology#hasNotatedMusic'), rdflib.term.Literal('true', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#boolean'))) in <Graph identifier=N3fe0074aef4845d3802a718e53f7e6de (<class 'rdflib.graph.Graph'>)>
+____________ TestEdgeCases.test_numberless_works_get_fallback_iri _____________
+tests\test_pipeline.py:238: in test_numberless_works_get_fallback_iri
+    assert len(works) > len(numbered), "no fallback-IRI works found"
+E   AssertionError: no fallback-IRI works found
+E   assert 1920 > 1920
+E    +  where 1920 = len([rdflib.term.URIRef('https://cnw-ld.org/work/CNW1'), rdflib.term.URIRef('https://cnw-ld.org/work/CNW10'), rdflib.term.URIRef('https://cnw-ld.org/work/CNW100'), rdflib.term.URIRef('https://cnw-ld.org/work/CNW101'), rdflib.term.URIRef('https://cnw-ld.org/work/CNW102'), rdflib.term.URIRef('https://cnw-ld.org/work/CNW103'), ...])
+E    +  and   1920 = len({rdflib.term.URIRef('https://cnw-ld.org/work/CNW1'), rdflib.term.URIRef('https://cnw-ld.org/work/CNW10'), rdflib.term.URIRef('https://cnw-ld.org/work/CNW100'), rdflib.term.URIRef('https://cnw-ld.org/work/CNW101'), rdflib.term.URIRef('https://cnw-ld.org/work/CNW102'), rdflib.term.URIRef('https://cnw-ld.org/work/CNW103'), ...})
+_______ TestEdgeCases.test_multi_expression_work_limitation_is_visible ________
+tests\test_pipeline.py:262: in test_multi_expression_work_limitation_is_visible
+    assert rows["2"]["coverage_pct"] < 100, \
+E   AssertionError: Maskarade now at 100% - multi-expression mapping changed; update the report
+E   assert 100.0 < 100
+__________________ TestRestApi.test_cross_cutting_key_filter __________________
+tests\test_pipeline.py:289: in test_cross_cutting_key_filter
+    assert {"127", "128", "131"} <= cnws
+E   AssertionError: assert {'127', '128', '131'} <= {'101', '111'...', '144', ...}
+E     
+E     Extra items in the left set:
+E     '128'
+E     '127'
+E     '131'
+________________________ TestRestApi.test_work_detail _________________________
+tests\test_pipeline.py:293: in test_work_detail
+    assert d["title"] and d["key"] == "C major" and d["has_notated_music"] is True
+E   AssertionError: assert ('Song behind the Plough, Opus 10.4' and None == 'C major')
+============================== warnings summary ===============================
+..\..\..\..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\fastapi\testclient.py:1
+  C:\Users\javie\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+tests/test_pipeline.py::TestRestApi::test_health
+  C:\Users\javie\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\_pytest\fixtures.py:1313: PytestRemovedIn10Warning: Class-scoped fixture defined as instance method is deprecated.
+  Instance attributes set in this fixture will NOT be visible to test methods,
+  as each test gets a new instance while the fixture runs only once per class.
+  Use @classmethod decorator and set attributes on cls instead.
+  See https://docs.pytest.org/en/stable/deprecations.html#class-scoped-fixture-as-instance-method
+    fixturefunc = resolve_fixture_function(fixturedef, request)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_multicatalogue.py::TestTitles::test_one_english_title_per_work
+FAILED tests/test_pipeline.py::TestConstraint::test_expected_two_violations_from_numberless_works
+FAILED tests/test_pipeline.py::TestEdgeCases::test_notated_incipit_distinct_from_notated_music
+FAILED tests/test_pipeline.py::TestEdgeCases::test_cnw129_flagged_renderable
+FAILED tests/test_pipeline.py::TestEdgeCases::test_numberless_works_get_fallback_iri
+FAILED tests/test_pipeline.py::TestEdgeCases::test_multi_expression_work_limitation_is_visible
+FAILED tests/test_pipeline.py::TestRestApi::test_cross_cutting_key_filter - A...
+FAILED tests/test_pipeline.py::TestRestApi::test_work_detail - AssertionError...
+============= 8 failed, 89 passed, 2 warnings in 98.96s (0:01:38) =============

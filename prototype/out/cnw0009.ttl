@@ -1,0 +1,51 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW9>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musik til Otto Benzons skuespil \"Forældre\""@da ;
+    dcterms:title "Music for Otto Benzon's Play 'Parents'"@en ;
+    dcterms:identifier "CNW 9" ;
+    dcterms:identifier "CNU I/6" ;
+    dcterms:identifier "CNS 338" ;
+    dcterms:identifier "FS 45" ;
+    cnw:cnwNumber "9" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "45" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/otto_benzon> ;
+    dcterms:created "1908" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW9/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW9/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW9> ;
+    cnw:tempo "Tempo giusto" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "cnw_009_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/otto_benzon>
+    a foaf:Agent ;
+    foaf:name "Otto Benzon" .
+

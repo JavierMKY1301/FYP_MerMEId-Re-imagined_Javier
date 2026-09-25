@@ -1,0 +1,75 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW355>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sulamiths og Salomons Sange"@da ;
+    dcterms:title "Sulamith and Solomon"@en ;
+    dcterms:identifier "Opus 52" ;
+    dcterms:identifier "HartW 355" ;
+    dcterms:identifier "DF 125" ;
+    cnw:cnwNumber "355" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "52" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/b_s_ingemann> ;
+    dcterms:created "28 Oct. 1847 to 23 Apr. 1850" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23414519603507> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW355/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW355/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW355> ;
+    cnw:key "E-flat major" ;
+    cnw:tempo "Allegro non tanto" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Abildtræet i Skoven staar"@da ;
+    cnw:incipitText "Th' Citron, grandest of all trees, grows"@en ;
+    cnw:incipitText "Fornam jeg en Klang?"@da ;
+    cnw:incipitText "Was't music's clang?"@en ;
+    cnw:incipitText "Stiig ned fra dit Bjerg!"@da ;
+    cnw:incipitText "Come down from thy mount!"@en ;
+    cnw:incipitText "Det er ingen Drøm. Jeg hører hans Røst"@da ;
+    cnw:incipitText "It is not a dream, his voice I can hear"@en ;
+    cnw:incipitText "Hun sover derinde"@da ;
+    cnw:incipitText "A tent is her bower"@en ;
+    cnw:incipitText "Er du vaagen? Elskede!"@da ;
+    cnw:incipitText "Art awake thou, loved one?"@en ;
+    cnw:incipitText "Dvæl, Elskede, dvæl!"@da ;
+    cnw:incipitText "Stay, loved one! stay!"@en ;
+    cnw:incipitText "Bort, bort! jeg vil flye"@da ;
+    cnw:incipitText "Hence, hence! I will fly"@en ;
+    cnw:incipitText "Jeg besværger Jer, Piger!"@da ;
+    cnw:incipitText "I beseech ye, sweet maidens!"@en ;
+    cnw:incipitText "Din Deilighed glemmer jeg aldrig meer"@da ;
+    cnw:incipitText "Thy beauty will e'er in my mem'ry be"@en ;
+    cnw:incipitImage "hartw_355_01.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/b_s_ingemann>
+    a foaf:Agent ;
+    foaf:name "B.S. Ingemann" .
+

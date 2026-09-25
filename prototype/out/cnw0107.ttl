@@ -1,0 +1,116 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW107>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kantate ved Aarhus Landsudstillings Aabnings-Højtidelighed 1909"@da ;
+    dcterms:title "Cantata for the Opening Ceremony of the National Exhibition in Aarhus 1909"@en ;
+    dcterms:alternative "Kantate ved Århus landsudstillings åbningshøjtidelighed 1909"@da ;
+    dcterms:identifier "CNW 107" ;
+    dcterms:identifier "CNU III/2; III/6, 293, 294" ;
+    dcterms:identifier "CNS 64e, 308b, 320" ;
+    dcterms:identifier "FS 54" ;
+    cnw:cnwNumber "107" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "54" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/l_c_nielsen> ;
+    dcterms:created "1908–09" ;
+    cnw:dateNotBefore "1908"^^xsd:gYear ;
+    cnw:dateNotAfter "1909"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "A cappella choral music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "Erhvervsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "Erhvervsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Km" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "Erhvervsarkivet" ;
+    cnw:manuscriptLocation "Erhvervsarkivet" ;
+    cnw:manuscriptLocation "Erhvervsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW107/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW107/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW107> ;
+    cnw:tempo "Allegretto solemne" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "fl./fl.picc." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "org. (ad libitum)" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "reciter" ;
+    cnw:incipitText "Vaartid, Væksttid, Løftelsestid!"@da ;
+    cnw:incipitText "Alt, hvormed Tidens Tanker har famlet"@da ;
+    cnw:incipitText "Kun een er Danmarks Hovedby"@da ;
+    cnw:incipitText "Hvidt som et Tempel i Fortids Athen"@da ;
+    cnw:incipitText "Spejdende mod Solen"@da ;
+    cnw:incipitText "danmark, du kornblonde Datter"@da ;
+    cnw:incipitText "Hil! Hil! Hil!"@da ;
+    cnw:incipitImage "cnw_107_1_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/l_c_nielsen>
+    a foaf:Agent ;
+    foaf:name "L.C. Nielsen" .
+

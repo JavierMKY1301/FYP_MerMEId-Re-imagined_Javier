@@ -1,0 +1,54 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW366>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Bokserne"@da ;
+    dcterms:title "Boxers"@en ;
+    dcterms:alternative "Ve' du sla' mej"@da ;
+    dcterms:alternative "Wanna hit me"@en ;
+    dcterms:identifier "CNW 366" ;
+    dcterms:identifier "CNU III/6, 377" ;
+    dcterms:identifier "CNS 278" ;
+    dcterms:identifier "FS 152" ;
+    cnw:cnwNumber "366" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "152" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "[1930]" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/ca2b530c_60fd_447a_9b3d_b5aa9cfda1f5> ;
+    frbr:realization <https://cnw-ld.org/work/CNW366/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW366/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW366> ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "three equal voices" ;
+    cnw:incipitText "Ve' du sla' mej"@da ;
+    cnw:incipitText "Wanna hit me"@en ;
+    cnw:incipitImage "cnw_366.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen (?)" .
+

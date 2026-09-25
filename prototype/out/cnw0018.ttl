@@ -1,0 +1,145 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW18>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musik til Helge Rodes skuespil \"Moderen\", opus 41"@da ;
+    dcterms:title "Music for Helge Rode's Play 'The Mother', Opus 41"@en ;
+    dcterms:alternative "Et eventyrspil i en prolog og syv billeder"@da ;
+    dcterms:alternative "A Play in a Prologue and Seven Scenes"@en ;
+    dcterms:identifier "Opus 41" ;
+    dcterms:identifier "CNW 18" ;
+    dcterms:identifier "CNU I/9; IV/1, Add. 35; III/4, 117–124" ;
+    dcterms:identifier "CNS 345" ;
+    dcterms:identifier "FS 94" ;
+    cnw:cnwNumber "18" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:opus "41" ;
+    cnw:fsNumber "94" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/helge_rode> ;
+    dcterms:created "1920–21" ;
+    cnw:dateNotBefore "1920"^^xsd:gYear ;
+    cnw:dateNotAfter "1921"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Tågen letter" ;
+    dcterms:subject "The Mist is Rising" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "NL-DHnmi" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Ordenskapitlet" ;
+    frbr:realization <https://cnw-ld.org/work/CNW18/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW18/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW18> ;
+    cnw:tempo "Tempo giusto" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "gr.c." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "ptti." ;
+    cnw:performingForce "ptto.sosp." ;
+    cnw:performingForce "cmplli." ;
+    cnw:performingForce "arpa" ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "Bar." ;
+    cnw:incipitText "Roselil og hendes Moder, de sad over Bord"@da ;
+    cnw:incipitText "Stunden er nær, min Søn"@da ;
+    cnw:incipitText "Vildt gaar Storm mod sorte Vande"@da ;
+    cnw:incipitText "Min Pige er saa lys som Rav"@da ;
+    cnw:incipitText "Ved Festen fik en Moder Bud"@da ;
+    cnw:incipitText "Dengang Ørnen var flyveklar"@da ;
+    cnw:incipitText "Tidselhøsten tegner godt"@da ;
+    cnw:incipitText "Saa bittert var mit Hjerte"@da ;
+    cnw:incipitText "Her vil ties, her vil bies"@en ;
+    cnw:incipitText "Søndret Folk er vokset sammen"@da ;
+    cnw:incipitText "Dengang Døden var i Vente"@da ;
+    cnw:incipitText "Velkommen til Skoven"@da ;
+    cnw:incipitText "Som en rejselysten Flaade"@da ;
+    cnw:incipitImage "cnw_018_1_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/helge_rode>
+    a foaf:Agent ;
+    foaf:name "Helge Rode" .
+

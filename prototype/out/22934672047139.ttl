@@ -1,0 +1,45 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWA4-Coll-002>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "III sonate per il cembalo obligato e flauto traverso o violino concertato"@it ;
+    dcterms:identifier "SchW A4:Coll.002" ;
+    cnw:cnwNumber "A4:Coll.002" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1757" ;
+    dcterms:language "English" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Sonata" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/scheibe_6> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/51b73f57_f322_45c0_b38e_2d5dcbe103c0> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/6cc20c22_5d99_4405_9fc7_a6e6ab6a8db5> ;
+    cnw:editorialNote "'So wird er auch [i.e. in addition to SchW A4:006, A4:007] in diesem Sommer 6 Sonaten fürs Concertirende Clavier mit einer Geige oder Flöte von mir in Verlag nehmen. Ich lasse nun also auch Musicalia von mir drucken; das ich doch ehreals fast &lt;gemeidet&gt; gehabt.'" ;
+    cnw:editorialNote " ('VII. Die Orgel und das Clavecimbel. 7. Obligates und Concertirendes Clavecimbel, mit verschiedenen Instrumenten. B. Trios mit einer Flöte oder Violine.' ): 'Scheibe, Giov. Adolph. Maestr. di Capel. di Ré di Danimarc. III. Sonate per il Cembalo obligato e Flauto Traverso ò Violino concertato. Opera I. Norimb. fol. transv. Kupferst. à 1 thl. 12. gl.'" ;
+    cnw:manuscriptLocation "EV-TAu" ;
+    frbr:realization <https://cnw-ld.org/work/SchWA4-Coll-002/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWA4-Coll-002/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWA4-Coll-002> ;
+    cnw:performingForce "cemb. obl." ;
+    cnw:performingForce "vl./fl. conc." ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

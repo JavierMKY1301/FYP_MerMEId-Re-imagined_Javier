@@ -1,0 +1,57 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW332>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Hjemstavn"@da ;
+    dcterms:title "Homecoming"@en ;
+    dcterms:alternative "Jeg vandrer over mine Fædres Jord"@da ;
+    dcterms:alternative "I wander over my ancestors' earth"@en ;
+    dcterms:identifier "CNW 332" ;
+    dcterms:identifier "CNU III/5, 276" ;
+    dcterms:identifier "CNS 149" ;
+    dcterms:identifier "FS 142" ;
+    cnw:cnwNumber "332" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "142" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/frederik_poulsen> ;
+    dcterms:created "1929-10-30" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW332/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW332/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW332> ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Jeg vandrer over mine Fædres Jord"@da ;
+    cnw:incipitText "I wander over my ancestors' earth"@en ;
+    cnw:incipitImage "cnw_332.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/frederik_poulsen>
+    a foaf:Agent ;
+    foaf:name "Frederik Poulsen" .
+

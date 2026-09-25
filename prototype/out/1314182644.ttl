@@ -1,0 +1,62 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW203>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Religiøse Kor af B.S. Ingemann"@da ;
+    dcterms:title "Religious Chorus Pieces by B.S. Ingemann"@en ;
+    dcterms:alternative "O Herre! Din er Aanden"@da ;
+    dcterms:alternative "Musik ved Bispevielse"@da ;
+    dcterms:alternative "Music for Bishop Consecration"@en ;
+    dcterms:identifier "HartW 203" ;
+    dcterms:identifier "DF 65" ;
+    cnw:cnwNumber "203" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/b_s_ingemann> ;
+    dcterms:created "1866-05-09" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Mixed choir" ;
+    dcterms:subject "Vocal music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW203/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW203/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW203> ;
+    cnw:key "C major" ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Org." ;
+    cnw:incipitText "O Herre! Din er Aanden"@da ;
+    cnw:incipitText "Paa Andagts Himmelstige"@da ;
+    cnw:incipitText "Herre! Herre! du sørger for Riget bedst"@da ;
+    cnw:incipitText "Vær lovet du, som tændte hvert Lys der kom fra Gud"@da ;
+    cnw:incipitText "Een Gud og Alles Fader!"@da ;
+    cnw:incipitImage "hartw_203_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/b_s_ingemann>
+    a foaf:Agent ;
+    foaf:name "B.S. Ingemann" .
+

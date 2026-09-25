@@ -1,0 +1,94 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW207>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Vølvens Spaadom"@da ;
+    dcterms:title "The Prophesy"@en ;
+    dcterms:title "Weissagung der Wala"@de ;
+    dcterms:title "Wahrspruch der Wölwe"@de ;
+    dcterms:alternative "Odins Øje, véd jeg, dølges dybt"@da ;
+    dcterms:identifier "Opus 71" ;
+    dcterms:identifier "HartW 207" ;
+    dcterms:identifier "JPEW V/1" ;
+    dcterms:identifier "DF 82" ;
+    cnw:cnwNumber "207" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "71" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/poem_from_the_poetic_edda_adaptation_by_fr_winkel_horn> ;
+    dcterms:created "1870-1872" ;
+    cnw:dateNotBefore "1870"^^xsd:gYear ;
+    cnw:dateNotAfter "1872"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for choir and instruments" ;
+    dcterms:subject "Male Choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW207/expression/1> ;
+    cnw:performanceCount 21 .
+
+<https://cnw-ld.org/work/HartW207/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW207> ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "fl.pic." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.a." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "gr.c & ptti." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Odins Øje, véd jeg, dølges dybt"@da ;
+    cnw:incipitText "Først af Drab i Verden"@da ;
+    cnw:incipitText "Da gik alle Magter til de høje Stole"@da ;
+    cnw:incipitText "Valens Møer saae jeg, viden fra de steved"@da ;
+    cnw:incipitText "Saa den Stærke kommer, han, som alting styrer"@da ;
+    cnw:incipitImage "hartw_207_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/poem_from_the_poetic_edda_adaptation_by_fr_winkel_horn>
+    a foaf:Agent ;
+    foaf:name "Poem from the Poetic Edda, adaptation by Fr. Winkel Horn" .
+

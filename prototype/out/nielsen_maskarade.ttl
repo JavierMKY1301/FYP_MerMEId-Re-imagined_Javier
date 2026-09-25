@@ -1,0 +1,234 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW2>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Maskarade"@da ;
+    dcterms:title "Masquerade"@en ;
+    dcterms:title "Komisk opera i tre akter"@da ;
+    dcterms:title "Comic Opera in Three Acts"@en ;
+    dcterms:identifier "CNW 2" ;
+    dcterms:identifier "CNU I/1–3" ;
+    dcterms:identifier "CNS 329" ;
+    dcterms:identifier "FS 39" ;
+    dcterms:identifier "Demo 1" ;
+    cnw:cnwNumber "2" ;
+    cnw:fsNumber "39" ;
+    dcterms:creator <https://cnw-ld.org/agent/viaf/197250> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/viaf/64087208> ;
+    dcterms:created "1905" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Opera" ;
+    cnw:editorialNote "Typewritten undated manuscript, presumably as a part of an autobiography" ;
+    cnw:editorialNote "Concert programme for the London Symphony Orchestra's concert at Queen's Hall" ;
+    cnw:editorialNote "Programme for the 'Københavns filharmoniske Orkesters Symfoni-Koncert' at Foreningen 'Danevirke' in Odense" ;
+    cnw:editorialNote "Concert programme for the premiere of The Royal Theatre's new staging of Nielsen's 'Maskarade'" ;
+    cnw:editorialNote "This file shows an example of a description of a large-scale work. Sources are not described in detail, but the file illustrates how to model the structure of a complex work organized in acts, scenes, and parts of scenes (at the \"Music\" editing tab).Please note: The content of this file has been modified for demonstration purposes and does not represent accurate real-world data" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW2/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW2/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW2> ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "fl./fl.picc." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cor.ingl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "cl.b." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "tamb.picc." ;
+    cnw:performingForce "gr.c." ;
+    cnw:performingForce "ptti." ;
+    cnw:performingForce "cast." ;
+    cnw:performingForce "tam." ;
+    cnw:performingForce "glsp." ;
+    cnw:performingForce "camp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:incipitText "Aa ja, aa ja, ja, ja"@da ;
+    cnw:incipitText "Oh - ha, ay- ay, ay, - ay!"@en ;
+    cnw:incipitText "Ach ja, ach ja, ja, ja!"@de ;
+    cnw:incipitText "[Først kommer fæl og fus Monsør Jeronimus]"@da ;
+    cnw:incipitText "[First enter furious Monsieur Jeronimus]"@en ;
+    cnw:incipitText "[Erst naht sich voll Verdruß Mosjö Jeronimus]"@de ;
+    cnw:incipitText "Er der nogen hjemme?"@da ;
+    cnw:incipitText "Is that you, Leander?"@en ;
+    cnw:incipitText "Ist jemand drinnen?"@de ;
+    cnw:incipitText "En Cinquepas, en Galliard"@da ;
+    cnw:incipitText "A cinquepas, a galliard"@en ;
+    cnw:incipitText "Im Cinquepas, im Galliard"@de ;
+    cnw:incipitText "Kan I være rolige!"@da ;
+    cnw:incipitText "Will you please be quite there?"@en ;
+    cnw:incipitText "Könnt Ihr denn nicht ruhig sein"@de ;
+    cnw:incipitText "Det Satans Spind!"@da ;
+    cnw:incipitText "That place of sin!"@en ;
+    cnw:incipitText "Des Satans Werk!"@de ;
+    cnw:incipitText "[Fordum var her Fred paa Gaden]"@da ;
+    cnw:incipitText "[Time was when our street was silent]"@en ;
+    cnw:incipitText "[Schön war es in alten Tagen]"@de ;
+    cnw:incipitText "Hr. Leonard, Herrens tilkommende Svoger"@da ;
+    cnw:incipitText "Herr Leonard, your cousin-in-law-to-be, sir!"@en ;
+    cnw:incipitText "Herr Leonard! Des Herrn zukünftiger Schwager!"@de ;
+    cnw:incipitText "Monsieur Jeronimus!"@da ;
+    cnw:incipitText "Monsieur Jeronimus!"@en ;
+    cnw:incipitText "Monsieur Jeronimus!"@de ;
+    cnw:incipitText "Her er jeg, Husbond!"@da ;
+    cnw:incipitText "I'm coming, master!"@en ;
+    cnw:incipitText "Hier bin ich, Meister!"@de ;
+    cnw:incipitText "Kom ind! Kom ud!"@da ;
+    cnw:incipitText "Come in! Come out!"@da ;
+    cnw:incipitText "Herein! Heraus!"@de ;
+    cnw:incipitText "Hihi, hihi, hihi, hihi, det blir et farligt Skænderi"@en ;
+    cnw:incipitText "Hehe, hehe, hehe, hehe! Here comes assault and Battery!"@da ;
+    cnw:incipitText "Ei, ei, ei, ei, ei, ei, ei, ei! Das gibt 'ne böse Zankerei!"@de ;
+    cnw:incipitText "Hov! Vægter. Klokken er slagen otte"@da ;
+    cnw:incipitText "Ho! Watchman! Eight o'the clock, good people!"@en ;
+    cnw:incipitText "Hört, Ihr Leut', hört! Es hat acht geschlagen!"@de ;
+    cnw:incipitText "Hum! Nu jeg skal te'et er jeg dog ikke rigtig dristig ve'et"@da ;
+    cnw:incipitText "I don't like to say it, but I'm a coward and my knees betray it"@en ;
+    cnw:incipitText "Hm! Wenn ich auch lach', ist's mir doch nicht behaglich bei der Sach'"@de ;
+    cnw:incipitText "Mellem Kande, Krus og Potte"@da ;
+    cnw:incipitText "In among the pots and dishes"@en ;
+    cnw:incipitText "Zwischen Kanne, Topf und Pfanne"@de ;
+    cnw:incipitText "Af Sted! Af Sted Nu er det Sværmetid"@da ;
+    cnw:incipitText "Com on! Come on! Let's go and join the fun!"@en ;
+    cnw:incipitText "Frisch auf Frisch auf!"@de ;
+    cnw:incipitText "Gibt Platz! Gibt Platz! Nu tag, du Borgermand dit Kvindfolk i Agt"@da ;
+    cnw:incipitText "Make way! make way! Now, worthy citizens, lock up your women folk"@da ;
+    cnw:incipitText "Macht Platz! Macht Platz!"@de ;
+    cnw:incipitText "Let paa Taa og Hus forbi"@da ;
+    cnw:incipitText "Fleet of foot and fancy free!"@en ;
+    cnw:incipitText "Aus dem Hause, flink und schnell"@de ;
+    cnw:incipitText "Der gad jeg nok være med"@da ;
+    cnw:incipitText "I wouldn't mind being there"@en ;
+    cnw:incipitText "Gern wär' ich auch mit dabei"@de ;
+    cnw:incipitText "Herre! Herre! Kom kun frem"@da ;
+    cnw:incipitText "Master! Master! Come on out!"@en ;
+    cnw:incipitText "Herr! Herr! kommt nun raus!"@de ;
+    cnw:incipitText "Se, Henrik! se, hvor Nat og Mørke knuger den gamle Gaard"@da ;
+    cnw:incipitText "See, Henrik, how the darkness creeps and fluters round this old house"@en ;
+    cnw:incipitText "O, Henrik, sieh wie Finsternis umschwebet den alten Hof"@de ;
+    cnw:incipitText "Min Herre se som Venus steg af Havet"@da ;
+    cnw:incipitText "Why, master, look! Like Venus from the water, ascending"@en ;
+    cnw:incipitText "Mein Herr, schaut her! Wie Venus aus den Wogen"@de ;
+    cnw:incipitText "Naar Hjertet brænder, hvad Lykken sender"@da ;
+    cnw:incipitText "An ardent lover, when fortune beckons"@en ;
+    cnw:incipitText "Wenn Glückesspenden die Göter senden"@de ;
+    cnw:incipitText "Min Herre. Min Pigeære"@da ;
+    cnw:incipitText "Good master! My maiden honour"@en ;
+    cnw:incipitText "Ich bitte! Glaubt mir, es stritte"@de ;
+    cnw:incipitText "Hør et Ord Kavaler, nu rask! Kom her!"@da ;
+    cnw:incipitText "Listen here, cavalier! Look sharp! Come here!"@en ;
+    cnw:incipitText "Hör' ein Wort, Kavalier! Nun rasch zu mir!"@de ;
+    cnw:incipitText "Luk op! Luk op!"@da ;
+    cnw:incipitText "Open up! open up!"@en ;
+    cnw:incipitText "Mach auf! Mach auf!"@de ;
+    cnw:incipitText "Min Herre De maa maske Dem"@da ;
+    cnw:incipitText "You have to wear a mask, you know"@da ;
+    cnw:incipitText "Mein Herr, Ihr müßt maskieren Euch!"@de ;
+    cnw:incipitText "Porten er aaben! Borte er Hoben"@da ;
+    cnw:incipitText "Good it was open, no sign of people"@da ;
+    cnw:incipitText "Auf sind die Türen, nicht patrouillieren"@de ;
+    cnw:incipitText "Se saa! Se saa! Nu er jeg bered"@da ;
+    cnw:incipitText "This way! This way! I'm ready for the fray!"@en ;
+    cnw:incipitText "Wohl an! Wohl an! Nun bin ich ganz bereit!"@de ;
+    cnw:incipitText "Columbiner, Harlekiner"@da ;
+    cnw:incipitText "Columbines, Harlequins, sir"@en ;
+    cnw:incipitText "Kolumbine, Harlekine!"@de ;
+    cnw:incipitText "Hov! Vægter, Klokken er slagen ni!"@da ;
+    cnw:incipitText "Ho, watchman! Nine o'clock sounds, good folk!"@en ;
+    cnw:incipitText "Hört, ihr Leut', hört! Es hat neun geschlagen!"@de ;
+    cnw:incipitText "Gaa af Vejen! Gaa af Vejen!"@da ;
+    cnw:incipitText "Clear the way there! Clear the way there!"@en ;
+    cnw:incipitText "Aus dem Wege! Aus Dem Wege!"@de ;
+    cnw:incipitText "Studenter! Studenter! /Pomeranser! Pomeranser!"@da ;
+    cnw:incipitText "You students, you students / Buy my oranges!"@en ;
+    cnw:incipitText "Studenten! Studenten! / Pomeranzen! Pomeranzen!"@de ;
+    cnw:incipitText "Lad vær' at knibe mig, Jeg skriger"@da ;
+    cnw:incipitText "Let go of me, or I'll start yelling!"@en ;
+    cnw:incipitText "So laßt das Kneifen doch! Ich schreie!"@de ;
+    cnw:incipitText "At slig er Ungersvend i sin Tale"@da ;
+    cnw:incipitText "To catch an eel with bare hands"@en ;
+    cnw:incipitText "Viel schwerer ist es einem Mann erlangen"@de ;
+    cnw:incipitText "Ulignelige Pige"@da ;
+    cnw:incipitText "Incomparable lady"@en ;
+    cnw:incipitText "Ach, herrlichste der Feen"@de ;
+    cnw:incipitText "Min søde balsambøsse"@da ;
+    cnw:incipitText "You pretty little mistress"@en ;
+    cnw:incipitText "Laß, süßes Balsamdöschen"@de ;
+    cnw:incipitText "Ydmygste Tjener, Madam! og Tak for Dansen!"@da ;
+    cnw:incipitText "Your humble servant, madame! I praise your dancing!"@en ;
+    cnw:incipitText "Ergebenster Diener, Madam. Dank für die Ehre!"@de ;
+    cnw:incipitText "Aa, med Forlov, De!"@da ;
+    cnw:incipitText "Out of my way, you!"@en ;
+    cnw:incipitText "O, mit Verlaub, du!"@de ;
+    cnw:incipitText "Oh, kom min Ven!"@da ;
+    cnw:incipitText "Oh, come my pride!"@en ;
+    cnw:incipitText "O komm mit mir!"@de ;
+    cnw:incipitText "Hvis ej Jer Mine lyver slemt"@da ;
+    cnw:incipitText "If looks are any guarantee"@en ;
+    cnw:incipitText "Wenn nicht mich Eure Miene trügt"@de ;
+    cnw:incipitText "Dit Snakketøj gaar ej i Staa"@da ;
+    cnw:incipitText "I thought you'd never stop, my lad"@en ;
+    cnw:incipitText "Dein Mundwerk geht ja wie geleckt"@de ;
+    cnw:incipitText "Gør Plads! Gør Plads!"@da ;
+    cnw:incipitText "Make room! Make room!"@en ;
+    cnw:incipitText "Macht Platz! Macht Platz!"@de ;
+    cnw:incipitText "Naar Mars og Venus har endt deres Spil"@da ;
+    cnw:incipitText "When Mars and Venus had finished their game"@en ;
+    cnw:incipitText "Wenn Mars und Venus ihr Spiel nun getan"@de ;
+    cnw:incipitText "Og dette skal være vor Border til Ære"@da ;
+    cnw:incipitText "A toast for our brother, our colleague and brother"@en ;
+    cnw:incipitText "Die Gläser wir leeren Gott Bacchus zu Ehren"@de ;
+    cnw:incipitText "Tramtrara! Tramtrara!"@da ;
+    cnw:incipitText "Tramtrara! Tramtrara!"@en ;
+    cnw:incipitText "Tramtrara! Tramtrara!"@de ;
+    cnw:incipitText "Kehraus! Kehraus! Dans ud! Dans ud! Dans ud!"@da ;
+    cnw:incipitText "Dance on, dance on! Dance on, dance on, dance on!"@en ;
+    cnw:incipitText "Kehraus! Kehraus! Tanz' aus! Tanz' aus! Tanz' aus!"@de ;
+    cnw:incipitImage "cnw_002_1_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/viaf/197250>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" ;
+    owl:sameAs <http://viaf.org/viaf/197250> .
+
+<https://cnw-ld.org/agent/viaf/64087208>
+    a foaf:Agent ;
+    foaf:name "Vilhelm Andersen" ;
+    owl:sameAs <http://viaf.org/viaf/64087208> .
+

@@ -1,0 +1,56 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW372>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Græshoppen"@da ;
+    dcterms:title "Grasshopper"@en ;
+    dcterms:alternative "Græshoppen sidder paa Engen"@da ;
+    dcterms:alternative "Grasshopper sits in the meadow"@en ;
+    dcterms:alternative "Græshoppen sidder på engen"@da ;
+    dcterms:identifier "CNW 372" ;
+    dcterms:identifier "CNU III/6, 383" ;
+    dcterms:identifier "CNS 295" ;
+    dcterms:identifier "FS 161" ;
+    cnw:cnwNumber "372" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "161" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/b_s_ingemann> ;
+    dcterms:created "1898" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    frbr:realization <https://cnw-ld.org/work/CNW372/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/CNW372/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW372> ;
+    cnw:tempo "Hurtigt" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:incipitText "Græshoppen sidder paa Engen"@da ;
+    cnw:incipitText "Grasshopper sits in the meadow"@en ;
+    cnw:incipitImage "cnw_372.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/b_s_ingemann>
+    a foaf:Agent ;
+    foaf:name "B.S. Ingemann" .
+

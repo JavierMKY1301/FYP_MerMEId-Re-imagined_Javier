@@ -1,0 +1,64 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW247>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Når somrens sang er sungen"@da ;
+    dcterms:title "When summer song is finished"@en ;
+    dcterms:identifier "CNW 247" ;
+    dcterms:identifier "CNU III/4, 134; III/5, 153; III/6, 368" ;
+    dcterms:identifier "CNS 205" ;
+    dcterms:identifier "FS 95, 103, 111" ;
+    cnw:cnwNumber "247" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "95, 103, 111" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/jens_christian_hostrup> ;
+    dcterms:created "1921" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/cdf45953_c507_4047_a1e1_7def707a4885> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22225400586721> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW247/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/CNW247/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW247> ;
+    cnw:tempo "Mildt" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "(voice)" ;
+    cnw:incipitText "Når somrens sang er sungen"@da ;
+    cnw:incipitText "When summer song is finished"@en ;
+    cnw:incipitText "Når somrens sang er sungen"@da ;
+    cnw:incipitText "When summer song is finished"@en ;
+    cnw:incipitText "Naar Somrens sang er sungen"@da ;
+    cnw:incipitText "When summer song is finished"@en ;
+    cnw:incipitImage "cnw_247.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/jens_christian_hostrup>
+    a foaf:Agent ;
+    foaf:name "Jens Christian Hostrup" .
+

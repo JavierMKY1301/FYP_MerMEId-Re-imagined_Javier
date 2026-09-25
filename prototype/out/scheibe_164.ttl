@@ -1,0 +1,40 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-424>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kantate til Friderichs tydske Kirkes Taarn paa Christianshavn"@da ;
+    dcterms:alternative "Cantata on the occasion of the inauguration of the church tower of 'Friderichs tydske Kirke'"@en ;
+    dcterms:identifier "SchW B2:424" ;
+    cnw:cnwNumber "B2:424" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1770" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote "'Da nu Friderichs tydske Kirkes Taarn paa Christianshavn er færdig, saa kommer sammes Slag-Uhr til at slaae første Gang paa Søndag, som er 1ste Advent Søndag, Kl. 8. og til Guds Tienesten bliver ligeledes første Gang ringet med de 3 nye Klokker. Til Meenighedens Opbyggelse og Opmuntring bliver for Prædiken en hertil indrettet Cantate opført af Hr. Capel-Mester Scheibe, og efter Prædiken under Pauker og Trompeter siunget: O store Gud vi love dig.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-424/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-424/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-424> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

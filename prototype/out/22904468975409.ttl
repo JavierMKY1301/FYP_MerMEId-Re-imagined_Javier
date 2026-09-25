@@ -1,0 +1,84 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW187>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "H.C. Ørsted"@da ;
+    dcterms:title "Hans Christian Ørsted"@en ;
+    dcterms:alternative "Ved H.C. Ørsteds Begravelse"@da ;
+    dcterms:alternative "At the Interment of Hans Christian Ørsted"@en ;
+    dcterms:identifier "NWGW 187" ;
+    dcterms:identifier "GW IV:11" ;
+    cnw:cnwNumber "187" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/carsten_hauch> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johan_ludvig_heiberg> ;
+    dcterms:created "March 1851" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Male choir" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW187/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/NWGW187/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW187> ;
+    cnw:key "D minor" ;
+    cnw:tempo "Andante" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "cnt. in A" ;
+    cnw:performingForce "trb.t" ;
+    cnw:performingForce "trb.b" ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "cnt. in A" ;
+    cnw:performingForce "trb.t" ;
+    cnw:performingForce "trb.b" ;
+    cnw:performingForce "tb." ;
+    cnw:incipitText "Nu sank den Haand, der øved den mægtigste Bedrift"@da ;
+    cnw:incipitText "I sidste Høst, da Løvet faldt"@da ;
+    cnw:incipitText "Vor Lærer og vor Ven!"@da ;
+    cnw:incipitImage "NWGW_187_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/carsten_hauch>
+    a foaf:Agent ;
+    foaf:name "Carsten Hauch" .
+
+<https://cnw-ld.org/agent/johan_ludvig_heiberg>
+    a foaf:Agent ;
+    foaf:name "Johan Ludvig Heiberg" .
+

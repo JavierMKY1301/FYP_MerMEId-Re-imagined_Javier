@@ -1,0 +1,60 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW205>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Hjemvee (multiple versions)"@da ;
+    dcterms:title "Homesickness"@en ;
+    dcterms:alternative "Underlige Aftenlufte!"@da ;
+    dcterms:alternative "Odd and unknown evening breezes!"@en ;
+    dcterms:identifier "CNW 205" ;
+    dcterms:identifier "CNU III/4, 90; III/5, 163; III/6, 309, 345" ;
+    dcterms:identifier "CNS 150b,150c, 150d, 196d" ;
+    dcterms:identifier "Demo 3" ;
+    cnw:cnwNumber "205" ;
+    dcterms:creator <https://cnw-ld.org/agent/viaf/197250> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/viaf/27105324> ;
+    dcterms:created "1914-1915" ;
+    cnw:dateNotBefore "1914"^^xsd:gYear ;
+    cnw:dateNotAfter "1915"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "A cappella choral music" ;
+    cnw:editorialNote "This file demonstrates how different versions of the same work (for instance, with different instrumentations or text) may be described. This song has one version for voice and piano, one for piano, one for mixed choir, and one for women's choir. At the \"History\" editing tab, you will notice that performances may be entered either for the work in general (that is, regardless of version) or with the individual versions.Please note: The content of this file has been modified for demonstration purposes and does not represent accurate real-world data." ;
+    frbr:realization <https://cnw-ld.org/work/CNW205/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW205/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW205> ;
+    cnw:key "E major" ;
+    cnw:tempo "Inderligt, varmt (ikke for langsomt)" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pno." ;
+    cnw:incipitText "Underlige Aftenlufte!"@da ;
+    cnw:incipitText "Odd and unknown evening breezes!"@en ;
+    cnw:incipitImage "cnw_205.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/viaf/197250>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" ;
+    owl:sameAs <http://viaf.org/viaf/197250> .
+
+<https://cnw-ld.org/agent/viaf/27105324>
+    a foaf:Agent ;
+    foaf:name "Adam Oehlenschläger" ;
+    owl:sameAs <http://viaf.org/viaf/27105324> .
+

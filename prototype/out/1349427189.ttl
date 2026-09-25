@@ -1,0 +1,59 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-438>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sørge-Cantata opført i Anledning af høyædle og høyværdige Hr. Doctor og Professor Peder Holms Død"@da ;
+    dcterms:identifier "SchW B2:438" ;
+    cnw:cnwNumber "B2:438" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_ewald> ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Secular" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote "Text also in the newspaper, agreeing with the printed libretto." ;
+    cnw:editorialNote "Ps. 39, v. 5, 6." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-438/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-438/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-438> ;
+    cnw:performingForce "soloists" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:incipitText "Herre! lad mig kiende min Ende"@da ;
+    cnw:incipitText "Ach! – Viisdoms første Støtte faldt!"@da ;
+    cnw:incipitText "Svøbt i Regn belys vor Jammer"@da ;
+    cnw:incipitText "O! – kunde du strax skabe os til Guder –"@da ;
+    cnw:incipitText "O maatte dog din Lovsang være"@da ;
+    cnw:incipitText "Vor Ven, vor Lærer og vor Lyst"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johannes_ewald>
+    a foaf:Agent ;
+    foaf:name "Johannes Ewald" .
+
+<https://cnw-ld.org/agent/peder_holm>
+    a foaf:Agent ;
+    foaf:name "Peder Holm" .
+

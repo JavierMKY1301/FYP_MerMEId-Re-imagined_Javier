@@ -1,0 +1,161 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW177>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Zion"@en ;
+    dcterms:title "Zion"@de ;
+    dcterms:title "Zion"@da ;
+    dcterms:alternative "A Cantata for Baritone Solo, Chorus, and Orchestra"@en ;
+    dcterms:alternative "Concertstück für Chor, Baryton-Solo und Orchester"@de ;
+    dcterms:alternative "Koncertstykke for Baryton, Kor og Orkester"@da ;
+    dcterms:identifier "Opus 49" ;
+    dcterms:identifier "NWGW 177" ;
+    dcterms:identifier "GW IV:5" ;
+    cnw:cnwNumber "177" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "49" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/carl_andersen> ;
+    dcterms:created "19 Oct. 1873 to 16 Sept. 1874" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:manuscriptLocation "S-Uu" ;
+    cnw:manuscriptLocation "D-Bds" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-KNa" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-Dl" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW177/expression/1> ;
+    cnw:performanceCount 9 .
+
+<https://cnw-ld.org/work/NWGW177/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW177> ;
+    cnw:tempo "Allegro maestoso" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t" ;
+    cnw:performingForce "trb.b" ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Hear, O my flock Israel!"@en ;
+    cnw:incipitText "Höre, mein Volk, Israel"@de ;
+    cnw:incipitText "Hør, du mit Folk Israel!"@da ;
+    cnw:incipitText "The Lord hath in Egypt, in the field of Zoan"@en ;
+    cnw:incipitText "Im Lande Egypten, auf der Ebene Zoan"@de ;
+    cnw:incipitText "I Pharaos Lande og paa Sletten ved Zoan"@da ;
+    cnw:incipitText "But then His flock forsook the commandments of God"@en ;
+    cnw:incipitText "Allein das Volk wich ab vom Gesetze des Herrn"@de ;
+    cnw:incipitText "Men Herrens Folk veg bort fra hans Veje"@da ;
+    cnw:incipitText "Yet merciful and tender is the Lord"@en ;
+    cnw:incipitText "Doch gnädig und barmherzig ist der Herr"@de ;
+    cnw:incipitText "Dog Herren er barmhjertig og naadig"@da ;
+    cnw:incipitText "Bethlehem Ephrata!"@en ;
+    cnw:incipitText "Bethlehem Ephrata!"@de ;
+    cnw:incipitText "Bethlehem evindelig hans Herredom"@da ;
+    cnw:incipitImage "NWGW_177_0.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/carl_andersen>
+    a foaf:Agent ;
+    foaf:name "Carl Andersen" .
+

@@ -1,0 +1,105 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-417>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Il giudicio di Paride, drama per musica. Da cantarsi per le felicissime nozze di sua maestà Cristiano VII e Carolina Matilde"@it ;
+    dcterms:title "Das Urtheil des Paris, ein Singgedicht. Welches an dem höchsterfreulichen Vermählungsfeste Königs Christian des Siebten und Caroline Mathildis"@de ;
+    dcterms:identifier "SchW B2:417" ;
+    cnw:cnwNumber "B2:417" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/leopoldo_di_villati> ;
+    dcterms:created "1766" ;
+    dcterms:language "Danish" ;
+    dcterms:language "Italian" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "secular" ;
+    cnw:editorialNote "'Saasnart de Høy-Kongelige Herskaber i Ridder-Salen vare indkomne begyn[d]tes strax med Pauker og Trompetter og continueredes dermed indtil Tegn af Ober-Hof-Marskallen blev givet at opholde. Over Taffelet opførtes en af Capelmester Scheibe componeret prægtig Musik, bestaaende af 80ve Musicis.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-417/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/SchWB2-417/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-417> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "Messagiero di Giove a te me vengo"@it ;
+    cnw:incipitText "Ich, der Bothe Jupiters, komme zu dir"@de ;
+    cnw:incipitText "Mio Pastorello"@it ;
+    cnw:incipitText "Mein Schäfer"@de ;
+    cnw:incipitText "Non ti lusinghi il vano splendor dell' oro"@it ;
+    cnw:incipitText "Laß dich nicht den eitlen Glanz des Goldes verblenden"@de ;
+    cnw:incipitText "E' il sapere quel gran Bene"@it ;
+    cnw:incipitText "Weisheit ist das grosse Gut"@de ;
+    cnw:incipitText "Paride, io m'arrossisco di cimentar"@it ;
+    cnw:incipitText "Paris, ich erröthe vor Scham"@en ;
+    cnw:incipitText "Se vedrai que' begli occhi lucenti"@it ;
+    cnw:incipitText "Wenn du sehen wirst, daß jene schönen und glänzenden Augen"@de ;
+    cnw:incipitText "Bella Venere"@it ;
+    cnw:incipitText "Schöne Venus"@de ;
+    cnw:incipitText "Bella Dea, che degli Dei"@it ;
+    cnw:incipitText "Schöne Göttinn"@de ;
+    cnw:incipitText "(Tutto occupate il cor, o sdegni miei)"@it ;
+    cnw:incipitText "Der Zorn nimmt mein Herz ganz ein"@de ;
+    cnw:incipitText "Della bellezza ho il vanto"@it ;
+    cnw:incipitText "Ich besitze den Ruhm der Schönheit"@de ;
+    cnw:incipitText "Paride caro, impallidir ti veggo"@it ;
+    cnw:incipitText "Geliebter Paris! ich sehe, du erblassest"@de ;
+    cnw:incipitText "Grato core a te permetto"@it ;
+    cnw:incipitText "Dir verspreche ich ein erkenntliches Herz"@de ;
+    cnw:incipitText "Or tu vedesti, o bella Regina"@it ;
+    cnw:incipitText "Itzt hast du, schöne Königinn"@de ;
+    cnw:incipitText "Reali Sposi Augusti!"@it ;
+    cnw:incipitText "Ihr Königlichen Vermählten!"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/leopoldo_di_villati>
+    a foaf:Agent ;
+    foaf:name "Leopoldo di Villati" .
+
+<https://cnw-ld.org/agent/king_christian_vii>
+    a foaf:Agent ;
+    foaf:name "King Christian VII" .
+
+<https://cnw-ld.org/agent/queen_caroline_mathilde>
+    a foaf:Agent ;
+    foaf:name "Queen Caroline Mathilde" .
+

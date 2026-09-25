@@ -1,0 +1,132 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW101>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Søvnen, opus 18"@da ;
+    dcterms:title "Sleep, Opus 18"@en ;
+    dcterms:alternative "for kor og orkester"@da ;
+    dcterms:alternative "for Choir and Orchestra"@en ;
+    dcterms:identifier "Opus 18" ;
+    dcterms:identifier "CNW 101" ;
+    dcterms:identifier "CNU III/1" ;
+    dcterms:identifier "CNS 311" ;
+    dcterms:identifier "FS 33" ;
+    cnw:cnwNumber "101" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:opus "18" ;
+    cnw:fsNumber "33" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_j_rgensen> ;
+    dcterms:created "1903–04" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Cantata" ;
+    cnw:editorialNote "Typewritten and undated manuscript, presumably intended for Nielsen's autobiography" ;
+    cnw:editorialNote "Undated manuscript with what appears to be Nielsen's own attempt at a text for 'Søvnen'." ;
+    cnw:editorialNote "Ph.D. dissertation." ;
+    cnw:editorialNote "DMA dissertation." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Katolsk Historisk Arkiv" ;
+    cnw:manuscriptLocation "DK-København, Katolsk Historisk Arkiv" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "NL-DHnmi" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "NL-DHnmi" ;
+    cnw:manuscriptLocation "DK-Odense, Carl Nielsen Museet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "original lost" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW101/expression/1> ;
+    cnw:performanceCount 4 .
+
+<https://cnw-ld.org/work/CNW101/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW101> ;
+    cnw:tempo "Andante tranquillo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "fl./fl.picc." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "tam." ;
+    cnw:performingForce "cmplli." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Milde Søvn, du store Moder"@da ;
+    cnw:incipitText "En Kval, en Tynge... vé mig er jeg vaagen?"@en ;
+    cnw:incipitImage "cnw_101_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/johannes_j_rgensen>
+    a foaf:Agent ;
+    foaf:name "Johannes Jørgensen" .
+

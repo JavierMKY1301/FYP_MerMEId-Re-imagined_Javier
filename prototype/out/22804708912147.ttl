@@ -1,0 +1,64 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW338>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Meinen Kranz hab' ich gesendet"@de ;
+    dcterms:title "Jeg en Krands dig sendte"@da ;
+    dcterms:title "I Sent You a Wreath"@en ;
+    dcterms:identifier "Opus 24:2" ;
+    dcterms:identifier "NWGW 338" ;
+    dcterms:identifier "GW V:1" ;
+    cnw:cnwNumber "338" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "24:2" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/heinrich_wilhelm_august_stieglitz> ;
+    dcterms:created "1853" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22781313789331> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23563628363699> ;
+    cnw:editorialNote "The letter is probably written between December 1852 and March 1853, when Gade was in Leipzig." ;
+    cnw:manuscriptLocation "D-Mbs" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW338/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW338/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW338> ;
+    cnw:key "B minor" ;
+    cnw:tempo "Allegro agitato" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Meinen Kranz hab' ich gesendet"@da ;
+    cnw:incipitText "Jeg en Krands dig sendte"@da ;
+    cnw:incipitImage "NWGW_338.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/heinrich_wilhelm_august_stieglitz>
+    a foaf:Agent ;
+    foaf:name "Heinrich Wilhelm August Stieglitz" .
+
+<https://cnw-ld.org/agent/august_georg_ludvig_zinck>
+    a foaf:Agent ;
+    foaf:name "August Georg Ludvig Zinck" .
+

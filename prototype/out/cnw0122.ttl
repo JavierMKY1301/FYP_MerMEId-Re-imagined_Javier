@@ -1,0 +1,63 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW122>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Seraferne, opus 6.2"@da ;
+    dcterms:title "The Seraphim, Opus 6.2"@en ;
+    dcterms:alternative "Seraferne har rullet bort de klare Stjerner"@da ;
+    dcterms:alternative "The seraphim have rolled away celestial bodies"@en ;
+    dcterms:identifier "Opus 6.2" ;
+    dcterms:identifier "CNW 122" ;
+    dcterms:identifier "CNU III/4, 7" ;
+    dcterms:identifier "CNS 225" ;
+    dcterms:identifier "FS 14" ;
+    cnw:cnwNumber "122" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:opus "6.2" ;
+    cnw:fsNumber "14" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/j_p_jacobsen> ;
+    dcterms:created "[1893]" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22228347081665> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW122/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW122/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW122> ;
+    cnw:tempo "Andante tranquillo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Seraferne har rullet bort de klare Stjerner"@da ;
+    cnw:incipitText "The seraphim have rolled away celestial bodies"@en ;
+    cnw:incipitImage "cnw_122.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/rudolph_bergh>
+    a foaf:Agent ;
+    foaf:name "Rudolph Bergh" .
+
+<https://cnw-ld.org/agent/j_p_jacobsen>
+    a foaf:Agent ;
+    foaf:name "J.P. Jacobsen" .
+

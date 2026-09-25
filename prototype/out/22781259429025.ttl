@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW135>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Drei Tonstücke für die Orgel"@de ;
+    dcterms:title "Tre Tonestykker for Orgel"@da ;
+    dcterms:title "Three Pieces for Organ"@en ;
+    dcterms:identifier "Opus 22" ;
+    dcterms:identifier "NWGW 135" ;
+    dcterms:identifier "GW III:3" ;
+    cnw:cnwNumber "135" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "22" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "11 June 1851 to 25 March 1852" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Organ" ;
+    cnw:manuscriptLocation "D-Bds" ;
+    cnw:manuscriptLocation "D-Bds" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW135/expression/1> ;
+    cnw:performanceCount 15 .
+
+<https://cnw-ld.org/work/NWGW135/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW135> ;
+    cnw:key "F major" ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "3/2" ;
+    cnw:performingForce "org." ;
+    cnw:incipitImage "NWGW_135_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

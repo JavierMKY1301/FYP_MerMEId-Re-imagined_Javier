@@ -1,0 +1,62 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW74>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sonate for klaver i d-mol"@da ;
+    dcterms:title "Pianoforte-Sonate"@de ;
+    dcterms:title "Piano Sonata in D Minor"@en ;
+    dcterms:alternative "Prissonaten"@da ;
+    dcterms:alternative "Preis-Sonate"@de ;
+    dcterms:alternative "Prize Sonata"@en ;
+    dcterms:identifier "Opus 34" ;
+    dcterms:identifier "HartW 74" ;
+    dcterms:identifier "JPEW III/1 no. 1" ;
+    dcterms:identifier "DF 24" ;
+    cnw:cnwNumber "74" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "34" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1841" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Piano music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW74/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW74/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW74> ;
+    cnw:key "D minor" ;
+    cnw:tempo "Allegro passionato" ;
+    cnw:meter "12/8" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "hartw_074_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

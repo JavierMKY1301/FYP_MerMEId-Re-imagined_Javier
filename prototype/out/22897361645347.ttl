@@ -1,0 +1,63 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW160>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "An Minna"@de ;
+    dcterms:title "Til Minna"@da ;
+    dcterms:title "To Minna"@en ;
+    dcterms:alternative "Träum' ich? Ist mein Auge trüber?"@de ;
+    dcterms:identifier "NWGW 160" ;
+    cnw:cnwNumber "160" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/friedrich_schiller> ;
+    dcterms:created "July 1835" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW160/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW160/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW160> ;
+    cnw:tempo "Andante - Allegro - poco Lento - Adagio quasi Andante" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl. in B" ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor. in C" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:incipitText "Träum' ich? Ist mein Auge trüber?"@de ;
+    cnw:incipitText "Geh! umhüpft von leeren Schmeichlern!"@de ;
+    cnw:incipitImage "NWGW_160_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/friedrich_schiller>
+    a foaf:Agent ;
+    foaf:name "Friedrich Schiller" .
+

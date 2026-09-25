@@ -1,0 +1,60 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW19>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Mellemaktsmusik til Adam Oehlenschlägers tragedie \"Hakon Jarl\""@da ;
+    dcterms:title "Incidental music for Adam Oehlenschläger's Tragedy \"Hakon Jarl\""@en ;
+    dcterms:identifier "Opus 40" ;
+    dcterms:identifier "HartW 19" ;
+    dcterms:identifier "DF 197" ;
+    cnw:cnwNumber "19" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "40" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1857-03-18" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW19/expression/1> ;
+    cnw:performanceCount 14 .
+
+<https://cnw-ld.org/work/HartW19/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW19> ;
+    cnw:tempo "Allegretto grazioso, poco moderato" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:incipitImage "hartw_019_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

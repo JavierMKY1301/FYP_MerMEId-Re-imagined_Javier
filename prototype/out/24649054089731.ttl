@@ -1,0 +1,65 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGWB-11>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Hymne"@da ;
+    dcterms:alternative "Du Urquell aller Güte"@de ;
+    dcterms:alternative "Gebet"@de ;
+    dcterms:identifier "NWGW B 11" ;
+    cnw:cnwNumber "B 11" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/franz_schubert> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/friedrich_heinrich_karl_freiherr_de_la_motte_fouquet> ;
+    cnw:arranger <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "1853" ;
+    dcterms:language "German" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:editorialNote "Originally composed for mixed choir and piano." ;
+    frbr:realization <https://cnw-ld.org/work/NWGWB-11/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGWB-11/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGWB-11> ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "S.1" ;
+    cnw:performingForce "S.2" ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soprano" ;
+    cnw:performingForce "Alto" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/franz_schubert>
+    a foaf:Agent ;
+    foaf:name "Franz Schubert" .
+
+<https://cnw-ld.org/agent/friedrich_heinrich_karl_freiherr_de_la_motte_fouquet>
+    a foaf:Agent ;
+    foaf:name "Friedrich Heinrich Karl, Freiherr de la Motte Fouquet" .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+

@@ -1,0 +1,87 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWA2-006>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sinfonia a 16"@it ;
+    dcterms:identifier "SchW A2:006" ;
+    cnw:cnwNumber "A2:006" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Sinfonia" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Other orchestral music" ;
+    cnw:editorialNote "According to clrno.1,2, timp., cor.1,2, and bc., the time signature of the present movement is cut time." ;
+    cnw:editorialNote "The fg. part has cut time." ;
+    frbr:realization <https://cnw-ld.org/work/SchWA2-006/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWA2-006/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWA2-006> ;
+    cnw:key "D major" ;
+    cnw:tempo "Allegro assai" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "clrno. conc." ;
+    cnw:performingForce "clrno.2" ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl. obl." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "clrno. conc." ;
+    cnw:performingForce "clrno.2" ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "fl. obl." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "clrno. conc." ;
+    cnw:performingForce "clrno.2" ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "bc." ;
+    cnw:incipitImage "SchM_013_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

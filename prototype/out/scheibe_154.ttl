@@ -1,0 +1,65 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-421>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kantate auf das Friedensfest in den königl. dänischen Reichen und Landen gefeyert ward"@de ;
+    dcterms:identifier "SchW B2:421" ;
+    cnw:cnwNumber "B2:421" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_andreas_cramer> ;
+    dcterms:created "1763" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote "News mentioning that the cantata was first performed on the 28 June and then again on the 6 July with both music and text by Scheibe: 'Det til Freds-Fæsten den 28de Junii egentlige forfærdiget Cantate, som Onsdagen i forrige Uge af det Musicalske Selskab i Raadhuusstrædet blev opført, bliver i Dag ligeledes under Paukers og Trompetters Lyd igientagen, hvortil Poesien saa vel som Musiqven er forfattet af Capelmesteren Hr. Scheibe, og med saadan Flid udarbeydet, at Kiendere iblandt den talrige Forsamling, som derved har været tilstæde, har ey andet end kunde finde Behag i samme.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-421/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-421/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-421> ;
+    cnw:performingForce "soloists" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:incipitText "Gelobet sey der HERR"@de ;
+    cnw:incipitText "Dir, Herr! weyht alles Volk den ehrfurchvollsten Dank"@de ;
+    cnw:incipitText "Dort tobten des Krieges verzehrende Fluthen"@de ;
+    cnw:incipitText "Betet an, betet an Nationen der Erde!"@en ;
+    cnw:incipitText "Umkränzt mit Ruh und Frieden"@de ;
+    cnw:incipitText "Wir sehn sie, die Psalmen des Friedens"@de ;
+    cnw:incipitText "Lobet ihr Völker den Besten!"@de ;
+    cnw:incipitText "Und Dir, Monarch! Gesalbter Friderich!"@de ;
+    cnw:incipitText "Daß Fried und Ruh Dein Volk beglücken"@de ;
+    cnw:incipitText "Nun, glücklichs Volk! Es soll dieß Friedensfest"@de ;
+    cnw:incipitText "Gelobet sey der HERR"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johann_andreas_cramer>
+    a foaf:Agent ;
+    foaf:name "Johann Andreas Cramer" .
+

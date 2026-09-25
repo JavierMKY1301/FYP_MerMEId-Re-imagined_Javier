@@ -1,0 +1,69 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW198>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Festmusik ved Den Nordiske Industriudstillings Aabningsfest"@da ;
+    dcterms:title "Festive Music at the Opening of the Nordic Exhibition of Industry"@en ;
+    dcterms:alternative "Festmusik til Industriudstillingens Aabningshøitidelighed"@da ;
+    dcterms:identifier "NWGW 198" ;
+    dcterms:identifier "GW IV:8" ;
+    dcterms:identifier "DF 119" ;
+    cnw:cnwNumber "198" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/carl_ploug> ;
+    dcterms:created "May 1872" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Mixed choir" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW198/expression/1> ;
+    cnw:performanceCount 2 .
+
+<https://cnw-ld.org/work/NWGW198/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW198> ;
+    cnw:key "B-flat major" ;
+    cnw:tempo "Tempo di Marcia (Maestoso)" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "cnt. in Es" ;
+    cnw:performingForce "cnt. in B" ;
+    cnw:performingForce "tr. in F" ;
+    cnw:performingForce "cor.A" ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "gr.c. & ptti" ;
+    cnw:incipitText "Velkommen! Velkommen! Velkommen!"@da ;
+    cnw:incipitText "Der fra hvor Malmen gror i Bjergets Skjul"@da ;
+    cnw:incipitText "Derfra hvor høit sig Fjelde taarne"@da ;
+    cnw:incipitText "Og fra de lave Øer og grønne Sletter"@da ;
+    cnw:incipitText "Vi trende Folk i det høie Nord"@da ;
+    cnw:incipitText "O store Gud, Dig love vi"@da ;
+    cnw:incipitImage "NWGW_198_0.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/carl_ploug>
+    a foaf:Agent ;
+    foaf:name "Carl Ploug" .
+

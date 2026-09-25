@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartWB-20>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "La Marseillaise"@fr ;
+    dcterms:alternative "Allons enfants de la patrie!"@fr ;
+    dcterms:alternative "Marche des Marseillais"@fr ;
+    dcterms:identifier "HartW B 20" ;
+    dcterms:identifier "DF 98" ;
+    cnw:cnwNumber "B 20" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/claude_rouget_de_l_isle> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/claude_rouget_de_l_isle> ;
+    cnw:arranger <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1846-11-14" ;
+    dcterms:language "Danish" ;
+    dcterms:language "French" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    cnw:editorialNote "Claude Rouget de l'Isle's song arranged for male choir (Studenter-Sangforeningen) by J.P.E. Hartmann." ;
+    frbr:realization <https://cnw-ld.org/work/HartWB-20/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartWB-20/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartWB-20> ;
+    cnw:tempo "Fieramente assai" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Allons enfants de la patrie!"@fr ;
+    cnw:incipitImage "hartw_B_20.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/claude_rouget_de_l_isle>
+    a foaf:Agent ;
+    foaf:name "Claude Rouget de l'Isle" .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

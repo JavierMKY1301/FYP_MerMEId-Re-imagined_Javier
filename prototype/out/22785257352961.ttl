@@ -1,0 +1,96 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW190>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Frühlings-Botschaft"@de ;
+    dcterms:title "Foraarsbudskab"@da ;
+    dcterms:title "Spring's Message"@en ;
+    dcterms:alternative "Willkommen, heller Frühlingsklang"@de ;
+    dcterms:alternative "Glad Welcome, Joyous Springtide Bring"@en ;
+    dcterms:alternative "Concertstück für Chor und Orchester"@de ;
+    dcterms:identifier "Opus 35" ;
+    dcterms:identifier "NWGW 190" ;
+    dcterms:identifier "GW IV:3" ;
+    cnw:cnwNumber "190" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "35" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/emanuel_geibel> ;
+    dcterms:created "End-dated 9 August 1858" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:editorialNote "Gade's concept of his answer to a letter dated 16 December." ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-F" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW190/expression/1> ;
+    cnw:performanceCount 132 .
+
+<https://cnw-ld.org/work/NWGW190/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW190> ;
+    cnw:key "E major" ;
+    cnw:tempo "Allegro grazioso" ;
+    cnw:meter "12/8" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:incipitText "Willkommen heller Frühlingsklang!"@de ;
+    cnw:incipitText "Glad welcome, joyous springtide bring!"@en ;
+    cnw:incipitImage "NWGW_190.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/emanuel_geibel>
+    a foaf:Agent ;
+    foaf:name "Emanuel Geibel" .
+
+<https://cnw-ld.org/agent/mrs_john_p_morgan_english>
+    a foaf:Agent ;
+    foaf:name "Mrs. John P. Morgan (English)" .
+
+<https://cnw-ld.org/agent/mrs_charteris_cairns_english>
+    a foaf:Agent ;
+    foaf:name "Mrs. Charteris Cairns (English)" .
+

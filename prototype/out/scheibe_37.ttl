@@ -1,0 +1,48 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWA4-202>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sonata V a violino solo con basso"@it ;
+    dcterms:alternative "VI sonate a violino solo con basso, da diversi maestri. Raccolta II"@it ;
+    dcterms:alternative "Sonate IV–VI di Scheibe"@it ;
+    dcterms:identifier "SchW A4:202" ;
+    cnw:cnwNumber "A4:202" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:language "Danish" ;
+    dcterms:language "Italian" ;
+    dcterms:language "English" ;
+    dcterms:subject "Sonata" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/29cda618_ff1e_473c_a06f_d581bf7c0a7e> ;
+    cnw:editorialNote "With incipit." ;
+    frbr:realization <https://cnw-ld.org/work/SchWA4-202/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWA4-202/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWA4-202> ;
+    cnw:key "B-flat minor" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "vl." ;
+    cnw:performingForce "bs." ;
+    cnw:performingForce "vl." ;
+    cnw:performingForce "bs." ;
+    cnw:incipitImage "SchM_045_001.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

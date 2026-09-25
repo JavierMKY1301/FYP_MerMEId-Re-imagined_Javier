@@ -1,0 +1,51 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW361>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Untreue"@de ;
+    dcterms:alternative "In einem kühlen Grunde"@de ;
+    dcterms:identifier "HartW 361" ;
+    dcterms:identifier "DF 136:3" ;
+    cnw:cnwNumber "361" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/joseph_von_eichendorff> ;
+    dcterms:created "1853-08-04" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22052775429009> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23414519603507> ;
+    frbr:realization <https://cnw-ld.org/work/HartW361/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW361/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW361> ;
+    cnw:tempo "Poco Allegretto" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "In einem kühlen Grunde, da geht ein Mühlenrad"@de ;
+    cnw:incipitImage "hartw_361.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/joseph_von_eichendorff>
+    a foaf:Agent ;
+    foaf:name "Joseph von Eichendorff" .
+

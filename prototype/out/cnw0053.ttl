@@ -1,0 +1,47 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW52>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sats for to violiner, bratsch og cello"@da ;
+    dcterms:title "Movement for Two Violins, Viola and Cello"@en ;
+    dcterms:identifier "CNW 52" ;
+    dcterms:identifier "CNU IV/1, Add. 11" ;
+    dcterms:identifier "CNS 42" ;
+    dcterms:identifier "FS 3c (?)" ;
+    cnw:cnwNumber "52" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "3c (?)" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "1888" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:subject "String quartet" ;
+    dcterms:subject "Strygekvartet" ;
+    frbr:realization <https://cnw-ld.org/work/CNW52/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW52/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW52> ;
+    cnw:key "F major" ;
+    cnw:tempo "Allegro moderato" ;
+    cnw:meter "3/4" ;
+    cnw:incipitImage "cnw_052.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+

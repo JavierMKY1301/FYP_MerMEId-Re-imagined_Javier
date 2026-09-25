@@ -1,0 +1,75 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW220>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Ved Borgerdyd-Skolernes 100-aarige Jubelfest 1/5 1887"@da ;
+    dcterms:title "At the 100th Anniversary Feast of The Society for Civic Virtue's Schools on 1 May 1887"@en ;
+    dcterms:alternative "Nærsynet var hin svundne Old"@da ;
+    dcterms:identifier "HartW 220" ;
+    dcterms:identifier "DF 146" ;
+    cnw:cnwNumber "220" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_richardt> ;
+    dcterms:created "1887" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:manuscriptLocation "DK-Rigsarkivet, Copenhagen" ;
+    frbr:realization <https://cnw-ld.org/work/HartW220/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW220/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW220> ;
+    cnw:tempo "Allegro moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Reciter" ;
+    cnw:incipitText "Nærsynet var hin svundne Old for hundred Aar tilbage!"@da ;
+    cnw:incipitText "Saa steg af ringe Spire et løvrigt Tvillingtræ"@da ;
+    cnw:incipitText "Ja Plantningen voxed fra Stiklinge Kaar"@da ;
+    cnw:incipitText "O Fædreland, hvor har du stridt i disse hundred Vintre!"@da ;
+    cnw:incipitText "Borgerdyd! Hæders Navn med Klang af Trofasthed og Gavn"@da ;
+    cnw:incipitText "Men Du som gav os Vaar igjen"@da ;
+    cnw:incipitImage "hartw_220_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/christian_richardt>
+    a foaf:Agent ;
+    foaf:name "Christian Richardt" .
+

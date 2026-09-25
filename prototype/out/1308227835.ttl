@@ -1,0 +1,86 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW206>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Foraarssang"@da ;
+    dcterms:title "Frühlingslied"@de ;
+    dcterms:title "Spring Song"@en ;
+    dcterms:alternative "End ligger Jorden"@da ;
+    dcterms:alternative "Noch liegt die Erde"@de ;
+    dcterms:identifier "Opus 70" ;
+    dcterms:identifier "HartW 206" ;
+    dcterms:identifier "DF 57" ;
+    cnw:cnwNumber "206" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "70" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/hans_christian_andersen> ;
+    dcterms:created "13 Apr. 1870 to 2 June 1871" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for choir and instruments" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:editorialNote "Wüerst thinks erroneously that the work is composed by J.P.E. Hartmann's son Emil Hartmann who at that time was a well known composer in Germany. The mistake is corrected in NBM vol. 32 no. 205." ;
+    cnw:editorialNote "The author confuses J.P.E. Hartmann with his son Emil Hartmann." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW206/expression/1> ;
+    cnw:performanceCount 7 .
+
+<https://cnw-ld.org/work/HartW206/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW206> ;
+    cnw:key "C minor" ;
+    cnw:tempo "Moderato - Allegretto grazioso" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "flic.ten." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "End ligger Jorden i Sneens Svøb"@da ;
+    cnw:incipitText "Noch liegt die Erde im Tuch des Schnee's"@de ;
+    cnw:incipitImage "hartw_206.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/hans_christian_andersen>
+    a foaf:Agent ;
+    foaf:name "Hans Christian Andersen" .
+

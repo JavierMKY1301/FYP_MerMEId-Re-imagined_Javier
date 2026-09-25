@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_95N20005">
+   <meiHead xml:id="meiHead_ba12a04e">
+      <fileDesc xml:id="fileDesc_0b3c8134">
+         <titleStmt xml:id="titleStmt_afb9ecae">
+            <title xml:id="title_e4fe9406">Tre Digte af H.C. Andersen for een Syngestemme med Pianoforte</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_90a12538">
+            <respStmt xml:id="respStmt_idffa81a3a">
+               <resp xml:id="resp_ce18e011">Publisher</resp>
+               <corpName xml:id="corpName_id69715aba">
+                  <abbr xml:id="abbr_d007770b">DCM</abbr>
+                  <expan xml:id="expan_ca6530e9"/>
+                  <address xml:id="address_f4e4abbb">
+                     <addrLine xml:id="addrLine_c4a61798"/>
+                     <addrLine xml:id="addrLine_ea517daf">
+                        <ptr label="" xml:id="ptr_N20269"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_idbf9418e5">Inger Sørensen</persName>
+            </respStmt>
+            <date xml:id="date_66e83078"/>
+            <availability xml:id="availability_8ca0c875">
+               <useRestrict xml:id="useRestrict_409dc458"/>
+            </availability>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_e55f2d96">
+            <title xml:id="title_id0fdba329">Gade Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_ida36b5aa8">NWGW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_3a85661a">
+         <appInfo xml:id="appInfo_e39f5b06">
+            <application version="2013" xml:id="application_7f806c30">
+               <name xml:id="name_defa8d59">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_id149468bf">
+            <p xml:id="idm146">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_c40d71c2">
+         <work xml:id="work_ida2417263">
+            <identifier label="NWGW" xml:id="identifier_eb1ee065">Coll. 12</identifier>
+            <identifier label="DF" xml:id="identifier_eecf7e1e">158</identifier>
+            <identifier label="GW" xml:id="identifier_f93e72c5">V:1</identifier>
+            <title xml:id="title_ida7a6dbd4" xml:lang="da">Tre Digte af H.C. Andersen for een Syngestemme med Pianoforte</title>
+            <contributor xml:id="respStmt_82d97df6">
+               <persName role="composer" xml:id="persName_id268c6dc4">Niels W. Gade</persName>
+               <persName role="author" xml:id="persName_a579ea41">Hans Christian Andersen</persName>
+            </contributor>
+            <creation xml:id="creation_id8cdeb154">
+               <date isodate="1851" xml:id="date_478b5054">1851</date>
+               <geogName xml:id="geogName_id65580c79"/>
+            </creation>
+            <history xml:id="history_id53cacaa8">
+               <p xml:id="idm161"/>
+            </history>
+            <langUsage xml:id="langUsage_677ec52f">
+               <language xml:id="en">English</language>
+               <language xml:id="da">Danish</language>
+            </langUsage>
+            <classification xml:id="classification_db96a7e6">
+               <termList xml:id="termList_e107cc71">
+                  <term xml:id="term_dfba05d7">Vocal music</term>
+                  <term xml:id="term_386c9510">Song</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_6ead1bb2">
+               <expression xml:id="expression_id27f91392">
+                  <title xml:id="title_idac829678" xml:lang="en"/>
+                  <creation xml:id="creation_id3af723c5">
+                     <date xml:id="date_6523ddc4"/>
+                     <geogName xml:id="geogName_iddf60da91"/>
+                  </creation>
+                  <history xml:id="history_id5269c734">
+                     <p xml:id="idm183"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_ida5c1c4dd">
+                     <perfResList xml:id="perfResList_6506bad1">
+                        <perfRes codedval="vn" count="1" solo="false" xml:id="perfRes_77ae3887">voice</perfRes>
+                        <perfRes codedval="ka" count="1" solo="false" xml:id="perfRes_c3252345">pf.</perfRes>
+                     </perfResList>
+                  </perfMedium>
+                  <classification xml:id="classification_84f9f78a">
+                     <termList xml:id="termList_60acd00f">
+                        <term xml:id="term_78050844"/>
+                     </termList>
+                  </classification>
+                  <componentList xml:id="componentGrp_30dd0e48"/>
+                  <relationList xml:id="relationList_f57a3459"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_419b9645">
+               <relation label="Romanze" rel="hasPart" target="22798217489425.xml"
+                         xml:id="relation_71d19bb3"/>
+               <relation label="Martsviolerne" rel="hasPart" target="22800550934545.xml"
+                         xml:id="relation_2140ddb2"/>
+               <relation label="Snee-Dronningen" rel="hasPart" target="22800555281731.xml"
+                         xml:id="relation_0ededcbe"/>
+            </relationList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_2ec49adc">
+         <manifestation label="" xml:id="source_id5e5af7a4">
+            <identifier label="" xml:id="identifier_abc7c663"/>
+            <titleStmt xml:id="titleStmt_f1afd3e6">
+               <title xml:id="title_idad8f6a20">Score, autograph, fair copy</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_45218665">
+               <publisher xml:id="publisher_idf394725d"/>
+               <pubPlace xml:id="pubPlace_ida983526f"/>
+               <date xml:id="date_375cc9aa"/>
+            </pubStmt>
+            <physDesc xml:id="physDesc_d7088f84">
+               <titlePage label="" xml:id="titlePage_07a36b48">
+                  <p xml:id="idm34">Tre Digte / af / H.C. Andersen / for een Syngestemme / med / Pianoforte / componerede / af / Niels W. Gade. / Forlæggerens Ejendom / Kjøbenhavn / hos / Kongl. Hof Musikhandler P.W. Olsen / </p>
+               </titlePage>
+               <extent xml:id="extent_d94ae06a">6 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_18765c3c">34 x 29</dimensions>
+               <physMedium xml:id="physMedium_2396c374">Bound in marbled cardboard cover with cloth spine. In the middle of the front cover a handwritten label inscribed "Niels W. <rend xml:id="idm38" rend="underline">Gade</rend> / Tre Digte af / H.C. Andersen". Written in ink. Paper: 20 staves.</physMedium>
+            </physDesc>
+            <classification xml:id="classification_aa7de61a">
+               <termList xml:id="termList_a5b72042">
+                  <term class="#DcmContentClass" xml:id="term_bc45642f">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_0ea31d8a">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_cef7dccf">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_c5759436">score</term>
+                  <term class="#DcmStateClass" xml:id="term_5c9ab3df">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_b988f96b">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_35e0d724">
+               <item label="" xml:id="item_7b8f5ced">
+                  <identifier label="" xml:id="identifier_962337e6"/>
+                  <physLoc xml:id="physLoc_e26cbb5c">
+                     <repository xml:id="repository_e1afc6d2">
+                        <corpName xml:id="corpName_59c2a1a5"/>
+                        <geogName xml:id="geogName_5cd4a114"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_f9420599">DK-Kk</identifier>
+                        <ptr label="" mimetype="" xml:id="ptr_69343f1a"/>
+                     </repository>
+                     <identifier xml:id="identifier_f97e101e">C II, 6 Gades Samling 262 (Kapsel C - E)</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_a538b060"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_e68a81e2"/>
+            <relationList xml:id="relationList_6e706894">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_id0ffd30c7"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_ae59fea2">
+            <identifier label="" xml:id="identifier_cdccf973"/>
+            <titleStmt xml:id="titleStmt_29b4c22f">
+               <title xml:id="title_ffc554a4">Score, print, first edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_c66a9122">
+               <publisher xml:id="publisher_08cf8ba9">P.W. Olsen</publisher>
+               <pubPlace xml:id="pubPlace_f124e905">Copenhagen</pubPlace>
+               <date isodate="1851-12" xml:id="date_a25fe16a">Dec. 1851</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_23c4a7a5">
+               <titlePage label="" xml:id="titlePage_2fb58ba5">
+                  <p xml:id="idm72">Tre Digte / af / H.C. Andersen / for een Syngestemme / med / Pianoforte, / componerede af / Niels W. Gade. / Forlæggerens Eiendom. / KJÖBENHAVN. / Forlagt af P.W. Olsen. / Kgl: Hof Musikhandler. Pr: 60 sk:.</p>
+               </titlePage>
+               <extent xml:id="extent_331d7abe">9 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_b91158a8"/>
+               <physMedium xml:id="physMedium_13f62b27"/>
+            </physDesc>
+            <classification xml:id="classification_847b5175">
+               <termList xml:id="termList_da2f3bb5">
+                  <term class="#DcmContentClass" xml:id="term_084dd676">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_fe89ac39">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_cb180049"/>
+                  <term class="#DcmScoringClass" xml:id="term_40b9be09">score</term>
+                  <term class="#DcmStateClass" xml:id="term_2dc30cb3">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_4b7ba75d">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_5062362f">
+               <item label="Gade's personal copy" xml:id="item_ddb673d7">
+                  <identifier label="" xml:id="identifier_7b7d5ce4"/>
+                  <physLoc xml:id="physLoc_fb18fade">
+                     <repository xml:id="repository_d498cfdb">
+                        <corpName xml:id="corpName_2f0fa0e3"/>
+                        <geogName xml:id="geogName_9fe19563"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_b2a2f3e7">DK-Kk</identifier>
+                        <ptr label="" mimetype="" xml:id="ptr_f6e23e67"/>
+                     </repository>
+                     <identifier xml:id="identifier_247b33f4">C II, 6 Gades Samling 205 g, D204</identifier>
+                  </physLoc>
+                  <notesStmt xml:id="notesStmt_5513fce9">
+                     <annot type="source_description" xml:id="annot_86e61194">
+                        <p xml:id="idm97">Title page signed "Niels W: Gade".</p>
+                     </annot>
+                     <annot type="links" xml:id="annot_79c59a12">
+                        <ptr label="" mimetype="" xml:id="ptr_da7ad45a"/>
+                     </annot>
+                  </notesStmt>
+                  <componentList xml:id="componentGrp_8ff1c163"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_d03772a0"/>
+            <relationList xml:id="relationList_35710efd">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_e2d60d2b"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_3c997e92">
+            <identifier label="" xml:id="identifier_7f4f7638"/>
+            <titleStmt xml:id="titleStmt_5615ea26">
+               <title xml:id="title_37f0bb54">Score, print, later edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_c169e165">
+               <publisher xml:id="publisher_3d0eaf5d">Horneman &amp; Erslev</publisher>
+               <pubPlace xml:id="pubPlace_3f672dbb">Copenhagen</pubPlace>
+               <date isodate="1864" xml:id="date_21bdcc2d">1864</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_a575c517">
+               <titlePage label="" xml:id="titlePage_97ca5475">
+                  <p xml:id="idm114">TRE DIGTE / af / H.C. ANDERSEN / for een Syngestemme / med Pianoforte / componerede af / NIELS W. GADE. / Forlæggerens Eiendom. / KJÖBENHAVN. / Paa Horneman &amp; Erslevs Forlag. / Pr. 60 S.</p>
+               </titlePage>
+               <extent xml:id="extent_735579cf">9 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_26e5a186"/>
+               <physMedium xml:id="physMedium_3e884f1a"/>
+               <plateNum xml:id="plateNum_f12c2581"/>
+            </physDesc>
+            <classification xml:id="classification_e6a6e055">
+               <termList xml:id="termList_9a67fa02">
+                  <term class="#DcmContentClass" xml:id="term_12f3d11f">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_e5c56854">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_a15060b0"/>
+                  <term class="#DcmScoringClass" xml:id="term_d0be1e6a">score</term>
+                  <term class="#DcmStateClass" xml:id="term_2f86a6b9">later edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_ee0883f8">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_b5239e56">
+               <item label="" xml:id="item_74f5c593">
+                  <identifier label="" xml:id="identifier_d319c5fd"/>
+                  <physLoc xml:id="physLoc_1a246bf4">
+                     <repository xml:id="repository_d5e07675">
+                        <corpName xml:id="corpName_d572203c"/>
+                        <geogName xml:id="geogName_f397f797"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_5e7f60d3">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_2fe85b6a">mu 6704.0602, D204</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_0bf8284d"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_a41f650b"/>
+            <relationList xml:id="relationList_cf0a7ca0">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_c91cf62c"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm197">
+         <change isodate="2015-02-25" xml:id="change_idae1c7eae">
+            <respStmt xml:id="respStmt_aa9f5989">
+               <name xml:id="resp_6518861c">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_587483c3">
+               <p xml:id="p_1565ee31"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-02-27" xml:id="change_5a70361f">
+            <respStmt xml:id="respStmt_05277c8a">
+               <name xml:id="resp_2b5a6f20">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d83d7b0e">
+               <p xml:id="p_a012b80c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-03-06" xml:id="change_110N200E8">
+            <respStmt xml:id="respStmt_cbd4becb">
+               <name xml:id="resp_0062e09f">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_9c794d6a">
+               <p xml:id="p_5ed44426"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-02-29" xml:id="change_114N200F0">
+            <respStmt xml:id="respStmt_1206d06e">
+               <name xml:id="resp_287b8837">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_0ce5cec4">
+               <p xml:id="p_1d10ebc7"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_165idm139748442965824">
+            <respStmt xml:id="respStmt_713b12b7">
+               <name xml:id="resp_f766ad22">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_78068080">
+               <p xml:id="p_7a17164f">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_168d1e197">
+            <respStmt xml:id="respStmt_27ff672b">
+               <name xml:id="resp_d84c4c20">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3fd55b33">
+               <p xml:id="p_84778c67">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-31" xml:id="change_173N1018F">
+            <respStmt xml:id="respStmt_8f3c275c">
+               <name xml:id="resp_b1813f41">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_c6bedabe">
+               <p xml:id="p_02f714dd"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-04" n="8" xml:id="change_3b400019">
+            <respStmt xml:id="respStmt_0b41e47b">
+               <name xml:id="resp_55e74a59">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f07170e2">
+               <p xml:id="p_fbb59663">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-24" xml:id="change_93fe58ac">
+            <respStmt xml:id="respStmt_8cef53cb">
+               <name xml:id="resp_2483856e">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_aeb00354">
+               <p xml:id="p_bb0ac342"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-27" xml:id="change_241N102A6">
+            <respStmt xml:id="respStmt_7ea07fa1">
+               <name xml:id="resp_f8a555ee">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_de2cd20a">
+               <p xml:id="p_61c96213"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-05-19" xml:id="change_248N102B3">
+            <respStmt xml:id="respStmt_0d052fcc">
+               <name xml:id="resp_d0303cf1">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_5fbd4ef0">
+               <p xml:id="p_e0c93fe5"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-07-31" xml:id="change_253N102BB">
+            <respStmt xml:id="respStmt_ecff4666">
+               <name xml:id="resp_827a7be9">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_7efbce26">
+               <p xml:id="p_ec9bfaa1"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-26T14:03:48.292Z" xml:id="change_258N102C4">
+            <respStmt xml:id="respStmt_2eb0a1de">
+               <name xml:id="resp_a9fc41c1">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_4b886be5">
+               <p xml:id="p_3553c760"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T09:19:08Z" xml:id="change_260N10210">
+            <respStmt xml:id="respStmt_c9714704">
+               <name xml:id="resp_e7749c48">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b335d295">
+               <p xml:id="p_233d43c0">Added incipit graphic URL</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T07:40:47.724Z" xml:id="change_268N102D5">
+            <respStmt xml:id="respStmt_b13c19b5">
+               <name xml:id="resp_1b5b58a7">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_ca1522ee">
+               <p xml:id="p_ad85c11a"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-08-27T14:57:38.833Z" xml:id="change_0444f171">
+            <respStmt xml:id="respStmt_9e2a6f8a">
+               <name xml:id="resp_924dcda1">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f784e3b4">
+               <p xml:id="p_3c553485"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-05T12:05:52.77Z" xml:id="change_90d855bd">
+            <respStmt xml:id="idm279">
+               <name xml:id="idm280">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b501d056">
+               <p xml:id="p_8086fb46"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-09T15:20:42.032Z" xml:id="change_286N10321">
+            <respStmt xml:id="idm284">
+               <name xml:id="idm285">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm286">
+               <p xml:id="idm287"/>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_288d1e260">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_293d1e260">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_298d1e260">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm288"/>
+</mei>

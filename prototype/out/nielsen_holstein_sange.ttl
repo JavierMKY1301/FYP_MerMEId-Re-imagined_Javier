@@ -1,0 +1,65 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW126–131>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Seks sange til tekster af Ludvig Holstein"@da ;
+    dcterms:title "Six Songs to Texts by Ludvig Holstein"@en ;
+    dcterms:identifier "Opus 10" ;
+    dcterms:identifier "CNW 126–131" ;
+    dcterms:identifier "CNU III/4, 11–16" ;
+    dcterms:identifier "FS 18" ;
+    dcterms:identifier "Demo 4–9" ;
+    cnw:cnwNumber "126–131" ;
+    cnw:opus "10" ;
+    cnw:fsNumber "18" ;
+    dcterms:creator <https://cnw-ld.org/agent/viaf/197250> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/viaf/66792857> ;
+    dcterms:created "Between 1895 and 1896" ;
+    cnw:dateNotBefore "1895"^^xsd:gYear ;
+    cnw:dateNotAfter "1896"^^xsd:gYear ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    cnw:editorialNote "This file demonstrates the use of relations to other files (or works) to describe a song cycle, anthology, or collection. Such collections can be modelled in two ways, depending on whether they are regarded as one work or a collection of individual works. This example shows the cycle as a collection of indivual works, linked together by relations to its constituent parts. A collection or cycle regarded as one single work could be modelled in a single file using the \"components\" section on the \"Music\" tab to describe the individual parts, just like movements in a sonata. The \"Comala\" and \"Maskarade\" sample files illustrate this approach. Sources common to all pieces in the collection are described in this file rather than with each of the songs. See the individual songs for details and descriptions of sources to each of the songs. Please note: The content of this file has been modified for demonstration purposes and does not represent accurate real-world data. " ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW126–131/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW126–131/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW126–131> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/viaf/197250>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" ;
+    owl:sameAs <http://viaf.org/viaf/197250> .
+
+<https://cnw-ld.org/agent/viaf/66792857>
+    a foaf:Agent ;
+    foaf:name "Ludvig Holstein" ;
+    owl:sameAs <http://viaf.org/viaf/66792857> .
+

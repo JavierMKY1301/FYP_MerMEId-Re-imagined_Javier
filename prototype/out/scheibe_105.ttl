@@ -1,0 +1,152 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB1-002>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Thusnelde. Ein Singspiel in vier Aufzügen"@de ;
+    dcterms:identifier "SchW B1:002" ;
+    cnw:cnwNumber "B1:002" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1749" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Opera" ;
+    dcterms:subject "Singspiel" ;
+    dcterms:subject "Stage music" ;
+    cnw:editorialNote "'Ich bin jetzo nichts als eine juristische Grille. Doch aber ist mir heute was geschickt gekommen, daß HE. Haller eine Cantate auf den König George soll gemacht haben, die die Studenten in Göttingen aufgeführet. Ich lese es in einem Dinge: Thusnelde ein Singspiel, nebst einem Vorbericht von der Möglichkeit und Beschaffenheit guter Opern. Lesen Sie das Ding auch, bis meines herauskommt [i.e. Musikalische Poesie]. Ich will jetzo wieder darüber hergehen. Der Verfasser ist meiner Meynung, ich habe es aber noch nicht ganz gelesen'; quot. Gerhard Split, 'Zwischen Einverständnis und Kritik: Metastasio in der Opernpoetik Christian Gottfried Krauses', ed. Laurenz Lütteken & Gerhard Splitt, Metastasio im Deutschland: der Aufklärung (Tübingen, 2002), p. 158, n. 11." ;
+    cnw:editorialNote "A review of the opera by Christian Gottlob Krause." ;
+    cnw:editorialNote "Contains a list of corrections." ;
+    cnw:editorialNote " 'Seine Thusnelde ist ein Versuch einer Oper in Metastasios Geschmack mit dem Unterschied, daß der Verfasser die drey Einheiten strenger Beobachtet hat, ein Sache, die in 1749 noch für ein großes Verdienst gehalten ward. Wenn dafür die Poesie des Stils stärker wäre! Doch die Oper ist 1749 geschrieben.'" ;
+    cnw:editorialNote " 'Im Jahre 1749 unternahm er es, den damaligen Kunstrichtern zum Trotze, die aus allen Kräften gegen die Opern eiferten, durch seinen Singspiel, Thusnelde, die Möglichkeit einer deutschen regelmässigen Oper zu zeigen. Es wäre aber zu wünschen, dass der Verfasser aus andern Absichten, und mit grössern poetischen Talenten daran gegangen wäre.'" ;
+    cnw:editorialNote "(Die Barden, die Druiden, die Helden und Soldaten)" ;
+    cnw:editorialNote "(Thusnelde, nebst ihrem Gefolge)" ;
+    cnw:editorialNote "(Ismene nebst ihrem Gefolge. Die Vorigen)" ;
+    cnw:editorialNote "(Herrmann. Ein Theil der Priester und des Heeres)" ;
+    cnw:editorialNote "(Thusnelde mit ihrem Gefolge. Herrmann)" ;
+    cnw:editorialNote "(Herrmann allein, hernach Marbod)" ;
+    cnw:editorialNote "(Herrmann allein, hernach Sigismund)" ;
+    cnw:editorialNote "(Marbod. Herrmann. Sigismund)" ;
+    cnw:editorialNote "(Segest, nebst einigen Soldaten. Die Vorigen)" ;
+    cnw:editorialNote "(Herrmann. Sigismund. Marbod)" ;
+    cnw:editorialNote "(Thusnelde und Ismene nebst ihrem Gefolge. Sigismund)" ;
+    cnw:editorialNote "(Marbod. Die Vorigen)" ;
+    cnw:editorialNote "(Herrmann nebst einigen Priestern und Cheruskern. Die Vorigen)" ;
+    cnw:editorialNote "(Das Cheruskische Frauenzimmer an der einen Seite, die Priester und ein Theil des Volks an der andern Seite)" ;
+    cnw:editorialNote "(Reihentanz von vier Cheruskerinnen und vier Cheruskern. Die ersten stellen die Furcht, die letztern aber die Hoffnung vor)" ;
+    cnw:editorialNote "(Thusnelde nebst ihrem Gefolge)" ;
+    cnw:editorialNote "(Segest bewaffnet. Ihm folget Marbod nebst einigen Soldaten. Die Vorigen)" ;
+    cnw:editorialNote "(Segest allein)" ;
+    cnw:editorialNote "(Thusnelde nebst ihrem Gefolge. Segest)" ;
+    cnw:editorialNote "(Thusnelde. Hernach Ismene nebst dem Gefolge)" ;
+    cnw:editorialNote "(Marbod. Die Vorigen)" ;
+    cnw:editorialNote "(Thusnelde. Ismene. Das Gefolge)" ;
+    cnw:editorialNote "(Tanz des Frauenzimmers, in welchem einige die Liebe und andere die Schamhaftigkeit vorstellen)" ;
+    cnw:editorialNote "(Thusnelde. Ismene nebst ihrem Gefolge. Die Barden, die Druiden, die Soldaten, welche den Feldherren auf den zusammengesetzten Schilden tragen. Sigismund. Segest. Marbod, nebst den Helden und dem Volke)" ;
+    cnw:editorialNote "(Adelheit, die Oberpristerinn der Göttinn Hertha, auf einem Triumphwagen, nebst den übrigen Priesterinnen mit dem Opfer und Opfergeräthe. Die Vorigen)" ;
+    cnw:editorialNote "Thusnelde (C.); vl.1, vl.2, va., bs./bc." ;
+    cnw:manuscriptLocation "D-Halberstadt, Gleimhaus" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB1-002/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB1-002/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB1-002> ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "Es lebe Fürst Herrmann! es lebe der Held"@de ;
+    cnw:incipitText "Was für ein Freudenton erschallet durch die Wälder?"@de ;
+    cnw:incipitText "Beglückter Tag! o welche Lust"@de ;
+    cnw:incipitText "Es lebe der Herzog! es lebe der Held"@de ;
+    cnw:incipitText "Doch wie? wen seh ich hier?"@de ;
+    cnw:incipitText "Sie geht, sie flieht. Was nützt doch aller Ruhm?"@de ;
+    cnw:incipitText "Mit Blut bespritztes Feld, ich flieh und meide dich"@de ;
+    cnw:incipitText "Herr! daß kein einzger Mann vom römischen Heer entkommen"@de ;
+    cnw:incipitText "Das, Herrmann! fehlte dir zu dem erfochtnen Siege"@de ;
+    cnw:incipitText "Er geht. Wenn nur die blinde Wuth"@de ;
+    cnw:incipitText "Er ists. Doch welch ein Tag! Ismene!"@de ;
+    cnw:incipitText "Es ist nun alles aus"@de ;
+    cnw:incipitText "Verbleibt. Ein großer Theil des Heeres steht uns bey"@de ;
+    cnw:incipitText "Wie? ein Tag des Siegs, der Freuden"@de ;
+    cnw:incipitText "Das ist die letzte Zeit"@de ;
+    cnw:incipitText "Thusnelde? welch ein Glück! Stirb"@de ;
+    cnw:incipitText "Da Betrübniß, Gram und Schrecken"@de ;
+    cnw:incipitText "Mein Vater! du versprachst ein frölichs Wiedersehn?"@de ;
+    cnw:incipitText "Bleib, Vater! bleib zurück!"@de ;
+    cnw:incipitText "Wie? Ist Segest nicht hier?"@de ;
+    cnw:incipitText "Wie klopft mein frohes Herz!"@de ;
+    cnw:incipitText "Wir singen der Tugend zu Ehren"@de ;
+    cnw:incipitText "Nehmet Blumen, windet Kränze!"@de ;
+    cnw:incipitText "Verborgene Gottheit! du Mutter der Zeiten!"@de ;
+    cnw:incipitText "Ich weine. Laß mich klagen!"@de ;
+    cnw:incipitImage "SchM_105_001.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/princess_philippine_charlotte>
+    a foaf:Agent ;
+    foaf:name "Princess Philippine Charlotte" .
+

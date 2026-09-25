@@ -1,0 +1,98 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW152>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Weyses Minde"@da ;
+    dcterms:title "In Memory of Weyse"@en ;
+    dcterms:alternative "Til Hvilestedet bæres hen"@da ;
+    dcterms:alternative "Cantate af Henrik Hertz"@da ;
+    dcterms:identifier "Opus 36" ;
+    dcterms:identifier "HartW 152" ;
+    dcterms:identifier "DF 51" ;
+    cnw:cnwNumber "152" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "36" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/henrik_hertz> ;
+    dcterms:created "1842" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    dcterms:subject "Cantata" ;
+    cnw:editorialNote "Tune from Weyse's Funeral Cantata for King Frederik VI. Also cited in no. 4 and used at Weyse's funeral at Vor Frue Kirke." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW152/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW152/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW152> ;
+    cnw:key "C minor" ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "gong." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Til Hvilestedet bæres hen en Olding"@da ;
+    cnw:incipitText "Ak! disse Toner, ak denne Sang"@da ;
+    cnw:incipitText "Det var i den dæmrende tause Nat"@da ;
+    cnw:incipitText "Af Drømmen, Jordens sidste, blev han vækket"@da ;
+    cnw:incipitText "Den glade Sanger os forlod"@da ;
+    cnw:incipitImage "hartw_152_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/henrik_hertz>
+    a foaf:Agent ;
+    foaf:name "Henrik Hertz" .
+

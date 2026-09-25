@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW342>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Danmark, du kornblonde Datter"@da ;
+    dcterms:title "Denmark, ye corn-golden daughter"@en ;
+    dcterms:identifier "CNW 342" ;
+    dcterms:identifier "CNU III/6, 294" ;
+    dcterms:identifier "FS 54" ;
+    cnw:cnwNumber "342" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "54" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/l_c_nielsen> ;
+    dcterms:created "1913" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/c473b2ec_0cd5_40cd_ae07_e3e620c5ed59> ;
+    frbr:realization <https://cnw-ld.org/work/CNW342/expression/1> ;
+    cnw:performanceCount 5 .
+
+<https://cnw-ld.org/work/CNW342/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW342> ;
+    cnw:tempo "Tempo giusto" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Danmark, du kornblonde Datter"@da ;
+    cnw:incipitText "Denmark, ye corn-golden daughter"@en ;
+    cnw:incipitImage "cnw_342.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/l_c_nielsen>
+    a foaf:Agent ;
+    foaf:name "L.C. Nielsen" .
+

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_f785cfae">
+   <meiHead xml:id="meiHead_d70aec9f">
+      <fileDesc xml:id="fileDesc_71f96d18">
+         <titleStmt xml:id="titleStmt_0b40cf89">
+            <title xml:id="title_f822a5ed">Alexanders Fest von Händel</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_bf1a9a5b">
+            <respStmt xml:id="respStmt_b3159d5e">
+               <resp xml:id="resp_804ffa59">Publisher</resp>
+               <corpName xml:id="corpName_a13b87a2">
+                  <abbr xml:id="abbr_5cd5ee16">DCM</abbr>
+                  <expan xml:id="expan_4b12a99b"/>
+                  <address xml:id="address_c0d8282d">
+                     <addrLine xml:id="addrLine_87f2ce23"/>
+                     <addrLine xml:id="addrLine_67d8e978">
+                        <ptr label="" xml:id="ptr_N20262"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_ed5d1380">Inger Sørensen</persName>
+            </respStmt>
+            <date xml:id="date_54c1088b"/>
+            <availability xml:id="availability_9517e3c4">
+               <useRestrict xml:id="useRestrict_8a4767bf"/>
+            </availability>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_44943265">
+            <title xml:id="title_55724d08">Niels W: Gade Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_63890ae3">NWGW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_0e3420cb">
+         <appInfo xml:id="appInfo_25355c86">
+            <application version="2013" xml:id="application_f1d61912">
+               <name xml:id="name_0fe575ae">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_4ac28b8d">
+            <p xml:id="idm64">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_a41e4045">
+         <work xml:id="work_95N20052">
+            <identifier label="NWGW" xml:id="identifier_b85aa143">B 24</identifier>
+            <title xml:id="title_359fbc7d" xml:lang="de">Alexanders Fest von Händel</title>
+            <title type="original" xml:id="title_fbd9c5da" xml:lang="en">Alexander's Feast</title>
+            <contributor xml:id="respStmt_da70536b">
+               <persName role="composer" xml:id="persName_003abb81">Georg Friedrich Händel</persName>
+               <persName role="author" xml:id="persName_26ec2c73">John Dryden, adapted by Newburgh Hamilton</persName>
+               <persName role="translator" xml:id="persName_d2f7680c">Kurt Wilhelm Ramler</persName>
+               <persName role="arranger" xml:id="persName_c05148f5">Niels W. Gade</persName>
+            </contributor>
+            <creation xml:id="creation_ac978ea2">
+               <date xml:id="date_be5f9053"/>
+               <geogName xml:id="geogName_8d6d5407"/>
+            </creation>
+            <history xml:id="history_2483cb34">
+               <p xml:id="idm80"/>
+            </history>
+            <langUsage xml:id="langUsage_b1c10cdc">
+               <language xml:id="de">German</language>
+               <language xml:id="da">Danish</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <classification xml:id="classification_6a0b3e50">
+               <termList xml:id="termList_1520ae2b">
+                  <term xml:id="term_5e7fc112">Vocal music</term>
+                  <term xml:id="term_46067059">Choral music with instruments</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_730ebaac">
+               <expression xml:id="expression_95N20073">
+                  <title xml:id="title_4aad44d1" xml:lang="en"/>
+                  <creation xml:id="creation_f783468f">
+                     <date xml:id="date_d2f7443a"/>
+                     <geogName xml:id="geogName_c3096526"/>
+                  </creation>
+                  <history xml:id="history_d4dfced3">
+                     <p xml:id="idm103"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_0fe7ad48">
+                     <perfResList xml:id="perfResList_ff334a91">
+                        <perfResList codedval="oa" xml:id="perfResList_dc8902c3">
+                           <head xml:id="head_e5787ec6_0_0_0_0_0">Orchestra.</head>
+                           <perfRes codedval="wa" count="2" xml:id="perfRes_90b7c811">fl.</perfRes>
+                           <perfRes codedval="wd" count="2" solo="false" xml:id="perfRes_eca1afc3">fg.</perfRes>
+                           <perfRes codedval="ba" count="2" xml:id="perfRes_6d374b2a">cor.</perfRes>
+                           <perfRes codedval="bb" count="2" xml:id="perfRes_70544414">tr.</perfRes>
+                           <perfRes codedval="pa" count="1" xml:id="perfRes_23e59ba0">timp.</perfRes>
+                           <perfRes codedval="sa" count="1" solo="false" xml:id="perfRes_ef01f2ff">vl.1</perfRes>
+                           <perfRes codedval="sa" count="1" solo="false" xml:id="perfRes_68b09af7">vl.2</perfRes>
+                           <perfRes codedval="sb" count="1" solo="false" xml:id="perfRes_126ae5de">va.</perfRes>
+                           <perfRes codedval="sc" count="1" solo="false" xml:id="perfRes_cd12e072">vc.</perfRes>
+                           <perfRes codedval="sd" count="1" solo="false" xml:id="perfRes_8c45721f">cb.</perfRes>
+                        </perfResList>
+                        <perfRes codedval="va" count="1" solo="true" xml:id="perfRes_39c37619">Soprano</perfRes>
+                        <perfRes codedval="vd" count="1" solo="true" xml:id="perfRes_0cd9b199">Tenor</perfRes>
+                        <perfRes codedval="sc" count="1" solo="true" xml:id="perfRes_6a534af1">vc.1</perfRes>
+                        <perfRes codedval="sc" count="1" solo="true" xml:id="perfRes_8e1089df">vc.2</perfRes>
+                     </perfResList>
+                  </perfMedium>
+                  <classification xml:id="classification_3d2c73de">
+                     <termList xml:id="termList_390bf068">
+                        <term xml:id="term_ac139480"/>
+                     </termList>
+                  </classification>
+                  <componentList xml:id="componentGrp_00bfa316">
+                     <expression n="1" xml:id="expression_a5ab01a6" label="No. 1">
+                        <title xml:id="title_d440f5cc" xml:lang="en">Recit:</title>
+                        <contributor xml:id="respStmt_d79484f6">
+                           <persName role="" xml:id="persName_92624146"/>
+                        </contributor>
+                        <incip xml:id="incip_40bc4aa7">
+                           <incipText xml:id="incipText_54d351e2">
+                              <p xml:id="p_242c7865" xml:lang="de">Am Königlichen Fest</p>
+                           </incipText>
+                           <graphic target="/dcm/assets/udgivelser/nwgw/incipits/lowres/NWGW_B_16_1.png" label=""
+                                    targettype="lowres"
+                                    xml:id="graphic_61f88a26"/>
+                           <graphic target="/dcm/assets/udgivelser/nwgw/incipits/hires/NWGW_B_16_1.png" label=""
+                                    targettype="hires"
+                                    xml:id="graphic_14561771"/>
+                        </incip>
+                        <tempo xml:id="tempo_ce337bce"/>
+                        <key xml:id="key_7a24046e"/>
+                        <meter sym="common" xml:id="meter_ef51eb33"/>
+                        <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_dd03b32f">
+                           <castList xml:id="castList_dd1fa36c">
+                              <castItem xml:id="castItem_6e23dc9e"/>
+                           </castList>
+                           <perfResList xml:id="perfResList_3c1ab4d5">
+                              <perfResList codedval="oa" n="perfResList_dc8902c3" xml:id="perfResList_6224a401">
+                                 <head xml:id="head_e5787ec6_1">Orchestra.</head>
+                                 <perfRes codedval="sc" count="1" n="perfRes_cd12e072" solo="false"
+                                          xml:id="perfRes_ca7aff90">vc.</perfRes>
+                                 <perfRes codedval="sd" count="1" n="perfRes_8c45721f" solo="false"
+                                          xml:id="perfRes_5dd4158c">cb.</perfRes>
+                              </perfResList>
+                              <perfRes codedval="vd" count="1" n="perfRes_0cd9b199" solo="true"
+                                       xml:id="perfRes_12c97b0e">tenor</perfRes>
+                              <perfRes codedval="sc" count="1" n="perfRes_6a534af1" solo="true"
+                                       xml:id="perfRes_a5cfc8f0">vc.1</perfRes>
+                              <perfRes codedval="sc" count="1" n="perfRes_8e1089df" solo="true"
+                                       xml:id="perfRes_d2373e41">vc.2</perfRes>
+                           </perfResList>
+                        </perfMedium>
+                        <notesStmt xml:id="notesStmt_2611aae1">
+                           <annot xml:id="annot_171d484c"/>
+                        </notesStmt>
+                        <componentList xml:id="componentGrp_a4a7e60c"/>
+                        <relationList xml:id="relationList_e222575a">
+                           <relation label="" rel="hasReproduction" xml:id="relation_74e62176"/>
+                        </relationList>
+                     </expression>
+                     <expression n="2" xml:id="expression_1045aa1b" label="No. 5">
+                        <title xml:id="title_d4ef21da" xml:lang="en">Chor</title>
+                        <contributor xml:id="respStmt_54076d63">
+                           <persName role="" xml:id="persName_f5398ad3"/>
+                        </contributor>
+                        <incip xml:id="incip_89136b9d">
+                           <incipText xml:id="incipText_9357aed9">
+                              <p xml:id="p_09a7c56a" xml:lang="en"/>
+                           </incipText>
+                           <graphic target="/dcm/assets/udgivelser/nwgw/incipits/lowres/NWGW_B_16_2.png" label=""
+                                    targettype="lowres"
+                                    xml:id="graphic_b611b086"/>
+                           <graphic target="/dcm/assets/udgivelser/nwgw/incipits/hires/NWGW_B_16_2.png" label=""
+                                    targettype="hires"
+                                    xml:id="graphic_479076b9"/>
+                        </incip>
+                        <tempo xml:id="tempo_175ed046">Andante</tempo>
+                        <key xml:id="key_9b60d3c8"/>
+                        <meter sym="common" xml:id="meter_d5158f77"/>
+                        <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_ec0796c4">
+                           <castList xml:id="castList_8f7361b1">
+                              <castItem xml:id="castItem_25b01b88"/>
+                           </castList>
+                           <perfResList xml:id="perfResList_9e83f44d">
+                              <perfResList codedval="oa" n="perfResList_dc8902c3" xml:id="perfResList_8f9749ac">
+                                 <head xml:id="head_e5787ec6_0_1">Orchestra.</head>
+                                 <perfRes codedval="ba" count="2" n="perfRes_6d374b2a" xml:id="perfRes_cb93b35f">cor.</perfRes>
+                                 <perfRes codedval="bb" count="2" n="perfRes_70544414" xml:id="perfRes_7a5ffcf3">tr.</perfRes>
+                                 <perfRes codedval="pa" count="1" n="perfRes_23e59ba0" xml:id="perfRes_f6beeeb3">timp.</perfRes>
+                              </perfResList>
+                           </perfResList>
+                        </perfMedium>
+                        <notesStmt xml:id="notesStmt_4eb77343">
+                           <annot xml:id="annot_070df167">
+                              <p xml:id="idm179">Instrumental parts only.</p>
+                           </annot>
+                        </notesStmt>
+                        <componentList xml:id="componentGrp_e97f4805"/>
+                        <relationList xml:id="relationList_28857b13">
+                           <relation label="" rel="hasReproduction" xml:id="relation_9e3539f4"/>
+                        </relationList>
+                     </expression>
+                     <expression n="3" xml:id="expression_a2e05e27" label="No. 8">
+                        <title xml:id="title_09a7b355" xml:lang="da">Recit:</title>
+                        <contributor xml:id="respStmt_7d7ef603">
+                           <persName role="" xml:id="persName_b6eed654"/>
+                        </contributor>
+                        <incip xml:id="incip_b6ef3a83">
+                           <incipText xml:id="incipText_544f3084">
+                              <p xml:id="p_7f8677ba" xml:lang="de">Gesenkt das Haupt sitzt der mühloser Held</p>
+                           </incipText>
+                           <graphic target="/dcm/assets/udgivelser/nwgw/incipits/lowres/NWGW_B_16_3.png" label=""
+                                    targettype="lowres"
+                                    xml:id="graphic_ced33673"/>
+                           <graphic target="/dcm/assets/udgivelser/nwgw/incipits/hires/NWGW_B_16_3.png" label=""
+                                    targettype="hires"
+                                    xml:id="graphic_ae4a0126"/>
+                        </incip>
+                        <tempo xml:id="tempo_db5a3281"/>
+                        <key xml:id="key_84849f93"/>
+                        <meter sym="common" xml:id="meter_980e5719"/>
+                        <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_28f140e8">
+                           <castList xml:id="castList_bbfdef64">
+                              <castItem xml:id="castItem_9cbd5ddd"/>
+                           </castList>
+                           <perfResList xml:id="perfResList_ab15e476">
+                              <perfResList codedval="oa" n="perfResList_dc8902c3" xml:id="perfResList_5e6f712e">
+                                 <head xml:id="head_e5787ec6_0_0_1">Orchestra.</head>
+                                 <perfRes codedval="sa" count="1" n="perfRes_ef01f2ff" solo="false"
+                                          xml:id="perfRes_f3e713ea">vl.1</perfRes>
+                                 <perfRes codedval="sa" count="1" n="perfRes_68b09af7" solo="false"
+                                          xml:id="perfRes_322d7e5e">vl.2</perfRes>
+                                 <perfRes codedval="sb" count="1" n="perfRes_126ae5de" solo="false"
+                                          xml:id="perfRes_44cf475f">va.</perfRes>
+                                 <perfRes codedval="sc" count="1" n="perfRes_cd12e072" solo="false"
+                                          xml:id="perfRes_5484787c">vc.</perfRes>
+                              </perfResList>
+                              <perfRes codedval="va" count="1" n="perfRes_39c37619" solo="true"
+                                       xml:id="perfRes_253d8139">soprano</perfRes>
+                           </perfResList>
+                        </perfMedium>
+                        <notesStmt xml:id="notesStmt_8a6051c6">
+                           <annot xml:id="annot_1329a0cd"/>
+                        </notesStmt>
+                        <componentList xml:id="componentGrp_c3e75fcc"/>
+                        <relationList xml:id="relationList_539cbf11">
+                           <relation label="" rel="hasReproduction" xml:id="relation_afc0d1f1"/>
+                        </relationList>
+                     </expression>
+                     <expression n="4" xml:id="expression_a26f0b70" label="No. 9">
+                        <title xml:id="title_d4d784bd" xml:lang="da">Arioso</title>
+                        <contributor xml:id="respStmt_884f712c">
+                           <persName role="" xml:id="persName_131b07a5"/>
+                        </contributor>
+                        <incip xml:id="incip_932e883e">
+                           <incipText xml:id="incipText_efa15079">
+                              <p xml:id="p_63900dab" xml:lang="de">Töne sanft du lÿdisch Brautlied</p>
+                           </incipText>
+                           <graphic target="/dcm/assets/udgivelser/nwgw/incipits/lowres/NWGW_B_16_4.png" label=""
+                                    targettype="lowres"
+                                    xml:id="graphic_b6e9c0e2"/>
+                           <graphic target="/dcm/assets/udgivelser/nwgw/incipits/hires/NWGW_B_16_4.png" label=""
+                                    targettype="hires"
+                                    xml:id="graphic_fa7ac0fb"/>
+                        </incip>
+                        <tempo xml:id="tempo_7511f111">Andante</tempo>
+                        <key xml:id="key_179faa62"/>
+                        <meter count="2" unit="4" xml:id="meter_2069cee2"/>
+                        <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_335b1efe">
+                           <castList xml:id="castList_bebda85b">
+                              <castItem xml:id="castItem_a688e5e7"/>
+                           </castList>
+                           <perfResList xml:id="perfResList_c6230b0e">
+                              <perfResList codedval="oa" n="perfResList_dc8902c3" xml:id="perfResList_60d3972d">
+                                 <head xml:id="head_e5787ec6_0_0_0_1">Orchestra.</head>
+                                 <perfRes codedval="wa" count="2" n="perfRes_90b7c811" xml:id="perfRes_2a5c0b42">fl.</perfRes>
+                                 <perfRes codedval="wd" count="2" n="perfRes_eca1afc3" solo="false"
+                                          xml:id="perfRes_4faa1043">fg.</perfRes>
+                                 <perfRes codedval="sa" count="1" n="perfRes_ef01f2ff" solo="false"
+                                          xml:id="perfRes_9dd501ab">vl.1</perfRes>
+                                 <perfRes codedval="sa" count="1" n="perfRes_68b09af7" solo="false"
+                                          xml:id="perfRes_99932b99">vl.2</perfRes>
+                                 <perfRes codedval="sb" count="1" n="perfRes_126ae5de" solo="false"
+                                          xml:id="perfRes_0030ab4a">va.</perfRes>
+                                 <perfRes codedval="sc" count="1" n="perfRes_cd12e072" solo="false"
+                                          xml:id="perfRes_543d687d">vc.</perfRes>
+                                 <perfRes codedval="sd" count="1" n="perfRes_8c45721f" solo="false"
+                                          xml:id="perfRes_19aa1f14">cb.</perfRes>
+                              </perfResList>
+                              <perfRes codedval="vd" count="1" n="perfRes_0cd9b199" solo="true"
+                                       xml:id="perfRes_d13a2c67">tenor</perfRes>
+                              <perfRes codedval="sc" count="1" n="perfRes_6a534af1" solo="true"
+                                       xml:id="perfRes_678b2891">vc.1</perfRes>
+                              <perfRes codedval="sc" count="1" n="perfRes_8e1089df" solo="true"
+                                       xml:id="perfRes_1a268a20">vc.2</perfRes>
+                           </perfResList>
+                        </perfMedium>
+                        <notesStmt xml:id="notesStmt_6e4897ab">
+                           <annot xml:id="annot_0b5d8ce8"/>
+                        </notesStmt>
+                        <componentList xml:id="componentGrp_36598601"/>
+                        <relationList xml:id="relationList_930ab459">
+                           <relation label="" rel="hasReproduction" xml:id="relation_7114e7a1"/>
+                        </relationList>
+                     </expression>
+                     <expression n="5" xml:id="expression_1c11b8e6" label="No. 10">
+                        <title xml:id="title_9192d4c4" xml:lang="en"/>
+                        <contributor xml:id="respStmt_388ac10c">
+                           <persName role="" xml:id="persName_8a875969"/>
+                        </contributor>
+                        <incip xml:id="incip_65f7ea96">
+                           <incipText xml:id="incipText_c72ef2f0">
+                              <p xml:id="p_ba3f5a78" xml:lang="en"/>
+                           </incipText>
+                           <graphic target="/dcm/assets/udgivelser/nwgw/incipits/lowres/NWGW_B_16_5.png" label=""
+                                    targettype="lowres"
+                                    xml:id="graphic_d2354812"/>
+                           <graphic target="/dcm/assets/udgivelser/nwgw/incipits/hires/NWGW_B_16_5.png" label=""
+                                    targettype="hires"
+                                    xml:id="graphic_b10e25bc"/>
+                        </incip>
+                        <tempo xml:id="tempo_ab99ea09">Andante - Adagio - Allegro</tempo>
+                        <key xml:id="key_df099b0b"/>
+                        <meter count="3" unit="4" xml:id="meter_8f712f39"/>
+                        <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_beb33fa1">
+                           <castList xml:id="castList_4efcd43f">
+                              <castItem xml:id="castItem_84ae035d"/>
+                           </castList>
+                           <perfResList xml:id="perfResList_34c7b1aa">
+                              <perfResList codedval="oa" n="perfResList_dc8902c3" xml:id="perfResList_d557849b">
+                                 <head xml:id="head_e5787ec6_0_0_0_0_1">Orchestra.</head>
+                                 <perfRes codedval="bb" count="2" n="perfRes_70544414" xml:id="perfRes_e0f26d5a">tr.</perfRes>
+                                 <perfRes codedval="pa" count="1" n="perfRes_23e59ba0" xml:id="perfRes_70bdb504">timp.</perfRes>
+                              </perfResList>
+                           </perfResList>
+                        </perfMedium>
+                        <notesStmt xml:id="notesStmt_9f083367">
+                           <annot xml:id="annot_528d8e20"/>
+                        </notesStmt>
+                        <componentList xml:id="componentGrp_2dfab73c"/>
+                        <relationList xml:id="relationList_b11ede88">
+                           <relation label="" rel="hasReproduction" xml:id="relation_0a86acba"/>
+                        </relationList>
+                     </expression>
+                  </componentList>
+                  <relationList xml:id="relationList_186cd4a1"/>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_bca90fc3">
+         <manifestation label="" xml:id="source_95N20024">
+            <identifier label="" xml:id="identifier_f348f737"/>
+            <titleStmt xml:id="titleStmt_bb4aed18">
+               <title xml:id="title_463bb42f">Score, autograph, fair copy</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_859c6fe7">
+               <publisher xml:id="publisher_4d39406f"/>
+               <pubPlace xml:id="pubPlace_f3625901"/>
+               <date xml:id="date_b7d5a85a"/>
+            </pubStmt>
+            <physDesc xml:id="physDesc_e39b843d">
+               <extent xml:id="extent_369502ed">12 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_ba4da6c3">34.5 x 24</dimensions>
+               <dimensions unit="cm" xml:id="dimensions_d802923a">26 x 25</dimensions>
+               <physMedium xml:id="physMedium_8f8be161">2 bifolios and 2 single folios, of which one is trimmed. Written in ink. Paper: 18 and 14 staves. Paginated 1-9. Last page unnumbered and blank. The trimmed folio is inserted between pp. 4 and 5.</physMedium>
+            </physDesc>
+            <classification xml:id="classification_2d04ad6a">
+               <termList xml:id="termList_9b51fbf4">
+                  <term class="#DcmContentClass" xml:id="term_20f11772">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_ad606aaf">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_026d4c33">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_6b6b9885">score</term>
+                  <term class="#DcmStateClass" xml:id="term_50ca6640">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_3acb2c5b">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_2f87d4e0">
+               <item label="" xml:id="item_8e6680ae">
+                  <identifier label="" xml:id="identifier_3baf7fa8"/>
+                  <physLoc xml:id="physLoc_0cf3e0f5">
+                     <repository xml:id="repository_0ddfea7f">
+                        <corpName xml:id="corpName_f925a27c"/>
+                        <geogName xml:id="geogName_f12d0721"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_720ccfe5">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_96e2c998">C II, 6 Gades Samling 468 (Efterslæt)</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_fd019ab4"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_05947e6b"/>
+            <relationList xml:id="relationList_a02228b7">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_c7e24911"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm273">
+         <change isodate="2016-06-20" xml:id="change_95N10088">
+            <respStmt xml:id="respStmt_03a064dc">
+               <name xml:id="resp_a1059268">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_392b741f">
+               <p xml:id="p_501a9186"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-07-05" xml:id="change_293N103DE">
+            <respStmt xml:id="respStmt_a7e64d1a">
+               <name xml:id="resp_9ff39704">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d823fb72">
+               <p xml:id="p_12a0442c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-04" n="3" xml:id="change_d681eb28">
+            <respStmt xml:id="respStmt_37b18d2c">
+               <name xml:id="resp_46f8022c">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_7806f901">
+               <p xml:id="p_7f98b725">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-25T15:01:38.876Z" xml:id="change_301N103D5">
+            <respStmt xml:id="respStmt_011bb2f3">
+               <name xml:id="resp_3bceb61b">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b1757a0a">
+               <p xml:id="p_0b59f616"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-03-12T11:09:42.475Z" xml:id="change_301N103D3">
+            <respStmt xml:id="respStmt_bde3289f">
+               <name xml:id="resp_1d218df8">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_a19c634d">
+               <p xml:id="p_6bd41cb0"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T09:20:15Z" xml:id="change_300N1035C">
+            <respStmt xml:id="respStmt_20bb6248">
+               <name xml:id="resp_bbbea1b3">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_060c6bbe">
+               <p xml:id="p_7a4ebe84">Added incipit graphic URL</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T14:31:23.013Z" xml:id="change_311N103E8">
+            <respStmt xml:id="respStmt_bfb07787">
+               <name xml:id="resp_2a5222a5">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_a7dfb3c5">
+               <p xml:id="p_7081f4dc"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-09-04T19:00:21+02:00" xml:id="change_309N1035F">
+            <respStmt xml:id="respStmt_e3d356d1">
+               <name xml:id="resp_4d939d38">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2e328be6">
+               <p xml:id="p_4ad236fc">Deleted obsolete &lt;extent&gt; elements</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-10-26T15:23:16.606Z" xml:id="change_313N103D9">
+            <respStmt xml:id="respStmt_3bd65487">
+               <name xml:id="resp_68d0d6eb">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8b45b8c5">
+               <p xml:id="p_14da9b65"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-10-30T14:11:41.299Z" xml:id="change_318N103E1">
+            <respStmt xml:id="respStmt_674b8d97">
+               <name xml:id="resp_55c24487">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_e69b1b43">
+               <p xml:id="p_e6aad2fb"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-01T14:34:52.606Z" xml:id="change_325N1041E">
+            <respStmt xml:id="idm325">
+               <name xml:id="idm326">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm327">
+               <p xml:id="idm328"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-04T11:48:05.307Z" xml:id="change_330N10426">
+            <respStmt xml:id="idm330">
+               <name xml:id="idm331">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm332">
+               <p xml:id="idm333"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-04-13T12:16:30.326Z" xml:id="change_338N10443">
+            <respStmt xml:id="idm335">
+               <name xml:id="idm336">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm337">
+               <p xml:id="idm338"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T14:45:57Z" xml:id="change_339N10378">
+            <respStmt xml:id="idm340">
+               <name xml:id="idm341">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm342">
+               <p xml:id="idm343">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_344d1e362">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_310d1e289">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_349d1e357">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm344"/>
+</mei>

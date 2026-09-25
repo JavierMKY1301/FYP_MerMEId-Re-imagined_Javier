@@ -1,0 +1,95 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-432>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Prokris und Cephalus, eine Kantate"@de ;
+    dcterms:identifier "SchW B2:432" ;
+    cnw:cnwNumber "B2:432" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_elias_schlegel> ;
+    dcterms:created "1747" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Secular" ;
+    cnw:editorialNote " 'Prokris und Cephalus hat auch seine großen Schönheiten, und wie sollten sie es nicht haben, wenn man an dem Verfasser denkt: sie ist eigentlich eine Nachahmung des Rousseau, aber die Nachahmung eines Mannes, der selbst ein Dichter war. Von der musikalischen Ausführung können wir nichts mehr sagen, als daß sie des Verfassers vollkommen würdig ist, und man oft in Ungewißheit geräht, welcher von beyden, der Componist oder der Dichter, den Ausdruck der Leidenschaften am glücklichsten getroffen habe. Hr. S. verspricht vielleicht einen zweyten Theil, und muntert dadurch die Musen auf, sich zu vereinigen, damit er ein löbliches Versprechen erfüllen möge.' " ;
+    cnw:editorialNote "'Die Cantaten sind schöner, aber mehrentheils auch schon in andern Sammlungen mit abgedruckt worden. Eine davon (Prokris und Cephalus) hat der Hr. Kapellmeister Scheibe mit seiner dazu verfertigten Composition vor einigen Jahren herausgegeben, welches auch im Vorberichte angezeigt wird *) [= Die Cantate, Phillis und Thirsis, hat Hr. K. Ph. E. Bach 1766 sehr schön in Musik gesetzt, und seine Composition verdient gewiß den Vorzug vor obgedachter von Hrn. Scheibe componirten Cantate.]'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-432/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-432/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-432> ;
+    cnw:key "G major" ;
+    cnw:tempo "Etwas lebhaft" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:incipitText "Seyd munter, ihr Jäger, das Jagdhorn erschallt"@de ;
+    cnw:incipitText "So rufet Cephalus"@de ;
+    cnw:incipitText "Ach! laß mich im Kühlen deine Küsse fühlen"@de ;
+    cnw:incipitText "Es naht sich Procris in den Sträuchen"@de ;
+    cnw:incipitText "Verbannt aus euch des Argwohns Triebe"@de ;
+    cnw:incipitText "Ihr Götter! Ihr Götter helft"@de ;
+    cnw:incipitText "Seyd munter, ihr Jäger, das Jagdhorn schallt!"@de ;
+    cnw:incipitText "So rufet Cephalus"@de ;
+    cnw:incipitText "Ach! laß mich im Kühlen deine Küsse fühlen!"@de ;
+    cnw:incipitText "Es naht sich Prokris in den Sträuchen"@de ;
+    cnw:incipitText "Verbannt aus euch des Argwohns Triebe"@de ;
+    cnw:incipitText "Ihr Götter! Götter helft!"@de ;
+    cnw:incipitImage "SchM_073_1747_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johann_elias_schlegel>
+    a foaf:Agent ;
+    foaf:name "Johann Elias Schlegel" .
+

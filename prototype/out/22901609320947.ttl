@@ -1,0 +1,57 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW255>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Til Guldbrylluppet i Gjentofte Kirke d. 24 Juli 1851"@da ;
+    dcterms:title "Golden Wedding Song"@en ;
+    dcterms:alternative "Nær Templet, nær de stille Skoves Ro"@da ;
+    dcterms:alternative "Guldbryllupssang"@da ;
+    dcterms:identifier "NWGW 255" ;
+    dcterms:identifier "GW IV:10" ;
+    cnw:cnwNumber "255" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/carl_borgaard> ;
+    dcterms:created "July 1851" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW255/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/NWGW255/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW255> ;
+    cnw:key "B-flat major" ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B. or" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Nær Templet ,nær de stille Skoves Ro"@da ;
+    cnw:incipitImage "NWGW_255.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/carl_borgaard>
+    a foaf:Agent ;
+    foaf:name "Carl Borgaard" .
+

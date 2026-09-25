@@ -1,0 +1,105 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW151>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Agnete og Havmanden"@da ;
+    dcterms:title "Agnete und der Meermann"@de ;
+    dcterms:title "Agnete and the Merman"@en ;
+    dcterms:alternative "Dramatisk Digtning i 2 Afdelinger af H.C. Andersen"@da ;
+    dcterms:alternative "Dramatische Dichtung von Hans Christian Andersen"@de ;
+    dcterms:alternative "Dramatic Poem in Two Acts by Hans Christian Andersen"@en ;
+    dcterms:identifier "Opus 3" ;
+    dcterms:identifier "NWGW 151" ;
+    cnw:cnwNumber "151" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "3" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/hans_christian_andersen> ;
+    dcterms:created "1842 to April 1843" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW151/expression/1> ;
+    cnw:performanceCount 4 .
+
+<https://cnw-ld.org/work/NWGW151/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW151> ;
+    cnw:tempo "Andantino" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:incipitText "Der voxed et Træ i min Moders Gaard"@da ;
+    cnw:incipitText "Jeg veed et Slot dets Væg og Tag"@en ;
+    cnw:incipitText "Agnete kjend mig i din Drøm"@da ;
+    cnw:incipitText "Sol deroppe ganger under Lide"@da ;
+    cnw:incipitText "Trara! Trara! Trara!"@da ;
+    cnw:incipitText "Agnete var elsket, uskyldig og god"@da ;
+    cnw:incipitText "Den fattige Fugl sad paa Grenen og sang"@da ;
+    cnw:incipitText "Barn Jesus, Brudgom faur og fiin"@da ;
+    cnw:incipitText "For Dig vort Knæ vi bøie!"@en ;
+    cnw:incipitText "Lærken synger sin Morgensang"@da ;
+    cnw:incipitText "Død er hun, død Agnete og jordet hendes Been"@da ;
+    cnw:incipitImage "NWGW_151_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/hans_christian_andersen>
+    a foaf:Agent ;
+    foaf:name "Hans Christian Andersen" .
+

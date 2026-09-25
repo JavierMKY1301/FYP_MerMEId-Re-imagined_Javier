@@ -1,0 +1,53 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB5-Coll-003>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kleine Lieder für Kinder zur Beförderung der Tugend. Zweyter Theil"@de ;
+    dcterms:identifier "SchW B5:Coll.003" ;
+    cnw:cnwNumber "B5:Coll.003" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_felix_wei_e> ;
+    dcterms:created "1765" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Children's songs" ;
+    cnw:editorialNote "A review which contains substantial quotations from Scheibe's introduction to the collection of children's songs." ;
+    cnw:editorialNote " 'Ein Theil dieser Lieder war schon ehmals in größrer Gestalt componirt, und zwar von einem Manne, der um die deutsche Musik unbezweifelte Verdienste hat. Worunter aber die Composition seiner Kinderlieder nicht mit gerechnet werden kann.'" ;
+    cnw:editorialNote " ('VII. Das Singen. 2. Weltliche. a. Lieder.'): '[Scheibens, kleine Lieder für kinder, zur Beförderung der Tugend, mit Melodien zum Singen beym Clavier.] Zweyter Theil. Flensburg, 1768. fol.1 thl.'" ;
+    cnw:editorialNote " 'Man hat gegenwärtige Lieder schon in einer größern Gestalt, vom- Herrn Kapellmeister Scheibe in Koppenhagen, componirt gesehen, und von mir wurde verlangt, sie in eine kleinere zu bringen: bloβ dieser Anfoderung Gnüge zu leisten, und nicht, mich mit einem andern zu messen, habe ich eine neue Composition derselben unternommen.'" ;
+    cnw:editorialNote "Letter from Weiße to Ramler dated 29 Aug. 1765." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB5-Coll-003/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB5-Coll-003/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB5-Coll-003> ;
+    cnw:performingForce "voci" ;
+    cnw:performingForce "cemb." ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/christian_felix_wei_e>
+    a foaf:Agent ;
+    foaf:name "Christian Felix Weiße" .
+
+<https://cnw-ld.org/agent/christiane_elisabeth_wei_e>
+    a foaf:Agent ;
+    foaf:name "Christiane Elisabeth Weiße" .
+

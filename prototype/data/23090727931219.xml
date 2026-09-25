@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_95N20005">
+   <meiHead xml:id="meiHead_N20299">
+      <fileDesc xml:id="fileDesc_N2029A">
+         <titleStmt xml:id="titleStmt_N2029B">
+            <title xml:id="title_N2029C">Wiegenlied</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_N2029E">
+            <respStmt xml:id="respStmt_id7d8584db">
+               <resp xml:id="resp_N202A1">Publisher</resp>
+               <corpName xml:id="corpName_idec941ac3">
+                  <abbr xml:id="abbr_N202A5">DCM</abbr>
+                  <expan xml:id="expan_N202A7"/>
+                  <address xml:id="address_N202A8">
+                     <addrLine xml:id="addrLine_N202A9"/>
+                     <addrLine xml:id="addrLine_N202AA"/>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_id4f1c522d">Inger Sørensen</persName>
+            </respStmt>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_N202B4">
+            <title xml:id="title_idde7f982b">J.P.E. Hartmann Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_id3b1e057e">HartW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_N2034F">
+         <appInfo xml:id="appInfo_N20350">
+            <application version="2013" xml:id="application_N20351">
+               <name xml:id="name_N20353">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_idfa5cb748">
+            <p xml:id="idm99">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_N20359">
+         <work xml:id="work_idf2d6ad32">
+            <identifier label="Opus" xml:id="identifier_N2035D">13:5</identifier>
+            <identifier label="HartW" xml:id="identifier_N20360">340</identifier>
+            <identifier label="DF" xml:id="identifier_N20363">120:5</identifier>
+            <title xml:id="title_id49979b82" xml:lang="de">Wiegenlied</title>
+            <title type="alternative" xml:id="title_454898e4" xml:lang="de">Schliesse die freundlichen Äuglein jetzt</title>
+            <contributor xml:id="respStmt_N20370">
+               <persName role="composer" xml:id="persName_id10c84123">J.P.E. Hartmann</persName>
+               <persName role="author" xml:id="persName_cb18bd4c">Adolph von Gähler</persName>
+            </contributor>
+            <creation xml:id="creation_id4daab31a">
+               <date isodate="1841" xml:id="date_N2037D">1841</date>
+            </creation>
+            <history xml:id="history_id579aeff1">
+               <eventList type="performances" xml:id="eventList_a282ddc4">
+                  <event xml:id="event_460d2dc3">
+                     <date isodate="1841-03-20" xml:id="date_N20388">1841-03-20</date>
+                     <geogName role="place" xml:id="geogName_31930a30">Copenhagen</geogName>
+                     <persName role="" xml:id="persName_953c3b14">Singer unknown.</persName>
+                     <desc xml:id="idm119">Concert given by Studenter-Sangforeningen.</desc>
+                     <biblList xml:id="biblList_5717c877">
+                        <head xml:id="head_N2039E">Reviews</head>
+                        <bibl label="" xml:id="bibl_c419db79">
+                           <genre xml:id="genre_N203A3">article</genre>
+                           <genre xml:id="genre_N203A5">journal</genre>
+                           <title level="a" xml:id="title_N203A9"/>
+                           <title level="j" xml:id="title_N203AB"/>
+                        </bibl>
+                     </biblList>
+                     <biblList xml:id="biblList_e3463c62">
+                        <head xml:id="head_N203BA">Evidence</head>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage xml:id="langUsage_N203BC">
+               <language xml:id="en">English</language>
+               <language xml:id="de">German</language>
+            </langUsage>
+            <biblList xml:id="biblList_N203C3">
+               <head xml:id="head_N203C4">Bibliography</head>
+               <bibl label="" xml:id="bibl_1f7d1028">
+                  <genre xml:id="genre_N203C9">article</genre>
+                  <genre xml:id="genre_N203CB">journal</genre>
+                  <author xml:id="author_N203CD">Robert Schumann</author>
+                  <title level="a" xml:id="title_N203CF">Liederschau</title>
+                  <title level="j" xml:id="title_N203D2">Neue Zeitschrift für Musik</title>
+                  <biblScope unit="vol" xml:id="biblScope_N203D6">17</biblScope>
+                  <biblScope unit="issue" xml:id="biblScope_N203D9">3</biblScope>
+                  <biblScope unit="page" xml:id="biblScope_N203DC">9-10</biblScope>
+                  <imprint xml:id="imprint_N203DF">
+                     <date isodate="1842-07-08" xml:id="date_N203E0">1842-07-08</date>
+                     <pubPlace xml:id="pubPlace_N203E3">Leipzig</pubPlace>
+                  </imprint>
+               </bibl>
+               <bibl label="Hove" xml:id="bibl_147N200EC">
+                  <genre xml:id="genre_N203F1">book</genre>
+                  <author xml:id="author_N203F3">Richard Hove</author>
+                  <title level="m" xml:id="title_N203F5">J.P.E. Hartmann</title>
+                  <imprint xml:id="imprint_N203F8">
+                     <date isodate="1934" xml:id="date_N203F9">1934</date>
+                     <pubPlace xml:id="pubPlace_N203FC">Copenhagen</pubPlace>
+                  </imprint>
+                  <biblScope unit="page" xml:id="biblScope_N203FF">59-60</biblScope>
+               </bibl>
+               <bibl label="" xml:id="bibl_0e45ebd6">
+                  <genre xml:id="genre_N20405">book</genre>
+                  <author xml:id="author_N20407">Niels Martin Jensen</author>
+                  <title level="m" xml:id="title_N20409">Den danske romance 1800-1850 og dens musikalske forudsætninger</title>
+                  <title level="s" xml:id="title_N2040C"/>
+                  <biblScope unit="page" xml:id="biblScope_N20413">157-159</biblScope>
+                  <imprint xml:id="imprint_N20416">
+                     <date isodate="1964" xml:id="date_N20417">1964</date>
+                     <pubPlace xml:id="pubPlace_N2041A">Copenhagen</pubPlace>
+                  </imprint>
+               </bibl>
+               <bibl label="Bruun" xml:id="bibl_171N2011F">
+                  <genre xml:id="genre_N20422">book</genre>
+                  <author xml:id="author_N20424">Kai Aage Bruun</author>
+                  <title level="m" xml:id="title_N20426">Dansk musiks historie fra Holberg-tiden til Carl Nielsen</title>
+                  <imprint xml:id="imprint_N20429">
+                     <date isodate="1969" xml:id="date_N2042A">1969</date>
+                     <pubPlace xml:id="pubPlace_N2042D">Copenhagen</pubPlace>
+                  </imprint>
+                  <biblScope unit="vol" xml:id="biblScope_N20430">2</biblScope>
+                  <biblScope unit="page" xml:id="biblScope_N20433">66</biblScope>
+               </bibl>
+               <bibl label="Schiørring" xml:id="bibl_181N20135">
+                  <genre xml:id="genre_N20439">book</genre>
+                  <author xml:id="author_N2043B">Nils Schiørring</author>
+                  <title level="m" xml:id="title_N2043D">Musikkens historie i Danmark</title>
+                  <imprint xml:id="imprint_N20440">
+                     <date isodate="1978" xml:id="date_N20441">1978</date>
+                     <pubPlace xml:id="pubPlace_N20444">Copenhagen</pubPlace>
+                  </imprint>
+                  <biblScope unit="vol" xml:id="biblScope_N20447">2: 1750-1870</biblScope>
+                  <biblScope unit="page" xml:id="biblScope_N2044A">258-259</biblScope>
+               </bibl>
+               <bibl label="Sørensen" xml:id="bibl_190N2014B">
+                  <genre xml:id="genre_N20450">book</genre>
+                  <author xml:id="author_N20452">Inger Sørensen</author>
+                  <title level="m" xml:id="title_N20454">Hartmann - et dansk komponistdynasti</title>
+                  <imprint xml:id="imprint_N20457">
+                     <date isodate="1999" xml:id="date_N20458">1999</date>
+                     <pubPlace xml:id="pubPlace_N2045B">Copenhagen</pubPlace>
+                  </imprint>
+                  <biblScope unit="page" xml:id="biblScope_N2045E">426-429</biblScope>
+               </bibl>
+            </biblList>
+            <classification xml:id="classification_N20461">
+               <termList xml:id="termList_N2046E">
+                  <term xml:id="term_N2046F">Vocal music</term>
+                  <term xml:id="term_N20471">Song</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_N20473">
+               <expression xml:id="expression_id909b9c43">
+                  <title xml:id="title_id072ad779" xml:lang="en"/>
+                  <incip xml:id="incip_id5b03ae91">
+                     <incipText xml:id="incipText_56b211d8">
+                        <p xml:id="p_N2047F" xml:lang="de">Schliesse die freundlichen Äuglein jetzt</p>
+                     </incipText>
+                     <graphic target="/dcm/assets/udgivelser/hartw/incipits/lowres/hartw_340.png" label=""
+                              targettype="lowres"
+                              xml:id="graphic_a45472b0"/>
+                     <graphic target="/dcm/assets/udgivelser/hartw/incipits/hires/hartw_340.png" label=""
+                              targettype="hires"
+                              xml:id="graphic_3d347385"/>
+                  </incip>
+                  <tempo xml:id="tempo_N20485">Andantino</tempo>
+                  <meter count="6" unit="8" xml:id="meter_N20487"/>
+                  <history xml:id="history_idb29849e4">
+                     <p xml:id="idm211"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_ide704b028">
+                     <perfResList xml:id="perfResList_N20496">
+                        <perfRes codedval="vn" count="1" solo="false" xml:id="perfRes_95df586f">voice</perfRes>
+                        <perfRes codedval="ka" count="1" solo="false" xml:id="perfRes_87bdec44">pf.</perfRes>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_N204A8">
+               <relation label="Sechs Gesänge für eine Singstimme mit Begleitung des Pianoforte"
+                         rel="isPartOf"
+                         target="1320941175.xml"
+                         xml:id="relation_3df0ffc1"/>
+               <relation label="Romancer og Sange" rel="isPartOf" target="23414519603507.xml"
+                         xml:id="relation_d9415eed"/>
+            </relationList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_N202BC">
+         <manifestation label="" xml:id="source_ide8a321a4">
+            <identifier label="" xml:id="identifier_N202C1"/>
+            <titleStmt xml:id="titleStmt_N202C3">
+               <title xml:id="title_iddee407e4">Score, print, first edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_N202C7">
+               <publisher xml:id="publisher_idd8d8fc99">Fr. Kistner</publisher>
+               <pubPlace xml:id="pubPlace_id93ac8327">Leipzig</pubPlace>
+               <date isodate="1840-02" xml:id="date_N202CE">Feb. 1840</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_N202D1">
+               <titlePage label="" xml:id="titlePage_be820888">
+                  <p xml:id="idm30">Sechs / GESÄNGE / für eine Singstimme / mit Begleitung des Pianoforte / componirt / von / J.P.E. HARTMANN. / Op. 13. P. 14 Gr. / Eigenthum des Verlegers. / Eingetragen in das Vereins-Archiv. / Leipzig, bei Fr. Kistner. / 1258.</p>
+               </titlePage>
+               <extent xml:id="extent_N202D7">11 pages</extent>
+               <plateNum xml:id="plateNum_N202DD">1258</plateNum>
+            </physDesc>
+            <notesStmt xml:id="notesStmt_N202DF">
+               <annot type="source_description" xml:id="annot_7246054f">
+                  <p xml:id="idm35">On p. 6 in this collection.</p>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_N202EC">
+               <termList xml:id="termList_N202ED">
+                  <term class="#DcmContentClass" xml:id="term_N202EE">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_N202F1">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_N202F4"/>
+                  <term class="#DcmScoringClass" xml:id="term_N202F6">score</term>
+                  <term class="#DcmStateClass" xml:id="term_N202F9">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_N202FC">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_N202FF"/>
+         </manifestation>
+         <manifestation label="" xml:id="source_9e568efa">
+            <titleStmt xml:id="titleStmt_abc31433">
+               <title xml:id="title_5d21cd8a">Score, print, later edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_486f2be0">
+               <publisher xml:id="publisher_2c42b29a">Wilhelm Hansen</publisher>
+               <pubPlace xml:id="pubPlace_f584849f">Copenhagen</pubPlace>
+               <date isodate="1885" xml:id="date_4630ab1f">1885</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_1f1b2d6e">
+               <titlePage label="" xml:id="titlePage_8bb638a0">
+                  <p xml:id="idm54">J.P.E. HARTMANN. / Romancer og Sange. / Ny af Komponisten revideret Udgave. / 2<rend xml:id="idm55" rend="sup">den</rend> AFDELING. / Forlæggerens Eiendom. / KJÖBENHAVN. / Wilhelm Hansens Musik-Forlag,</p>
+               </titlePage>
+               <extent xml:id="extent_c5a99d5a">102 pages</extent>
+            </physDesc>
+            <notesStmt xml:id="notesStmt_34a70d1c">
+               <annot type="source_description" xml:id="annot_a9d0647b">
+                  <p xml:id="idm59">On p. 74 in this collection.</p>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_5342dc23">
+               <termList xml:id="termList_a8732ba8">
+                  <term class="#DcmContentClass" xml:id="term_0c53f6ad">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_3cd011c2">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_362e0712"/>
+                  <term class="#DcmScoringClass" xml:id="term_924dfdd7">score</term>
+                  <term class="#DcmStateClass" xml:id="term_41ec127d">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_9a9fb7e3">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_8c961a76"/>
+         </manifestation>
+         <manifestation label="" xml:id="source_f3f1de61">
+            <identifier label="" xml:id="identifier_N2030A"/>
+            <titleStmt xml:id="titleStmt_N2030C">
+               <title xml:id="title_95b846b0">Score, print, later edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_N20310">
+               <publisher xml:id="publisher_65e0e9d0">Wilhelm Hansen</publisher>
+               <pubPlace xml:id="pubPlace_3d1a48ff">Copenhagen</pubPlace>
+               <date isodate="1886" xml:id="date_N20317">1886</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_N2031A">
+               <titlePage label="" xml:id="titlePage_14702dd4">
+                  <p xml:id="idm79">ROMANCER OG SANGE / AF / J.P.E. HARTMANN. [...] / Op. 13. Sex Sange til tydske Texter / Kr. 1 Øre 50. [...] / Forlæggerens Eiendom. / KJØBENHAVN. WILHELM HANSENS MUSIK-FORLAG.</p>
+               </titlePage>
+               <extent xml:id="extent_N20320">11 pages</extent>
+               <plateNum xml:id="plateNum_N20326">8190</plateNum>
+            </physDesc>
+            <notesStmt xml:id="notesStmt_N20328">
+               <annot type="source_description" xml:id="annot_0b788aa4">
+                  <p xml:id="idm84">On p. 6 in this collection.</p>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_N20335">
+               <termList xml:id="termList_N20336">
+                  <term class="#DcmContentClass" xml:id="term_N20337">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_N2033A">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_N2033D"/>
+                  <term class="#DcmScoringClass" xml:id="term_N2033F">score</term>
+                  <term class="#DcmStateClass" xml:id="term_N20342">later edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_N20345">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_N20348"/>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm219">
+         <change isodate="2015-09-25" xml:id="change_idbaffeb12">
+            <respStmt xml:id="idm221">
+               <name xml:id="idm222">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204B3">
+               <p xml:id="p_N204B4"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-09-29" xml:id="change_ecc2b30d">
+            <respStmt xml:id="idm226">
+               <name xml:id="idm227">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204B9">
+               <p xml:id="p_N204BA"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-11-02" xml:id="change_229N20210">
+            <respStmt xml:id="idm231">
+               <name xml:id="idm232">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204BF">
+               <p xml:id="p_N204C0"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-12-21" xml:id="change_233N2021A">
+            <respStmt xml:id="idm236">
+               <name xml:id="idm237">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204C5">
+               <p xml:id="p_N204C6"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-12-22" xml:id="change_236N20220">
+            <respStmt xml:id="idm241">
+               <name xml:id="idm242">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204CB">
+               <p xml:id="p_N204CC"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-12-29" xml:id="change_239N20226">
+            <respStmt xml:id="idm246">
+               <name xml:id="idm247">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204D1">
+               <p xml:id="p_N204D2"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-01-08" xml:id="change_242N2022C">
+            <respStmt xml:id="idm251">
+               <name xml:id="idm252">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204D7">
+               <p xml:id="p_N204D8"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-01-14" xml:id="change_245N20233">
+            <respStmt xml:id="idm256">
+               <name xml:id="idm257">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204DD">
+               <p xml:id="p_N204DE"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-01-18" xml:id="change_248N20239">
+            <respStmt xml:id="idm261">
+               <name xml:id="idm262">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204E3">
+               <p xml:id="p_N204E4"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-01-19" xml:id="change_aa106a24">
+            <respStmt xml:id="idm266">
+               <name xml:id="idm267">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204E9">
+               <p xml:id="p_N204EA"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_277idm140172751759584">
+            <respStmt xml:id="idm271">
+               <name xml:id="idm272">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204EF">
+               <p xml:id="p_N204F0">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_282d1e351">
+            <respStmt xml:id="idm276">
+               <name xml:id="idm277">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N204F6">
+               <p xml:id="p_N204F7">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-04-07" xml:id="change_286N1035F">
+            <respStmt xml:id="idm281">
+               <name xml:id="idm282">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_N205C8">
+               <p xml:id="p_N205C9"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-05-17" xml:id="change_d759adfd">
+            <respStmt xml:id="idm286">
+               <name xml:id="idm287">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_94a7eb9d">
+               <p xml:id="p_35ccf11f"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-05-27" xml:id="change_321N103CE">
+            <respStmt xml:id="idm291">
+               <name xml:id="idm292">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_52c86ed8">
+               <p xml:id="p_e436179d"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-06-13" xml:id="change_324N103D4">
+            <respStmt xml:id="idm296">
+               <name xml:id="idm297">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_cf600577">
+               <p xml:id="p_d7a3ffd2"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-01" xml:id="change_89f6f4db">
+            <respStmt xml:id="idm301">
+               <name xml:id="idm302">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm303">
+               <p xml:id="idm304"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-07" xml:id="change_332N103F0">
+            <respStmt xml:id="idm306">
+               <name xml:id="idm307">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm308">
+               <p xml:id="idm309"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-19" xml:id="change_334N103F1">
+            <respStmt xml:id="idm311">
+               <name xml:id="idm312">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm313">
+               <p xml:id="idm314"/>
+            </changeDesc>
+         </change>
+         <change xml:id="idm315" isodate="2017-04-04" n="20">
+            <respStmt xml:id="idm316">
+               <name xml:id="idm317">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm318">
+               <p xml:id="idm319">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-11-15T16:42:28.033Z" xml:id="change_376N10411">
+            <respStmt xml:id="idm321">
+               <name xml:id="idm322">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm323">
+               <p xml:id="idm324"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-14T16:39:53+01:00" xml:id="change_369N102F9">
+            <respStmt xml:id="idm326">
+               <name xml:id="idm327">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm328">
+               <p xml:id="idm329">Batch transformation removing empty elements</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T15:18:23Z" xml:id="change_330N10291">
+            <respStmt xml:id="idm331">
+               <name xml:id="idm332">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm333">
+               <p xml:id="idm334">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_335d1e334">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_340d1e335">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm335"/>
+</mei>

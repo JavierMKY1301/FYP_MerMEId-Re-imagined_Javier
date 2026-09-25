@@ -1,0 +1,57 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW223>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sang ved Deres Kongelige Højheder Kronprins Frederik og Kronprinsesse Lovisa's Sølvbryllup den 28. Juli 1894"@da ;
+    dcterms:title "Song at the Silver Wedding of Their Royal Highnesses Crown Prince Frederik and Crown Princess Lovisa on 28 July 1894"@en ;
+    dcterms:alternative "De Sommerdages Saga"@da ;
+    dcterms:identifier "HartW 223" ;
+    dcterms:identifier "DF 150" ;
+    cnw:cnwNumber "223" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/peter_hansen> ;
+    dcterms:created "1894-05-29" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Male choir" ;
+    dcterms:subject "Song" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW223/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW223/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW223> ;
+    cnw:tempo "Tempo moderato de marcia" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "De Sommerdages Saga fra Mælarstrand til Sund"@da ;
+    cnw:incipitImage "hartw_223_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/peter_hansen>
+    a foaf:Agent ;
+    foaf:name "Peter Hansen" .
+

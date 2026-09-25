@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_95N20005">
+   <meiHead xml:id="meiHead_6e13fb06">
+      <fileDesc xml:id="fileDesc_9b6e328f">
+         <titleStmt xml:id="titleStmt_485c16fb">
+            <title xml:id="title_25af71a9">Valpladsen</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_ba1ed65a">
+            <respStmt xml:id="respStmt_idf72ce6a7">
+               <resp xml:id="resp_ad0ac6c0">Publisher</resp>
+               <corpName xml:id="corpName_id5b04a5d7">
+                  <abbr xml:id="abbr_56d530b1">DCM</abbr>
+                  <expan xml:id="expan_6de2b9f8"/>
+                  <address xml:id="address_f7991be2">
+                     <addrLine xml:id="addrLine_83f06468"/>
+                     <addrLine xml:id="addrLine_8aeb7910">
+                        <ptr label="" xml:id="ptr_N20266"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_ida5960616">Inger Sørensen</persName>
+            </respStmt>
+            <date xml:id="date_f7f46a86"/>
+            <availability xml:id="availability_2fba8b89">
+               <useRestrict xml:id="useRestrict_e0b76160"/>
+            </availability>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_8a9c3505">
+            <title xml:id="title_idef8fe05d">Gade Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_id33e340b7">NWGW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_eb6206a5">
+         <appInfo xml:id="appInfo_702b44be">
+            <application version="2013" xml:id="application_a3e7ada7">
+               <name xml:id="name_e872cda8">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_id93d9cfee">
+            <p xml:id="idm257">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_930212ec">
+         <work xml:id="work_ide999b5c7">
+            <identifier label="Opus" xml:id="identifier_a5df5757">18:2</identifier>
+            <identifier label="NWGW" xml:id="identifier_1d03db20">46</identifier>
+            <identifier label="GW" xml:id="identifier_a8130a27">III:2</identifier>
+            <title xml:id="title_id59a37533" xml:lang="da">Valpladsen</title>
+            <title xml:id="title_a0a550e4" xml:lang="en">The Battlefield</title>
+            <contributor xml:id="respStmt_0c6bd3f3">
+               <persName role="composer" xml:id="persName_id318f64c8">Niels W. Gade</persName>
+               <persName role="dedicatee" xml:id="persName_84417237">Michael Wiehe</persName>
+            </contributor>
+            <creation xml:id="creation_id46ebde09">
+               <date isodate="1848" xml:id="date_7eb26496">1848</date>
+               <geogName xml:id="geogName_id50f48bd2"/>
+            </creation>
+            <history xml:id="history_idebfdc742">
+               <eventList type="performances" xml:id="eventList_222d8f29">
+                  <event xml:id="event_70d509a6">
+                     <date isodate="1870-08-13" xml:id="date_f2df5e0f">1870-08-13</date>
+                     <geogName role="venue" xml:id="geogName_8fe20016">Salonen "Sommerlyst"</geogName>
+                     <geogName role="place" xml:id="geogName_c70e6aa6">Svendborg</geogName>
+                     <desc xml:id="desc_c8e67268"/>
+                     <biblList xml:id="biblList_39d1dc06">
+                        <head xml:id="head_0a0193ea">Reviews</head>
+                        <bibl label="" xml:id="bibl_4034f3ad">
+                           <genre xml:id="genre_eb7544fe">article</genre>
+                           <genre xml:id="genre_d815b2a3">journal</genre>
+                           <author xml:id="author_0fe43fff"/>
+                           <date xml:id="date_710838f0"/>
+                           <title level="a" xml:id="title_4a0dac3f"/>
+                           <title level="j" xml:id="title_99936bbf"/>
+                           <editor xml:id="editor_48cf9141"/>
+                           <biblScope unit="vol" xml:id="biblScope_43c7998e"/>
+                           <biblScope unit="issue" xml:id="biblScope_3927b3d8"/>
+                           <biblScope unit="page" xml:id="biblScope_92f8ef94"/>
+                           <pubPlace xml:id="pubPlace_92d8d595"/>
+                           <publisher xml:id="publisher_f75e584a"/>
+                           <ptr label="" xml:id="ptr_d6b8b325"/>
+                        </bibl>
+                     </biblList>
+                     <biblList xml:id="biblList_953d61ef">
+                        <head xml:id="head_cfdffe34">Evidence</head>
+                     </biblList>
+                  </event>
+                  <event xml:id="event_4fe7a022">
+                     <date isodate="1887-11-27" xml:id="date_bc098fe8">1887-11-27</date>
+                     <geogName role="venue" xml:id="geogName_4d5755c9">Vodrufslund</geogName>
+                     <geogName role="place" xml:id="geogName_81304373">Copenhagen</geogName>
+                     <desc xml:id="desc_3377f727"/>
+                     <biblList xml:id="biblList_6ec8ca7c">
+                        <head xml:id="head_9700b6db">Reviews</head>
+                        <bibl label="" xml:id="bibl_cd231fa4">
+                           <genre xml:id="genre_d6c21ca0">article</genre>
+                           <genre xml:id="genre_392d178d">journal</genre>
+                           <author xml:id="author_46366a73"/>
+                           <date xml:id="date_573a4fe4"/>
+                           <title level="a" xml:id="title_ca9af543"/>
+                           <title level="j" xml:id="title_3ef5e0b4"/>
+                           <editor xml:id="editor_54fb91be"/>
+                           <biblScope unit="vol" xml:id="biblScope_02d2877e"/>
+                           <biblScope unit="issue" xml:id="biblScope_434efcd0"/>
+                           <biblScope unit="page" xml:id="biblScope_d40b0610"/>
+                           <pubPlace xml:id="pubPlace_d256ca35"/>
+                           <publisher xml:id="publisher_ed120ff7"/>
+                           <ptr label="" xml:id="ptr_0a4545f9"/>
+                        </bibl>
+                     </biblList>
+                     <biblList xml:id="biblList_a595ea21">
+                        <head xml:id="head_90489390">Evidence</head>
+                     </biblList>
+                  </event>
+               </eventList>
+               <p xml:id="idm320"/>
+            </history>
+            <langUsage xml:id="langUsage_9447456f">
+               <language xml:id="en">English</language>
+               <language xml:id="da">Danish</language>
+            </langUsage>
+            <biblList xml:id="biblList_247N20194">
+               <head xml:id="head_01b8a65d">Documents</head>
+               <bibl label="" xml:id="bibl_c87358d7">
+                  <genre xml:id="genre_125cfe80">letter</genre>
+                  <author xml:id="author_017d755e">Niels W. Gade</author>
+                  <recipient xml:id="recipient_ec17b51a">Carl Gotthelf Siegmund Böhme (C.F. Peters)</recipient>
+                  <creation xml:id="creation_57f3ad35">
+                     <date isodate="1848-09-13" xml:id="date_4b4af652">1848-09-13</date>
+                     <geogName xml:id="geogName_ca92e269">Copenhagen</geogName>
+                  </creation>
+                  <physLoc xml:id="physLoc_8fa71599">
+                     <repository xml:id="repository_4a453f8d">
+                        <corpName xml:id="corpName_231N20199"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_e24593f1">DK-Kk</identifier>
+                        <ptr label="" xml:id="ptr_N203C3"/>
+                     </repository>
+                     <identifier xml:id="identifier_1c59b6ee">NKS 1716 fol. B no. 1</identifier>
+                  </physLoc>
+                  <annot xml:id="annot_ad33234f">
+                     <p xml:id="idm340"/>
+                  </annot>
+                  <ptr label="" xml:id="ptr_N203C9"/>
+                  <relatedItem rel="host" xml:id="relatedItem_2aa26249">
+                     <bibl label="" xml:id="bibl_247N201BE">
+                        <title xml:id="title_d4f5de2b">Niels W. Gade og hans europæiske kreds</title>
+                        <biblScope unit="no" xml:id="biblScope_51ef8ab7">163</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+            </biblList>
+            <classification xml:id="classification_970bd2f7">
+               <termList xml:id="termList_2bf135e4">
+                  <term xml:id="term_98562af6">Instrumental music</term>
+                  <term xml:id="term_25f6b4ac">Chamber music</term>
+                  <term xml:id="term_7cef430c">Piano four hands</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_3355881a">
+               <expression xml:id="expression_iddbcfd368">
+                  <title xml:id="title_id6f93adba" xml:lang="en"/>
+                  <incip xml:id="idm361">
+                     <graphic target="/dcm/assets/udgivelser/nwgw/incipits/lowres/NWGW_046.png" label=""
+                              targettype="lowres"
+                              xml:id="graphic_4062853972"/>
+                     <graphic target="/dcm/assets/udgivelser/nwgw/incipits/hires/NWGW_046.png" label=""
+                              targettype="hires"
+                              xml:id="graphic_0189695257"/>
+                  </incip>
+                  <tempo xml:id="tempo_0a243ee7">Allegro maestoso</tempo>
+                  <key mode="minor" pname="e" xml:id="key_4a1f9e01"/>
+                  <meter sym="common" xml:id="meter_5b60c1ad"/>
+                  <creation xml:id="creation_ide462f8ac">
+                     <date xml:id="date_fa89c243"/>
+                     <geogName xml:id="geogName_id028ffbfa"/>
+                  </creation>
+                  <history xml:id="history_id266a32d5">
+                     <p xml:id="idm371"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_id7aa578ac">
+                     <perfResList xml:id="perfResList_277N2020F">
+                        <perfRes codedval="ka" solo="false" xml:id="perfRes_b96cf023">pf. four hands</perfRes>
+                     </perfResList>
+                  </perfMedium>
+                  <classification xml:id="classification_bdc9c6a5">
+                     <termList xml:id="termList_2e349834">
+                        <term xml:id="term_da7d5abd"/>
+                     </termList>
+                  </classification>
+                  <componentList xml:id="componentGrp_60ce1fb9"/>
+                  <relationList xml:id="relationList_741e5417"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_46ac74ac">
+               <relation label="Tre Charakteerstykker for Pianoforte for 4 hænder" rel="isPartOf"
+                         target="22775757071667.xml"
+                         xml:id="relation_353999de"/>
+            </relationList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_81db5241">
+         <manifestation label="" xml:id="source_id2477cc62">
+            <identifier label="" xml:id="identifier_7c2c92b5"/>
+            <titleStmt xml:id="titleStmt_1c70ae23">
+               <title xml:id="title_idbc5ed6a5">Score, print, first Danish edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_7ddd4b2e">
+               <publisher xml:id="publisher_id27716b96">Horneman &amp; Erslev</publisher>
+               <pubPlace xml:id="pubPlace_ide68a50b7">Copenhagen</pubPlace>
+               <date isodate="1848-10" xml:id="date_a452da22">Oct. 1848</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_97d6900b">
+               <titlePage label="" xml:id="titlePage_d4051524">
+                  <p xml:id="idm34">I. BORTREISEN / Hornet lyder og Trommen gaaer, / Saa lysteligt monne det klinge, / De ile derhen, hvor Kampen staaer, / Alt paa Begeistringens Vinge. / II. VALPLADSEN / Trommerne gik og Hornet löd, / Saa sörgeligt monne det klinge, / De Brödre der vandt sig en Heltedöd, / Det sidste Farvel de bringe. / III. HJEMKOMSTEN / Hornet lyder og Trommerne gaae, / Saa lysteligt monne det klinge, / Til Fader og Moder og Pigerne smaae / de ile paa Længselens Vinge. / TRE / CHARAKTEERSTYKKER / for Pianoforte / for 4 Hænder / componerede og / MICHAEL WIEHE / venskabeligst tilegnede / af / NIELS W. GADE. / Op. 18 Forlæggerens Eiendom. Pr. 80 Sk. / Kjöbenhavn / Paa Horneman &amp; Erslev's Forlag / Leipzig hos C.F. Peters. / Em. Bærentzen &amp; Co. lith. Inst.</p>
+               </titlePage>
+               <extent xml:id="extent_f06fa002">13 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_6389ae1f"/>
+               <physMedium xml:id="physMedium_823e7452"/>
+            </physDesc>
+            <classification xml:id="classification_93053a89">
+               <termList xml:id="termList_456aaae8">
+                  <term class="#DcmContentClass" xml:id="term_52c0b6d8">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_7f45df5d">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_60e46836"/>
+                  <term class="#DcmScoringClass" xml:id="term_b45683d4">score</term>
+                  <term class="#DcmStateClass" xml:id="term_8f2ac4f6">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_9c7f513d">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_ab714abc">
+               <item label="Gade' personal copy" xml:id="item_d734f9f3">
+                  <identifier label="" xml:id="identifier_1529647e"/>
+                  <physLoc xml:id="physLoc_6ab0fe4b">
+                     <repository xml:id="repository_4f110d35">
+                        <corpName xml:id="corpName_1ea88da4"/>
+                        <geogName xml:id="geogName_1ed773c4"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_201571f0">DK-Kk</identifier>
+                        <ptr label="" mimetype="" xml:id="ptr_5fc224af"/>
+                     </repository>
+                     <identifier xml:id="identifier_0fd8266b">C II, 6 Gades Samling 052, D32</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_b79589cf"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_bc2e14b6"/>
+            <relationList xml:id="relationList_e4510837">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_id5bb77843"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_b56bad92">
+            <identifier label="" xml:id="identifier_63d4a9d4"/>
+            <titleStmt xml:id="titleStmt_a7d92ff7">
+               <title xml:id="title_ad305027">Score, print, first German edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_5559b443">
+               <publisher xml:id="publisher_e536e706">C.F. Peters</publisher>
+               <pubPlace xml:id="pubPlace_ba34fb60">Leipzig</pubPlace>
+               <date isodate="1848-11" xml:id="date_baa884b4">Nov. 1848</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_fc56a74a">
+               <titlePage label="" xml:id="titlePage_ae214e9a">
+                  <p xml:id="idm71">3 / CLAVIERSTÜCKE / zu vier Händen / in Marschform / componirt / und / MICHAEL WIEHÈ / gewidmet / von NIELS W. GADE. / Op. 18. / Eigenthum des Verlegers. - Eingetragen in das Vereinsarchiv. / Pr. 20 Ngr. /  Leipzig. / im Bureau de Musique von C.F. Peters. / COPENHAGEN, bei Hornemann &amp; Erslev. / London, J.J. EWER &amp; Co. / Ent. Sta:Hall. / St. Petersburg ; Bernard. / 3252.</p>
+               </titlePage>
+               <extent xml:id="extent_6b64ae13">13 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_a8c13db1"/>
+               <plateNum xml:id="plateNum_5521cdfc">3252</plateNum>
+            </physDesc>
+            <classification xml:id="classification_22b6d750">
+               <termList xml:id="termList_37df3525">
+                  <term class="#DcmContentClass" xml:id="term_993a7372">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_2eb0bf58">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_b14ab201"/>
+                  <term class="#DcmScoringClass" xml:id="term_444fc4f8">score</term>
+                  <term class="#DcmStateClass" xml:id="term_e4a34f2a">later edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_aa8ee34e">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_a8e50d3f">
+               <item label="Gade's personal copy" xml:id="item_d553c6ea">
+                  <identifier label="" xml:id="identifier_0ea2f8a7"/>
+                  <physLoc xml:id="physLoc_4f8c685e">
+                     <repository xml:id="repository_645318a5">
+                        <corpName xml:id="corpName_58bc2163"/>
+                        <geogName xml:id="geogName_9c567080"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_215b2c1c">DK-Kk</identifier>
+                        <ptr label="" mimetype="" xml:id="ptr_2111db9c"/>
+                     </repository>
+                     <identifier xml:id="identifier_51e77fc5">C II, 6 Gades Samling 053, D32</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_673d2a32"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_f84cb768"/>
+            <relationList xml:id="relationList_ff5c8293">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_5f53ef42"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_ca9c8a29">
+            <identifier label="" xml:id="identifier_4a278034"/>
+            <titleStmt xml:id="titleStmt_2701f1b3">
+               <title xml:id="title_8b66fca2">Score, print, French edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_7ce11445">
+               <publisher xml:id="publisher_c6963632">Richault</publisher>
+               <pubPlace xml:id="pubPlace_6958a169">Paris</pubPlace>
+               <date isodate="1853" xml:id="date_31549402">c. 1853</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_fe56764b">
+               <titlePage label="" xml:id="titlePage_9f9df176">
+                  <p xml:id="idm108">à M<rend xml:id="idm109" rend="sup">r</rend> Michael Wiehè. / 3 / MORCEAUX / POUR / Piano à quatre mains / par N.W. GADE / OEuvre 18. Prix: 7<rend xml:id="idm110" rend="sup">f</rend>. 50<rend xml:id="idm111" rend="sup">c</rend>. / A.J. à Paris, S. Richault. Editeur, Boulevart Poissinière, 26, au 1<rend xml:id="idm112" rend="sup">er</rend> / 11.480.R.</p>
+               </titlePage>
+               <extent xml:id="extent_678b4749">13 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_57f49ac3"/>
+               <physMedium xml:id="physMedium_3f631464"/>
+               <plateNum xml:id="plateNum_99be1e29">11.480.R</plateNum>
+            </physDesc>
+            <classification xml:id="classification_0162dfd2">
+               <termList xml:id="termList_09d8eab8">
+                  <term class="#DcmContentClass" xml:id="term_56a36e9d">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_0b87a2d5">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_c59ad44e"/>
+                  <term class="#DcmScoringClass" xml:id="term_f958983e">score</term>
+                  <term class="#DcmStateClass" xml:id="term_5741e55a">later edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_3600f1a8">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_bafef19f">
+               <item label="Gade's personal copy" xml:id="item_5196de70">
+                  <identifier label="" xml:id="identifier_959170dd"/>
+                  <physLoc xml:id="physLoc_9cd8c22a">
+                     <repository xml:id="repository_00166ed4">
+                        <corpName xml:id="corpName_a8077cba"/>
+                        <geogName xml:id="geogName_6c12ddad"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_dc36c5da">DK-Kk</identifier>
+                        <ptr label="" mimetype="" xml:id="ptr_de5f4cec"/>
+                     </repository>
+                     <identifier xml:id="identifier_d3794fcb">C II, 6 Gades Samling 054, D32</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_4ec59f75"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_4a40d868"/>
+            <relationList xml:id="relationList_129f8e51">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_282d5504"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_52ec3ce3">
+            <identifier label="" xml:id="identifier_35e94931"/>
+            <titleStmt xml:id="titleStmt_5a5f27e3">
+               <title xml:id="title_454c3811">Score, print, later Danish edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_6b98b481">
+               <publisher xml:id="publisher_ef8922e8">Horneman &amp; Erslev</publisher>
+               <pubPlace xml:id="pubPlace_4d2802bf">Copenhagen</pubPlace>
+               <date isodate="1863" xml:id="date_6d2ce5e0">after 1863</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_b92af8df">
+               <titlePage label="" xml:id="titlePage_09928dec">
+                  <p xml:id="idm150">COMPOSITIONER / FOR PIANO / TIL FIRE HÆNDER. / 1. Gade, N.W. op. 18. Tre Charakteerstykker: 1. Bortreisen. / 2. Valpladsen. 3. Hjemkomsten. [...] KJØBENHAVN / hos / EMIL ERSLEV (HORNEMAN &amp; ERSLEV).</p>
+               </titlePage>
+               <extent xml:id="extent_a9628b3e">13 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_cf0f988c"/>
+               <physMedium xml:id="physMedium_0a44dc46"/>
+               <plateNum xml:id="plateNum_a8c40765">5</plateNum>
+            </physDesc>
+            <classification xml:id="classification_6387b7fa">
+               <termList xml:id="termList_7016d753">
+                  <term class="#DcmContentClass" xml:id="term_be68d79c">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_ddbe314b">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_939f906a"/>
+                  <term class="#DcmScoringClass" xml:id="term_c18fa841">score</term>
+                  <term class="#DcmStateClass" xml:id="term_e67110ff">later edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_a112c9a6">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_014fec1d"/>
+            <componentList xml:id="componentGrp_7b849db9"/>
+            <relationList xml:id="relationList_fd69e34d">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_4a3c90da"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_5f9b52bc">
+            <identifier label="" xml:id="identifier_968d99fa"/>
+            <titleStmt xml:id="titleStmt_6042e485">
+               <title xml:id="title_dd197606">Score, print, later German edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_6838206b">
+               <publisher xml:id="publisher_99ae3a8e">C.F. Peters</publisher>
+               <pubPlace xml:id="pubPlace_94153887">Leipzig</pubPlace>
+               <date isodate="1885" xml:id="date_12078a5b">c. 1885</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_eb8ef469">
+               <titlePage label="" xml:id="titlePage_44335017">
+                  <p xml:id="idm177">Drei Klavierstücke zu vier Händen / in Marschform komponiert / und MICHAEL R. WIEHE / gewidmet / von NIELS W. GADE. / Op. 16. / Eigenthum des Verlegers. Ent.<rend xml:id="idm178" rend="sup">d</rend> Stat. HAll. / Aufführungsrecht vorbehalten. / LEIPZIG / C.F. PETERS.</p>
+               </titlePage>
+               <titlePage label="Cover" xml:id="titlePage_37c1ae98">
+                  <p xml:id="idm180">EDITION PETERS / No. 1005 / N.W. GADE / Marsche zu 4 Händen / Marches à 4 Mains - Marches for Piano Duet. / Op. 18.</p>
+               </titlePage>
+               <extent xml:id="extent_7f69f5ff">15 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_000bf0f2"/>
+               <physMedium xml:id="physMedium_fd0e0608"/>
+               <plateNum xml:id="plateNum_cb177695">6812</plateNum>
+            </physDesc>
+            <classification xml:id="classification_6cc41c44">
+               <termList xml:id="termList_9289d47c">
+                  <term class="#DcmContentClass" xml:id="term_07e3d17b">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_2f19389c">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_d04c7f01"/>
+                  <term class="#DcmScoringClass" xml:id="term_30fe1e74">score</term>
+                  <term class="#DcmStateClass" xml:id="term_82fc22d5">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_77bbc35f">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_6b33f32b"/>
+            <componentList xml:id="componentGrp_18e332db"/>
+            <relationList xml:id="relationList_638fc574">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_14b3c5fc"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_14ddd695">
+            <identifier label="" xml:id="identifier_2830b8b4"/>
+            <titleStmt xml:id="titleStmt_98cb0e54">
+               <title xml:id="title_9bef3f22">Arrangement for piano two hands, print, German edition</title>
+               <respStmt xml:id="respStmt_324bc78f">
+                  <persName role="arranger" xml:id="persName_f4c48d9f">August Horn</persName>
+               </respStmt>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_3f10be83">
+               <publisher xml:id="publisher_a1acb119">C.F. Peters</publisher>
+               <pubPlace xml:id="pubPlace_fb92eb2e">Leipzig</pubPlace>
+               <date isodate="1865-05" xml:id="date_416be313">May 1865</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_c3603d36">
+               <titlePage label="" xml:id="titlePage_9615b6df">
+                  <p xml:id="idm209">3 CLAVIERSTÜCKE / zu vier Händen / in Marschform komponirt / und / MICHAEL R. WIEHÈ / gewidmet / von / NIELS W. GADE. / OP. 18. /  Pr. 25 Ngr. / Eigenthum des Verlegers. / Eingetragen in das Vereins-Archiv. / Ent<rend xml:id="idm210" rend="sup">d</rend> Stat. Hall. / LEIPZIG / u. BERLIN, / C.F.PETERS, Bureau de Musique. / Neue Ausgabe / Dieselben Stücke arrangirt zu 2 Händen von Aug. Horn. / [...] 4495</p>
+               </titlePage>
+               <extent xml:id="extent_b64b8685">11 pages</extent>
+               <plateNum xml:id="plateNum_ee17dfda">4495</plateNum>
+            </physDesc>
+            <classification xml:id="classification_bf87a53e">
+               <termList xml:id="termList_0a24d30d">
+                  <term class="#DcmContentClass" xml:id="term_c36edbe1">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_14693c48">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_d3a93fd4"/>
+                  <term class="#DcmScoringClass" xml:id="term_2cc357ad">score</term>
+                  <term class="#DcmStateClass" xml:id="term_46dea527">later edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_56b9cc11">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_4c15cd0d"/>
+            <componentList xml:id="componentGrp_4536ba57"/>
+            <relationList xml:id="relationList_a7d05dc8">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_31d074e4"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_323e4895">
+            <identifier label="" xml:id="identifier_a0584351"/>
+            <titleStmt xml:id="titleStmt_19d47bde">
+               <title xml:id="title_7193ff57">Arrangement for piano two hands, print, Danish edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_a36ca799">
+               <publisher xml:id="publisher_4e81c30b">Emil Erslev</publisher>
+               <pubPlace xml:id="pubPlace_e246adf7">Copenhagen</pubPlace>
+               <date isodate="1866-12" xml:id="date_33bca22b">Dec. 1866</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_0014437c">
+               <titlePage label="" xml:id="titlePage_d53e6468">
+                  <p xml:id="idm235">BORTREISEN. / VALPLADSEN. HJEMKOMSTEN. / 3 / CHARAKTEERSTYKKER / i Marschform. / COMPONEREDE AF / NIELS W. GADE / Op. 18 / Arrangeret for Piano til 2 Hænder. Pr. 72 Sk. / Forlæggerens Eiendom. / Kiøbenhavn: Emil Erslev (Horneman &amp; Erslev). / Leipzig: C.F. Peters.</p>
+               </titlePage>
+               <extent xml:id="extent_903500e2">10 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_bee16c9b"/>
+               <physMedium xml:id="physMedium_687ba236"/>
+               <plateNum xml:id="plateNum_c9ef0bbe">21.1; 21.2; 21.3</plateNum>
+            </physDesc>
+            <classification xml:id="classification_a4b411f5">
+               <termList xml:id="termList_16aa6dee">
+                  <term class="#DcmContentClass" xml:id="term_df702c15">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_fd0e0e49">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_fbb3b71c"/>
+                  <term class="#DcmScoringClass" xml:id="term_ccb195f6">score</term>
+                  <term class="#DcmStateClass" xml:id="term_36ff8047">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_bd06607e">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_592572fe"/>
+            <componentList xml:id="componentGrp_213939d4"/>
+            <relationList xml:id="relationList_7cfb65fc">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_88b76e71"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm382">
+         <change isodate="2015-03-04" xml:id="change_id45f87fab">
+            <respStmt xml:id="respStmt_0fb27cab">
+               <name xml:id="resp_cf651a2f">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f3094170">
+               <p xml:id="p_07f07b1d"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-03-09" xml:id="change_e0dd160d">
+            <respStmt xml:id="respStmt_f4702466">
+               <name xml:id="resp_89375610">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_38c58032">
+               <p xml:id="p_57bb5603"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-03-12" xml:id="change_115N200F5">
+            <respStmt xml:id="respStmt_d6955712">
+               <name xml:id="resp_a3dda64b">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_de97d30d">
+               <p xml:id="p_3bdeac66"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-04-14" xml:id="change_a1100cee">
+            <respStmt xml:id="respStmt_1f28c9ac">
+               <name xml:id="resp_86feb004">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3d309b0c">
+               <p xml:id="p_975704fe"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-09-09" xml:id="change_6633324c">
+            <respStmt xml:id="respStmt_8c9db918">
+               <name xml:id="resp_3a2a7433">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b6149843">
+               <p xml:id="p_af6f4dbd"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_231idm139672073961904">
+            <respStmt xml:id="respStmt_03fcd68c">
+               <name xml:id="resp_18b85cd9">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_358a835b">
+               <p xml:id="p_6434e956">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_235d1e287">
+            <respStmt xml:id="respStmt_fc946aad">
+               <name xml:id="resp_52e93231">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_fc7510de">
+               <p xml:id="p_5d215f65">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-12" xml:id="change_239N1022C">
+            <respStmt xml:id="respStmt_adfdc355">
+               <name xml:id="resp_23d16ebd">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_6e0affd8">
+               <p xml:id="p_7f0ef239"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-04" n="9" xml:id="change_9d15d260">
+            <respStmt xml:id="respStmt_acdc8f88">
+               <name xml:id="resp_91b711be">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_fddaebad">
+               <p xml:id="p_325bd4f4">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-20" xml:id="change_266N10250">
+            <respStmt xml:id="respStmt_c1466e1d">
+               <name xml:id="resp_2659309c">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_62b99e20">
+               <p xml:id="p_e694534b"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-05-22" xml:id="change_6b40de0d">
+            <respStmt xml:id="respStmt_09906e54">
+               <name xml:id="resp_de27d2aa">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_10576549">
+               <p xml:id="p_54491096"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-07-31" xml:id="change_379N10455">
+            <respStmt xml:id="respStmt_7608629e">
+               <name xml:id="resp_0c94cde4">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_a6ae1085">
+               <p xml:id="p_b9e4203d"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-03T13:12:26.661Z" xml:id="change_438N10509">
+            <respStmt xml:id="respStmt_98499e1f">
+               <name xml:id="resp_dfe28298">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_32a3ce95">
+               <p xml:id="p_3bf05e73"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-09T13:57:45.711Z" xml:id="change_443N10511">
+            <respStmt xml:id="respStmt_273019ae">
+               <name xml:id="resp_bf8ea054">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_e2e778d4">
+               <p xml:id="p_5eb8ab2a"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-12T15:05:04.682Z" xml:id="change_448N10519">
+            <respStmt xml:id="respStmt_56681503">
+               <name xml:id="resp_850ced10">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d74b0318">
+               <p xml:id="p_4d55c07c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-02-28T13:50:44.291Z" xml:id="change_453N10521">
+            <respStmt xml:id="respStmt_e3556e72">
+               <name xml:id="resp_21696aa8">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_a57d3cdf">
+               <p xml:id="p_d7aaf7be"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-03-07T14:27:43.647Z" xml:id="change_458N1052B">
+            <respStmt xml:id="respStmt_d04aae69">
+               <name xml:id="resp_5743b682">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2e137c70">
+               <p xml:id="p_c6a20f3e"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T09:19:44Z" xml:id="change_465N10428">
+            <respStmt xml:id="respStmt_b60ac1e5">
+               <name xml:id="resp_1dccf071">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_4d7659e4">
+               <p xml:id="p_66ad135c">Added incipit graphic URL</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-22T11:21:23.895Z" xml:id="change_a21c34a5">
+            <respStmt xml:id="idm474">
+               <name xml:id="idm475">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b896c375">
+               <p xml:id="p_7ba08f63"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-07-06T11:03:51.196Z" xml:id="change_476N10572">
+            <respStmt xml:id="idm479">
+               <name xml:id="idm480">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm481">
+               <p xml:id="idm482"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-07-16T11:07:37.526Z" xml:id="change_481N1057A">
+            <respStmt xml:id="idm484">
+               <name xml:id="idm485">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm486">
+               <p xml:id="idm487"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-11-07T15:42:37.644Z" xml:id="change_486N10582">
+            <respStmt xml:id="idm489">
+               <name xml:id="idm490">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm491">
+               <p xml:id="idm492"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-02-08T13:44:09.147Z" xml:id="change_491N1058A">
+            <respStmt xml:id="idm494">
+               <name xml:id="idm495">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm496">
+               <p xml:id="idm497"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-06T12:49:28.073Z" xml:id="change_496N10592">
+            <respStmt xml:id="idm499">
+               <name xml:id="idm500">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm501">
+               <p xml:id="idm502"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T14:45:37Z" xml:id="change_503N10436">
+            <respStmt xml:id="idm504">
+               <name xml:id="idm505">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm506">
+               <p xml:id="idm507">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_508d1e534">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_513d1e535">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_518d1e535">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm508"/>
+</mei>

@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW61>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Suite für Pianoforte und Violine"@de ;
+    dcterms:title "Suite for Pianoforte og Violin"@da ;
+    dcterms:alternative "Duetter for klaver og violin"@da ;
+    dcterms:alternative "Characteerstykker for Claveer og Violin"@da ;
+    dcterms:alternative "Duetter for Claveer og Violin"@da ;
+    dcterms:identifier "Opus 66" ;
+    dcterms:identifier "HartW 61" ;
+    dcterms:identifier "DF 3" ;
+    cnw:cnwNumber "61" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "66" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "23 July to 26 Aug.1864" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:subject "Violin and piano" ;
+    frbr:realization <https://cnw-ld.org/work/HartW61/expression/1> ;
+    cnw:performanceCount 9 .
+
+<https://cnw-ld.org/work/HartW61/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW61> ;
+    cnw:key "A minor" ;
+    cnw:tempo "Moderato non troppo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "vl." ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "hartw_061_1_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/ferdinand_david>
+    a foaf:Agent ;
+    foaf:name "Ferdinand David" .
+

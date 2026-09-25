@@ -1,0 +1,61 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW356>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Længsel"@da ;
+    dcterms:title "I Love My Jean"@en ;
+    dcterms:alternative "I hvor jeg end slaar Øiet hen"@da ;
+    dcterms:alternative "Of a' the airts the wind can blaw"@en ;
+    dcterms:alternative "I hvor jeg end slår øjet hen"@da ;
+    dcterms:identifier "CNW 356" ;
+    dcterms:identifier "CNU III/6, 316" ;
+    dcterms:identifier "CNS 300" ;
+    dcterms:identifier "FS 3m" ;
+    cnw:cnwNumber "356" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "3m" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/robert_burns> ;
+    dcterms:created "c. 1887" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    frbr:realization <https://cnw-ld.org/work/CNW356/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW356/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW356> ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "I hvor jeg end slaaer Øiet hen"@da ;
+    cnw:incipitText "Of a' the airts the wind can blaw"@en ;
+    cnw:incipitImage "cnw_356.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/robert_burns>
+    a foaf:Agent ;
+    foaf:name "Robert Burns" .
+
+<https://cnw-ld.org/agent/caralis_christian_preetzmann>
+    a foaf:Agent ;
+    foaf:name "Caralis [Christian Preetzmann]" .
+

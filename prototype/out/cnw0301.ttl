@@ -1,0 +1,57 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW301>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Barnets Sang"@da ;
+    dcterms:title "Children's Song"@en ;
+    dcterms:alternative "Kom, i Dag maa alle synge"@da ;
+    dcterms:alternative "Come today and join the chorus"@en ;
+    dcterms:alternative "Kom, i dag må alle synge"@da ;
+    dcterms:identifier "CNW 301" ;
+    dcterms:identifier "CNU III/5, 236; III/6, 389" ;
+    dcterms:identifier "CNS 79" ;
+    dcterms:identifier "FS 72" ;
+    cnw:cnwNumber "301" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "72" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_dam> ;
+    dcterms:created "1915" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/CNW301/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW301/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW301> ;
+    cnw:tempo "Let skridende" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "(voice)" ;
+    cnw:incipitText "Kom, i Dag maa alle synge"@da ;
+    cnw:incipitText "Come today and join the chorus"@en ;
+    cnw:incipitText "Kom, i Dag maa alle synge"@da ;
+    cnw:incipitText "Come today and join the chorus"@en ;
+    cnw:incipitImage "cnw_301.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/johannes_dam>
+    a foaf:Agent ;
+    foaf:name "Johannes Dam" .
+

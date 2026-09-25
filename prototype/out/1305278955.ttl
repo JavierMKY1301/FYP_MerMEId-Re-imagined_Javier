@@ -1,0 +1,53 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW133>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sonate for orgel i g-mol"@da ;
+    dcterms:title "Sonate für die Orgel in g-Moll"@de ;
+    dcterms:title "Organ Sonata in G Minor"@en ;
+    dcterms:identifier "Opus 58" ;
+    dcterms:identifier "HartW 133" ;
+    dcterms:identifier "DF 10 & 12:5" ;
+    cnw:cnwNumber "133" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "58" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "3 Febr. 1855 to 1884" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Organ music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW133/expression/1> ;
+    cnw:performanceCount 7 .
+
+<https://cnw-ld.org/work/HartW133/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW133> ;
+    cnw:key "G minor" ;
+    cnw:tempo "Allegro marcato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "org." ;
+    cnw:incipitImage "hartw_133_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/hans_von_b_low>
+    a foaf:Agent ;
+    foaf:name "Hans von Bülow" .
+

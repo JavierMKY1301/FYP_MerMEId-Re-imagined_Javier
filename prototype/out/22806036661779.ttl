@@ -1,0 +1,69 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW282>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Frühlingsgruss"@de ;
+    dcterms:title "Foraarshilsen"@da ;
+    dcterms:title "Spring"@en ;
+    dcterms:title "Au printemps"@fr ;
+    dcterms:alternative "Leise zieht durch mein Gemüth"@de ;
+    dcterms:alternative "Gjennem Hjærtet yndig Klang"@da ;
+    dcterms:alternative "Thro' my soul sweet bells do ring"@en ;
+    dcterms:alternative "Lightly borne on music's wings"@en ;
+    dcterms:alternative "Dans mon coeur j'entends vibrer"@fr ;
+    dcterms:identifier "Opus 9:1" ;
+    dcterms:identifier "NWGW 282" ;
+    dcterms:identifier "GW V:1" ;
+    cnw:cnwNumber "282" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "9:1" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/heinrich_heine> ;
+    dcterms:created "spring 1845" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "French" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Duet" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22771633684435> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW282/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW282/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW282> ;
+    cnw:key "A major" ;
+    cnw:tempo "Andante" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "sopranos" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Leise zieht durch mein Gemüth"@de ;
+    cnw:incipitText "Gjennem Hjærtet yndig Klang sig svagte svinger"@da ;
+    cnw:incipitText "Thro' my soul sweet bells do ring"@en ;
+    cnw:incipitImage "NWGW_282.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/heinrich_heine>
+    a foaf:Agent ;
+    foaf:name "Heinrich Heine" .
+

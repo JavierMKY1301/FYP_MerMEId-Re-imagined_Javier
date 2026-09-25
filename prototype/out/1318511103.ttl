@@ -1,0 +1,57 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW295>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Tøvejr"@da ;
+    dcterms:title "Thaw"@en ;
+    dcterms:alternative "Hør, hør, hvor det tør!"@da ;
+    dcterms:identifier "HartW 295" ;
+    dcterms:identifier "DF 108:5" ;
+    cnw:cnwNumber "295" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_richardt> ;
+    dcterms:created "1856-04-15" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    frbr:realization <https://cnw-ld.org/work/HartW295/expression/1> ;
+    cnw:performanceCount 4 .
+
+<https://cnw-ld.org/work/HartW295/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW295> ;
+    cnw:tempo "Allegretto" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Tenor 1" ;
+    cnw:performingForce "Tenor 2" ;
+    cnw:performingForce "Bass 1" ;
+    cnw:performingForce "Bass 2" ;
+    cnw:incipitText "Hør, hør, hvor det tør!"@da ;
+    cnw:incipitImage "hartw_295.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/christian_richardt>
+    a foaf:Agent ;
+    foaf:name "Christian Richardt" .
+

@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_95N20005">
+   <meiHead xml:id="meiHead_d67abf12">
+      <fileDesc xml:id="fileDesc_3f59a545">
+         <titleStmt xml:id="titleStmt_992d257f">
+            <title xml:id="title_9d2ae3e0">I Blomsterhaven</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_3649e3b1">
+            <respStmt xml:id="respStmt_id6315a929">
+               <resp xml:id="resp_38cd824e">Publisher</resp>
+               <corpName xml:id="corpName_id045c2fec">
+                  <abbr xml:id="abbr_d8c22647">DCM</abbr>
+                  <expan xml:id="expan_070b65df"/>
+                  <address xml:id="address_0f5e2e97">
+                     <addrLine xml:id="addrLine_8b31ff09"/>
+                     <addrLine xml:id="addrLine_f428611f">
+                        <ptr label="" xml:id="ptr_N20269"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_id029ad500">Inger Sørensen</persName>
+            </respStmt>
+            <date xml:id="date_eb9b6153"/>
+            <availability xml:id="availability_9c889c2c">
+               <useRestrict xml:id="useRestrict_b2198499"/>
+            </availability>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_1786d6a0">
+            <title xml:id="title_idd8a3a98d">Gade Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_id2ffd0091">NWGW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_b87042b4">
+         <appInfo xml:id="appInfo_dc04312a">
+            <application version="2013" xml:id="application_466e009a">
+               <name xml:id="name_0c32c4ac">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_id6215c397">
+            <p xml:id="idm310">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_c8b2bf97">
+         <work xml:id="work_idac05e448">
+            <identifier label="Opus" xml:id="identifier_9286b4b4">34:1</identifier>
+            <identifier label="NWGW" xml:id="identifier_0698454d">97</identifier>
+            <identifier label="GW" xml:id="identifier_7548e706">III:2</identifier>
+            <title xml:id="title_idfb37ec35" xml:lang="da">I Blomsterhaven</title>
+            <title xml:id="title_6e637dcb" xml:lang="de">Im Blumengarten</title>
+            <title xml:id="title_b48ee92f" xml:lang="en">In the Flower Garden</title>
+            <contributor xml:id="respStmt_b7c2ba89">
+               <persName role="composer" xml:id="persName_id104602f3">Niels W. Gade</persName>
+               <persName role="dedicatee" xml:id="persName_e3cea877">Frederikke Erslev</persName>
+            </contributor>
+            <creation xml:id="creation_idd67d263c">
+               <date isodate="1857" xml:id="date_1ceecdea">1857</date>
+               <geogName xml:id="geogName_id7147531a"/>
+            </creation>
+            <history xml:id="history_idfee094ab">
+               <eventList type="performances" xml:id="eventList_16ffbf9c">
+                  <event xml:id="event_34fc94e3">
+                     <date isodate="1875-11-03" xml:id="date_b3d0dfc1">1875-11-03</date>
+                     <geogName role="venue" xml:id="geogName_6e55ee9f"/>
+                     <geogName role="place" xml:id="geogName_88e1d5aa">Dresden</geogName>
+                     <corpName role="ensemble" xml:id="corpName_7e362676"/>
+                     <persName role="" xml:id="persName_3a2f4efb">Doris Böhme, piano</persName>
+                     <desc xml:id="desc_e2e3d236"/>
+                     <biblList xml:id="biblList_f1b340f6">
+                        <head xml:id="head_fd927128">Reviews</head>
+                        <bibl label="" xml:id="bibl_b9e2b282">
+                           <genre xml:id="genre_6008a79c">article</genre>
+                           <genre xml:id="genre_26a3da07">journal</genre>
+                           <author xml:id="author_c2cf5449"/>
+                           <date xml:id="date_0173cc9a"/>
+                           <title level="a" xml:id="title_f9fefb81"/>
+                           <title level="j" xml:id="title_5a214cbe"/>
+                           <editor xml:id="editor_b5ecf1a3"/>
+                           <biblScope unit="vol" xml:id="biblScope_515614f2"/>
+                           <biblScope unit="issue" xml:id="biblScope_f03fecdc"/>
+                           <biblScope unit="page" xml:id="biblScope_7cb8b501"/>
+                           <pubPlace xml:id="pubPlace_f1e2bac4"/>
+                           <publisher xml:id="publisher_87d4b2b5"/>
+                           <ptr label="" xml:id="ptr_d60c5f86"/>
+                        </bibl>
+                     </biblList>
+                     <biblList xml:id="biblList_69fa2582">
+                        <head xml:id="head_17248d8f">Evidence</head>
+                     </biblList>
+                  </event>
+               </eventList>
+               <p xml:id="idm353"/>
+            </history>
+            <langUsage xml:id="langUsage_de531e18">
+               <language xml:id="en">English</language>
+               <language xml:id="da">Danish</language>
+               <language xml:id="de">German</language>
+            </langUsage>
+            <classification xml:id="classification_7dfb02c1">
+               <termList xml:id="termList_e2e3784f">
+                  <term xml:id="idm366">Instrumental music</term>
+                  <term xml:id="term_d91e6891">Music for one instrument</term>
+                  <term xml:id="term_c85f6746">Piano</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_f5b3a219">
+               <expression xml:id="expression_id4a0990cf">
+                  <title xml:id="title_ida5597e3c" xml:lang="en"/>
+                  <incip xml:id="idm373">
+                     <graphic target="/dcm/assets/udgivelser/nwgw/incipits/lowres/NWGW_097.png" label=""
+                              targettype="lowres"
+                              xml:id="graphic_8998614842"/>
+                     <graphic target="/dcm/assets/udgivelser/nwgw/incipits/hires/NWGW_097.png" label=""
+                              targettype="hires"
+                              xml:id="graphic_7037954357"/>
+                  </incip>
+                  <tempo xml:id="tempo_7615fd5e">Allegro vivace e grazioso</tempo>
+                  <key mode="major" pname="g" xml:id="key_eaea892d"/>
+                  <meter sym="cut" xml:id="meter_bb921a44"/>
+                  <creation xml:id="creation_idfc834380">
+                     <date xml:id="date_c5676c41"/>
+                     <geogName xml:id="geogName_id069a61df"/>
+                  </creation>
+                  <history xml:id="history_id5c7a1221">
+                     <p xml:id="idm383"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_id613013ec">
+                     <perfResList xml:id="perfResList_ef3c537e">
+                        <perfRes codedval="ka" count="1" solo="false" xml:id="perfRes_add4dd59">pf.</perfRes>
+                     </perfResList>
+                  </perfMedium>
+                  <classification xml:id="classification_47d2f5ef">
+                     <termList xml:id="termList_2e5d280e">
+                        <term xml:id="term_4c709784"/>
+                     </termList>
+                  </classification>
+                  <componentList xml:id="componentGrp_a9ecba49"/>
+                  <relationList xml:id="relationList_0aa446fb"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_cd5aeb28">
+               <relation label="Idyller for Pianoforte" rel="isPartOf" target="22785249179041.xml"
+                         xml:id="relation_5a90536f"/>
+            </relationList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_ece64b8a">
+         <manifestation label="" xml:id="source_f8eb6d80">
+            <identifier label="" xml:id="identifier_ae8b19c0"/>
+            <titleStmt xml:id="titleStmt_25dbe94f">
+               <title xml:id="title_7131616d">Sketch</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_0a1633eb">
+               <publisher xml:id="publisher_b2e4f470"/>
+               <pubPlace xml:id="pubPlace_2c7e4687"/>
+               <date xml:id="date_7e93acdd"/>
+            </pubStmt>
+            <physDesc xml:id="physDesc_e77b4757">
+               <extent xml:id="extent_2c57f3b4">2 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_b9f5f2db">27 x 38</dimensions>
+               <physMedium xml:id="physMedium_0139c2ef">1 single folio. Written in ink. Paper: 16 staves. On fol.<rend xml:id="idm36" rend="sup">r.</rend> staves 1-14. Notated in F# major, but "ges" added in pencil before b. 1.</physMedium>
+            </physDesc>
+            <classification xml:id="classification_fdd3f888">
+               <termList xml:id="termList_84e4a0f5">
+                  <term class="#DcmContentClass" xml:id="term_7716fab3">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_2a59c818">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_7e9d81fc">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_3a0ce5d5">score</term>
+                  <term class="#DcmStateClass" xml:id="term_b50559b0">sketch</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_94aae362"/>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_74c4cc34">
+               <item label="" xml:id="item_5460c066">
+                  <identifier label="" xml:id="identifier_c2b6d153"/>
+                  <physLoc xml:id="physLoc_1ef8857d">
+                     <repository xml:id="repository_b6932b40">
+                        <corpName xml:id="corpName_1b9ce009"/>
+                        <geogName xml:id="geogName_5649d367"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_5f625364">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_2e4f73b6">C II, 6 Gades Samling 297 (Kapsel F - J)</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_9ab73253"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_a1f6c789"/>
+            <relationList xml:id="relationList_50a99038">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_23dd7660"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_811ecd29">
+            <identifier label="" xml:id="identifier_87fce62a"/>
+            <titleStmt xml:id="titleStmt_5e6f62f1">
+               <title xml:id="title_3209347f">Score, autograph, fair copy</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_3b56e038">
+               <publisher xml:id="publisher_a016c1c4"/>
+               <pubPlace xml:id="pubPlace_6c833177"/>
+               <date xml:id="date_12b5e513"/>
+            </pubStmt>
+            <physDesc xml:id="physDesc_15e6a779">
+               <extent xml:id="extent_8dbdcb43">4 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_6298d9b4">34.5 x 26</dimensions>
+               <physMedium xml:id="physMedium_3b8ffc9c">1 bifolio. Written in ink. Paper: 12 staves.  Paginated 2-4. Fol.1.<rend xml:id="idm71" rend="sup">r</rend> blank except for "Op. 34" added in pencil in foreign hand.</physMedium>
+            </physDesc>
+            <notesStmt xml:id="notesStmt_53a59579">
+               <annot type="source_description" xml:id="annot_c08359cb">
+                  <p xml:id="idm74">G<rend xml:id="idm75" rend="sup">b</rend> major version.</p>
+               </annot>
+               <annot type="links" xml:id="annot_88396ac4">
+                  <ptr label="" mimetype="" xml:id="ptr_632a9a32"/>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_5f0ab2e3">
+               <termList xml:id="termList_9a37fd9b">
+                  <term class="#DcmContentClass" xml:id="term_11e579e8">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_8f818e7a">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_5a7a48f3">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_63983c4b">score</term>
+                  <term class="#DcmStateClass" xml:id="term_437244e9">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_18e915d9">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_25e60ae5">
+               <item label="" xml:id="item_21baaa2f">
+                  <identifier label="" xml:id="identifier_7a0ab95b"/>
+                  <physLoc xml:id="physLoc_9cfced19">
+                     <repository xml:id="repository_d1356fd6">
+                        <corpName xml:id="corpName_ac090f6a"/>
+                        <geogName xml:id="geogName_0b8bb1c3"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_61bcd47c">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_55f74a07">C II, 6 Gades Samling 297 (Kapsel F - J)</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_e6286353"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_11f00d82"/>
+            <relationList xml:id="relationList_621bf294">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_81e3f16b"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_fbae194f">
+            <identifier label="" xml:id="identifier_d665f26a"/>
+            <titleStmt xml:id="titleStmt_17a06547">
+               <title xml:id="title_2d616798">Score, autograph, printer's copy</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_815b1f14">
+               <publisher xml:id="publisher_711a017a"/>
+               <pubPlace xml:id="pubPlace_c3b0b4b2"/>
+               <date xml:id="date_0d3c0546"/>
+            </pubStmt>
+            <physDesc xml:id="physDesc_b874e7a5">
+               <titlePage label="" xml:id="titlePage_fbd8852c">
+                  <p xml:id="idm110">N.W. Gade / Idyller, Op. 34</p>
+               </titlePage>
+               <extent xml:id="extent_e139a9b1">14 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_74aa7267">34.5 x 26</dimensions>
+               <physMedium xml:id="physMedium_b352287b">3 bifolios and 1 single folio. Written in ink. Paper: 12 staves. Paginated 2-13. German titles added in pencil in foreign hand above each piece.</physMedium>
+            </physDesc>
+            <classification xml:id="classification_b08c87e6">
+               <termList xml:id="termList_828f9b96">
+                  <term class="#DcmContentClass" xml:id="term_2d479485">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_af875d0b">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_f4b42c2c">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_842f9b49">score</term>
+                  <term class="#DcmStateClass" xml:id="term_61e625a1">printer's copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_df0ec69d">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_96452e1f">
+               <item label="" xml:id="item_d07d5f77">
+                  <identifier label="" xml:id="identifier_bd2bbb18"/>
+                  <physLoc xml:id="physLoc_39a822ca">
+                     <repository xml:id="repository_284cf15b">
+                        <corpName xml:id="corpName_fb5e97cf"/>
+                        <geogName xml:id="geogName_ea735d4d"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_dd52d9b8">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_f856d066">C II, 60 fol. 1929-30.767</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_bdb358ba"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_75ef6f98"/>
+            <relationList xml:id="relationList_2c21bc78">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_6870497a"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_id2946ec9d">
+            <identifier label="" xml:id="identifier_010989d0"/>
+            <titleStmt xml:id="titleStmt_840c30ec">
+               <title xml:id="title_idbfe29ea6">Score, print, Danish edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_2d9e05c0">
+               <publisher xml:id="publisher_idc6067adc">Horneman &amp; Erslev</publisher>
+               <pubPlace xml:id="pubPlace_id9a1ba5d8">Copenhagen</pubPlace>
+               <date isodate="1857-12" xml:id="date_0e76c3ce">Dec. 1857</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_6e760c5f">
+               <titlePage label="" xml:id="titlePage_4bae4647">
+                  <p xml:id="idm146">Idyller / for / PIANOFORTE / TILEGNEDE / Fru Frederikke Erslev / AF / NIELS W. GADE. / op. 34. Forlæggerens Eiendom. Pr. 1 Rdlr. / Kjöbenhavn hos Horneman &amp; Erslev, / Winterthur hos Rieter-Biedermann. / C.M. Tegners lith. Inst.</p>
+               </titlePage>
+               <extent xml:id="extent_b8459fd1">15 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_35d15a52"/>
+               <physMedium xml:id="physMedium_67a201ac"/>
+               <plateNum xml:id="plateNum_216d92f3">441</plateNum>
+            </physDesc>
+            <notesStmt xml:id="notesStmt_eebfee29">
+               <annot type="source_description" xml:id="annot_c77715a6">
+                  <p xml:id="idm153">On pp. 2-5 in this collection.</p>
+               </annot>
+               <annot type="links" xml:id="annot_3afd34dd">
+                  <ptr label="" mimetype="" xml:id="ptr_af3883a0"/>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_53c821c5">
+               <termList xml:id="termList_52353dc4">
+                  <term class="#DcmContentClass" xml:id="term_2b1eb0c6">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_d9e19e93">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_041ba69e"/>
+                  <term class="#DcmScoringClass" xml:id="term_f6eb5133">score</term>
+                  <term class="#DcmStateClass" xml:id="term_531f9d20">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_38866334">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_c03fb46d">
+               <item label="Gade's personal copy" xml:id="item_8e18d64a">
+                  <identifier label="" xml:id="identifier_96214a3e"/>
+                  <physLoc xml:id="physLoc_a0211b04">
+                     <repository xml:id="repository_7a12f8f3">
+                        <corpName xml:id="corpName_50761cfd"/>
+                        <geogName xml:id="geogName_9c1ab573"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_e5bab89b">DK-Kk</identifier>
+                        <ptr label="" mimetype="" xml:id="ptr_7f888322"/>
+                     </repository>
+                     <identifier xml:id="identifier_0ebc508c">C II, 6 Gades Samling 115, D24</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_fc6fd4c9"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_8dd520a0"/>
+            <relationList xml:id="relationList_2f7c6daa">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_id8af4a44e"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_1af17d3e">
+            <identifier label="" xml:id="identifier_49f0234a"/>
+            <titleStmt xml:id="titleStmt_22be3ff1">
+               <title xml:id="title_86c22056">Score, print, parallel Swiss edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_cab43945">
+               <publisher xml:id="publisher_2bdef240">J. Rieter-Biedermann</publisher>
+               <pubPlace xml:id="pubPlace_9de19258">Winterthur</pubPlace>
+               <date isodate="1858-01" xml:id="date_5135aaaf">Jan. 1858</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_a6ce3354">
+               <titlePage label="" xml:id="titlePage_8e32a9fc">
+                  <p xml:id="idm189">Frau Fred. Erslev / zugeeignet / JDYLLEN / für das / Pianoforte / von / NIELS W. GADE. / Op. 34. Pr. 25 Ngr. / Eigenthum der Verleger. / Winterthur, bei J. Rieter-Biedermann. / Copenhagen, Horneman u. Erslev. / Leipzig, F. Hofmeister.</p>
+               </titlePage>
+               <extent xml:id="extent_020a9efd">15 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_fa7da7ae"/>
+               <physMedium xml:id="physMedium_3d57adc9"/>
+               <plateNum xml:id="plateNum_7c37d443">43</plateNum>
+            </physDesc>
+            <classification xml:id="classification_12f18e2a">
+               <termList xml:id="termList_2af0c15f">
+                  <term class="#DcmContentClass" xml:id="term_0eacf7f7">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_5204793f">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_4c54b4c1"/>
+                  <term class="#DcmScoringClass" xml:id="term_fc295e40">score</term>
+                  <term class="#DcmStateClass" xml:id="term_1889ea51">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_9fb67214">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_f669cc47">
+               <item label="Gade's personal copy" xml:id="item_3e5b56d4">
+                  <identifier label="" xml:id="identifier_f88d1650"/>
+                  <physLoc xml:id="physLoc_c38f8a30">
+                     <repository xml:id="repository_bef24587">
+                        <corpName xml:id="corpName_ddf80a1a"/>
+                        <geogName xml:id="geogName_767799db"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_ed8ad774">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_ea966bfc">C II, 6 Gades Samling 116, D24</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_77d5737c"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_174bcf93"/>
+            <relationList xml:id="relationList_2c961567">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_908e86d6"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_7e9799ed">
+            <identifier label="" xml:id="identifier_c1dd57ac"/>
+            <titleStmt xml:id="titleStmt_3f66a32a">
+               <title xml:id="title_450c1079">Score, print, English edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_898b7bd3">
+               <publisher xml:id="publisher_c4bd0b8f">Enoch &amp; Sons</publisher>
+               <pubPlace xml:id="pubPlace_a8c45def">London</pubPlace>
+               <date isodate="1880" xml:id="date_2316391e">1880</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_42a35ac4">
+               <titlePage label="" xml:id="titlePage_ad0d662c">
+                  <p xml:id="idm226">Niels Gade Album for the Pianoforte. Containing 16 celebrated pieces. Vol. 1.</p>
+               </titlePage>
+               <extent xml:id="extent_ee01c0b7">49 pages</extent>
+            </physDesc>
+            <classification xml:id="classification_ccec14c7">
+               <termList xml:id="termList_ce81edf5">
+                  <term class="#DcmContentClass" xml:id="term_adec28fc">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_97166c22">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_bf34d733"/>
+                  <term class="#DcmScoringClass" xml:id="term_eba1e2f3">score</term>
+                  <term class="#DcmStateClass" xml:id="term_bf13b462">later edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_95425129">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_46716196"/>
+            <componentList xml:id="componentGrp_cc32dec7"/>
+            <relationList xml:id="relationList_ecabc97a">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_189fde1b"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_52adf636">
+            <identifier label="" xml:id="identifier_fffbac16"/>
+            <titleStmt xml:id="titleStmt_cae249aa">
+               <title xml:id="title_70fb93a6">Score, print, English edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_5e833a53">
+               <publisher xml:id="publisher_2ce76a31">Augener &amp; Co.</publisher>
+               <pubPlace xml:id="pubPlace_ecec44b8">London</pubPlace>
+               <date isodate="1886" xml:id="date_82976cf7">1886</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_b6c0b2c3">
+               <titlePage label="" xml:id="titlePage_11810712">
+                  <p xml:id="idm250">Idyllen.</p>
+               </titlePage>
+               <plateNum xml:id="plateNum_016ee3e8">8139</plateNum>
+            </physDesc>
+            <classification xml:id="classification_4b694d5d">
+               <termList xml:id="termList_4c5a5dc8">
+                  <term class="#DcmContentClass" xml:id="term_277dde52">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_5d8f089f">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_79b5735e"/>
+                  <term class="#DcmScoringClass" xml:id="term_f6af20e3">score</term>
+                  <term class="#DcmStateClass" xml:id="term_38b52ee3">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_78323d8a">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_ea68c6d4"/>
+            <componentList xml:id="componentGrp_84a2aa2f"/>
+            <relationList xml:id="relationList_37b653a7">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_32e583bc"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_d6e00eed">
+            <identifier label="" xml:id="identifier_d169edf0"/>
+            <titleStmt xml:id="titleStmt_a64feb63">
+               <title xml:id="title_172f103d">Arrangement for pianoforte and violin and for pianoforte and cello, parts, print</title>
+               <respStmt xml:id="respStmt_e3cd94c4">
+                  <persName role="arranger" xml:id="persName_7a2ab74c">Friedrich Hermann (violin)</persName>
+                  <persName role="arranger" xml:id="persName_dbf9e1e8">Albert Weinstoetter (cello)</persName>
+               </respStmt>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_c58f6041">
+               <publisher xml:id="publisher_79b4890a">J. Rieter-Biedermann</publisher>
+               <pubPlace xml:id="pubPlace_e97d2708">Leipzig and Winterthur</pubPlace>
+               <date isodate="1879-03" xml:id="date_5eb8bb3b">Mar. 1879</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_ba6da6b3">
+               <titlePage label="" xml:id="titlePage_4334f0eb">
+                  <p xml:id="idm277">Idyllen / für das / PIANOFORTE / von / NIELS W. GADE. / Op. 34. / Für Pianoforte und Violine / bearbeitet von / FRIEDR. HERMANN. / Complet Pr. 3 Mk. 50Pf. / [...] Eigenthum des Verlegers. / Leipzig u. Winterthur, J. Rieter-Biedermann. / Den Verträgen gemäss deponirt. / 1879. / 10 a-d. / Für Pianoforte und Violoncell bearbeitet. / von / ALBERT WEINSTOETTER. / complet Pr. 3 Mk. 50 Pf. / No. 1. 1Mk. 80 Pf. No. 2, No. 3, No.4 à 1 Mk. 50 Pf.</p>
+               </titlePage>
+               <extent xml:id="extent_fa7c36cb">18 pages (piano part)</extent>
+               <dimensions xml:id="dimensions_f91cc970">4 pages (violin part)</dimensions>
+               <dimensions xml:id="dimensions_6d46d233">4 pages (cello part)</dimensions>
+               <physMedium xml:id="physMedium_35b0bb49"/>
+               <plateNum xml:id="plateNum_cdd488cb">1019 a-d</plateNum>
+            </physDesc>
+            <classification xml:id="classification_9dc68678">
+               <termList xml:id="termList_b1d64eb0">
+                  <term class="#DcmContentClass" xml:id="term_8f33ea6c">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_d0282a31">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_55971604"/>
+                  <term class="#DcmScoringClass" xml:id="term_9d0c66a8">score and parts</term>
+                  <term class="#DcmStateClass" xml:id="term_e1b00ad7">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_34f04f4c">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_5408a76f">
+               <item label="Gade's personal copy" xml:id="item_1e87fd57">
+                  <identifier label="" xml:id="identifier_dd85d19f"/>
+                  <physLoc xml:id="physLoc_c1fd2340">
+                     <repository xml:id="repository_b26d8c39">
+                        <corpName xml:id="corpName_90ad6a88"/>
+                        <geogName xml:id="geogName_a1de67db"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_4f239c7e">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_442cc342">C II, 6 Gades Samling 117, D68</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_b962defe"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_f002a06b"/>
+            <relationList xml:id="relationList_a6839d31">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_c4b9eed5"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm394">
+         <change isodate="2015-03-05" xml:id="change_id4b85953f">
+            <respStmt xml:id="idm396">
+               <name xml:id="idm397">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b4a50432">
+               <p xml:id="p_3abd2d32"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-03-09" xml:id="change_65d8ea70">
+            <respStmt xml:id="idm401">
+               <name xml:id="idm402">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_12f662fa">
+               <p xml:id="p_cefff544"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-03-12" xml:id="change_118N20100">
+            <respStmt xml:id="idm406">
+               <name xml:id="idm407">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_e1159c57">
+               <p xml:id="p_84c6662b"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-06-18" xml:id="change_e7a39ec9">
+            <respStmt xml:id="idm411">
+               <name xml:id="idm412">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_5858b0d5">
+               <p xml:id="p_e4a0de61"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_139idm139666558128784">
+            <respStmt xml:id="idm416">
+               <name xml:id="idm417">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_eb5e19b1">
+               <p xml:id="p_c6dc61a0">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_143d1e164">
+            <respStmt xml:id="idm421">
+               <name xml:id="idm422">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_69dfdf16">
+               <p xml:id="p_4b73bd7c">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-11-03" xml:id="change_172N10193">
+            <respStmt xml:id="idm426">
+               <name xml:id="idm427">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_34c92965">
+               <p xml:id="p_2efeb041"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-03-07" xml:id="change_259N102C5">
+            <respStmt xml:id="idm431">
+               <name xml:id="idm432">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_0bbac498">
+               <p xml:id="p_8bda8e9e"/>
+            </changeDesc>
+         </change>
+         <change xml:id="idm435" isodate="2017-04-04" n="9">
+            <respStmt xml:id="idm436">
+               <name xml:id="idm437">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm438">
+               <p xml:id="idm439">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-05-04" xml:id="change_377N10452">
+            <respStmt xml:id="idm441">
+               <name xml:id="idm442">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm443">
+               <p xml:id="idm444"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-06-29" xml:id="change_382N1044C">
+            <respStmt xml:id="idm446">
+               <name xml:id="idm447">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm448">
+               <p xml:id="idm449"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-03" xml:id="change_387N10455">
+            <respStmt xml:id="idm451">
+               <name xml:id="idm452">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm453">
+               <p xml:id="idm454"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-10T13:12:35.381Z" xml:id="change_392N1045E">
+            <respStmt xml:id="idm456">
+               <name xml:id="idm457">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm458">
+               <p xml:id="idm459"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-11T10:06:30.971Z" xml:id="change_397N10466">
+            <respStmt xml:id="idm461">
+               <name xml:id="idm462">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm463">
+               <p xml:id="idm464"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-12T15:18:14.125Z" xml:id="change_402N1046E">
+            <respStmt xml:id="idm466">
+               <name xml:id="idm467">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm468">
+               <p xml:id="idm469"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-02-28T14:08:31.006Z" xml:id="change_407N10476">
+            <respStmt xml:id="idm471">
+               <name xml:id="idm472">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm473">
+               <p xml:id="idm474"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-03-15T12:06:27.706Z" xml:id="change_412N10480">
+            <respStmt xml:id="idm476">
+               <name xml:id="idm477">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm478">
+               <p xml:id="idm479"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-08T10:17:56.37Z" xml:id="change_477N10542">
+            <respStmt xml:id="idm481">
+               <name xml:id="idm482">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm483">
+               <p xml:id="idm484"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-12T11:50:31.124Z" xml:id="change_482N1054A">
+            <respStmt xml:id="idm486">
+               <name xml:id="idm487">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm488">
+               <p xml:id="idm489"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T09:19:45Z" xml:id="change_487N10447">
+            <respStmt xml:id="idm491">
+               <name xml:id="idm492">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm493">
+               <p xml:id="idm494">Added incipit graphic URL</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-07-06T14:59:15.899Z" xml:id="change_494N10565">
+            <respStmt xml:id="idm496">
+               <name xml:id="idm497">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm498">
+               <p xml:id="idm499"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-08-08T14:16:40.096Z" xml:id="change_499N1056C">
+            <respStmt xml:id="idm501">
+               <name xml:id="idm502">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm503">
+               <p xml:id="idm504"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-11-06T10:12:55.258Z" xml:id="change_505N10576">
+            <respStmt xml:id="idm506">
+               <name xml:id="idm507">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm508">
+               <p xml:id="idm509"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-12-04T10:23:57.625Z" xml:id="change_510N1057E">
+            <respStmt xml:id="idm511">
+               <name xml:id="idm512">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm513">
+               <p xml:id="idm514"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-02-11T14:27:51.302Z" xml:id="change_515N10586">
+            <respStmt xml:id="idm516">
+               <name xml:id="idm517">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm518">
+               <p xml:id="idm519"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-06T15:11:06.447Z" xml:id="change_520N1058E">
+            <respStmt xml:id="idm521">
+               <name xml:id="idm522">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm523">
+               <p xml:id="idm524"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T14:45:38Z" xml:id="change_525N10452">
+            <respStmt xml:id="idm526">
+               <name xml:id="idm527">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm528">
+               <p xml:id="idm529">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_530d1e539">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_535d1e540">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_540d1e540">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm530"/>
+</mei>

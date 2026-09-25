@@ -1,0 +1,43 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWC1-002>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Eine Abhandlung von den musicalischen Intervallen und Geschlechten"@de ;
+    dcterms:identifier "SchW C1:002" ;
+    cnw:cnwNumber "C1:002" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:created "1739" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Text" ;
+    dcterms:subject "Music theory, analysis and criticism" ;
+    dcterms:subject "Intervals" ;
+    cnw:editorialNote "'Allein ich habe mich nicht wenig gewundert, als ich fand, daß mein ganzes im Jahr 1739 herausgegebenes System von den Intervallen auf Ew. HochEdelgebohrnen Rechnung gesetzet war. Ich will nicht hoffen, daß Dieselben der musikalischen Societät Gelegenheit gegeben haben, so zu denken und zu schreiben; denn es wird Ew. HochEdelgebohren noch wohl bekannt seyn, daß Sie mir selbst das Zeugniß gegeben haben, daß ich der erste sey, der diese Ordnung der Intervallen so vollständig eingerichtet, vorgetragen und bekannt gemacht habe.'" ;
+    cnw:editorialNote "'Ricevuta la stimat[issi]ma sua non mancai d'usa ogni diligenza per ubbidirla in ciò che riguarda le opere del fu S[igno]r Scheibe, e coll'aiuto del S[igno]r consigliere Nielsen m'è riuscito di trovare queste due che gli saranno consegnate unitam[en]te a questa mia presente dalla s[igno]ra Teresa Torre virtuosa di musica, che doppo lo spazio di otto anni che ha avuto l'onore di servire questa real corte s'è risolta di passare in Lucca sua patria.'" ;
+    cnw:editorialNote "'Toccante le opere sue, tra poco tempo V[ostra] P[aternit]à riceverà due trattati che sono: \"Il musico critico\" [SchW C1:008] ed \"Il trattato degl’intervalli\" [SchW C1:002]. Questi li riceverà da una persona la quale presi la libertà con questa occasione di raccomandare a V[ostra] P[aternit]à. Se nella raccolta de' libri che il sud[det]to ha lasciato vi sarà qualche opera o sua o d'altri V[ostra] P[aternit]à ne sarà avvisata , non potendo per ora darle alcuna notizia, mentre si fa l'inventario adesso del tutto, e m'immagino che il tutto andrà all'incanto, p[?]vi che non mancherò d'attenzione per servirla.'" ;
+    cnw:editorialNote " Includes an errata list." ;
+    cnw:manuscriptLocation "EV-TAu" ;
+    cnw:manuscriptLocation "I-Bc" ;
+    cnw:manuscriptLocation "I-Bc" ;
+    frbr:realization <https://cnw-ld.org/work/SchWC1-002/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWC1-002/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWC1-002> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/georg_philipp_telemann>
+    a foaf:Agent ;
+    foaf:name "Georg Philipp Telemann" .
+

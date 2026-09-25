@@ -1,0 +1,85 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-401>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "An dem frohen Geburhtsfeste der Fürstin und Frau Christine Sophie, Marggräfin zu Brandenburg-Culmbach, ward folgende Serenate aufgeführet"@de ;
+    dcterms:identifier "SchW B2:401" ;
+    cnw:cnwNumber "B2:401" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1740" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Serenata" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Secular" ;
+    cnw:editorialNote "'Ich bin den meisten Theil dieses Winters in Gottorf gewesen, und muste wieder meinen Willen die Personen eines Dichters und eines Componistens zugleich verwalten. Das erste Stück auf den Geburthstag des Marggrafens ist insonderheit noch in gröster Eil verfertiget, und ich hatte zu allen kaum 3 Tage Zeit dazu.'" ;
+    cnw:editorialNote "'Inzwischen kommt hierbeÿ abermal ein Bogen Verse, den ich auf den Geburthstag der Fr Marggräffin verfertiget müßen.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-401/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-401/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-401> ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:performingForce "Voice" ;
+    cnw:incipitText "Ihr Söhne der Thonkunst!"@de ;
+    cnw:incipitText "Ihr Schwestern meiner Kunst!"@de ;
+    cnw:incipitText "Ueberzeugend / stark / bewegend"@de ;
+    cnw:incipitText "Du rühmest dich"@de ;
+    cnw:incipitText "Der zärtlichsten Thöne veränderndes Schallen"@de ;
+    cnw:incipitText "Das schlechte Fabelwerk, womit Du dich erhebest"@de ;
+    cnw:incipitText "Der Ursprung meiner Treflichkeiten"@de ;
+    cnw:incipitText "Der Ursprung ist auch mein"@de ;
+    cnw:incipitText "Dich / o Tugend! will ich fragen"@de ;
+    cnw:incipitText "Die Zeiten sind vorbei - -"@de ;
+    cnw:incipitText "Würden alle Wissenschaften"@de ;
+    cnw:incipitText "Wahr ists, mein Ansehn ist zum Theil dahin"@de ;
+    cnw:incipitText "Fürstin!"@de ;
+    cnw:incipitText "Und ich soll keinen Theil an eurer Freundschaft haben?"@de ;
+    cnw:incipitText "Großes Fürstenpaar / Dein Glücke"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/margravine_christine_sophie_of_brandenburg_kulmbach>
+    a foaf:Agent ;
+    foaf:name "Margravine Christine Sophie of Brandenburg-Kulmbach" .
+

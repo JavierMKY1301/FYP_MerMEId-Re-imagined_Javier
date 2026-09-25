@@ -1,0 +1,60 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW26>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Echo de Fredensborg"@fr ;
+    dcterms:title "Efterklang fra Fredensborg"@da ;
+    dcterms:title "Echo of Fredensborg"@en ;
+    dcterms:alternative "Pìece d'Orchestre composée pour la chapelle de sa Majesté Alexandre III Empereur de toutes les Russies"@fr ;
+    dcterms:identifier "NWGW 26" ;
+    cnw:cnwNumber "26" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "10 to 14 August 1890" ;
+    dcterms:language "English" ;
+    dcterms:language "French" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Other orchestral music" ;
+    cnw:manuscriptLocation "S-Smf" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW26/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW26/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW26> ;
+    cnw:key "E-flat major" ;
+    cnw:tempo "Moderato e maestoso" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl. in Es" ;
+    cnw:performingForce "cl. in B" ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor. in Es" ;
+    cnw:performingForce "cnt. in B" ;
+    cnw:performingForce "trb.a." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "gr.c." ;
+    cnw:incipitImage "NWGW_026.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+

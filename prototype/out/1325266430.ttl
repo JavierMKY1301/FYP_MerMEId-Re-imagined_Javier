@@ -1,0 +1,53 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW471>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Julesang"@da ;
+    dcterms:title "Christmas Song"@en ;
+    dcterms:alternative "Drag ind, drag ind, du høje Gæst"@da ;
+    dcterms:identifier "HartW 471" ;
+    dcterms:identifier "DF 174 & 185:1" ;
+    cnw:cnwNumber "471" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/adolf_langsted> ;
+    dcterms:created "1888" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22016763556209> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23407251446353> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW471/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW471/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW471> ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Drag ind, drag ind, du høje Gjæst"@da ;
+    cnw:incipitImage "hartw_471.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/adolf_langsted>
+    a foaf:Agent ;
+    foaf:name "Adolf Langsted" .
+

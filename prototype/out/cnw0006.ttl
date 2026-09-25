@@ -1,0 +1,53 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW6>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sang til Gustav Wied og Jens Petersens skuespil \"Atalanta\""@da ;
+    dcterms:title "Song for Gustav Wied and Jens Petersen's Play 'Atalanta'"@en ;
+    dcterms:identifier "CNW 6" ;
+    dcterms:identifier "CNU I/6" ;
+    dcterms:identifier "CNS 334" ;
+    dcterms:identifier "FS 30" ;
+    cnw:cnwNumber "6" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "30" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/gustav_wied_jens_petersen> ;
+    dcterms:created "1901" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW6/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW6/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW6> ;
+    cnw:tempo "Tempo giusto" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "armon." ;
+    cnw:incipitText "Den Sol, som dukker op i Øst"@da ;
+    cnw:incipitImage "cnw_006.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/gustav_wied_jens_petersen>
+    a foaf:Agent ;
+    foaf:name "Gustav Wied, Jens Petersen" .
+

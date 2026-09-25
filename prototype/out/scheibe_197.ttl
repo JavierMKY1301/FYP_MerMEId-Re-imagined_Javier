@@ -1,0 +1,73 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-303>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Die Frucht des Leidens Jesu wurde an dem stillen Freytage erwogen"@de ;
+    dcterms:title "Paßions-Cantate"@de ;
+    dcterms:alternative "Euch sage ich allen, die ihr vorüber geht"@de ;
+    dcterms:identifier "SchW B2:303" ;
+    cnw:cnwNumber "B2:303" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1739" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Passion" ;
+    cnw:editorialNote "(I.A.7.c. ‘Das Singen. Oratoria, und Paßions-Cantaten. Deutsche, in Stimmen.’): '[Scheibe, Joh. Adam, Königl. Dän. Capellmeisters,] Paßions-Cantate: Euch sage ich allen, die ihr vorüber geht, à 2 Oboi, 2 Violini, Viola, 4 Voci, Basso ed Organo. a 4 thl. 16 gl.'; ‘NB. In Partitur sind die Preiße etwas weniger.’" ;
+    cnw:editorialNote "Mel.: 'O Gott du frommer Gott'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-303/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/SchWB2-303/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-303> ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bs." ;
+    cnw:performingForce "org." ;
+    cnw:incipitText "Euch sage ich allen"@de ;
+    cnw:incipitText "Wer trägt die Schuld"@de ;
+    cnw:incipitText "Es ist das Heyl uns kommen her"@de ;
+    cnw:incipitText "Der innre Feind, der meine Seele qvält"@de ;
+    cnw:incipitText "Ach wir armen Sünder!"@de ;
+    cnw:incipitText "Je mehr die Furcht das Hertz bewegt"@de ;
+    cnw:incipitText "Was helffen mich die bittren Klagen"@de ;
+    cnw:incipitText "Allein was mir unmöglich ist"@de ;
+    cnw:incipitText "Er sprach zu mir, halt dich an mich"@de ;
+    cnw:incipitText "Er ringt und kämpfft bis auf das Blut"@de ;
+    cnw:incipitText "Seht! den Fürsten unsers Lebens"@de ;
+    cnw:incipitText "Ach! das hat unser Sünd und Missethat verschuldet"@de ;
+    cnw:incipitText "Erhebt ihr Sünder euer Hertz"@de ;
+    cnw:incipitText "Ich ich und meine Sünden"@de ;
+    cnw:incipitText "Ein ieder der vorüber geht"@de ;
+    cnw:incipitText "Mein Gott, mein Gott warum hast du mich denn verlassen?"@de ;
+    cnw:incipitText "Allein der Vater fähret fort"@de ;
+    cnw:incipitText "Seht hier unsern Jesum sterben"@de ;
+    cnw:incipitText "Wer will uns nun verdammen?"@de ;
+    cnw:incipitText "Unter seinen Schirmen"@de ;
+    cnw:incipitText "Wer wolte hier nicht seinen Nahmen preisen"@de ;
+    cnw:incipitText "So kommt und last euch Jesum leiten"@de ;
+    cnw:incipitText "Nun hab ich überwunden"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

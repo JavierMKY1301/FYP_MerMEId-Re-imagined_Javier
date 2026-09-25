@@ -1,0 +1,66 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-426>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Klage-Sang over den stormægtigste Monark, nu hos Gud høy-salige Konge og Herre, Kong Christian den Siette"@da ;
+    dcterms:identifier "SchW B2:426" ;
+    cnw:cnwNumber "B2:426" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/peder_sparki_r> ;
+    dcterms:created "1746" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote "No indication of performers or singers." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-426/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-426/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-426> ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:incipitText "Vee os! Vee os! der i Fred overfaldt en Bitterhed"@da ;
+    cnw:incipitText "Bedrøvelige Død"@da ;
+    cnw:incipitText "Du forkorted Dine Dage"@da ;
+    cnw:incipitText "Vort Liv er her paa Jorden som en Skygge"@da ;
+    cnw:incipitText "Men ach! hvad kand det hielpe meer!"@da ;
+    cnw:incipitText "Far vel, og hviil Dig da i Fred"@da ;
+    cnw:incipitText "Dog at vort Haab herved ey gandske skulde falde hen"@da ;
+    cnw:incipitText "Kongens Viisdom Gud formeere"@da ;
+    cnw:incipitText "Kongen skee Lykke!"@da ;
+    cnw:incipitText "Salige ere de Døde"@en ;
+    cnw:incipitText "Ach den Herlighed og Glæde"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/peder_sparki_r>
+    a foaf:Agent ;
+    foaf:name "Peder Sparkiær" .
+
+<https://cnw-ld.org/agent/king_christian_vi>
+    a foaf:Agent ;
+    foaf:name "King Christian VI" .
+

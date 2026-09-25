@@ -1,0 +1,38 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWC2-002>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Bey der Vergnügten Scheibe- und Müllerschen Verbindung"@de ;
+    dcterms:identifier "SchW C2:002" ;
+    cnw:cnwNumber "C2:002" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:created "1741" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Text" ;
+    dcterms:subject "Poetry" ;
+    dcterms:subject "Ilsabe Müller" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote "'Ich bin anjetzo in Hamburg, und habe mich mit einem sehr angenehmen und tugendhaften Frauenzimmer Names Ilsabe Müllern versprochen. Ich bin also Bräutigam, und werde allhier zwischen Pfingsten u. Johannis Hochzeit machen und gegen den Anfang des Augustmonats wieder nebst meiner künftigen Frau nach Copenhagen zurückreisen [...] Ich habe also mein Glück völlig gemacht, und da ich aus dieser vorstehenden Verbindung mit Rechte alles Vergnügen hoffen kann, so glaube nicht Unrecht auch den Grund zu einer völligen Gemüthsruhe geleget zu haben: Ich will meine Braut nicht eben loben, allein, Sie ist redlich, von gutem hause und eine Freundin der Music, wie sie denn selbst eine artige Stimme singt. Ich bin erst seit 8 Tagen allhier angekommen, und zur Zeit mit allerhand meine Verbindung betreffenden Sachen beschäftiget gewesen, daß ich noch zu keinem rechten Gedanken habe kommen können [...]'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWC2-002/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWC2-002/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWC2-002> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/ilsabe_scheibe>
+    a foaf:Agent ;
+    foaf:name "Ilsabe Scheibe" .
+

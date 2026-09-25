@@ -1,0 +1,205 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW150>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Herren seer Dine Veie"@da ;
+    dcterms:title "The Lord Sees Your Ways"@en ;
+    dcterms:alternative "A la grace de Dieux"@fr ;
+    dcterms:alternative "Drama med Sang i fem Akter"@da ;
+    dcterms:alternative "Drama with Song in Five Acts"@en ;
+    dcterms:identifier "NWGW 150" ;
+    cnw:cnwNumber "150" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/adolphe_philippe_d_ennery> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/gustave_lemoine> ;
+    dcterms:created "Spring 1842" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "French" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    cnw:editorialNote "To be played between nos. 7 & 8, 11 & 12, 12 & 13." ;
+    frbr:realization <https://cnw-ld.org/work/NWGW150/expression/1> ;
+    cnw:performanceCount 12 .
+
+<https://cnw-ld.org/work/NWGW150/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW150> ;
+    cnw:tempo "Allegro" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:incipitText "Før vi fra Hjemmet drage"@da ;
+    cnw:incipitText "Modtag da vort Farvel! Himlen skjænke Jer Held!"@da ;
+    cnw:incipitText "Ud i Livets Trængsler"@da ;
+    cnw:incipitText "Min Barndoms svundne Glæder jeg gjenfinder i Dig"@da ;
+    cnw:incipitText "O hvilken Fryd naar man en Ven fra den elskte Dal gjenfinder"@da ;
+    cnw:incipitText "Dør fra Dør jeg maatte gaae"@da ;
+    cnw:incipitText "Send, Madonna! fra det Høie Styrke til min Moder ned!"@da ;
+    cnw:incipitText "Den Fryd at dele Venners Glæde"@da ;
+    cnw:incipitText "Tre Sous jeg og tre Sous Du?"@da ;
+    cnw:incipitText "Stjernerne tindre paa Himmelens blaa"@da ;
+    cnw:incipitText "Leve Champagnens søde Druer"@da ;
+    cnw:incipitText "Sødeste Nanette jeg i en Karet, laridette"@da ;
+    cnw:incipitText "Vær gjenhilset, elskte Dale"@da ;
+    cnw:incipitText "Beed til Gud og tænk paa mig"@da ;
+    cnw:incipitText "Ud i Livets Trængsler og Farer"@da ;
+    cnw:incipitImage "NWGW_150_01.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/adolphe_philippe_d_ennery>
+    a foaf:Agent ;
+    foaf:name "Adolphe Philippe d'Ennery" .
+
+<https://cnw-ld.org/agent/gustave_lemoine>
+    a foaf:Agent ;
+    foaf:name "Gustave Lemoine" .
+
+<https://cnw-ld.org/agent/thomas_overskou>
+    a foaf:Agent ;
+    foaf:name "Thomas Overskou" .
+

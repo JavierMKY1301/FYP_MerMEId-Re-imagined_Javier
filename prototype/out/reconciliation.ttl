@@ -1,0 +1,58 @@
+@prefix cnw: <https://cnw-ld.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW126> cnw:reconciledTo <https://musicbrainz.org/work/18750f36-05ac-4216-8343-addcc8df058b> .
+
+<https://cnw-ld.org/work/CNW128> cnw:reconciledTo <https://musicbrainz.org/work/792daecd-341b-4cac-9568-ab55f4fb480d> .
+
+<https://cnw-ld.org/work/CNW129> cnw:reconciledTo <https://musicbrainz.org/work/3f8a50c3-bfcc-4b74-9f33-e80534c6e7f8> .
+
+<https://cnw-ld.org/work/CNW130> cnw:reconciledTo <https://musicbrainz.org/work/011f8e6e-2951-4c47-a552-4ecb5cf651df> .
+
+<https://cnw-ld.org/work/CNW2> cnw:reconciledTo <http://www.wikidata.org/entity/Q1977730>,
+        <https://musicbrainz.org/work/194cd716-d21f-4966-bc4f-e12fed65d102> .
+
+<https://cnw-ld.org/work/CNW205> cnw:reconciledTo <http://www.wikidata.org/entity/Q22137054>,
+        <https://musicbrainz.org/work/ae8cebc4-5bbd-40b7-a8ed-53863d0cb8ae> .
+
+<http://www.wikidata.org/entity/Q1977730> rdfs:label "Maskarade" ;
+    cnw:matchConfidence 1e+00 ;
+    cnw:matchSource "wikidata" ;
+    cnw:matchedVia "Maskarade" .
+
+<http://www.wikidata.org/entity/Q22137054> rdfs:label "Underlige aftenlufte" ;
+    cnw:matchConfidence 1e+00 ;
+    cnw:matchSource "wikidata" ;
+    cnw:matchedVia "Underlige Aftenlufte!" .
+
+<https://musicbrainz.org/work/011f8e6e-2951-4c47-a552-4ecb5cf651df> rdfs:label "I aften" ;
+    cnw:matchConfidence 1e+00 ;
+    cnw:matchSource "musicbrainz" ;
+    cnw:matchedVia "I Aften" .
+
+<https://musicbrainz.org/work/18750f36-05ac-4216-8343-addcc8df058b> rdfs:label "Æbleblomst, op. 10 no. 1" ;
+    cnw:matchConfidence 1e+00 ;
+    cnw:matchSource "musicbrainz" ;
+    cnw:matchedVia "Æbleblomst" .
+
+<https://musicbrainz.org/work/194cd716-d21f-4966-bc4f-e12fed65d102> rdfs:label "Maskarade, FS 39" ;
+    cnw:matchConfidence 1e+00 ;
+    cnw:matchSource "musicbrainz" ;
+    cnw:matchedVia "Maskarade" .
+
+<https://musicbrainz.org/work/3f8a50c3-bfcc-4b74-9f33-e80534c6e7f8> rdfs:label "I solen går jeg bag min plov, CNW 129" ;
+    cnw:matchConfidence 1e+00 ;
+    cnw:matchSource "musicbrainz" ;
+    cnw:matchedVia "I solen går jeg bag min plov" .
+
+<https://musicbrainz.org/work/792daecd-341b-4cac-9568-ab55f4fb480d> rdfs:label "Sommersang, op. 10 no. 3" ;
+    cnw:matchConfidence 1e+00 ;
+    cnw:matchSource "musicbrainz" ;
+    cnw:matchedVia "Sommersang" .
+
+<https://musicbrainz.org/work/ae8cebc4-5bbd-40b7-a8ed-53863d0cb8ae> rdfs:label "Underlige aftenlufte" ;
+    cnw:matchConfidence 1e+00 ;
+    cnw:matchSource "musicbrainz" ;
+    cnw:matchedVia "Underlige Aftenlufte!" .
+

@@ -1,0 +1,145 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW174>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kalanus"@de ;
+    dcterms:title "Kalanus"@da ;
+    dcterms:title "Kalanus"@en ;
+    dcterms:alternative "Dramatisches Gedicht von Carl Andersen"@de ;
+    dcterms:alternative "Dramatisk Digt af Carl Andersen"@da ;
+    dcterms:alternative "Dramatic Poem by Carl Andersen"@en ;
+    dcterms:identifier "Opus 48" ;
+    dcterms:identifier "NWGW 174" ;
+    dcterms:identifier "GW IV:4" ;
+    cnw:cnwNumber "174" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "48" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/carl_andersen> ;
+    dcterms:created "June 1867 to March 1869" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    cnw:editorialNote "Concept written by Emil Erslev." ;
+    cnw:manuscriptLocation "D-DÜl" ;
+    cnw:manuscriptLocation "S-Uu" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-Bds" ;
+    cnw:manuscriptLocation "D-LEu" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW174/expression/1> ;
+    cnw:performanceCount 14 .
+
+<https://cnw-ld.org/work/NWGW174/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW174> ;
+    cnw:tempo "Andantino" ;
+    cnw:meter "6/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "ptti." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "O mildes Licht!"@de ;
+    cnw:incipitText "O milde Lys"@da ;
+    cnw:incipitText "Sieh dort, sieh! Staubwolken thürmen sich im West"@de ;
+    cnw:incipitText "See hist! see, Støvskyer taarne sig i Vest."@da ;
+    cnw:incipitText "Streiter, ruht hier im Thale!"@de ;
+    cnw:incipitText "Stands her i Dalen, Stridsmænd!"@da ;
+    cnw:incipitText "Ich bin der Herrscher; bis zu Erde Grenzen will als Held ich zieh'n"@de ;
+    cnw:incipitText "Jeg er den Stærke, see jeg gaaer til Havet"@da ;
+    cnw:incipitText "Ja, du bist Brama!"@de ;
+    cnw:incipitText "Ja du er Guden!"@da ;
+    cnw:incipitText "Heil sei dem Fest!"@de ;
+    cnw:incipitText "Festlige Hal!"@da ;
+    cnw:incipitText "Schweigt! horchet meiner Lyra Tönen!"@de ;
+    cnw:incipitText "Tys! Lytter til min Lyres Toner!"@da ;
+    cnw:incipitText "Nein weg, weg mit jedem weichen Traum!"@de ;
+    cnw:incipitText "Nei bort, bort hver blød, kvindagtig Drøm"@da ;
+    cnw:incipitText "Dem Menschen ward ein Ziel gesetzt"@de ;
+    cnw:incipitText "Al Jordens Slægt eet Maal er sat"@da ;
+    cnw:incipitText "So fern, so fern von Ganges Strand"@de ;
+    cnw:incipitText "Saa fjernt, saa fjernt fra Ganges Bred"@da ;
+    cnw:incipitText "Doch still! wer stört des Abends Ruh?"@de ;
+    cnw:incipitText "Men tys hvad bryder Aftnens Fred"@da ;
+    cnw:incipitText "Die Todesnacht, sie öffnet den Weg zum Himmel ihm"@de ;
+    cnw:incipitText "Nu Dødens Nat ham aabner bag tætte Søiler sin Port"@da ;
+    cnw:incipitImage "NWGW_174_01.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/carl_andersen>
+    a foaf:Agent ;
+    foaf:name "Carl Andersen" .
+

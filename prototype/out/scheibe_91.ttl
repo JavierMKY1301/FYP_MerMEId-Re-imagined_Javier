@@ -1,0 +1,218 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-311>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sørge-Cantate ved Christi Grav som i Fasten opføres af Det musicaliske Selskab"@da ;
+    dcterms:identifier "SchW B2:311" ;
+    cnw:cnwNumber "B2:311" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_ewald> ;
+    dcterms:created "1769" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Oratorio" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Passion" ;
+    cnw:editorialNote "'I Anledning af den af det nye Musicaliske Selskab paa Bryggernes Laugshuus udi Fasten vel opførte Passions-Musiqve. | Hvad Evalds søde Pen og Scheibes stærke Toner | Ved Christi Grav har sat i Riim og Sørge-Noder, | Dit Selskab med sin Ræhs udførte mesterlig | Hver Skiønsom maae med Ret den Ære give dig. | Tilhørers Hundred Tall dig Roes og Biefald giver; | Tiltagen Kunst ved Fliid din Roes og Ære bliver. |  Kuns et kan siges paa din gandske Faste-Sang, | Det nemlig, at du ey sang den endnu en Gang. | Bliv ædle Selskab ved! tag til i Flor og Ære, | Ved Orden, Lyst og Fliid dit Navn skal varig være, | Hav Tak, tag Ære for hver Tirsdag Faste-Dag, Syng ofte som i Aar ved Christi Seyers-Grav. | v. W.-*'" ;
+    cnw:editorialNote "soloist: C.1" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-311/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-311/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-311> ;
+    cnw:key "E-flat major" ;
+    cnw:tempo "Poco adagio e maestoso" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "ob.gr." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C1." ;
+    cnw:performingForce "C2." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "ob.gr." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Herrens Salvede, som var vor Næses Aand"@da ;
+    cnw:incipitText "Skræk har omspændt mig"@da ;
+    cnw:incipitText "Graad skiule steds mit Øye"@da ;
+    cnw:incipitText "Derfor var vort Hierte svagt"@da ;
+    cnw:incipitText "Han kaldte sig sit Folks forløser"@da ;
+    cnw:incipitText "Salige, hold op at græde"@da ;
+    cnw:incipitText "Langt borte hvißler Slangen"@da ;
+    cnw:incipitText "Kommer, Fordømte og skuer det jeg forgiæves tilbød!"@da ;
+    cnw:incipitText "En liflig Straale"@da ;
+    cnw:incipitText "Et reen formørket Øye"@da ;
+    cnw:incipitText "Jeg vred mig paa det kummerfulde Leie"@da ;
+    cnw:incipitText "Himlens Stærke vaager over Herrens Salvede"@da ;
+    cnw:incipitText "Her laae Han"@da ;
+    cnw:incipitText "Jord, hør den Fryd"@da ;
+    cnw:incipitText "Han lever"@da ;
+    cnw:incipitText "Han har vundet!"@da ;
+    cnw:incipitImage "SchM_091_01-001.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johannes_ewald>
+    a foaf:Agent ;
+    foaf:name "Johannes Ewald" .
+

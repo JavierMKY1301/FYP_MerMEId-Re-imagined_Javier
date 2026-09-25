@@ -1,0 +1,70 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW237>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sangen til Danmark"@da ;
+    dcterms:title "The Song to Denmark"@en ;
+    dcterms:alternative "Som en rejselysten Flaade"@da ;
+    dcterms:alternative "Som en blomstersmykket Flaade"@da ;
+    dcterms:alternative "There's a fleet of floating islands"@en ;
+    dcterms:alternative "Som en rejselysten flåde"@da ;
+    dcterms:identifier "CNW 237" ;
+    dcterms:identifier "CNU III/4, 124; III/5, 177; III/6, 306, 342" ;
+    dcterms:identifier "CNS 237" ;
+    dcterms:identifier "FS 94, 103, 111" ;
+    cnw:cnwNumber "237" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "94, 103, 111" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/helge_rode> ;
+    dcterms:created "1920" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/cnw0018> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22225400586721> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW237/expression/1> ;
+    cnw:performanceCount 38 .
+
+<https://cnw-ld.org/work/CNW237/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW237> ;
+    cnw:tempo "Andante con moto" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Som en rejselysten Flaade"@da ;
+    cnw:incipitText "There's a fleet of floating islands"@en ;
+    cnw:incipitText "Som en rejselysten Flaade"@da ;
+    cnw:incipitText "There's a fleet of floating islands"@en ;
+    cnw:incipitText "Som en rejselysten flåde"@da ;
+    cnw:incipitText "There's a fleet of floating islands"@en ;
+    cnw:incipitText "Som en rejselysten Flaade"@da ;
+    cnw:incipitText "There's a fleet of floating islands"@en ;
+    cnw:incipitImage "cnw_237.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/helge_rode>
+    a foaf:Agent ;
+    foaf:name "Helge Rode" .
+

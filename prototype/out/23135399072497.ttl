@@ -1,0 +1,43 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWC1-009>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Gültige Zeugnisse über die jüngste Matthesonisch-Musicalische Kern-Schrifft"@de ;
+    dcterms:identifier "SchW C1:009" ;
+    cnw:cnwNumber "C1:009" ;
+    cnw:catalogueCode "SchW" ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_mattheson> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1738" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Text" ;
+    dcterms:subject "Music theory, analysis and criticism" ;
+    dcterms:subject "Compositional theory" ;
+    cnw:editorialNote "Scheibe mentions on sig. b7v: 'Ferner gefällt es dem Ungenannten, meine Abhandlung eine aristoxenische, mich aber einen Aristoxenus zu nennen; ungeachtet ich meine Schrift unter meinem eigenen Namen herausgegeben habe. Ich erinnere dieses aus der Ursache, weil es bekannt ist, daß Herr Mattheson sich des Namens Aristoxenus der jüngere schon mehr als einmal bedienet hat. Ich bin also nicht gesonnen, mich unter einer fremden Maske zu verbergen; zumal da sich bereits ein anderer dieselbe zugeeignet hat.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWC1-009/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWC1-009/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWC1-009> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_mattheson>
+    a foaf:Agent ;
+    foaf:name "Johann Mattheson" .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

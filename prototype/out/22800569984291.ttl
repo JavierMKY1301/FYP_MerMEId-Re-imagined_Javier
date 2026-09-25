@@ -1,0 +1,54 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW333>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Aprilsvise"@da ;
+    dcterms:title "April Ditty"@en ;
+    dcterms:alternative "Grøn er Vaarens Hæk"@da ;
+    dcterms:identifier "NWGW 333" ;
+    dcterms:identifier "GW V:1" ;
+    dcterms:identifier "DF 160:2" ;
+    cnw:cnwNumber "333" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/poul_martin_m_ller> ;
+    dcterms:created "October 1852" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22800564702529> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23563628363699> ;
+    frbr:realization <https://cnw-ld.org/work/NWGW333/expression/1> ;
+    cnw:performanceCount 13 .
+
+<https://cnw-ld.org/work/NWGW333/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW333> ;
+    cnw:key "B-flat major" ;
+    cnw:tempo "Allegro scherzando" ;
+    cnw:meter "9/8" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Grøn er Vaarens Hæk"@da ;
+    cnw:incipitImage "NWGW_333.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/poul_martin_m_ller>
+    a foaf:Agent ;
+    foaf:name "Poul Martin Møller" .
+

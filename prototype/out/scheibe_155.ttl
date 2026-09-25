@@ -1,0 +1,59 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-422>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kantate, da den durchlauchtigste og høibaarne Enke-Fyrstinde af Ostfriesland, hendes Liig hensattes i de kongelige Begravelser i Roeskilde"@da ;
+    dcterms:identifier "SchW B2:422" ;
+    cnw:cnwNumber "B2:422" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/niels_prahl> ;
+    dcterms:created "1764" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Cantata" ;
+    cnw:editorialNote "'Da den Durchlauchtigste og Høybaarne Enke-Fyrstinde af Ost-Friesland Hendes Liig hensættes i de Kongelige Begravelser i Roeskilde, den 28 Junii 1764. bliver Musicalsk opført i Roeskilde Dom-Kirke ved J. A. Scheibe, Kongel. Capel-Mester. Poesien er af Niels Prahl'; the newspaper reproduces the text." ;
+    cnw:editorialNote " 'Sobald die Leiche in die Kirche gebracht wurde, hob sich eine schöne Trauer-cantate an, die von dem Königl Capell-meister, Hrn. Scheibe, in die Musick gesetzt, und von dem bekannten Dichter, Hrn. Niels Prahl verfertiget war.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-422/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-422/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-422> ;
+    cnw:performingForce "soloists" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:incipitText "Herre! lad mig kiende min Ende"@da ;
+    cnw:incipitText "See, Jordens Frommeste maae døe!"@da ;
+    cnw:incipitText "Sielden Jorden faaer en Gave"@da ;
+    cnw:incipitText "Ak maatte vi ei længer see den Maade"@da ;
+    cnw:incipitText "O, synger glade midt i Sorgen!"@da ;
+    cnw:incipitText "Frygt ei for Graven; men gak ud"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/niels_prahl>
+    a foaf:Agent ;
+    foaf:name "Niels Prahl" .
+
+<https://cnw-ld.org/agent/princess_sophia_carolina_of_ost_friesland>
+    a foaf:Agent ;
+    foaf:name "Princess Sophia Carolina of Ost-Friesland" .
+

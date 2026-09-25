@@ -1,0 +1,87 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW9>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Koncert for violin og orkester"@da ;
+    dcterms:title "Konzert für Violine und Orchester"@de ;
+    dcterms:title "Concerto for Violin and Orchestra"@en ;
+    dcterms:identifier "Opus 56" ;
+    dcterms:identifier "NWGW 9" ;
+    dcterms:identifier "GW I:12" ;
+    cnw:cnwNumber "9" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "56" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "July to October 1880" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Concerto" ;
+    cnw:editorialNote "Concept." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "US-RIVu" ;
+    cnw:manuscriptLocation "Location of original letter unknown." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-Bds" ;
+    cnw:manuscriptLocation "US-RIVu" ;
+    cnw:manuscriptLocation "D-KNa" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-LÜbi" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "D-Mbs" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW9/expression/1> ;
+    cnw:performanceCount 26 .
+
+<https://cnw-ld.org/work/NWGW9/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW9> ;
+    cnw:key "D minor" ;
+    cnw:tempo "Allegro con fuoco" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "vl." ;
+    cnw:incipitImage "NWGW_009_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+

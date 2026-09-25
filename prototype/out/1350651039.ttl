@@ -1,0 +1,45 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW124>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Stykker for Johan Peter Hartmann"@da ;
+    dcterms:title "Pieces for Johan Peter Hartmann"@en ;
+    dcterms:title "Stücke für Johan Peter Hartmann"@de ;
+    dcterms:identifier "HartW 124" ;
+    dcterms:identifier "JPEW III/2 no. 53" ;
+    cnw:cnwNumber "124" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1881" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Piano music" ;
+    frbr:realization <https://cnw-ld.org/work/HartW124/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW124/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW124> ;
+    cnw:key "C major" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "hartw_124_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

@@ -1,0 +1,70 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW129>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sang bag Ploven (score included)"@da ;
+    dcterms:title "Song behind the Plough"@en ;
+    dcterms:title "I solen går jeg bag min plov"@da ;
+    dcterms:alternative "I Solen gaar jeg bag min Plov"@da ;
+    dcterms:alternative "In shining sun I steer my plough"@en ;
+    dcterms:identifier "Opus 10.4" ;
+    dcterms:identifier "CNW 129" ;
+    dcterms:identifier "CNU lll/4, 14; III/5, 213" ;
+    dcterms:identifier "CNS 221" ;
+    dcterms:identifier "FS 18, 125" ;
+    dcterms:identifier "Demo 7" ;
+    cnw:cnwNumber "129" ;
+    cnw:opus "10.4" ;
+    cnw:fsNumber "18, 125" ;
+    dcterms:creator <https://cnw-ld.org/agent/viaf/197250> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/viaf/66792857> ;
+    dcterms:created "Between 1895 and 1896" ;
+    cnw:dateNotBefore "1895"^^xsd:gYear ;
+    cnw:dateNotAfter "1896"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/nielsen_holstein_sange> ;
+    cnw:editorialNote "This file demonstrates how to use relations to other files (works) to describe a song cycle, collection, or anthology.Please note: The content of this file has been modified for demonstration purposes and does not represent accurate real-world data" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW129/expression/1> ;
+    cnw:performanceCount 2 .
+
+<https://cnw-ld.org/work/CNW129/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW129> ;
+    cnw:key "C major" ;
+    cnw:tempo "Allegro moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "I Solen gaar jeg bag min Plov"@da ;
+    cnw:incipitText "In shining sun I steer my plough"@en ;
+    cnw:incipitImage "cnw_129.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic true .
+
+<https://cnw-ld.org/agent/viaf/197250>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" ;
+    owl:sameAs <http://viaf.org/viaf/197250> .
+
+<https://cnw-ld.org/agent/viaf/66792857>
+    a foaf:Agent ;
+    foaf:name "Ludvig Holstein" ;
+    owl:sameAs <http://viaf.org/viaf/66792857> .
+

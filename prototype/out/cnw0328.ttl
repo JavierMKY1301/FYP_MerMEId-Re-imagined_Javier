@@ -1,0 +1,51 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW328>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Apostlene sad i Jerusalem"@da ;
+    dcterms:title "Apostles convened in Jerusalem"@en ;
+    dcterms:identifier "CNW 328" ;
+    dcterms:identifier "CNU III/5, 271" ;
+    dcterms:identifier "CNS 77" ;
+    cnw:cnwNumber "328" ;
+    cnw:catalogueCode "CNW" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/n_f_s_grundtvig> ;
+    dcterms:created "1928" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW328/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW328/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW328> ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "(voice)" ;
+    cnw:incipitText "Apostlene sad i Jerusalem"@da ;
+    cnw:incipitText "Apostles convened in Jerusalem"@en ;
+    cnw:incipitImage "cnw_328.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/n_f_s_grundtvig>
+    a foaf:Agent ;
+    foaf:name "N.F.S. Grundtvig" .
+

@@ -1,0 +1,62 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-423>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kantate durch das öffentliche Glaubensbekenntniß seiner königlichen Hoheit des Kronprinzen Christian"@de ;
+    dcterms:identifier "SchW B2:423" ;
+    cnw:cnwNumber "B2:423" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_andreas_cramer> ;
+    dcterms:created "1765" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Sacred" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote "‘Dette ypperlige Cantate fortiente en ypperlig Composition, og vi tilstaae med Fornøyelse, at den Scheibiske ikke manglede Yndighed, skiønt vi tillige ønskede, at Hr. Capelmesteren iblant noget meere lod sig besiæle af sin Digters Genie, og nedlagde meer Udtryk og mindre Ørkesløst i adskillige og de bædste Stæder [quot. 'erst richte, dann gerichtet werden'] [...] Hvilken er et Mesterstykke af en slet Parodie paa nogle slette Vælske Componister, men desto mindre ved saadan Leylighed kan taales. Overhovedet var endnu eet og andet at erindre ved Ordenes Foredrag eller Recitativens Kunst, det vi oversee i Henseende til Hr. Capelmesterens theoretiske Værdskyld.’" ;
+    cnw:editorialNote " Scheibe's response to the critique issued in the previous volume of the journal (see SchW C1:010)." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-423/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/SchWB2-423/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-423> ;
+    cnw:incipitText "Ertönt, Gesänge des Danks, ertönt vor allen Altären!"@de ;
+    cnw:incipitText "Saht ihr Ihn? Ihn? Wie rührend war der Anblick?"@de ;
+    cnw:incipitText "Hier lieg ich, Herr, vor dir und schwöre"@de ;
+    cnw:incipitText "Eilt, heilige Gelübde, heilige Gebete"@de ;
+    cnw:incipitText "Auch ich, ich finde nicht auf Erden"@de ;
+    cnw:incipitText "Wohl dem, deß Hülfe der Gott Jacob ist"@de ;
+    cnw:incipitText "Gib; denn ich bin dein Eigenthum"@de ;
+    cnw:incipitText "Eilt, heilige Gebete, dringet"@de ;
+    cnw:incipitText "Wer weinet nicht der Freude Zähren"@de ;
+    cnw:incipitText "Er fliehe der Verderber! - du, o Liebe!"@de ;
+    cnw:incipitText "Das, das erbetet ihm daß Er stets unsrer Lieb"@de ;
+    cnw:incipitText "Amen! Amen! sagt jauchzende Völker"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johann_andreas_cramer>
+    a foaf:Agent ;
+    foaf:name "Johann Andreas Cramer" .
+
+<https://cnw-ld.org/agent/crown_prince_christian>
+    a foaf:Agent ;
+    foaf:name "Crown Prince Christian" .
+

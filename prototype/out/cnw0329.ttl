@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW329>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Guldfloden"@da ;
+    dcterms:title "River of Gold"@en ;
+    dcterms:alternative "Der strømmer en Flod mod det evige Hav"@da ;
+    dcterms:alternative "The river that runs to perpetual sea"@en ;
+    dcterms:identifier "CNW 329" ;
+    dcterms:identifier "CNU III/5, 272" ;
+    dcterms:identifier "CNS 139" ;
+    dcterms:identifier "FS 127" ;
+    cnw:cnwNumber "329" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "127" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/b_s_ingemann> ;
+    dcterms:created "[1928]" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/CNW329/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW329/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW329> ;
+    cnw:tempo "Tankefuldt" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "(voice)" ;
+    cnw:incipitText "Der strømmer en Flod mod det evige Hav"@da ;
+    cnw:incipitText "The river that runs to perpetual sea"@en ;
+    cnw:incipitImage "cnw_329.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/b_s_ingemann>
+    a foaf:Agent ;
+    foaf:name "B.S. Ingemann" .
+

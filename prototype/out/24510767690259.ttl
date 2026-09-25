@@ -1,0 +1,43 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWC1-012>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Mizler. Noch einmahl. (ex oper. pract.)"@de ;
+    dcterms:alternative "Grundlage einer Ehren-Pforte"@de ;
+    dcterms:identifier "SchW C1:012" ;
+    cnw:cnwNumber "C1:012" ;
+    cnw:catalogueCode "SchW" ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1740-06-20" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Text" ;
+    dcterms:subject "Music theory, analysis and criticism" ;
+    cnw:editorialNote " On the identity of 'Alfonso'." ;
+    cnw:editorialNote "'Ich komme nun auf H. Mizlers Oden. Diese sind so schlecht, daß es den Deutschen eine Schande ist, zumal zu jetzigen Zeiten, ein so elendes Geschmiere gedrucket zu sehen, in welchen nicht die geringsten Regeln beobachtet sind. Sie sind angefüllet mit den allerniedrigsten Schnitzern, und die Vernunft hat gar keinen Antheil daran. Ich schreibe dieses keinesweges aus Haß, sondern was ich vorjetzo gemeldet habe, ist der allgemeine Ausspruch des H. Telemannes und anderer Musicverständigen. Doch hat man nun von H. Telemann eine neue Sammlung von Oden. Die Music ist darinn so wie sie die Lieder verlangen, und man kann daraus auf das deutlichste erkennen, was man eigentlich in der Music die niedrige Schreibart nennet, und wenn man die Mizlersche Sammlung dagegen hält, so kann man so fort sehen, wie sich auch in der Music das niedrige von dem niederträchtigen unterscheidet. Dieser geschickte Mann hat mir inzwischen die Ehre gethan, mir diese neue Sammlung in einer dabey befindlichen Zuschrift zu zuschreiben. Die Satyre auf Mizler u. Mattheson ist der Innhalt der Zuschrift.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWC1-012/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWC1-012/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWC1-012> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_mattheson>
+    a foaf:Agent ;
+    foaf:name "Johann Mattheson" .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

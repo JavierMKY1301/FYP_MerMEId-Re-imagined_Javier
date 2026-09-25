@@ -1,0 +1,45 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW94>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Et lille klaverstykke"@da ;
+    dcterms:title "A Little Piano Piece"@en ;
+    dcterms:identifier "CNW 94" ;
+    dcterms:identifier "CNU IV/1, Add. 27" ;
+    dcterms:identifier "CNS 5" ;
+    cnw:cnwNumber "94" ;
+    cnw:catalogueCode "CNW" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "Between 1930 and 1931" ;
+    cnw:dateNotBefore "1930"^^xsd:gYear ;
+    cnw:dateNotAfter "1931"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    frbr:realization <https://cnw-ld.org/work/CNW94/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW94/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW94> ;
+    cnw:tempo "Allegro" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "cnw_094.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+

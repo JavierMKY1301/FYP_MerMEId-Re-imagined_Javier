@@ -1,0 +1,31 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.6, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\javie\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\javie\OneDrive\Desktop\SIM stuff\FYP\CNW_feature_prototype\prototype
+plugins: anyio-4.14.2, locust-2.46.6
+collecting ... collected 38 items / 22 deselected / 16 selected
+
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[x") } INSERT DATA { <a:a> <a:b> <a:c> } #] PASSED [  6%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[x"} ; DROP GRAPH <https://cnw-ld.org/> ; #] PASSED [ 12%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[" } UNION { ?s ?p ?o } #] PASSED [ 18%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable['; DELETE WHERE { ?s ?p ?o } ;#] PASSED [ 25%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[x\\" } #] PASSED [ 31%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[<script>alert(1)</script>] PASSED [ 37%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[../../etc/passwd] PASSED [ 43%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[%00] PASSED [ 50%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[\x00truncated] PASSED [ 56%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[catalogue] PASSED [ 62%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[genre] PASSED [ 68%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[key] PASSED [ 75%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[meter] PASSED [ 81%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[q] PASSED [ 87%]
+tests/test_api_contract.py::TestInjection::test_path_parameter_is_escaped PASSED [ 93%]
+tests/test_api_contract.py::TestInjection::test_errors_do_not_leak_internals PASSED [100%]
+
+============================== warnings summary ===============================
+..\..\..\..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\fastapi\testclient.py:1
+  C:\Users\javie\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================ 16 passed, 22 deselected, 1 warning in 54.19s ================

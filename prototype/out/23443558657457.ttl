@@ -1,0 +1,48 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGWB-09>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Variationen für die Orgel über den Choral \"Sey gegrüsset Jesu gütig\" von Johann Sebastian Bach"@de ;
+    dcterms:alternative "Choral med 7 Variationer af Bach indrettet til 4 Hænder & 4 Been hans kjære Svigerfader samt ham selv til Nytte og Fornøielse udarbeidede af Niels W. Gade"@da ;
+    dcterms:identifier "NWGW B 09" ;
+    cnw:cnwNumber "B 09" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_sebastian_bach> ;
+    cnw:arranger <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "24 to 31 March 1853" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Organ music" ;
+    frbr:realization <https://cnw-ld.org/work/NWGWB-09/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGWB-09/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGWB-09> ;
+    cnw:key "G minor" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "org., four hands and legs" ;
+    cnw:incipitImage "NWGW_B_06.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_sebastian_bach>
+    a foaf:Agent ;
+    foaf:name "Johann Sebastian Bach" .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+

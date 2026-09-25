@@ -1,0 +1,164 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW178>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kjøbenhavns Universitets Jubelfest Juni 1879"@da ;
+    dcterms:title "Copenhagen University's Jubilee Celebration June 1879"@en ;
+    dcterms:alternative "Festmusik i Solennitetssalen"@da ;
+    dcterms:alternative "Festmusik ved Universitetets Jubelfest"@da ;
+    dcterms:alternative "Ved Promotionsfesten i Solennitetssalen"@da ;
+    dcterms:identifier "NWGW 178" ;
+    dcterms:identifier "GW IV:8" ;
+    dcterms:identifier "DF 122" ;
+    cnw:cnwNumber "178" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_richardt> ;
+    dcterms:created "End-dated 4 May 1879" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Uu" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "National Archive, Copenhagen" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW178/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/NWGW178/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW178> ;
+    cnw:tempo "Andante sostenuto" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor. in F" ;
+    cnw:performingForce "tr. in F" ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soprano" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Soloquartet" ;
+    cnw:performingForce "Reciter" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soprano" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Soloquartet" ;
+    cnw:performingForce "Soloquartet" ;
+    cnw:performingForce "Reciter" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soloquartet" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soloquartet" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Aldrig din higende Attraa du stiller"@da ;
+    cnw:incipitText "Fiskerdrengen leger ved salten Vesterhav"@da ;
+    cnw:incipitText "Saa voxe tusind Spørgsmaal"@da ;
+    cnw:incipitText "Men vil du have Svar, da spørg dig først: Hvad var din Længsel"@da ;
+    cnw:incipitText "Thi Hver fik eget Kald og Kaar"@da ;
+    cnw:incipitText "Det Ord, hun hørte bag Judæas Ranker"@da ;
+    cnw:incipitText "Skjøndt ammet op i Sydens Marmorsale"@da ;
+    cnw:incipitText "En Vingaardsmø med arbejdsvante Hænder"@da ;
+    cnw:incipitText "Ad Tidens Strøm, hvis Kyster hun vil tegne"@da ;
+    cnw:incipitText "Hun, vort Aarhundreds kjække Yndlingsterne"@da ;
+    cnw:incipitText "Her saae vi gjennem Kundskabs Glar"@da ;
+    cnw:incipitImage "NWGW_178_01.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/christian_richardt>
+    a foaf:Agent ;
+    foaf:name "Christian Richardt" .
+

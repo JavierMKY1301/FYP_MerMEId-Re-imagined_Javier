@@ -1,0 +1,227 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW17>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musik til Adam Oehlenschlägers skuespil \"Aladdin eller Den forunderlige Lampe\", opus 34"@da ;
+    dcterms:title "Music for Adam Oehlenschläger's Play 'Aladdin or the Wonderful Lamp', Opus 34"@en ;
+    dcterms:alternative "Dramatisk eventyr i fem akter"@da ;
+    dcterms:alternative "Dramatic Fairy Tale in Five Acts"@en ;
+    dcterms:identifier "Opus 34" ;
+    dcterms:identifier "CNW 17" ;
+    dcterms:identifier "CNU I/8; III/4, 112–114; IV/1, Add. 34" ;
+    dcterms:identifier "CNS 332" ;
+    dcterms:identifier "FS 89" ;
+    cnw:cnwNumber "17" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:opus "34" ;
+    cnw:fsNumber "89" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/adam_oehlenschl_ger> ;
+    dcterms:created "1917–19" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Other orchestral music" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    cnw:editorialNote "Undated typewritten manuscript" ;
+    cnw:editorialNote "The article was also published in the following other newspapers: København, Nationaltidende, Politiken and Social-Demokraten on 16 Febuary 1919 and in Kristeligt Dagblad and Vort Land on 17 Febuary 1919" ;
+    cnw:editorialNote "Programme for the 'Københavns filharmoniske Orkesters Symfoni-Koncert' at Foreningen 'Danevirke' in Odense" ;
+    cnw:editorialNote "Programme for the London Symphony Orchestra's concert at Queen's Hall." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Odense, Carl Nielsen Museet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Odense, Carl Nielsen Museet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Km" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Lund, Landsarkivet, Schlyterska samlingen" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Km" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "N-Bo" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-LEsta" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Ordenskapitlet" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "Statens musiksamlingar, Stockholm" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW17/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW17/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW17> ;
+    cnw:tempo "Allegretto moderato" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "fl./fl.picc." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cor.ingl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "tbno." ;
+    cnw:performingForce "tamb.picc." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "gr.c." ;
+    cnw:performingForce "ptti." ;
+    cnw:performingForce "cast." ;
+    cnw:performingForce "glsp." ;
+    cnw:performingForce "xil." ;
+    cnw:performingForce "cel." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "arpa" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Selsomt er Lykkens Gaver"@da ;
+    cnw:incipitText "En buldrende Torden sit Lyn har nedsendt"@da ;
+    cnw:incipitText "O Muhammed! vær nu din Tjener huld"@da ;
+    cnw:incipitText "Nu, hvi gnider du saa voldsomt?"@da ;
+    cnw:incipitText "Stærke Herre sig hvad vil du?"@da ;
+    cnw:incipitText "Holla ho! min ædle Hersker!"@da ;
+    cnw:incipitText "Snart er det Tid"@da ;
+    cnw:incipitText "Rosens Tid, Rosens Tid er kommen"@da ;
+    cnw:incipitText "Cithar! Lad min Bøn dig røre"@da ;
+    cnw:incipitText "Den skønne Sol er dalet dybt"@da ;
+    cnw:incipitText "Nu, hvi gnider du saa voldsomt?"@da ;
+    cnw:incipitText "Viselulle nu, Barnlil!"@da ;
+    cnw:incipitText "Herre hvad vil du mig?"@da ;
+    cnw:incipitText "Hvad vil du Herre?"@da ;
+    cnw:incipitText "Ha, hvad er det?"@da ;
+    cnw:incipitText "Alt Maanen oprejst staaer bag sorte Skove"@da ;
+    cnw:incipitText "Syvfold ønske dine Slaver dig til Lykke"@da ;
+    cnw:incipitImage "cnw_017_1_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/adam_oehlenschl_ger>
+    a foaf:Agent ;
+    foaf:name "Adam Oehlenschläger" .
+

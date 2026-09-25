@@ -1,0 +1,111 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-428>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Marte Schernito, componimento drammatico da cantarsi in occasione degli augusti sponzalizi di S. A. S. Guglielmo, principe ereditario Landgravio di Hesse-Cassel con S. A. R. Guglielmina Carolina principessa reale di Danimarca"@it ;
+    dcterms:title "Der verachtete Mars, ein Singgedicht. Am hochfeyerlichen Beylager Sr. hochfürstl. durchl. Herrn Wilhelms, Erbprinzens von Hessencassel mit ihrer königl. Hoheit Prinzeßin Wilhelmina Carolina, königlichen Prinzeßinn zu Dännemark"@de ;
+    dcterms:identifier "SchW B2:428" ;
+    cnw:cnwNumber "B2:428" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/giovanni_francesco_darbes> ;
+    dcterms:created "1764" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:language "Italian" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote "'[...] Hvornest det Kongelige Herskab Klokken 10. kom til Taffels, hvor da Capellet igien, i et i Enden af Sahlen placeret O[r]chester begyndte at musicere, som vedvarede under Taffelet, hvortil Poesien var af Hr. Frans Darbes, og Musiqven af Hr. Johan Adolph Scheibe, Kongelig Capelmester.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-428/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-428/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-428> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "Non piu contese"@it ;
+    cnw:incipitText "Ohne weiter streiten"@de ;
+    cnw:incipitText "Nella Reggia di pace"@it ;
+    cnw:incipitText "In dieser Königlichen Burg des Friedens"@de ;
+    cnw:incipitText "Se di nozze si tratta"@it ;
+    cnw:incipitText "Wenn die Rede von einer Hochzeit ist"@de ;
+    cnw:incipitText "Non conosceano ancora"@it ;
+    cnw:incipitText "Sie wußten noch nicht"@de ;
+    cnw:incipitText "Felici amanti"@it ;
+    cnw:incipitText "Glückliche Liebende!"@de ;
+    cnw:incipitText "Di questi augusti sposi tu sommo Giove prendi"@it ;
+    cnw:incipitText "Du grosser Jupiter, trage für diese erlauchten Vermählten"@de ;
+    cnw:incipitText "Allor, che mi Sprezzate"@it ;
+    cnw:incipitText "Auch indem ihr mich verachtet"@de ;
+    cnw:incipitText "Alle straggi, alle morti volando"@it ;
+    cnw:incipitText "Zum Verderben, zum Tödten eilend erfülle ich alles"@de ;
+    cnw:incipitText "Bravo da ver, gran capitano sei"@it ;
+    cnw:incipitText "Vortreflich! du bist ein grosser Held"@de ;
+    cnw:incipitText "A rimirar quel viso"@it ;
+    cnw:incipitText "Dieses Antlitz anzuschauen"@de ;
+    cnw:incipitText "Dunque affrettiamo amici"@it ;
+    cnw:incipitText "Itzt lasset uns eilen, meine Freunde!"@de ;
+    cnw:incipitText "Vivan gli eccelsi sposi"@it ;
+    cnw:incipitText "Es leben die erlauchten Vermählten"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/giovanni_francesco_darbes>
+    a foaf:Agent ;
+    foaf:name "Giovanni Francesco Darbes" .
+
+<https://cnw-ld.org/agent/prince_vilhelm_of_hesse_cassel>
+    a foaf:Agent ;
+    foaf:name "Prince Vilhelm of Hesse-Cassel" .
+
+<https://cnw-ld.org/agent/princess_vilhelmine_caroline_of_denmark>
+    a foaf:Agent ;
+    foaf:name "Princess Vilhelmine Caroline of Denmark" .
+

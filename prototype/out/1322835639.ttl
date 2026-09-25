@@ -1,0 +1,51 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW491>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Ved en gammel Borg"@da ;
+    dcterms:title "At An Old Fortress"@en ;
+    dcterms:alternative "Ældgamle Borg med de falmede Sider"@da ;
+    dcterms:identifier "HartW 491" ;
+    dcterms:identifier "DF 154" ;
+    cnw:cnwNumber "491" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/knud_bokkenheuser> ;
+    dcterms:created "1894-10-19" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    cnw:manuscriptLocation "DK-Km" ;
+    frbr:realization <https://cnw-ld.org/work/HartW491/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW491/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW491> ;
+    cnw:tempo "Allegro moderato, energico" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Ældgamle Borg med de falmede Sider"@da ;
+    cnw:incipitImage "hartw_491.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/knud_bokkenheuser>
+    a foaf:Agent ;
+    foaf:name "Knud Bokkenheuser" .
+

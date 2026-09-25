@@ -1,0 +1,68 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGWColl-21>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Fünf Gesänge für Männerchor"@de ;
+    dcterms:title "Fem Sange for Mandskor"@da ;
+    dcterms:title "Five Songs for Male Choir"@en ;
+    dcterms:identifier "Opus 38" ;
+    dcterms:identifier "NWGW Coll. 21" ;
+    dcterms:identifier "GW IV:10" ;
+    cnw:cnwNumber "Coll. 21" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "38" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/friedrich_r_ckert> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/karl_leberecht_immermann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/ludwig_liber> ;
+    dcterms:created "1861" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGWColl-21/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGWColl-21/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGWColl-21> ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/conrad_schleinitz>
+    a foaf:Agent ;
+    foaf:name "Conrad Schleinitz" .
+
+<https://cnw-ld.org/agent/friedrich_r_ckert>
+    a foaf:Agent ;
+    foaf:name "Friedrich Rückert" .
+
+<https://cnw-ld.org/agent/karl_leberecht_immermann>
+    a foaf:Agent ;
+    foaf:name "Karl Leberecht Immermann" .
+
+<https://cnw-ld.org/agent/ludwig_liber>
+    a foaf:Agent ;
+    foaf:name "Ludwig Liber" .
+

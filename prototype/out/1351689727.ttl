@@ -1,0 +1,59 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW431>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Vel ender Død al Livets Nød"@da ;
+    dcterms:alternative "Af \"Her og Hisset\""@da ;
+    dcterms:identifier "HartW 431" ;
+    dcterms:identifier "DF 136:5" ;
+    cnw:cnwNumber "431" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/jalal_ad_din_muhammad_rumi> ;
+    dcterms:created "1873-04-26" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22052775429009> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23414519603507> ;
+    frbr:realization <https://cnw-ld.org/work/HartW431/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW431/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW431> ;
+    cnw:tempo "Andante" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Vel ender Død al Livets Nød"@da ;
+    cnw:incipitImage "hartw_431.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/jalal_ad_din_muhammad_rumi>
+    a foaf:Agent ;
+    foaf:name "Jalal ad-Din Muhammad Rumi." .
+
+<https://cnw-ld.org/agent/kofoed_hansen>
+    a foaf:Agent ;
+    foaf:name "Kofoed Hansen" .
+
+<https://cnw-ld.org/agent/kristian_arentzen>
+    a foaf:Agent ;
+    foaf:name "Kristian Arentzen" .
+

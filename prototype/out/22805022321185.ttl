@@ -1,0 +1,68 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW262>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Thurmwächterslied"@de ;
+    dcterms:title "Fyrtaarnsvogterens Sang"@da ;
+    dcterms:title "Paa Fyrtaarnet"@da ;
+    dcterms:title "Lighthouse Keeper's Song"@en ;
+    dcterms:alternative "Am gewaltigen Meer"@de ;
+    dcterms:alternative "Ved det oprørte Hav"@da ;
+    dcterms:alternative "Ved det vældige Hav"@da ;
+    dcterms:identifier "Opus 33:2" ;
+    dcterms:identifier "NWGW 262" ;
+    dcterms:identifier "GW IV:10" ;
+    cnw:cnwNumber "262" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "33:2" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/friedrich_de_la_motte_fouqu> ;
+    dcterms:created "1858" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22785241455923> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW262/expression/1> ;
+    cnw:performanceCount 13 .
+
+<https://cnw-ld.org/work/NWGW262/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW262> ;
+    cnw:key "G major" ;
+    cnw:tempo "Andante con moto (Ernst und markirt)" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Am gewaltigen Meer, in der Mitternacht"@de ;
+    cnw:incipitText "Ved det oprørte Hav"@da ;
+    cnw:incipitImage "NWGW_262.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/friedrich_de_la_motte_fouqu>
+    a foaf:Agent ;
+    foaf:name "Friedrich de la Motte Fouqué" .
+
+<https://cnw-ld.org/agent/k_lner_m_nner_gesang_verein>
+    a foaf:Agent ;
+    foaf:name "Kölner Männer-Gesang-Verein" .
+

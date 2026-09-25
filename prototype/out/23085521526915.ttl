@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW261>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "En Engel har rørt ved din Pande"@da ;
+    dcterms:identifier "Opus 86:9" ;
+    dcterms:identifier "HartW 261" ;
+    dcterms:identifier "DF 69:9" ;
+    cnw:cnwNumber "261" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "86:9" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/ernst_von_der_recke> ;
+    dcterms:created "1888-11-05" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Mixed choir" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/1314263005> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW261/expression/1> ;
+    cnw:performanceCount 3 .
+
+<https://cnw-ld.org/work/HartW261/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW261> ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "En Engel har rørt ved din Pande"@da ;
+    cnw:incipitImage "hartw_261.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/ernst_von_der_recke>
+    a foaf:Agent ;
+    foaf:name "Ernst von der Recke" .
+

@@ -1,0 +1,52 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW441>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Vær glad"@da ;
+    dcterms:identifier "Opus 77:2" ;
+    dcterms:identifier "HartW 441" ;
+    dcterms:identifier "DF 141:2" ;
+    cnw:cnwNumber "441" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "77:2" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/bj_rnstjerne_bj_rnson> ;
+    dcterms:created "1873-06-11" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/1322646495> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23414519603507> ;
+    frbr:realization <https://cnw-ld.org/work/HartW441/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW441/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW441> ;
+    cnw:tempo "Allegro commodo" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Vær glad, naar Faren vejer hver Evne, som du ejer"@da ;
+    cnw:incipitImage "hartw_441.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/bj_rnstjerne_bj_rnson>
+    a foaf:Agent ;
+    foaf:name "Bjørnstjerne Bjørnson" .
+

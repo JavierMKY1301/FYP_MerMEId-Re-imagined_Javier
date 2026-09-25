@@ -1,0 +1,62 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW267>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sängers Glück"@de ;
+    dcterms:title "Sangerens Lykke"@da ;
+    dcterms:title "Singer's Joy"@en ;
+    dcterms:alternative "Durch Berg und Thal"@de ;
+    dcterms:alternative "Til Skov og Vang"@da ;
+    dcterms:identifier "Opus 38:2" ;
+    dcterms:identifier "NWGW 267" ;
+    dcterms:identifier "GW IV:10" ;
+    cnw:cnwNumber "267" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "38:2" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/karl_leberecht_immermann> ;
+    dcterms:created "1861" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22785319841617> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW267/expression/1> ;
+    cnw:performanceCount 6 .
+
+<https://cnw-ld.org/work/NWGW267/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW267> ;
+    cnw:key "A-flat major" ;
+    cnw:tempo "Allegro non troppo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Durch Berg und Thal der Sänger zeucht hinaus"@de ;
+    cnw:incipitText "Til Skov og Vang en Sanger drager glad"@da ;
+    cnw:incipitImage "NWGW_267.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/karl_leberecht_immermann>
+    a foaf:Agent ;
+    foaf:name "Karl Leberecht Immermann" .
+

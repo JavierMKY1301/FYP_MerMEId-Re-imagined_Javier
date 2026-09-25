@@ -1,0 +1,66 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW285>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Heidenröslein"@de ;
+    dcterms:title "The Wild Rose"@en ;
+    dcterms:title "The Rosebud on the Heather"@en ;
+    dcterms:title "La petite rose des bruyères"@fr ;
+    dcterms:alternative "Sah ein Knab' ein Röslein stehn"@de ;
+    dcterms:alternative "Saw a boy a rosetree grow"@en ;
+    dcterms:alternative "Once a boy a rose did view"@en ;
+    dcterms:alternative "Une rose en fleur s'ouvrait"@fr ;
+    dcterms:identifier "Opus 9:6" ;
+    dcterms:identifier "NWGW 285" ;
+    dcterms:identifier "GW V:1" ;
+    cnw:cnwNumber "285" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "9:6" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_wolfgang_von_goethe> ;
+    dcterms:created "March to May 1845" ;
+    dcterms:language "English" ;
+    dcterms:language "French" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Duet" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22771633684435> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW285/expression/1> ;
+    cnw:performanceCount 2 .
+
+<https://cnw-ld.org/work/NWGW285/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW285> ;
+    cnw:key "G major" ;
+    cnw:tempo "Allegro vivo" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "sopranos" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Sah ein Knab' ein Röslein stehn"@de ;
+    cnw:incipitText "Saw a boy a rosetree grow"@en ;
+    cnw:incipitImage "NWGW_285.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/johann_wolfgang_von_goethe>
+    a foaf:Agent ;
+    foaf:name "Johann Wolfgang von Goethe" .
+

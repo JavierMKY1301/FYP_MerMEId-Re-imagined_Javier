@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_95N20005">
+   <meiHead xml:id="meiHead_608da735">
+      <fileDesc xml:id="fileDesc_518453a3">
+         <titleStmt xml:id="titleStmt_79d98e93">
+            <title xml:id="title_6809840b">Die Quelle in der Wüste</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_049ed516">
+            <respStmt xml:id="respStmt_idc40c57fc">
+               <resp xml:id="resp_7029c3d4">Publisher</resp>
+               <corpName xml:id="corpName_idfb31bdbf">
+                  <abbr xml:id="abbr_11510e63">DCM</abbr>
+                  <expan xml:id="expan_6c47f828"/>
+                  <address xml:id="address_09399d58">
+                     <addrLine xml:id="addrLine_07ea16c8"/>
+                     <addrLine xml:id="addrLine_8fbd57f1">
+                        <ptr label="" xml:id="ptr_N20269"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_id8a96614a">Inger Sørensen</persName>
+            </respStmt>
+            <date xml:id="date_7bfa788e"/>
+            <availability xml:id="availability_0eff9327">
+               <useRestrict xml:id="useRestrict_f8b408ab"/>
+            </availability>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_9d649445">
+            <title xml:id="title_id43042665">Gade Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_ida59f955f">NWGW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_6db0cb8f">
+         <appInfo xml:id="appInfo_9f93dbc4">
+            <application version="2013" xml:id="application_de92ec11">
+               <name xml:id="name_9bb2b16c">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_idd2b084fd">
+            <p xml:id="idm125">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_482ea422">
+         <work xml:id="work_ida1aff8ba">
+            <identifier label="Opus" xml:id="identifier_724151a7">38:1</identifier>
+            <identifier label="NWGW" xml:id="identifier_40f713cd">266</identifier>
+            <identifier label="GW" xml:id="identifier_b82653c3">IV:10</identifier>
+            <title xml:id="title_id8bba1e47" xml:lang="de">Die Quelle in der Wüste</title>
+            <title xml:id="title_e527235a" xml:lang="en">The Spring in the Desert</title>
+            <title type="alternative" xml:id="title_92996bd0" xml:lang="de">Wenn ich eine Quelle wüsste</title>
+            <title type="text_source" xml:id="title_57e11cec" xml:lang="de">"Oestliche Rosen" von Rückert</title>
+            <contributor xml:id="respStmt_1d7a8128">
+               <persName role="composer" xml:id="persName_idda47fa05">Niels W. Gade</persName>
+               <persName role="author" xml:id="persName_1f9b7f2a">Friedrich Rückert</persName>
+            </contributor>
+            <creation xml:id="creation_id969b75ff">
+               <date isodate="1861" xml:id="date_bfa4bc42">1861</date>
+            </creation>
+            <history xml:id="history_idc79d8e6b">
+               <eventList type="performances" xml:id="eventList_3f313fd9">
+                  <event xml:id="event_49e9b2f0">
+                     <date isodate="1878" xml:id="date_d09ad4dd">1878-79 season</date>
+                     <geogName role="venue" xml:id="geogName_9152936a"/>
+                     <geogName role="place" xml:id="geogName_d4e8a336">New York</geogName>
+                     <corpName role="ensemble" xml:id="corpName_28717101">Choral Society "Arion"</corpName>
+                     <biblList xml:id="biblList_9dec63b5">
+                        <head xml:id="head_2bd728fb">Reviews</head>
+                     </biblList>
+                     <biblList xml:id="biblList_772f1cc4">
+                        <head xml:id="head_b7e96ccd">Evidence</head>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage xml:id="langUsage_eb649780">
+               <language xml:id="en">English</language>
+               <language xml:id="de">German</language>
+            </langUsage>
+            <biblList xml:id="biblList_1c6fa14d">
+               <head xml:id="head_8aa027ab">Documents</head>
+               <bibl label="" xml:id="bibl_00947b07">
+                  <genre xml:id="genre_a4d97673">letter</genre>
+                  <author xml:id="author_135585be">Breitkopf &amp; Härtel</author>
+                  <recipient xml:id="recipient_4c24538b">Niels W. Gade</recipient>
+                  <creation xml:id="creation_3fd06356">
+                     <date isodate="1862-05-27" xml:id="date_db70ccc6">1862-05-27</date>
+                     <geogName xml:id="geogName_6db8ef94">Leipzig</geogName>
+                  </creation>
+                  <physLoc xml:id="physLoc_0c617538">
+                     <repository xml:id="repository_de0914ab">
+                        <corpName xml:id="corpName_170N200F6"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_921935d9">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_2c91fc7d">NKS 1716 fol. A no. 47</identifier>
+                  </physLoc>
+                  <annot xml:id="annot_f7546cbc">
+                     <p xml:id="idm170"/>
+                  </annot>
+                  <relatedItem rel="host" xml:id="relatedItem_398df51d">
+                     <bibl label="" xml:id="bibl_bcb16f0d">
+                        <title xml:id="title_56ddc995">Niels W. Gade og hans europæiske kreds</title>
+                        <biblScope unit="no" xml:id="biblScope_efb2dcd1">402</biblScope>
+                     </bibl>
+                  </relatedItem>
+               </bibl>
+            </biblList>
+            <classification xml:id="classification_2c4d3d19">
+               <termList xml:id="termList_387eab57">
+                  <term xml:id="term_2c1e7dfc">Vocal music</term>
+                  <term xml:id="term_a849c47e">A cappella choral music</term>
+                  <term xml:id="term_85685143">Male choir</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_fbc108ef">
+               <expression xml:id="expression_idfcde47bc">
+                  <title xml:id="title_ideba1505e" xml:lang="en"/>
+                  <incip xml:id="incip_112e6a58">
+                     <incipText xml:id="incipText_46bb22f1">
+                        <p xml:id="p_e9b7ba9f" xml:lang="de">Wenn ich eine Quelle wüsste</p>
+                     </incipText>
+                     <graphic target="/dcm/assets/udgivelser/nwgw/incipits/lowres/NWGW_266.png" label=""
+                              targettype="lowres"
+                              xml:id="graphic_5975391875"/>
+                     <graphic target="/dcm/assets/udgivelser/nwgw/incipits/hires/NWGW_266.png" label=""
+                              targettype="hires"
+                              xml:id="graphic_4825703263"/>
+                  </incip>
+                  <tempo xml:id="tempo_b9aa18e7">Moderato</tempo>
+                  <meter count="3" unit="4" xml:id="meter_781098e6"/>
+                  <creation xml:id="creation_ide8119678">
+                     <date xml:id="date_91c32fdb"/>
+                     <geogName xml:id="geogName_idf4d43486"/>
+                  </creation>
+                  <history xml:id="history_id0aef9712">
+                     <p xml:id="idm201"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_id873dc4d6">
+                     <perfResList xml:id="perfResList_4b2931c0">
+                        <perfResList codedval="cc" xml:id="perfResList_64f8fe54">
+                           <head xml:id="head_744a1b5d">Choir</head>
+                           <perfRes codedval="vd" count="1" xml:id="perfRes_aeea15bc">T.</perfRes>
+                           <perfRes codedval="vd" count="1" solo="false" xml:id="perfRes_62c7982e">T.</perfRes>
+                           <perfRes codedval="vf" count="1" solo="false" xml:id="perfRes_6db9567d">B.</perfRes>
+                           <perfRes codedval="vf" count="1" xml:id="perfRes_0e358242">B.</perfRes>
+                        </perfResList>
+                     </perfResList>
+                  </perfMedium>
+                  <classification xml:id="classification_4dfe9ef5">
+                     <termList xml:id="termList_a4a19502">
+                        <term xml:id="term_7bf4b927"/>
+                     </termList>
+                  </classification>
+                  <componentList xml:id="componentGrp_5d5c32a4"/>
+                  <relationList xml:id="relationList_7bda3643"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_3a19aee9">
+               <relation label="Fünf Gesänge für Männerchor" rel="isPartOf" target="22785319841617.xml"
+                         xml:id="relation_39265cc6"/>
+            </relationList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_5103009c">
+         <manifestation label="" xml:id="source_bf28e359">
+            <titleStmt xml:id="titleStmt_06d0e045">
+               <title xml:id="title_52af0dec">Score, autograph, fair copy</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_f96532b3"/>
+            <physDesc xml:id="physDesc_8c99264a">
+               <extent xml:id="extent_b03dbbe1">12 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_acefc2a0">35 x 26</dimensions>
+               <physMedium xml:id="physMedium_12487b6a">1 bifolio. Written in ink. Paper: 16 staves. Heading on p. 1: "<rend xml:id="idm32" rend="underline">Die Quelle in der Wüste</rend>. ('Oestliche Rosen' von Rückert.)". In upper right-hand corner "Op. 38.". In upper left-hand corner added in pencil: "(N<rend xml:id="idm33" rend="sup">o</rend> 1)"</physMedium>
+            </physDesc>
+            <notesStmt xml:id="notesStmt_48af2c6c">
+               <annot type="source_description" xml:id="annot_a57bbf45">
+                  <p xml:id="idm36">On pp. 1-3 in this manuscript.</p>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_9b610bc4">
+               <termList xml:id="termList_ceb18be5">
+                  <term class="#DcmContentClass" xml:id="term_e355c7c1">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_0d5b2a83">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_a4e460b8">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_5622eb4b">score</term>
+                  <term class="#DcmStateClass" xml:id="term_3edacf38">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_ddf4adb2">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_166e01e6">
+               <item label="" xml:id="item_36188f08">
+                  <identifier label="" xml:id="identifier_c597b4bc"/>
+                  <physLoc xml:id="physLoc_a922dcf2">
+                     <repository xml:id="repository_16734e49">
+                        <corpName xml:id="corpName_00ee6f85"/>
+                        <geogName xml:id="geogName_d754e987"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_b6ddabd8">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_53c513cc">C II, 6 Gades Samling 287 (Kapsel F - J)</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_b8ca4706"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_4b9c5e1f"/>
+         </manifestation>
+         <manifestation label="" xml:id="source_id61d5f8ce">
+            <titleStmt xml:id="titleStmt_fe82e445">
+               <title xml:id="title_idffeb62d9">Score and parts, print, first edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_c8dda125">
+               <publisher xml:id="publisher_id784a3160">Breitkopf &amp; Härtel</publisher>
+               <pubPlace xml:id="pubPlace_id28d00a13">Leipzig</pubPlace>
+               <date isodate="1862-04" xml:id="date_de09ccd8">Apr. 1862</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_ec594664">
+               <titlePage label="" xml:id="titlePage_6f3f7401">
+                  <p xml:id="idm66">FÜNF GESÄNGE / FÜR / Männerchor / componirt und / Herrn Conrad Schleinitz / gewidmet / von / NIELS W. GADE. / Op. 38. / fünftes Heft der Lieder für Männerchor. / Partitur und Stimmen. / Eigenthum der Verleger für alle Länder. / Leipzig, Breitkopf &amp; Härtel. / Eingetragen in das Vereinsarchiv. / 10383</p>
+               </titlePage>
+               <extent xml:id="extent_3cc13334">19 pages (score)</extent>
+               <extent xml:id="extent_344fc407">8 pages (parts)</extent>
+               <plateNum xml:id="plateNum_d49da14c">10383</plateNum>
+            </physDesc>
+            <notesStmt xml:id="notesStmt_bbe9b30e">
+               <annot type="source_description" xml:id="annot_28067b57">
+                  <p xml:id="idm72">On pp. 2-7 in this collection.</p>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_97116c8c">
+               <termList xml:id="termList_a6392e7f">
+                  <term class="#DcmContentClass" xml:id="term_b75a6482">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_576e6a29">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_dc6b1470"/>
+                  <term class="#DcmScoringClass" xml:id="term_dfbc1e40">score and parts</term>
+                  <term class="#DcmStateClass" xml:id="term_b7e45fa1">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_af940242">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_e5844ba2">
+               <item label="Gade's personal copy" xml:id="item_aea9e95c">
+                  <identifier label="" xml:id="identifier_3e17de71"/>
+                  <physLoc xml:id="physLoc_310f60d6">
+                     <repository xml:id="repository_5922f2ee">
+                        <corpName xml:id="corpName_b27fe025"/>
+                        <geogName xml:id="geogName_70bb2a7e"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_dd6adfb9">DK-Kk</identifier>
+                        <ptr label="" mimetype="" xml:id="ptr_c1321c95"/>
+                     </repository>
+                     <identifier xml:id="identifier_a336522d">C II, 6 Gades Samling 130, D240</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_7efe409f"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_4b62827f"/>
+            <relationList xml:id="relationList_70c3bfcb">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_idb57d51c3"/>
+            </relationList>
+         </manifestation>
+         <manifestation label="" xml:id="source_c453a225">
+            <titleStmt xml:id="titleStmt_950d598c">
+               <title xml:id="title_3c9ea596">Score and parts, print, later edition</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_5bd2d7b1">
+               <publisher xml:id="publisher_20328a91">Breitkopf &amp; Härtel</publisher>
+               <pubPlace xml:id="pubPlace_00c52aec">Leipzig</pubPlace>
+               <date isodate="1878-04" xml:id="date_4dae90fa">Apr. 1878</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_ca62a4f0">
+               <titlePage label="" xml:id="titlePage_67fa5306">
+                  <p xml:id="idm105">Deutsche /  MÄNNERCHÖRE / 50 / der schönsten / Lieder und Gesänge / für / vier Männerstimmen / ausgewählt / von J.N. CAVALLO. / Partitur. / Eigenthum der Verleger / Leipzig, Breitkopf &amp;amp; Härtel.</p>
+               </titlePage>
+               <extent xml:id="extent_277f874f"> 169 pages</extent>
+               <plateNum xml:id="plateNum_ffff6653">V.A. 334</plateNum>
+            </physDesc>
+            <classification xml:id="classification_77e19edb">
+               <termList xml:id="termList_615e6f08">
+                  <term class="#DcmContentClass" xml:id="term_57c62428">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_10df4c78">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_6d532a98"/>
+                  <term class="#DcmScoringClass" xml:id="term_03492079">score and parts</term>
+                  <term class="#DcmStateClass" xml:id="term_e6f0d293">later edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_3854b950">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_dfa4e2e8"/>
+            <componentList xml:id="componentGrp_53699473"/>
+            <relationList xml:id="relationList_261ab509">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_2750c8bf"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm217">
+         <change isodate="2015-03-02" xml:id="change_id8838d504">
+            <respStmt xml:id="respStmt_fd26327f">
+               <name xml:id="resp_07bbde63">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_23b30ef8">
+               <p xml:id="p_9fc53932"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-03-18" xml:id="change_9c4576df">
+            <respStmt xml:id="respStmt_1d993fb0">
+               <name xml:id="resp_3029e3d4">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_7fc105f1">
+               <p xml:id="p_4cee0cb1"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-05-13" xml:id="change_119N2010F">
+            <respStmt xml:id="respStmt_77bbc7f6">
+               <name xml:id="resp_765b19ac">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_aa1dc6f8">
+               <p xml:id="p_f620c701"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-06-09" xml:id="change_6bd408ff">
+            <respStmt xml:id="respStmt_63291ba1">
+               <name xml:id="resp_178e7d72">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f9490f45">
+               <p xml:id="p_d591fdf1"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-06-18" xml:id="change_68a42507">
+            <respStmt xml:id="respStmt_59a1b03f">
+               <name xml:id="resp_cc5e2a22">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3481fb71">
+               <p xml:id="p_c3d8b822"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-08-18" xml:id="change_9261682e">
+            <respStmt xml:id="respStmt_1e048d16">
+               <name xml:id="resp_038b2c66">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f23590a0">
+               <p xml:id="p_065e2736"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_170idm140304870505952">
+            <respStmt xml:id="respStmt_bb46623b">
+               <name xml:id="resp_9f3a1a03">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_50bb9cba">
+               <p xml:id="p_925f6813">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_175d1e203">
+            <respStmt xml:id="respStmt_e90484a2">
+               <name xml:id="resp_159cd35f">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_15361eb1">
+               <p xml:id="p_c3d1eb2b">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-11-29" xml:id="change_cee8e7ba">
+            <respStmt xml:id="respStmt_5a0760c8">
+               <name xml:id="resp_7f67f914">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_56111424">
+               <p xml:id="p_02981e61"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-04" n="10" xml:id="change_1685746f">
+            <respStmt xml:id="respStmt_aa2b16a1">
+               <name xml:id="resp_5e167b11">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_38f964d5">
+               <p xml:id="p_be20b6e1">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-02" xml:id="change_243N1029D">
+            <respStmt xml:id="respStmt_d0c67b5b">
+               <name xml:id="resp_091842ca">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_103d210e">
+               <p xml:id="p_594dcca4"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-11-29T12:43:21.882Z" xml:id="change_ed727e33">
+            <respStmt xml:id="respStmt_a5eb8af4">
+               <name xml:id="resp_6f5a22aa">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_bca148a2">
+               <p xml:id="p_b2bca1d4"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-17T11:49:32.16Z" xml:id="change_294N10352">
+            <respStmt xml:id="respStmt_fd3a3e0e">
+               <name xml:id="resp_ab6a87c2">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_683e499a">
+               <p xml:id="p_d1ee985f"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-18T11:23:30.229Z" xml:id="change_299N1035A">
+            <respStmt xml:id="respStmt_0a34e42d">
+               <name xml:id="resp_09347353">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_0d9449f4">
+               <p xml:id="p_2b2ee8d0"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-24T15:11:40.946Z" xml:id="change_304N10362">
+            <respStmt xml:id="respStmt_7f3d33d0">
+               <name xml:id="resp_ea40f357">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_797cb3a8">
+               <p xml:id="p_bbea068c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-04-03T12:39:29.692Z" xml:id="change_309N1036A">
+            <respStmt xml:id="respStmt_fbefc9cb">
+               <name xml:id="resp_941958b8">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_c3aa2ad8">
+               <p xml:id="p_fb8b3159"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-04-18T11:53:27.16Z" xml:id="change_314N10372">
+            <respStmt xml:id="respStmt_1f94c787">
+               <name xml:id="resp_4d15f24a">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_ca292d8a">
+               <p xml:id="p_c6e7a3b1"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-04-25T11:50:52.089Z" xml:id="change_319N1037A">
+            <respStmt xml:id="respStmt_967a032e">
+               <name xml:id="resp_ed6ae578">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_07e32660">
+               <p xml:id="p_1078a9fa"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-05-09T11:17:59.813Z" xml:id="change_324N10382">
+            <respStmt xml:id="respStmt_e7c77ae2">
+               <name xml:id="resp_85f79b29">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_60e81ab6">
+               <p xml:id="p_eb5d22de"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-13T14:01:29.29Z" xml:id="change_329N1038A">
+            <respStmt xml:id="respStmt_2b48efee">
+               <name xml:id="resp_17f64605">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_a277f974">
+               <p xml:id="p_45704347"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T09:19:40Z" xml:id="change_334N10297">
+            <respStmt xml:id="respStmt_4a4791e4">
+               <name xml:id="resp_c425a11c">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_edf5dd1c">
+               <p xml:id="p_52d1a409">Added incipit graphic URL</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T09:22:08.545Z" xml:id="change_341N103A5">
+            <respStmt xml:id="respStmt_a10ee9c5">
+               <name xml:id="resp_5ac39ef2">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_fedf37de">
+               <p xml:id="p_125c0567"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-07-13T10:13:59.13Z" xml:id="change_195dcef1">
+            <respStmt xml:id="respStmt_cd8a6cd3">
+               <name xml:id="resp_bc74cb1f">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_c179f5e6">
+               <p xml:id="p_c7e0962e"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-09-04T19:00:06+02:00" xml:id="change_387N1030B">
+            <respStmt xml:id="respStmt_c56c148a">
+               <name xml:id="resp_214e0a09">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_61a76e1b">
+               <p xml:id="p_d6b9b5b8">Deleted obsolete &lt;extent&gt; elements</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-09-06T13:44:48.764Z" xml:id="change_06b930b3">
+            <respStmt xml:id="respStmt_5d260720">
+               <name xml:id="resp_257a558d">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8a303038">
+               <p xml:id="p_47e4faf0"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-11-12T15:22:25.808Z" xml:id="change_361N103FA">
+            <respStmt xml:id="idm344">
+               <name xml:id="idm345">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm346">
+               <p xml:id="idm347"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-11-15T12:55:39.198Z" xml:id="change_348N103CC">
+            <respStmt xml:id="idm349">
+               <name xml:id="idm350">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm351">
+               <p xml:id="idm352"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-02-26T14:32:38.986Z" xml:id="change_353N103D4">
+            <respStmt xml:id="idm354">
+               <name xml:id="idm355">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm356">
+               <p xml:id="idm357"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-08T14:18:57.327Z" xml:id="change_358N103DC">
+            <respStmt xml:id="idm359">
+               <name xml:id="idm360">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm361">
+               <p xml:id="idm362"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T14:45:33Z" xml:id="change_363N1026C">
+            <respStmt xml:id="idm364">
+               <name xml:id="idm365">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm366">
+               <p xml:id="idm367">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_368d1e307">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_373d1e308">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm368"/>
+</mei>

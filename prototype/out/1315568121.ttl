@@ -1,0 +1,97 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW170>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate til Universitetets Fest i Anledning af Kronprinds Frederiks og Kronprindsesse Lovisas Formæling d. 28. Juli 1869"@da ;
+    dcterms:title "Cantata on the Occasion of Crown Prince Frederik's and Crown Princess Lovisa's Wedding on 28 July 1869"@en ;
+    dcterms:alternative "Hil Dig!"@da ;
+    dcterms:alternative "Formælings-Cantaten"@da ;
+    dcterms:identifier "Opus 69" ;
+    dcterms:identifier "HartW 170" ;
+    dcterms:identifier "DF 81" ;
+    cnw:cnwNumber "170" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "69" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/h_p_holst> ;
+    dcterms:created "1869" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Male choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW170/expression/1> ;
+    cnw:performanceCount 8 .
+
+<https://cnw-ld.org/work/HartW170/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW170> ;
+    cnw:tempo "Allegro festivo, moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:incipitText "Hil Dig! Hil Dig, Hil Dig!"@da ;
+    cnw:incipitText "Søndringens Tid er forbi"@da ;
+    cnw:incipitText "De Unge talte, de Unge sang"@da ;
+    cnw:incipitText "Hør hvor det dundrer fra Mælarens Vande"@da ;
+    cnw:incipitText "Velsignet være den Dag, da du kom hid"@da ;
+    cnw:incipitText "I de friske Bøgeskove"@da ;
+    cnw:incipitText "Atter Himlen er skyfuld [originally \"Unge Kræfter behøves\"]"@da ;
+    cnw:incipitText "Hil dig! Hil dig, Hil dig!"@da ;
+    cnw:incipitImage "hartw_170_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/h_p_holst>
+    a foaf:Agent ;
+    foaf:name "H.P. Holst" .
+

@@ -1,0 +1,42 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW45>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Karacteerstykker for Strygeorchester No. 1 - 3"@da ;
+    dcterms:title "Character Pieces Nos. 1-3 for Strings"@en ;
+    dcterms:identifier "Opus 81" ;
+    dcterms:identifier "HartW 45" ;
+    cnw:cnwNumber "45" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "81" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "2 Aug. to 23 Sep. 1884" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Other orchestral music" ;
+    frbr:realization <https://cnw-ld.org/work/HartW45/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW45/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW45> ;
+    cnw:tempo "Moderato - Allegro" ;
+    cnw:meter "4/4" ;
+    cnw:incipitImage "hartw_045_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

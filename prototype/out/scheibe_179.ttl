@@ -1,0 +1,151 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-045>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kantate am 19. Sonntag post Trinitatis"@de ;
+    dcterms:alternative "So ofte Jesus großer Nahme"@de ;
+    dcterms:identifier "SchW B2:045" ;
+    cnw:cnwNumber "B2:045" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/gottfried_behrndt> ;
+    dcterms:created "1737" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Sacred" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    cnw:editorialNote "Scheibe mentions having composed several cantatas for Telemann while he was in Paris (19th–25th Sunday after Trinity)." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-045/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-045/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-045> ;
+    cnw:key "E minor" ;
+    cnw:tempo "Vivace" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "colascione" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "So ofte Jesus großer Nahme bald Sünden tilgt, bald Zeichen thut"@de ;
+    cnw:incipitText "Zweifeln und Tadeln, verdrehen und schmähen"@de ;
+    cnw:incipitText "Du thörichte Vernunft, die sich durch falsches Wissen blehet"@de ;
+    cnw:incipitText "Gehe hin, und sprich zu diesem Volcke"@de ;
+    cnw:incipitText "Mit Blindheit ist die Welt geschlagen"@de ;
+    cnw:incipitText "Ach Gott ich hab nach solcher Arth, gar lang mit großen Schaden"@de ;
+    cnw:incipitText "Ach ja, der Sünden lust, die stets das gute von sich stößet, die treibt noch immerfort zu alten lügen"@de ;
+    cnw:incipitText "Ist nun unser Evangelium verdeckt"@de ;
+    cnw:incipitText "Ihr Hertze rennt im Heuchel-Schein zur Höllen-Pful hienein"@de ;
+    cnw:incipitText "Stehe auf, und wandle"@de ;
+    cnw:incipitText "Wach auf! ô Mensch vom Sünden-Schlaf, ermuntre dich verlohrnes Schaaf"@de ;
+    cnw:incipitImage "SchM_179_001.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/gottfried_behrndt>
+    a foaf:Agent ;
+    foaf:name "Gottfried Behrndt" .
+

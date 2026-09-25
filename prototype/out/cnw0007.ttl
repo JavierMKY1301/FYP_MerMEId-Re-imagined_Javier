@@ -1,0 +1,160 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW7>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musik til Holger Drachmanns melodrama \"Hr. Oluf han rider–\""@da ;
+    dcterms:title "Music for Holger Drachmann's Melodrama 'Sir Oluf He Rides–'"@en ;
+    dcterms:alternative "Den danske sommernats drama i fire akter og et forspil"@da ;
+    dcterms:alternative "A Danish Summer-Night's Drama in Four Acts and a Prelude"@en ;
+    dcterms:identifier "CNW 7" ;
+    dcterms:identifier "CNU I/7; III/4, 17, 18, 19; IV/1, Add. 31" ;
+    dcterms:identifier "CNS 342" ;
+    dcterms:identifier "FS 37" ;
+    cnw:cnwNumber "7" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "37" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/holger_drachmann> ;
+    dcterms:created "1906" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "NL-DHnmi" ;
+    cnw:manuscriptLocation "NL-DHnmi" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "NL-DHnmi" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "N-Ou" ;
+    cnw:manuscriptLocation "N-Ou" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW7/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW7/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW7> ;
+    cnw:tempo "Andantino giusto" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "fl. / fl.picc." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cfg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "ptti." ;
+    cnw:performingForce "ptto.sosp." ;
+    cnw:performingForce "tbno." ;
+    cnw:performingForce "gr.c." ;
+    cnw:performingForce "tam." ;
+    cnw:performingForce "gong" ;
+    cnw:performingForce "cmplli." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "arpa" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Ud og ind og ind og ud"@da ;
+    cnw:incipitText "Tys! dér er Helhesten"@da ;
+    cnw:incipitText "Det kalder...!"@da ;
+    cnw:incipitText "Snart paa Loft og snart i Kælder"@da ;
+    cnw:incipitText "Helleliden aksler sin Kofte graa"@da ;
+    cnw:incipitText "O, hvilken Duft, naar Solen gaar ned"@da ;
+    cnw:incipitText "God Kvæld, lille Pjevs!"@da ;
+    cnw:incipitText "Tys! Kan du høre...?"@da ;
+    cnw:incipitText "Vegen er Dagen"@da ;
+    cnw:incipitText "Øjne i, og Øjne op"@da ;
+    cnw:incipitText "Vor Mor - vor gamle Mor!"@da ;
+    cnw:incipitText "Elvermø - Elvermø!"@da ;
+    cnw:incipitText "Kommer Du, min Elskede?"@da ;
+    cnw:incipitText "Men hvor Bølgen viger"@da ;
+    cnw:incipitText "Hr. Oluf, der bredes Dig Dug paa Disk"@da ;
+    cnw:incipitText "Stille! - vær dog stille!"@da ;
+    cnw:incipitText "Saa kaster jeg mig for den Gamle paa Knæ"@da ;
+    cnw:incipitText "Søvn har jeg kastet paa ham og hende"@da ;
+    cnw:incipitText "Pater Anselm har læst dem"@da ;
+    cnw:incipitImage "cnw_007_0_0.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/holger_drachmann>
+    a foaf:Agent ;
+    foaf:name "Holger Drachmann" .
+

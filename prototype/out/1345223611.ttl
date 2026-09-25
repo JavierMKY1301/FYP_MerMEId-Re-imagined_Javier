@@ -1,0 +1,52 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW44>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Marsch til Skyttefesten i Nyborg den 10de og 11te Juli 1881"@da ;
+    dcterms:title "March for the Marksmen's Festival in Nyborg on 19 and 11 July 1881"@en ;
+    dcterms:alternative "Festmarsch til Skyttefesten i Nyborg d. 10. og 11. Juli 1881"@da ;
+    dcterms:identifier "HartW 44" ;
+    dcterms:identifier "DF 46" ;
+    cnw:cnwNumber "44" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1881" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Other orchestral music" ;
+    frbr:realization <https://cnw-ld.org/work/HartW44/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW44/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW44> ;
+    cnw:key "F major" ;
+    cnw:tempo "Tempo di marcia. Allegro non troppo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "cnt. in E flat" ;
+    cnw:performingForce "cnt. in B" ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "flic.alt" ;
+    cnw:performingForce "flic.ten." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "tamb.picc." ;
+    cnw:performingForce "gr.c. & ptti." ;
+    cnw:incipitImage "hartw_044.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

@@ -1,0 +1,56 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-425>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Klage-Sang over den stormægtigste Monark, nu hos Gud høy-salige Konge og Herre, Kong Christian den Siette"@da ;
+    dcterms:identifier "SchW B2:425" ;
+    cnw:cnwNumber "B2:425" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/peder_sparki_r> ;
+    dcterms:created "1746" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote "'Als ich nach dem Absterben Sr. Majestät Christian des VI. glorwürdigsten Andenkens, die zu dem feyerlichen Begräbnisse verfertigte Trauermusik allhier in der Trinitatiskirche einigemale öffentlich probirte: so war Holberg jedesmal ein fleißiger Zuhörer, und er ward in einer jeden Probe, bey einer gewissen sehr traurigen Stelle, die in einem stark besetzten Chore vorkam, bis zum Weinen gerührt. Die Musik, die aus mehr als achzig Personen bestand, war vor dem Eingange in dem Chor in der Figur eines halben Mondes gestellet, und Holberg stand nebst einigen andern Liebhabern zwischen der Musik und dem Altare. So bald diese ihn sehr rührende Stelle vorkam, verbarg er sich jedesmal mit dem Schnupftuche in der Hand hinter den Altar.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-425/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-425/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-425> ;
+    cnw:incipitText "Væe os! Væe os!"@da ;
+    cnw:incipitText "Bedrøvelige Død"@da ;
+    cnw:incipitText "Du forkorted DINE Dage"@da ;
+    cnw:incipitText "Vort Liv paa Jorden er som en Skygge"@da ;
+    cnw:incipitText "Men ach! hvad kand Det hielpe meer!"@da ;
+    cnw:incipitText "Far vel, og hviil DIG da i Fred"@da ;
+    cnw:incipitText "Dog at vort Haab herved ej gandske skulde falde hen"@da ;
+    cnw:incipitText "Kongens Viisdom Gud formeere"@da ;
+    cnw:incipitText "Konge skee Lykke!"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/peder_sparki_r>
+    a foaf:Agent ;
+    foaf:name "Peder Sparkiær" .
+
+<https://cnw-ld.org/agent/king_christian_vi>
+    a foaf:Agent ;
+    foaf:name "King Christian VI" .
+

@@ -1,0 +1,57 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartWB-27>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kong Christian stod ved højen Mast"@da ;
+    dcterms:alternative "Dansk Nationalsang"@da ;
+    dcterms:identifier "HartW B 27" ;
+    dcterms:identifier "DF 109" ;
+    cnw:cnwNumber "B 27" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_ewald> ;
+    cnw:arranger <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1861" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    cnw:editorialNote "Song from the Singspiel \"Fiskerne\" (The Fishermen) by Hartmann's grandfather Johann Hartmann." ;
+    frbr:realization <https://cnw-ld.org/work/HartWB-27/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartWB-27/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartWB-27> ;
+    cnw:tempo "Tempo di marcia" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Kong Christian stod ved høien Mast"@da ;
+    cnw:incipitImage "hartw_B_27.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_hartmann>
+    a foaf:Agent ;
+    foaf:name "Johann Hartmann" .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/johannes_ewald>
+    a foaf:Agent ;
+    foaf:name "Johannes Ewald" .
+

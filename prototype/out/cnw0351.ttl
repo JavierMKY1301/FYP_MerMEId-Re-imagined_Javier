@@ -1,0 +1,58 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW349>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Serenade"@da ;
+    dcterms:title "Serenade"@en ;
+    dcterms:alternative "Gerne vi lytter, naar Strængene bringer"@da ;
+    dcterms:alternative "Gladly we listen when music may carry"@en ;
+    dcterms:alternative "Gerne vi lytter, når strængene bringer"@da ;
+    dcterms:identifier "CNW 349" ;
+    dcterms:identifier "CNU III/6, 302" ;
+    dcterms:identifier "CNS 303" ;
+    cnw:cnwNumber "349" ;
+    cnw:catalogueCode "CNW" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/hother_ploug> ;
+    dcterms:created "1907-02-09" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW349/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/CNW349/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW349> ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "9/8" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Gerne vi lytter"@da ;
+    cnw:incipitText "Gladly we listen"@en ;
+    cnw:incipitImage "cnw_349.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/hother_ploug>
+    a foaf:Agent ;
+    foaf:name "Hother Ploug" .
+

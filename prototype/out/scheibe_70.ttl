@@ -1,0 +1,111 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB3-002>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Choral"@da ;
+    dcterms:alternative "I Jesu Navn"@da ;
+    dcterms:identifier "SchW B3:002" ;
+    cnw:cnwNumber "B3:002" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/thomas_kingo> ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Chorale" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Sacred" ;
+    cnw:editorialNote "'Saasnart det første Vers af den Psalme: I JEsu Navn skal al vor Gierning skee, und Pauker og Trompeter var udsiunget, fremtrædde, efter givet Tegn af Ober-Hof-Marechallen, Hr. Hof-Prædikant Qvist til Brude-Skamlen, og forrettede Copulationen, hvortil Texten af Hendes Kongel. Høyhed den høye Brude selv var udvalgt af 67de Davids Psalme 2den Vers. Da samme var til Ende, og med det sidste Vers af bemeldte Psalme besluttet, begave sig det høye Brude-Par og samtlige Kongel. Herskaber i forrige Orden igien tilbage.'" ;
+    cnw:editorialNote "The work was also performed at the wedding for Crown Prince Gustav of Sweden and Princess Sophie Magdalene of Denmark." ;
+    cnw:editorialNote " Includes an extensive description of the event which took place on the 3 October 1766." ;
+    cnw:editorialNote " 'Saasnart Sangen nemlig det første Vers af den Psalme: I Jesu Navn &c. under Pauker og Trompetter var udsiunget, traadde Hans Høyværdighed Hr. Biskop Harboe frem fra Alteret [...] Da Vielsen var til Ende og det sidste Vers af bemeldte Psalme med Instrumental- og Vocal-Musik var udsiunget, begav Hans Kongelige Majestæt tilligemed Hendes Majestet Dronningen, [...] tilbage.'" ;
+    cnw:editorialNote " Regarding provenance (Ellen Bruhn)" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB3-002/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB3-002/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB3-002> ;
+    cnw:key "D major" ;
+    cnw:tempo "Pomposo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cornettino" ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cornettino" ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cornettino" ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "I Jesu Navn"@da ;
+    cnw:incipitText "I Jesu Navn skal all vor Gerning skee"@da ;
+    cnw:incipitText "I Jesu Navn vi leve vil"@da ;
+    cnw:incipitText "I Jesu Navn"@da ;
+    cnw:incipitText "I Jesu Navn skal all vor Gerning skee"@da ;
+    cnw:incipitText "I Jesu Navn vi leve vil"@da ;
+    cnw:incipitImage "SchM_070_001.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/thomas_kingo>
+    a foaf:Agent ;
+    foaf:name "Thomas Kingo" .
+
+<https://cnw-ld.org/agent/prince_vilhelm_of_hesse_cassel>
+    a foaf:Agent ;
+    foaf:name "Prince Vilhelm of Hesse-Cassel" .
+
+<https://cnw-ld.org/agent/princess_vilhelmine_caroline_of_denmark>
+    a foaf:Agent ;
+    foaf:name "Princess Vilhelmine Caroline of Denmark" .
+

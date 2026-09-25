@@ -1,0 +1,114 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW167>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Baldurs Drøm"@da ;
+    dcterms:title "Baldurs Traum"@de ;
+    dcterms:title "Baldur's Dream"@en ;
+    dcterms:alternative "for Soli, Kor og Orkester"@da ;
+    dcterms:alternative "für Soli Chor und Orchester"@de ;
+    dcterms:alternative "for Soli, Chorus and Orchestra"@en ;
+    dcterms:identifier "NWGW 167" ;
+    dcterms:identifier "GW IV:7" ;
+    dcterms:identifier "DF 117" ;
+    cnw:cnwNumber "167" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/adolph_hertz> ;
+    dcterms:created "1856-1858" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW167/expression/1> ;
+    cnw:performanceCount 4 .
+
+<https://cnw-ld.org/work/NWGW167/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW167> ;
+    cnw:tempo "Allegro maestoso" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "MezzS." ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "ptti." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "MezzS." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "MezzS." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "MezzS." ;
+    cnw:performingForce "MezzS." ;
+    cnw:performingForce "Bar." ;
+    cnw:incipitText "Nu stiger Odin op til Valhalla"@da ;
+    cnw:incipitText "Nun steiget Odin auf gen Walhalla"@de ;
+    cnw:incipitText "Højst blandt de Høje paa Guders Stol"@da ;
+    cnw:incipitText "König der Kön'ge, im Göttersaal"@de ;
+    cnw:incipitText "Baldur! Baldur, tal"@da ;
+    cnw:incipitText "Balder! Balder, sag"@de ;
+    cnw:incipitText "Uprøvede i Modgangs tunge Lod!"@da ;
+    cnw:incipitText "Euch unbekannt blieb Unglücks hartes Loos!"@de ;
+    cnw:incipitText "Ikkun Blændværk er Nattens Drøm!"@da ;
+    cnw:incipitText "Leeres Blendwerk ist Traum der Nacht!"@de ;
+    cnw:incipitText "Baldur i de Dødes Rige!"@da ;
+    cnw:incipitText "Balder in dem Reich des Todes!"@de ;
+    cnw:incipitText "Thor, du stærke! hjælp nu du!"@da ;
+    cnw:incipitText "Thor, du starker, hilf nun du!"@de ;
+    cnw:incipitText "Velan! I alle Guders Navn sin Røst oplader Frigge!"@da ;
+    cnw:incipitText "Wohlan! In aller Götter Namen die Stimme erhebet Frigge!"@de ;
+    cnw:incipitText "Pagten er sluttet, Faren er svunden!"@da ;
+    cnw:incipitText "Pacht ist geschlossen, Wolke verschwunden!"@de ;
+    cnw:incipitImage "NWGW_167_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/adolph_hertz>
+    a foaf:Agent ;
+    foaf:name "Adolph Hertz" .
+
+<https://cnw-ld.org/agent/eugen_von_enzberg>
+    a foaf:Agent ;
+    foaf:name "Eugen von Enzberg" .
+

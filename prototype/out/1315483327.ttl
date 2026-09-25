@@ -1,0 +1,102 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW166>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate ved Kong Frederik den Syvendes Bisættelse i Roeskilde Domkirke den 19de December 1863"@da ;
+    dcterms:title "Cantata for the Interment of King Frederik VII in Roskilde Cathedral on 19 December 1863"@en ;
+    dcterms:alternative "O Sorgens Syn!"@da ;
+    dcterms:identifier "Opus 64b" ;
+    dcterms:identifier "HartW 166" ;
+    dcterms:identifier "DF 79" ;
+    cnw:cnwNumber "166" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "64b" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/h_p_holst> ;
+    dcterms:created "1863-12-13" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Male choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW166/expression/1> ;
+    cnw:performanceCount 3 .
+
+<https://cnw-ld.org/work/HartW166/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW166> ;
+    cnw:tempo "Andante moderato assai, maestoso" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.a." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "gong." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:incipitText "O Sorgens Syn!"@da ;
+    cnw:incipitText "Ja, aand kun tungt, o Danmark!"@da ;
+    cnw:incipitText "Hvad var hans Lod?"@da ;
+    cnw:incipitText "Herlige Tid, da Brystet kun rummed hvad der var kjærligt og godt!"@da ;
+    cnw:incipitText "Studenten lagde bort sin Bog"@da ;
+    cnw:incipitText "Saa sving i Seiersklædebon til Himlen dig"@da ;
+    cnw:incipitText "Hvad er Jordens Kongekroner?"@da ;
+    cnw:incipitText "Kongernes Konge, hold dine Hænder skjærmende over vort Land!"@da ;
+    cnw:incipitImage "hartw_166_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/h_p_holst>
+    a foaf:Agent ;
+    foaf:name "H.P. Holst" .
+

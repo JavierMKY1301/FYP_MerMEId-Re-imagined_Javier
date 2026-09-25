@@ -1,0 +1,62 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW277>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Serenade"@da ;
+    dcterms:title "Serenade"@en ;
+    dcterms:alternative "See! Luften er stille"@da ;
+    dcterms:alternative "The blue waves are sleeping"@en ;
+    dcterms:alternative "Se! Luften er stille"@da ;
+    dcterms:identifier "CNW 277" ;
+    dcterms:identifier "CNU III/5, 215" ;
+    dcterms:identifier "CNS 226" ;
+    dcterms:identifier "FS 3q" ;
+    cnw:cnwNumber "277" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "3q" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/jeremiah_joseph_callanan> ;
+    dcterms:created "Between c. 1886 and 1888" ;
+    cnw:dateNotBefore "1886"^^xsd:gYear ;
+    cnw:dateNotAfter "1888"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/CNW277/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW277/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW277> ;
+    cnw:tempo "Allegretto" ;
+    cnw:meter "3/8" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "See! Luften er stille"@da ;
+    cnw:incipitText "The blue waves are sleeping"@en ;
+    cnw:incipitImage "cnw_277.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/jeremiah_joseph_callanan>
+    a foaf:Agent ;
+    foaf:name "Jeremiah Joseph Callanan" .
+
+<https://cnw-ld.org/agent/caralis_christian_preetzmann>
+    a foaf:Agent ;
+    foaf:name "Caralis [Christian Preetzmann]" .
+

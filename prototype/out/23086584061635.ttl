@@ -1,0 +1,48 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWA6-001>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Concerto pro clavicembal del Sigr. Vivaldi"@it ;
+    dcterms:identifier "SchW A6:001" ;
+    cnw:cnwNumber "A6:001" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/antonio_vivaldi> ;
+    cnw:arranger <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1727–35" ;
+    dcterms:language "English" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Concerto" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    cnw:editorialNote "(II.B.I. 'Solos an Concerten, Parthien und Sonaten'): 'Bach, J.S. Direttore della Mus. in Lips. II. Concerti di Sig. Vivaldi, accommodati al Cembalo. a 1 thl. 8 gl.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWA6-001/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWA6-001/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWA6-001> ;
+    cnw:key "G major" ;
+    cnw:tempo "Allegro" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "cemb." ;
+    cnw:incipitImage "SchM_417_001.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/antonio_vivaldi>
+    a foaf:Agent ;
+    foaf:name "Antonio Vivaldi" .
+

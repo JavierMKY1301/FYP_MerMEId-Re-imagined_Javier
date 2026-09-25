@@ -1,0 +1,40 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWC2-001>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "An dem hohen Geburthsfeste Sr. königl. Hoheit des durchlauchtigsten Fürsten und Herrn Friederichs entwarf folgendes Gedichte in tiefster Unterthänigkeit Johann Adolph Scheibe"@de ;
+    dcterms:identifier "SchW C2:001" ;
+    cnw:cnwNumber "C2:001" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:created "1741" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Text" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Poetry" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Secular" ;
+    frbr:realization <https://cnw-ld.org/work/SchWC2-001/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWC2-001/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWC2-001> ;
+    cnw:incipitText "Doch schlafen Pflicht und Treu an diesem Feste nicht"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/crown_prince_frederik>
+    a foaf:Agent ;
+    foaf:name "Crown Prince Frederik" .
+

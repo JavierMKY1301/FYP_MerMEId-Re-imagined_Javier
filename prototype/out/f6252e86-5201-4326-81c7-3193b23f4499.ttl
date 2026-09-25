@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB5-112>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Der Fisch an der Angel"@de ;
+    dcterms:alternative "Das kleine Fischgen spielet hier"@de ;
+    dcterms:identifier "SchW B5:112" ;
+    cnw:cnwNumber "B5:112" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_felix_wei_e> ;
+    dcterms:created "1765" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Children's songs" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/scheibe_95> ;
+    frbr:realization <https://cnw-ld.org/work/SchWB5-112/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB5-112/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB5-112> ;
+    cnw:key "E minor" ;
+    cnw:tempo "Angenehm aber klagend" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "voce" ;
+    cnw:performingForce "cemb." ;
+    cnw:incipitText "Das kleine Fischgen spielet hier"@de ;
+    cnw:incipitImage "SchM_305.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/christian_felix_wei_e>
+    a foaf:Agent ;
+    foaf:name "Christian Felix Weiße" .
+
+<https://cnw-ld.org/agent/christiane_elisabeth_wei_e>
+    a foaf:Agent ;
+    foaf:name "Christiane Elisabeth Weiße" .
+

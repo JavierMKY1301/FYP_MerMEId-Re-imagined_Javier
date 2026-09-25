@@ -1,0 +1,53 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW428>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Aftensang"@da ;
+    dcterms:title "Evening Song"@en ;
+    dcterms:alternative "Jeg er træt og gaar til Ro"@da ;
+    dcterms:identifier "Opus 77:7" ;
+    dcterms:identifier "HartW 428" ;
+    dcterms:identifier "DF 141:7" ;
+    cnw:cnwNumber "428" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/kristian_arentzen> ;
+    dcterms:created "1873-02-17" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/1322646495> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23414519603507> ;
+    frbr:realization <https://cnw-ld.org/work/HartW428/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW428/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW428> ;
+    cnw:tempo "Andante sostenuto" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Jeg er træt og gaar til Ro"@da ;
+    cnw:incipitImage "hartw_428.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/kristian_arentzen>
+    a foaf:Agent ;
+    foaf:name "Kristian Arentzen" .
+

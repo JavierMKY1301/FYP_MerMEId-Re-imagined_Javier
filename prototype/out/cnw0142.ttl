@@ -1,0 +1,56 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW142>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Fædreland! Fædreland!"@da ;
+    dcterms:title "Native land! Native land!"@en ;
+    dcterms:identifier "CNW 142" ;
+    dcterms:identifier "CNU III/4, 27; I/6" ;
+    dcterms:identifier "CNS 350" ;
+    dcterms:identifier "FS 44" ;
+    cnw:cnwNumber "142" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "44" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/l_c_nielsen> ;
+    dcterms:created "Between 1907 and 1908" ;
+    cnw:dateNotBefore "1907"^^xsd:gYear ;
+    cnw:dateNotAfter "1908"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/8bf1d20f_4d9b_41a7_a00b_1bcd41c7448f> ;
+    frbr:realization <https://cnw-ld.org/work/CNW142/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW142/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW142> ;
+    cnw:tempo "Timpo di marcia (Folket drager forbi)" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Færdreland! Fædreland!"@da ;
+    cnw:incipitText "Native land! Native land!"@en ;
+    cnw:incipitImage "cnw_142.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/l_c_nielsen>
+    a foaf:Agent ;
+    foaf:name "L.C. Nielsen" .
+

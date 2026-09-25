@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_5ab27588">
+   <meiHead xml:id="meiHead_6bd66ce8">
+      <fileDesc xml:id="fileDesc_551ddc3a">
+         <titleStmt xml:id="titleStmt_300789e8">
+            <title xml:id="title_cb65cb42">Zigeunerleben</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_db9415a2">
+            <respStmt xml:id="respStmt_cc76a7e9">
+               <resp xml:id="resp_534597eb">Publisher</resp>
+               <corpName xml:id="corpName_609013e3">
+                  <abbr xml:id="abbr_24d24865">DCM</abbr>
+                  <expan xml:id="expan_ddf7e8ea"/>
+                  <address xml:id="address_b4351fbb">
+                     <addrLine xml:id="addrLine_d06e1a10"/>
+                     <addrLine xml:id="addrLine_74c6b04a">
+                        <ptr label="" xml:id="ptr_N20266"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_5b7000ef">Inger Sørensen</persName>
+            </respStmt>
+            <date xml:id="date_213500e8"/>
+            <availability xml:id="availability_4f33e67c">
+               <useRestrict xml:id="useRestrict_fd071f0c"/>
+            </availability>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_7f2079df">
+            <title xml:id="title_553f9029">Niels W. Gade Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_0ac702b9">NWGW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_2f60348a">
+         <appInfo xml:id="appInfo_71fbe9e1">
+            <application version="2013" xml:id="application_84c380d5">
+               <name xml:id="name_55ca7975">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_bca4e895">
+            <p xml:id="idm70">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_2b9bda4d">
+         <work xml:id="work_97N20051">
+            <identifier label="NWGW" xml:id="identifier_b6179e27">B 05</identifier>
+            <title xml:id="title_ecd8fb7f" xml:lang="de">Zigeunerleben</title>
+            <title xml:id="title_6476c6d5" xml:lang="da">Zigeunerliv</title>
+            <contributor xml:id="respStmt_acbe2ac4">
+               <persName role="composer" xml:id="persName_00b96170">Robert Schumann</persName>
+               <persName role="author" xml:id="persName_38ad492b">Emanuel Geibel</persName>
+               <persName role="arranger" xml:id="persName_48743b32">Niels W. Gade</persName>
+            </contributor>
+            <creation xml:id="creation_85fe034c">
+               <date isodate="1851-05" xml:id="date_1400b028">May 1851</date>
+               <geogName xml:id="geogName_ec51026e"/>
+            </creation>
+            <history xml:id="history_b26089a1">
+               <p xml:id="idm85">Gade conducted Schumann's "Zigeunerleben" in Musikforeningen in 1851, 1854, 1856, 1865, and twice in 1881.</p>
+            </history>
+            <langUsage xml:id="langUsage_b3da084c">
+               <language xml:id="da">Danish</language>
+               <language xml:id="de">German</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <classification xml:id="classification_8135fb03">
+               <termList xml:id="termList_5c60aec3">
+                  <term xml:id="term_b8774342">Vocal music</term>
+                  <term xml:id="term_f51e44e2">Choral music with instruments</term>
+                  <term xml:id="term_ef5c6dec">Mixed choir</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_c9c921c6">
+               <expression xml:id="expression_97N20072">
+                  <title xml:id="title_648eb5e8" xml:lang="en"/>
+                  <incip xml:id="incip_ed5611dc"/>
+                  <creation xml:id="creation_67ed3a25">
+                     <date xml:id="date_266a1dd9"/>
+                     <geogName xml:id="geogName_1e6a2799"/>
+                  </creation>
+                  <history xml:id="history_eaacc2d7">
+                     <p xml:id="idm110"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_071b6b1d">
+                     <perfResList xml:id="perfResList_794171e0">
+                        <perfResList codedval="oa" xml:id="perfResList_0ff7748a">
+                           <head xml:id="head_d86fe9f5">Orchestra</head>
+                           <perfRes codedval="we" count="1" solo="false" xml:id="perfRes_7cf031c2">picc.</perfRes>
+                           <perfRes codedval="wa" count="2" xml:id="perfRes_77c1f472">fl.</perfRes>
+                           <perfRes codedval="wb" count="2" xml:id="perfRes_aa963239">ob.</perfRes>
+                           <perfRes codedval="wc" count="2" xml:id="perfRes_37813e34">cl.</perfRes>
+                           <perfRes codedval="wd" count="2" xml:id="perfRes_426f0fc7">fg.</perfRes>
+                           <perfRes codedval="ba" count="4" xml:id="perfRes_9bc99ae7">cor.</perfRes>
+                           <perfRes codedval="bb" count="2" xml:id="perfRes_b6b9cf24">tr.</perfRes>
+                           <perfRes codedval="bd" count="3" xml:id="perfRes_14dd3ad9">trb.</perfRes>
+                           <perfRes codedval="pz" count="1" solo="false" xml:id="perfRes_e41badda">trgl.</perfRes>
+                           <perfRes codedval="pa" count="1" xml:id="perfRes_614292ee">timp.</perfRes>
+                           <perfRes codedval="sn" xml:id="perfRes_e0efeae5">str.</perfRes>
+                        </perfResList>
+                        <perfResList codedval="ca" xml:id="perfResList_7a4c0f0b">
+                           <head xml:id="head_5b574ee9">Choir</head>
+                           <perfRes codedval="va" count="1" xml:id="perfRes_e2fb5975">S.</perfRes>
+                           <perfRes codedval="vc" count="1" xml:id="perfRes_c69c2185">A.</perfRes>
+                           <perfRes codedval="vd" count="1" xml:id="perfRes_25b2f52e">T.</perfRes>
+                           <perfRes codedval="vf" count="1" xml:id="perfRes_c04eae8a">B.</perfRes>
+                        </perfResList>
+                     </perfResList>
+                  </perfMedium>
+                  <classification xml:id="classification_63623754">
+                     <termList xml:id="termList_9f190825">
+                        <term xml:id="term_5db3d2dd"/>
+                     </termList>
+                  </classification>
+                  <componentList xml:id="componentGrp_58ac9426"/>
+                  <relationList xml:id="relationList_194a2102"/>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_d453aef9">
+         <manifestation label="" xml:id="source_97N20024">
+            <identifier label="" xml:id="identifier_baf222aa"/>
+            <titleStmt xml:id="titleStmt_fba8ff32">
+               <title xml:id="title_0f248def">Score, manuscript copy with additions by Gade</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_bca1057e">
+               <publisher xml:id="publisher_0f5d74e0"/>
+               <pubPlace xml:id="pubPlace_92210b7b"/>
+               <date xml:id="date_d253a78c"/>
+            </pubStmt>
+            <physDesc xml:id="physDesc_e1bc6958">
+               <titlePage label="" xml:id="titlePage_14622c5e">
+                  <p xml:id="idm34">Zigeunerleben / (von E. Geibel) / Musik von / Robert Schumann / op. 29 N<rend xml:id="idm35" rend="sup">o</rend> 3 / Arrangeret for Orchester / til Musikforeningens Brug / af / Niels W. Gade / Mai 1851</p>
+               </titlePage>
+               <extent xml:id="extent_888f0cfe">24 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_c1bb52ca">32.5 x 24.5</dimensions>
+               <physMedium xml:id="physMedium_58be6a4f">Bound in brown cardboard cover. I upper left-hand cover a handwritten library label inscribed "Rob. Schumann / Zigeunerliv / <rend xml:id="idm39" rend="line-through">M-F- 465.</rend> / Partitur." Written in ink. Paper: 16 pages. On the first music page Gade has added in the left-hand margin: "<rend xml:id="idm40" rend="underline">1 Flauto </rend>Piccolo, <rend xml:id="idm41" rend="underline">2 Oboi</rend>, <rend xml:id="idm42" rend="underline">3 Tromboni</rend> og Timpani / senere tilføjet af [Gade's musical signature]".</physMedium>
+            </physDesc>
+            <classification xml:id="classification_931275fa">
+               <termList xml:id="termList_cdc49c02">
+                  <term class="#DcmContentClass" xml:id="term_c7b03c52">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_e1c5423f">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_7a4b4aa3">copy</term>
+                  <term class="#DcmScoringClass" xml:id="term_f9178b68">score</term>
+                  <term class="#DcmStateClass" xml:id="term_17169b2d">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_36d798e6">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_195989c8">
+               <item label="" xml:id="item_cc086ba2">
+                  <identifier label="" xml:id="identifier_f81fb16f"/>
+                  <physLoc xml:id="physLoc_8932bb96">
+                     <repository xml:id="repository_708bf500">
+                        <corpName xml:id="corpName_957343a1"/>
+                        <geogName xml:id="geogName_dc2145b7"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_7e54d7d0">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_48a9afd2">C I, 525 2º 1944-45.367</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_0892542e"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_9d044a73"/>
+            <relationList xml:id="relationList_536e390c">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_c9b416c9"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm137">
+         <change isodate="2018-10-26T14:07:15.008Z" xml:id="change_97N10087">
+            <respStmt xml:id="respStmt_3ec1332f">
+               <name xml:id="resp_519b64e9">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b91e8ee9">
+               <p xml:id="p_2289b500"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-10-29T13:39:19.159Z" xml:id="change_141N101A0">
+            <respStmt xml:id="respStmt_eae11541">
+               <name xml:id="resp_7f42faa3">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3605a2b9">
+               <p xml:id="p_06c8c6a4"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-12-10T11:52:29.648Z" xml:id="change_146N101A8">
+            <respStmt xml:id="respStmt_46f64a1f">
+               <name xml:id="resp_1fe73ac5">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_9b714c08">
+               <p xml:id="p_5762a50b"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-01T12:38:13.915Z" xml:id="change_c8676466">
+            <respStmt xml:id="idm154">
+               <name xml:id="idm155">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3c78d43f">
+               <p xml:id="p_ffa85968"/>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_158d1e200">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_163d1e200">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm158"/>
+</mei>

@@ -1,0 +1,49 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW62>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sonate for violin og klaver"@da ;
+    dcterms:title "Sonata for Violin and Piano"@en ;
+    dcterms:identifier "CNW 62" ;
+    dcterms:identifier "CNU IV/1, Add. 5" ;
+    dcterms:identifier "CNS 23" ;
+    dcterms:identifier "FS 3b" ;
+    cnw:cnwNumber "62" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "3b" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "1881 (?)" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW62/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW62/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW62> ;
+    cnw:key "G major" ;
+    cnw:tempo "Allegro" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "vl." ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "cnw_062_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+

@@ -1,0 +1,70 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW208>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Lovprisning"@da ;
+    dcterms:title "Cantique"@fr ;
+    dcterms:title "Canticle"@en ;
+    dcterms:alternative "Al Jordens Kreds dit Navn lovsynger"@da ;
+    dcterms:alternative "Le monde entier te glorifie"@fr ;
+    dcterms:identifier "Opus 73:3" ;
+    dcterms:identifier "HartW 208" ;
+    dcterms:identifier "DF 59:3" ;
+    cnw:cnwNumber "208" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "73:3" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/alfred_de_musset> ;
+    dcterms:created "1875-09-28" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "French" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Mixed choir" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/1308317114> ;
+    cnw:manuscriptLocation "DK-Km" ;
+    frbr:realization <https://cnw-ld.org/work/HartW208/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW208/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW208> ;
+    cnw:tempo "Moderato non troppo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tb. ad lib." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Al Jordens Kreds dit Navn lovsynger"@da ;
+    cnw:incipitText "Le monde entier te glorifie"@fr ;
+    cnw:incipitImage "hartw_208.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/alfred_de_musset>
+    a foaf:Agent ;
+    foaf:name "Alfred de Musset" .
+

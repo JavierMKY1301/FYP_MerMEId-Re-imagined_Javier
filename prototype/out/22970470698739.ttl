@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-Coll-001>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Tragische Kantaten für eine oder zwo Singestimmen und das Clavier"@de ;
+    dcterms:identifier "SchW B2:Coll.001" ;
+    cnw:cnwNumber "B2:Coll.001" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/heinrich_wilhelm_von_gerstenberg> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_elias_schlegel> ;
+    dcterms:created "1765" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:subject "Secular" ;
+    cnw:editorialNote "'Hos Mummes Enke paa Børsen er til Kiøbs: Tragische Kantaten für eine oder zwo Singestimmen und das Clavier, nämlich des Herrn von Gerstenbergs Ariadne af Naxos, und Johann Elias Schlegels Prokris und Cephalis, in die Musik gesetzt, und nebst ein Sendschreiben worinnen von Recitativ überhaupt geredet wird, herausgegeben von Johann Adolph Scheiben, 1 Rdlr. 2 Mk.'" ;
+    cnw:editorialNote " 'Wir sind von den Oden unvermerkt zu den Arien und Cantaten gezogen worden, und ein paar zu den letztern gehörige Stücke verdienen hier noch beygebracht zu werden. Der Herr Capellmeister Scheibe gab vor einigen Jahren davon zwo, unter dem Titel: tragische Cantaten heraus. Leb und Tadel finden nirgends mehr Widerspruch, als bey den Arbeiten des Herrn Scheibe: wir enthalten uns also, bey aller Hochachtung, die wir von diesem berühmten und verdienten Manne haben, darüber zu urtheilen. Wenn die Schönheiten der Musik relativisch sind, so kann es nicht fehlen, daß Herr Scheibe, und alle Componisten, hier mehr gelobt, hier mehr getadelt werden. So viel ist gewiß: man thut Herr Scheibe Unrecht, wenn man ihn bloß mit den Ohren beurtheilt.'" ;
+    cnw:editorialNote " 'Der Raum verbietet uns weiter zu gehen. Wir können uns nicht entbrechen zu glauben, daß bey diesen beyden Cantaten der Hr. Verf. entweder den Sturm der darinn enthaltenen Leidenschaften, und die Wendungen der Dichter, nicht recht gefühlt haben, oder eben damals nicht erfindsam genug gewesen seyn müsse, das was er fühlte, simpel und glücklich auszudrücken. Wir verehren immer die kritischen Bemühungen des Hrn. K. Scheibe, zur Aufnahme der Musik. Aber seine Compositionen sind freylich nicht so schön als seine kritische Werke.'" ;
+    cnw:editorialNote " ('VII. Das Singen. 2. Weltliche. b. Arien, Cantaten, Operetten.'): 'Scheibens, Joh. Adolph, Königl. Dänischen Capellmeisters, Tragische Cantaten für 1. und 2. Singstimmen und das Clavier: Nämlich, des Hrn. v. Gerstenbergs Ariadne auf Naxos und J. B. Schlegels Prokris und Cephalus; in Musik gesetzt, mit einem Sendschreiben, worinne vom Recitative überhaupt, und von den Cantaten insonderheit geredet wird. Koppenhagen und Leipzig, 1765. fol. 1 thl. 8. gl.'" ;
+    cnw:editorialNote "In a letter dated 25 November 1764, Herder mentions Scheibe's second article on the recitative (Fortsetzung der Abhandlung übers Recitativ) 'die über die Musikalische Deklamation gute Gedanken liefert und, wenn wir nicht irren den Herrn Kapellmeister Scheibe verräth'. Herder also mentions that Bibliothek der schönen Wissenschaften contains an examination of 'Tragische Kantaten von Gerstenberg und Schlegel: in Musik gesetzt von Scheibe: wir sind nach diesem Geschenk einer doppelten Muse Begierig. Man höre aus der Gerstenbergschen Kantate, die verlaßne Ariadne: [...] Welche Einbildungskraft! welche Sprache! und Accente zur Musik!'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-Coll-001/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-Coll-001/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-Coll-001> ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "cemb." ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/heinrich_wilhelm_von_gerstenberg>
+    a foaf:Agent ;
+    foaf:name "Heinrich Wilhelm von Gerstenberg" .
+
+<https://cnw-ld.org/agent/johann_elias_schlegel>
+    a foaf:Agent ;
+    foaf:name "Johann Elias Schlegel" .
+

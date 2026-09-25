@@ -1,0 +1,112 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-205>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "In Festo Michaelis: Concerto"@de ;
+    dcterms:alternative "Der Engel des Herrn lagert sich"@de ;
+    dcterms:alternative "Cantate: In Festo Michaelis"@de ;
+    dcterms:identifier "SchW B2:205" ;
+    cnw:cnwNumber "B2:205" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1732" ;
+    dcterms:language "German" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Sacred" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    cnw:editorialNote "(I.A.5.b. ‘Fest. Jahrgänge, nebst einigen Sonntags-Cantaten’): '[Scheibens, Joh. Adolph.] Cantate: In Fest. Michaelis. Der Engel des Herrn lagert sich etc. à 3 Tromb. Tymp. 2 Oboi, 2 Flauti, 2 Violini, Viola, 4 Voci, Basso ed Organo. a 2 thl.'; ‘NB. In Partitur sind die Preiße etwas geringer.’" ;
+    cnw:editorialNote "(Lot 307): '[Scheibe, J. A.,] Am Michaelisfeste. P. u. St. (2 mal). 34 [Bog.]'." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-205/expression/1> ;
+    cnw:performanceCount 2 .
+
+<https://cnw-ld.org/work/SchWB2-205/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-205> ;
+    cnw:key "D major" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Der Engel des Herrn lagert sich"@de ;
+    cnw:incipitText "Der Engel des Herrn"@de ;
+    cnw:incipitText "So glücklich sind die Frommen"@de ;
+    cnw:incipitText "Sehr geschwinde gleich dem Winde"@de ;
+    cnw:incipitText "Sie feiren auch und schlafen nicht"@de ;
+    cnw:incipitText "Fürst der Engel Michael"@de ;
+    cnw:incipitText "Laß deine Kirch' und unser Land"@de ;
+    cnw:incipitImage "SchM_059_001.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

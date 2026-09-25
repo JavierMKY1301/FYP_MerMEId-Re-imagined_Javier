@@ -1,0 +1,74 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-404>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Ariadne auf Naxos, eine Kantate"@de ;
+    dcterms:identifier "SchW B2:404" ;
+    cnw:cnwNumber "B2:404" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/heinrich_wilhelm_von_gerstenberg> ;
+    dcterms:created "1765" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Secular" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22970470698739> ;
+    cnw:editorialNote " 'Diese Cantate steht in einer Sammlung von Cantaten, welche mit Hn. Kapellmeisters Scheibens Composition vor einigen Jahren herausgekommen ist. Diese Sammlung ist in wenigen Händen, und viele Freunde der Dichtkunst, die nicht zugleich musikalisch sind, haben längst gewünscht, dies vortrefliche Gedicht ohne jene Composition besitzen zu können.' (p. 383)" ;
+    cnw:editorialNote " 'Gerstenbergs Ariadne auf Naxos und ein Te deum hält man für das Beste, was er jemals in Musik gesetzt hat'." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-404/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-404/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-404> ;
+    cnw:key "A major" ;
+    cnw:tempo "Ein wenig geschwind, aber angenehm und zärtlich" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "cemb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:incipitText "Sey mir gegrüßt, auf Naxos Höhn"@de ;
+    cnw:incipitText "Zwar hier, mein Theseus"@de ;
+    cnw:incipitText "O du, wie kann ich dich zu zärtlich lieben?"@de ;
+    cnw:incipitText "Zu weit entfernt das Meer den Frevler schon!"@de ;
+    cnw:incipitText "Kannst du, mein Herz, unter diesem stechenden Schmerz"@de ;
+    cnw:incipitText "Weh mir! warum mußt ich ihn sehn?"@de ;
+    cnw:incipitText "Daß er der Fluch der Menschheit werde!"@de ;
+    cnw:incipitText "Einst war ich schuldlos"@de ;
+    cnw:incipitText "Sie brüllen, die Löwen"@de ;
+    cnw:incipitText "Wohin? wo flieh ich hin?"@de ;
+    cnw:incipitImage "SchM_072_01.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/heinrich_wilhelm_von_gerstenberg>
+    a foaf:Agent ;
+    foaf:name "Heinrich Wilhelm von Gerstenberg" .
+

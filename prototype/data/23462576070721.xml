@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_862b7041">
+   <meiHead xml:id="meiHead_471a1aa6">
+      <fileDesc xml:id="fileDesc_7ae255a6">
+         <titleStmt xml:id="titleStmt_11efff1f">
+            <title xml:id="title_4352bdba">Ouverture "Coriolan"</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_eb5b9621">
+            <respStmt xml:id="respStmt_516dd7ca">
+               <resp xml:id="resp_31d96c06">Publisher</resp>
+               <corpName xml:id="corpName_1d1236b6">
+                  <abbr xml:id="abbr_917c407b">DCM</abbr>
+                  <expan xml:id="expan_154b2006"/>
+                  <address xml:id="address_233752b9">
+                     <addrLine xml:id="addrLine_25b71a0e"/>
+                     <addrLine xml:id="addrLine_243b9269">
+                        <ptr label="" xml:id="ptr_N20262"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_ebd7c180">Inger Sørensen</persName>
+            </respStmt>
+            <date xml:id="date_5ba356f8"/>
+            <availability xml:id="availability_68c211ab">
+               <useRestrict xml:id="useRestrict_be39451c"/>
+            </availability>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_23ed6bf4">
+            <title xml:id="title_0838cb33">Niels W. Gade Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_5d3d2875">NWGW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_2c5f5852">
+         <appInfo xml:id="appInfo_58c597f7">
+            <application version="2013" xml:id="application_c97371f8">
+               <name xml:id="name_645769dc">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_548ac507">
+            <p xml:id="idm65">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_1ed34e49">
+         <work xml:id="work_95N20052">
+            <identifier label="NWGW" xml:id="identifier_15d021c5">D 04</identifier>
+            <title xml:id="title_89c94bbf" xml:lang="de">Ouverture "Coriolan"</title>
+            <contributor xml:id="respStmt_6333ea1a">
+               <persName role="composer" xml:id="persName_adfbeadd">Ludwig van Beethoven</persName>
+               <persName role="" xml:id="persName_69099a9a">Niels W. Gade (copyist)</persName>
+            </contributor>
+            <creation xml:id="creation_43504005">
+               <date isodate="1837" xml:id="date_eb5a66b4">1837</date>
+               <geogName xml:id="geogName_74145e02"/>
+            </creation>
+            <history xml:id="history_2d00f3d0">
+               <p xml:id="idm78">Copy of Beethoven's overture made by Gade.</p>
+            </history>
+            <langUsage xml:id="langUsage_db033629">
+               <language xml:id="en">English</language>
+               <language xml:id="de">German</language>
+            </langUsage>
+            <classification xml:id="classification_3d017bfd">
+               <termList xml:id="termList_c540fbd7">
+                  <term xml:id="term_d4aeeb79">Instrumental music</term>
+                  <term xml:id="term_c4cfbaa9">Other orchestral music</term>
+                  <term xml:id="term_f3f142ca">Overture</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_9719bfe8">
+               <expression xml:id="expression_95N20073">
+                  <title xml:id="title_c61f1482" xml:lang="en"/>
+                  <incip xml:id="idm97">
+                     <graphic target="/dcm/assets/udgivelser/nwgw/incipits/lowres/NWGW_D_04.png" label=""
+                              targettype="lowres"
+                              xml:id="graphic_4233707189"/>
+                     <graphic target="/dcm/assets/udgivelser/nwgw/incipits/hires/NWGW_D_04.png" label=""
+                              targettype="hires"
+                              xml:id="graphic_7152636165"/>
+                  </incip>
+                  <tempo xml:id="tempo_bee2b420">Allegro con brio</tempo>
+                  <key mode="minor" pname="c" xml:id="key_d4b09620"/>
+                  <meter sym="common" xml:id="meter_d9ac17c8"/>
+                  <creation xml:id="creation_e0d68fb6">
+                     <date xml:id="date_2d962768"/>
+                     <geogName xml:id="geogName_3426d0ad"/>
+                  </creation>
+                  <history xml:id="history_3221ed53">
+                     <p xml:id="idm107"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_17c45f17">
+                     <perfResList xml:id="perfResList_1db1de66">
+                        <perfResList codedval="oa" xml:id="perfResList_9f47ccb7">
+                           <head xml:id="head_8421cc1e">Orchestra</head>
+                           <perfRes codedval="wa" count="2" xml:id="perfRes_6caccf52">fl.</perfRes>
+                           <perfRes codedval="wb" count="2" xml:id="perfRes_777a3d59">ob.</perfRes>
+                           <perfRes codedval="wc" count="2" xml:id="perfRes_9d587188">cl.</perfRes>
+                           <perfRes codedval="wd" count="2" xml:id="perfRes_4d331a72">fg.</perfRes>
+                           <perfRes codedval="ba" count="2" xml:id="perfRes_65fa0039">cor.</perfRes>
+                           <perfRes codedval="bb" count="2" xml:id="perfRes_07ed5cff">tr.</perfRes>
+                           <perfRes codedval="pa" count="1" xml:id="perfRes_a289ae07">timp.</perfRes>
+                           <perfRes codedval="sn" xml:id="perfRes_c8cbdfaa">str.</perfRes>
+                        </perfResList>
+                     </perfResList>
+                  </perfMedium>
+                  <classification xml:id="classification_8c181326">
+                     <termList xml:id="termList_61f39bfb">
+                        <term xml:id="term_1c18a5e6"/>
+                     </termList>
+                  </classification>
+                  <componentList xml:id="componentGrp_0a8f33c0"/>
+                  <relationList xml:id="relationList_f2fb697b"/>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_c51ef348">
+         <manifestation label="" xml:id="source_95N20024">
+            <identifier label="" xml:id="identifier_9fac7e64"/>
+            <titleStmt xml:id="titleStmt_c13d01aa">
+               <title xml:id="title_2e9b1baa">Score, manuscript copy</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_26d425f1">
+               <publisher xml:id="publisher_7a6f346c"/>
+               <pubPlace xml:id="pubPlace_8785b165"/>
+               <date xml:id="date_305bc075"/>
+            </pubStmt>
+            <physDesc xml:id="physDesc_ad707639">
+               <extent xml:id="extent_be97b4ee">26 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_1fe4dadf">25 x 34</dimensions>
+               <physMedium xml:id="physMedium_8f1c8a44">Written in ink. Paper: 14 staves. Paginated 1-26. Last page unnumbered and blank. Heading on p. 1: "Ouverture 'Coriolan' par <rend xml:id="idm36" rend="underline">L.V. Beethoven</rend>." In upper left-hand corner signed "NWGade." End-dated: Fine <rend xml:id="idm37" rend="underline">1837</rend>."</physMedium>
+            </physDesc>
+            <classification xml:id="classification_2f81b78d">
+               <termList xml:id="termList_93fb3aba">
+                  <term class="#DcmContentClass" xml:id="term_d506b5c8">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_0fd026ad">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_58587a5f">copy</term>
+                  <term class="#DcmScoringClass" xml:id="term_c488a37b">score</term>
+                  <term class="#DcmStateClass" xml:id="term_a4989843">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_9b14d2c8">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_c00461a1">
+               <item label="" xml:id="item_0faa4bff">
+                  <identifier label="" xml:id="identifier_8f288f0c"/>
+                  <physLoc xml:id="physLoc_f348fab2">
+                     <repository xml:id="repository_d23bba3b">
+                        <corpName xml:id="corpName_bb03610d">Privately owned</corpName>
+                        <geogName xml:id="geogName_942046b9">Copenhagen</geogName>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_2050c4ad"/>
+                     </repository>
+                     <identifier xml:id="identifier_62058b6a"/>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_7f08418f"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_7b5ea11f"/>
+            <relationList xml:id="relationList_9181b0b7">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_e108f185"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm125">
+         <change isodate="2016-06-20" xml:id="change_95N10088">
+            <respStmt xml:id="idm127">
+               <name xml:id="idm128">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_c12a3e7b">
+               <p xml:id="p_982213bf"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-07-05" xml:id="change_128N1017C">
+            <respStmt xml:id="idm132">
+               <name xml:id="idm133">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm134">
+               <p xml:id="idm135"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-08" xml:id="change_131N10182">
+            <respStmt xml:id="idm137">
+               <name xml:id="idm138">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm139">
+               <p xml:id="idm140"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-22" xml:id="change_134N10189">
+            <respStmt xml:id="idm142">
+               <name xml:id="idm143">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm144">
+               <p xml:id="idm145"/>
+            </changeDesc>
+         </change>
+         <change xml:id="idm146" isodate="2017-04-04" n="5">
+            <respStmt xml:id="idm147">
+               <name xml:id="idm148">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm149">
+               <p xml:id="idm150">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-01" xml:id="change_152N10197">
+            <respStmt xml:id="idm152">
+               <name xml:id="idm153">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm154">
+               <p xml:id="idm155"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-25T15:06:12.403Z" xml:id="change_157N101A0">
+            <respStmt xml:id="idm157">
+               <name xml:id="idm158">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm159">
+               <p xml:id="idm160"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T09:20:15Z" xml:id="change_159N10154">
+            <respStmt xml:id="idm162">
+               <name xml:id="idm163">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm164">
+               <p xml:id="idm165">Added incipit graphic URL</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-08-27T14:17:59.062Z" xml:id="change_169N101BA">
+            <respStmt xml:id="idm167">
+               <name xml:id="idm168">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm169">
+               <p xml:id="idm170"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-11-13T15:45:21.01Z" xml:id="change_174N101C2">
+            <respStmt xml:id="idm172">
+               <name xml:id="idm173">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm174">
+               <p xml:id="idm175"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-01T15:11:44.981Z" xml:id="change_179N101CA">
+            <respStmt xml:id="idm177">
+               <name xml:id="idm178">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm179">
+               <p xml:id="idm180"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T14:45:57Z" xml:id="change_181N1015D">
+            <respStmt xml:id="idm182">
+               <name xml:id="idm183">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm184">
+               <p xml:id="idm185">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_186d1e170">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_191d1e170">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm186"/>
+</mei>

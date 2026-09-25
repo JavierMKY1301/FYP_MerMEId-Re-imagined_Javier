@@ -1,0 +1,63 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGWD-01>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Die Kindesmörderin"@de ;
+    dcterms:alternative "Horch - die Glocken hallen dumpf"@de ;
+    dcterms:identifier "NWGW D 01" ;
+    cnw:cnwNumber "D 01" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/andreas_romberg> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/friedrich_schiller> ;
+    dcterms:created "1834-12-10" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    frbr:realization <https://cnw-ld.org/work/NWGWD-01/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGWD-01/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGWD-01> ;
+    cnw:tempo "Andante - Larghetto - Andante - Allegro - Andante sostenuto - Andante - Allegro - Andante - Adagio" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "str." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soprano" ;
+    cnw:incipitText "Horch - die Glocken hallen dumpf zusammen"@de ;
+    cnw:incipitImage "NWGW_D_01.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/andreas_romberg>
+    a foaf:Agent ;
+    foaf:name "Andreas Romberg" .
+
+<https://cnw-ld.org/agent/friedrich_schiller>
+    a foaf:Agent ;
+    foaf:name "Friedrich Schiller" .
+
+<https://cnw-ld.org/agent/niels_w_gade_copyist>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade (copyist)" .
+

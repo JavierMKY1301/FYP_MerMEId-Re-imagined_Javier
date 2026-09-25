@@ -1,0 +1,73 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW204>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Pigerne inde i Skoven"@da ;
+    dcterms:title "Maids in the Wood"@en ;
+    dcterms:alternative "I Skyggen vi vanke"@da ;
+    dcterms:alternative "In shadows we wander"@en ;
+    dcterms:identifier "CNW 204" ;
+    dcterms:identifier "CNU III/4, 89; III/5, 176, 288; III/6, 350" ;
+    dcterms:identifier "FS 70, 103, 111" ;
+    cnw:cnwNumber "204" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "70, 103, 111" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/adam_oehlenschl_ger> ;
+    dcterms:created "1913" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22157659832449> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/f8731077_58f9_4621_9d6c_1dc30b817c33> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22225400586721> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/d6f46070_85df_4dda_b1f2_4e90530cf511> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW204/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW204/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW204> ;
+    cnw:tempo "Allegretto" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "I Skyggen vi vanke"@da ;
+    cnw:incipitText "In shadows we wander"@en ;
+    cnw:incipitText "I Skyggen vi vanke"@da ;
+    cnw:incipitText "In shadows we wander"@en ;
+    cnw:incipitText "I skyggen vi vanke"@da ;
+    cnw:incipitText "In shadows we wander"@en ;
+    cnw:incipitText "I Skyggen vi vanke"@da ;
+    cnw:incipitText "In shadows we wander"@en ;
+    cnw:incipitImage "cnw_204c.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/adam_oehlenschl_ger>
+    a foaf:Agent ;
+    foaf:name "Adam Oehlenschläger" .
+

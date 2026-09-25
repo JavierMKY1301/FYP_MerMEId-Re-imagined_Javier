@@ -1,0 +1,50 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW107>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Mignon"@da ;
+    dcterms:identifier "Opus 41:2" ;
+    dcterms:identifier "NWGW 107" ;
+    dcterms:identifier "GW III:2" ;
+    cnw:cnwNumber "107" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "41:2" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "1861" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Piano" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22785379626323> ;
+    frbr:realization <https://cnw-ld.org/work/NWGW107/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW107/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW107> ;
+    cnw:key "F minor" ;
+    cnw:tempo "Allegretto agitato" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "NWGW_107.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/princess_anna_of_hessen>
+    a foaf:Agent ;
+    foaf:name "Princess Anna of Hessen" .
+

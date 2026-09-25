@@ -1,0 +1,118 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW23>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musik til Sophus Michaëlis' skuespil \"Amor og Digteren\""@da ;
+    dcterms:title "Music for Sophus Michaëlis's Play 'Cupid and the Poet'"@en ;
+    dcterms:alternative "Festspil"@da ;
+    dcterms:alternative "Festival Play"@en ;
+    dcterms:identifier "CNW 23" ;
+    dcterms:identifier "CNU I/9" ;
+    dcterms:identifier "CNS 333" ;
+    dcterms:identifier "FS 150" ;
+    cnw:cnwNumber "23" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "150" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/sophus_micha_lis> ;
+    dcterms:created "1930" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Gu" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Gu" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Odense, Carl Nielsen Museet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-gu" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW23/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW23/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW23> ;
+    cnw:tempo "Allegretto con brio" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "fl./fl.picc." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "pf./clav." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Og ses maa under Sengen"@da ;
+    cnw:incipitText "Hvad var det nu, jeg skrev?"@da ;
+    cnw:incipitText "Du Pebersvend! vor Sang du ved"@da ;
+    cnw:incipitText "Hvad ved den om Tankerne mangen Nat"@da ;
+    cnw:incipitText "Draabe haster efter Draabe"@da ;
+    cnw:incipitText "Nej, jeg vil ikke hvile mer"@da ;
+    cnw:incipitText "Der fik du den til Punkt og Prikke"@da ;
+    cnw:incipitText "In un boschetto trovai pastorella"@it ;
+    cnw:incipitText "Vi elsker dig, vort høje Nord"@da ;
+    cnw:incipitText "Med Vemod mindes jeg min stakkels Moder"@da ;
+    cnw:incipitText "Fra Fyrreskovens Kuppelsal"@da ;
+    cnw:incipitImage "cnw_023_0.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/sophus_micha_lis>
+    a foaf:Agent ;
+    foaf:name "Sophus Michaëlis" .
+

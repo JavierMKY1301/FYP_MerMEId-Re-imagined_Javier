@@ -1,0 +1,54 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW316>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Det vi véd, at siden slangens gift"@da ;
+    dcterms:title "This we know that since the poison"@en ;
+    dcterms:identifier "CNW 316" ;
+    dcterms:identifier "CNU III/5, 261" ;
+    dcterms:identifier "CNS 112" ;
+    dcterms:identifier "FS 111, 112" ;
+    cnw:cnwNumber "316" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "111, 112" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/jens_christian_hostrup> ;
+    dcterms:created "Between 1923 and 1924" ;
+    cnw:dateNotBefore "1923"^^xsd:gYear ;
+    cnw:dateNotAfter "1924"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/CNW316/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW316/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW316> ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "(voice)" ;
+    cnw:incipitText "Det vi véd"@da ;
+    cnw:incipitText "This we know"@en ;
+    cnw:incipitImage "cnw_316.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/jens_christian_hostrup>
+    a foaf:Agent ;
+    foaf:name "Jens Christian Hostrup" .
+

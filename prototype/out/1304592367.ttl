@@ -1,0 +1,51 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW58>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Fantasie-Allegro für Violine und Klavier"@de ;
+    dcterms:title "Fantasi-allegro for violin og klaver"@da ;
+    dcterms:title "Fantasia Allegro for Violin and Piano"@en ;
+    dcterms:identifier "HartW 58" ;
+    dcterms:identifier "DF 5" ;
+    cnw:cnwNumber "58" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "8 July 1887 to July 1889" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:subject "Violin and piano" ;
+    frbr:realization <https://cnw-ld.org/work/HartW58/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW58/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW58> ;
+    cnw:key "D major" ;
+    cnw:tempo "Moderato. Allegro moderato" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "vl." ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "hartw_058.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/august_winding>
+    a foaf:Agent ;
+    foaf:name "August Winding" .
+

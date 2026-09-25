@@ -1,0 +1,71 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW104>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kantate ved Studentersamfundets Bygnings Indvielse"@da ;
+    dcterms:title "Cantata for the Inauguration of the Student Union Building"@en ;
+    dcterms:identifier "CNW 104" ;
+    dcterms:identifier "CNU III/2" ;
+    dcterms:identifier "CNS 325" ;
+    dcterms:identifier "FS 31" ;
+    cnw:cnwNumber "104" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "31" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/holger_drachmann> ;
+    dcterms:created "1901" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW104/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW104/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW104> ;
+    cnw:tempo "Allegretto moderato" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "reciter" ;
+    cnw:incipitText "Fred over Huset - Ordet frit i Salen"@da ;
+    cnw:incipitText "Se Livet bølger som et Hav i Stormvejr"@da ;
+    cnw:incipitText "Fred over Huset - Aandens Pust i Salen"@da ;
+    cnw:incipitImage "cnw_104_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/holger_drachmann>
+    a foaf:Agent ;
+    foaf:name "Holger Drachmann" .
+

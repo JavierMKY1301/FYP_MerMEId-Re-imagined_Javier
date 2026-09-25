@@ -1,0 +1,43 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWC4-004>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Erich Pontoppidans Versuch einer natürlichen Historie von Norwegen"@de ;
+    dcterms:alternative "Det første Forsøg paa Norges naturlige Historie"@da ;
+    dcterms:identifier "SchW C4:004" ;
+    cnw:cnwNumber "C4:004" ;
+    cnw:catalogueCode "SchW" ;
+    cnw:textAuthor <https://cnw-ld.org/agent/erik_pontoppidan> ;
+    dcterms:created "1753–54" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Text" ;
+    dcterms:subject "Translations" ;
+    cnw:editorialNote " 'Die deutsche Uebersetzung scheinet sehr eilfertigt gemacht zu seyn, und dem Hn. Uebersetzter wäre auch wol eine größere physikalische Kenntniß anzuwünschen'." ;
+    frbr:realization <https://cnw-ld.org/work/SchWC4-004/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWC4-004/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWC4-004> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/erik_pontoppidan>
+    a foaf:Agent ;
+    foaf:name "Erik Pontoppidan" .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

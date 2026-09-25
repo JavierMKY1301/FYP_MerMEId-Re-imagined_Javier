@@ -1,0 +1,59 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW485>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Melodier med Klaveer til Texter af Magdalene Thoresens Fortælling \"Solen i Siljedalen\""@da ;
+    dcterms:title "Songs with Piano to Texts from Magdalene Thoresen's story \"Solen i Siljedalen\""@en ;
+    dcterms:identifier "HartW 485" ;
+    dcterms:identifier "DF 148" ;
+    cnw:cnwNumber "485" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/magdalene_thoresen> ;
+    dcterms:created "1892-09-10" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "Norwegian Bokmål" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW485/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW485/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW485> ;
+    cnw:tempo "Allegro moderato" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Og jeg og dig, du mi' Solskinslue!"@nb ;
+    cnw:incipitText "Kom Sjæl, og tag dit Regnebræt"@nb ;
+    cnw:incipitText "Kjender du Solen i Siljedal"@nb ;
+    cnw:incipitText "Der lusker en Ulv bagom Gaard"@nb ;
+    cnw:incipitText "\"Jeg er lystig og glad!\" sang Gutten"@nb ;
+    cnw:incipitText "Du leker saa lystig, du gule Blad"@nb ;
+    cnw:incipitText "Kraaken fløj op"@nb ;
+    cnw:incipitText "Og vesle Jon gik bagom, og store Jon gik frem"@nb ;
+    cnw:incipitText "Der er saa godt at bygge i højen Himmelbo!"@nb ;
+    cnw:incipitImage "hartw_485_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/magdalene_thoresen>
+    a foaf:Agent ;
+    foaf:name "Magdalene Thoresen" .
+

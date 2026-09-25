@@ -1,0 +1,79 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW162>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "En Sommerdag"@da ;
+    dcterms:title "Ein Sommertag"@de ;
+    dcterms:title "A Summer's Day"@en ;
+    dcterms:alternative "Jeg gik mig ud en Sommerdag"@da ;
+    dcterms:alternative "Ich ging im Thal' an einem Sommertage"@de ;
+    dcterms:alternative "Adown the vale one summer-day I wandered"@en ;
+    dcterms:alternative "Idyl efter en dansk Folkevise"@da ;
+    dcterms:alternative "Nach einer dänischen Volksweise"@de ;
+    dcterms:alternative "After a Danish Folk Song"@en ;
+    dcterms:identifier "HartW 162" ;
+    dcterms:identifier "DF 113" ;
+    cnw:cnwNumber "162" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/henrik_hertz> ;
+    dcterms:created "1854-11-25" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Women's choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW162/expression/1> ;
+    cnw:performanceCount 11 .
+
+<https://cnw-ld.org/work/HartW162/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW162> ;
+    cnw:tempo "Allegro moderato - Allegretto - Tempo primo" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "Soprano" ;
+    cnw:performingForce "Tenor" ;
+    cnw:incipitText "Jeg gik mig ud en Sommerdag"@da ;
+    cnw:incipitText "Ich ging im Thal' an einem Sommertage"@de ;
+    cnw:incipitText "Adown the vale one summer-day I wandered"@en ;
+    cnw:incipitImage "hartw_162.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/henrik_hertz>
+    a foaf:Agent ;
+    foaf:name "Henrik Hertz" .
+
+<https://cnw-ld.org/agent/mrs_john_p_morgan>
+    a foaf:Agent ;
+    foaf:name "Mrs John P. Morgan" .
+

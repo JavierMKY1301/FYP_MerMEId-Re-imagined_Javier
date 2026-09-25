@@ -1,0 +1,69 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-443>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Tvende Musiker, hvilke ved den høysalige Kong Christian den Siettes høystbedrøveligste Liigbegængelse, ere blevne holdne"@da ;
+    dcterms:identifier "SchW B2:443" ;
+    cnw:cnwNumber "B2:443" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/peder_sparki_r> ;
+    dcterms:created "1746" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Secular" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-443/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-443/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-443> ;
+    cnw:performingForce "soloists" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:performingForce "soloist" ;
+    cnw:incipitText "Ach! hvad Sorrig maa vi friste"@da ;
+    cnw:incipitText "Ach! derfor sees paa alle Steder sort"@da ;
+    cnw:incipitText "Stor Væ! stor Klage! nu i Dag"@da ;
+    cnw:incipitText "Ach! hvad Sorrig maa vi friste"@da ;
+    cnw:incipitText "Salig Konge! Landets Fader!"@da ;
+    cnw:incipitText "Vor Salig Konge! Far vel da!"@da ;
+    cnw:incipitText "Far vel da! vor Græde-Stemme!"@da ;
+    cnw:incipitText "HErrens Igienløste skulde komme til Zion"@da ;
+    cnw:incipitText "I Høystbedrøvede igien!"@da ;
+    cnw:incipitText "Saa vel er DU"@da ;
+    cnw:incipitText "Velsignede Kong Christian!"@da ;
+    cnw:incipitText "Dog før vi her fra træde"@da ;
+    cnw:incipitText "HErren sætte Kongen til Velsignelse ævindelig"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/peder_sparki_r>
+    a foaf:Agent ;
+    foaf:name "Peder Sparkiær" .
+
+<https://cnw-ld.org/agent/king_christian_vi>
+    a foaf:Agent ;
+    foaf:name "King Christian VI" .
+

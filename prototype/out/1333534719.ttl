@@ -1,0 +1,84 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW21>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musik til Chr. K.F. Molbechs skuespil \"Ambrosius\""@da ;
+    dcterms:title "Music for Chr. K.F. Molbech's play \"Ambrosius\""@en ;
+    dcterms:identifier "HartW 21" ;
+    dcterms:identifier "DF 200" ;
+    cnw:cnwNumber "21" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/chr_k_f_molbech> ;
+    dcterms:created "27 July to 7 Aug. 1877" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW21/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW21/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW21> ;
+    cnw:tempo "Allegro commodo" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc. solo" ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc. solo" ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:incipitText "Den kjedsom Vinter gik sin Gang"@da ;
+    cnw:incipitText "Der Winter floh der Lenz"@de ;
+    cnw:incipitText "Jeg synge vil en Vise"@da ;
+    cnw:incipitText "Ein Lied soll ich euch singen"@de ;
+    cnw:incipitText "You'd like me to sing a ditty?"@en ;
+    cnw:incipitImage "hartw_021_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/chr_k_f_molbech>
+    a foaf:Agent ;
+    foaf:name "Chr. K.F. Molbech" .
+

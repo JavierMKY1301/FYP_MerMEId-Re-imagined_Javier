@@ -1,0 +1,42 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNWColl-3>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Lieder von J.P. Jacobsen"@de ;
+    dcterms:title "Songs by J.P. Jacobsen"@en ;
+    dcterms:identifier "CNW Coll. 3" ;
+    dcterms:identifier "CNU III/4, 2, 4–6, 8, 9" ;
+    dcterms:identifier "FS 15" ;
+    cnw:cnwNumber "Coll. 3" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "15" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "[1892–1893]" ;
+    cnw:dateNotBefore "1892"^^xsd:gYear ;
+    cnw:dateNotAfter "1893"^^xsd:gYear ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/CNWColl-3/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNWColl-3/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNWColl-3> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+

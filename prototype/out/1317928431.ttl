@@ -1,0 +1,54 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartWB-22>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Elverhøi"@da ;
+    dcterms:title "Elf Hill"@en ;
+    dcterms:alternative "Jeg lagde mit Hoved til Elverhøi"@da ;
+    dcterms:identifier "HartW B 22" ;
+    dcterms:identifier "DF 102:2" ;
+    cnw:cnwNumber "B 22" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:textAuthor <https://cnw-ld.org/agent/danish_folk_song> ;
+    cnw:arranger <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1851" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    cnw:editorialNote "Danish folk tune arranged by J.P.E. Hartmann." ;
+    frbr:realization <https://cnw-ld.org/work/HartWB-22/expression/1> ;
+    cnw:performanceCount 4 .
+
+<https://cnw-ld.org/work/HartWB-22/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartWB-22> ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Jeg lagde mit Hoved til Elverhøi"@da ;
+    cnw:incipitImage "hartw_B_22.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/danish_folk_song>
+    a foaf:Agent ;
+    foaf:name "Danish folk song" .
+

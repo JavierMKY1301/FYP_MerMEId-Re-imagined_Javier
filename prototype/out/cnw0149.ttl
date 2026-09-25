@@ -1,0 +1,61 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW149>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Toves Sang"@da ;
+    dcterms:title "Tove's Song"@en ;
+    dcterms:alternative "Der stod en Engel hos mig"@da ;
+    dcterms:alternative "An angel stood beside me"@en ;
+    dcterms:identifier "CNW 149" ;
+    dcterms:identifier "CNU III/4, 34; I/6" ;
+    dcterms:identifier "FS 43" ;
+    cnw:cnwNumber "149" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "43" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/ludvig_holstein> ;
+    dcterms:created "Between 1907 and 1908" ;
+    cnw:dateNotBefore "1907"^^xsd:gYear ;
+    cnw:dateNotAfter "1908"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/aa9d5567_7e44_407a_8e34_1e002cd680fa> ;
+    frbr:realization <https://cnw-ld.org/work/CNW149/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW149/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW149> ;
+    cnw:tempo "Poco andantino" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Der stod en Engel hos mig"@da ;
+    cnw:incipitText "An Angel stood beside me"@en ;
+    cnw:incipitImage "cnw_149.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/vilhelm_herold>
+    a foaf:Agent ;
+    foaf:name "Vilhelm Herold" .
+
+<https://cnw-ld.org/agent/ludvig_holstein>
+    a foaf:Agent ;
+    foaf:name "Ludvig Holstein" .
+

@@ -1,0 +1,88 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW180>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Tonernes Verden"@da ;
+    dcterms:title "The World of Tones"@en ;
+    dcterms:alternative "Du skjønne Kunst i Eden født"@da ;
+    dcterms:alternative "Festdigt af Chr. Richardt for Solostemmer, Chor og Orchester"@da ;
+    dcterms:alternative "Festive Poem by Chr. Richardt for Solo Voices, Chorus and Orchestra"@en ;
+    dcterms:identifier "Opus 82" ;
+    dcterms:identifier "HartW 180" ;
+    cnw:cnwNumber "180" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "82" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_richardt> ;
+    dcterms:created "19 June to 30 Nov. 1885" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW180/expression/1> ;
+    cnw:performanceCount 2 .
+
+<https://cnw-ld.org/work/HartW180/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW180> ;
+    cnw:tempo "Allegro poco moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "gong." ;
+    cnw:performingForce "g.c. & ptti." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soprano" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Soprano" ;
+    cnw:incipitText "Du skjønne Kunst i Eden født"@da ;
+    cnw:incipitText "Vel kvælder der Toner af Nordens Grund"@da ;
+    cnw:incipitText "Da aabnes disse Haller for Verdens stolte Floder"@da ;
+    cnw:incipitText "Høit for den lyttende Kreds nu lifligt Vældene springe"@da ;
+    cnw:incipitText "Og dette Hav af Rhytmer, snart oprørt snart i Fred"@da ;
+    cnw:incipitText "Du skjønne Kunst i Lyst og Nød"@da ;
+    cnw:incipitImage "hartw_180_01.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/christian_richardt>
+    a foaf:Agent ;
+    foaf:name "Christian Richardt" .
+

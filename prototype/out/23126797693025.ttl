@@ -1,0 +1,85 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-437>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sørge- og Klage-Sange over den nu i Døden høysalige Konge, Kong Friderich den Femte"@da ;
+    dcterms:identifier "SchW B2:437" ;
+    cnw:cnwNumber "B2:437" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/gerhard_schaft> ;
+    dcterms:created "1766" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Sacred" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Vocal music" ;
+    cnw:editorialNote "No indication of character but perhaps 'Taalmodighed' who sings the following section." ;
+    cnw:editorialNote "No indication of character, but if the recitative is sung by 'Taalmodighed', it seems likely that this aria was also performed by 'Taalmodighed'." ;
+    cnw:editorialNote "No indication of character." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-437/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/SchWB2-437/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-437> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "Rinder I Taarer, og ikke aflader!"@da ;
+    cnw:incipitText "I Nordens Tvilling-Riger!"@da ;
+    cnw:incipitText "Ja! tvende Dronninger"@da ;
+    cnw:incipitText "Ey noget Tordenslag kan os saa bange giøre"@da ;
+    cnw:incipitText "Sørg da, du hele Land"@da ;
+    cnw:incipitText "Vor Sceptermand, vor Konge Christian"@da ;
+    cnw:incipitText "Der er fornummet en Røst i det Høye"@da ;
+    cnw:incipitText "Bort Leeg og Lyst!"@da ;
+    cnw:incipitText "Hvad nu! hvad Graad! hvad Jammer-Skrig!"@da ;
+    cnw:incipitText "Hvad har dig Dyd bekymret giort?"@da ;
+    cnw:incipitText "See Femte Fridrich med Dyder var prydet"@da ;
+    cnw:incipitText "See! Fred paakom en Bitterhed, ja en Bitterhed"@da ;
+    cnw:incipitText "Parnasse! sid i Støv!"@da ;
+    cnw:incipitText "Nu sidde vi da og begræde"@da ;
+    cnw:incipitText "Vel er den følesløs, ja, har et Tiger-Hierte"@da ;
+    cnw:incipitText "Om Dig skal hver en Tunge"@da ;
+    cnw:incipitText "Velan! vort sørge-Spil"@da ;
+    cnw:incipitText "Hvad Trøst kan vel Opmuntre vores Siel?"@da ;
+    cnw:incipitText "Du Kongers Konge giv vor Konge Fryd og Glæde!"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/gerhard_schaft>
+    a foaf:Agent ;
+    foaf:name "Gerhard Schaft?" .
+
+<https://cnw-ld.org/agent/king_frederik_v>
+    a foaf:Agent ;
+    foaf:name "King Frederik V" .
+

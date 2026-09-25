@@ -1,0 +1,63 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW161>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate ved Kammerherre, Baron C. Bille-Brahe's og Comtesse Marie-Moltke Bregentveds Bryllup, den 21. Februar 1852"@da ;
+    dcterms:title "Cantata for the Wedding of Lord-in-Waiting, Baron C. Bille-Brahe and Countess Marie Moltke-Bregentved on 21 February 1852"@en ;
+    dcterms:alternative "Hvor Sneen laa paa Marken nys"@da ;
+    dcterms:identifier "HartW 161" ;
+    cnw:cnwNumber "161" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/hans_christian_andersen> ;
+    dcterms:created "1852-02-14" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Male choir" ;
+    cnw:editorialNote "The title is taken from the printed text of the cantata." ;
+    frbr:realization <https://cnw-ld.org/work/HartW161/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW161/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW161> ;
+    cnw:tempo "Andante sostenuto" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "org." ;
+    cnw:incipitText "Hvor Sneen laa paa Marken nys"@da ;
+    cnw:incipitText "Qvinden skal forlade Moder, Fader"@da ;
+    cnw:incipitText "Mand og Hustru ved hinandens Side"@da ;
+    cnw:incipitImage "hartw_161_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/hans_christian_andersen>
+    a foaf:Agent ;
+    foaf:name "Hans Christian Andersen" .
+

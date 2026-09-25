@@ -1,0 +1,75 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW8>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musik til Lauritz Christian Nielsens skuespil \"Willemoes\""@da ;
+    dcterms:title "Music for Lauritz Christian Nielsen's Play 'Willemoes'"@en ;
+    dcterms:identifier "CNW 8" ;
+    dcterms:identifier "CNU I/6" ;
+    dcterms:identifier "CNS 54, 350" ;
+    dcterms:identifier "FS 44" ;
+    cnw:cnwNumber "8" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "44" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/lauritz_christian_nielsen> ;
+    dcterms:created "1907–08" ;
+    cnw:dateNotBefore "1907"^^xsd:gYear ;
+    cnw:dateNotAfter "1908"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    cnw:editorialNote "It has not been possible to determine whether 'clavecin' is meant indicate harpsichord or clavichord; however, if Nielsen had meant piano ('klaver'), it seems most likely that he would have indicated so." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW8/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW8/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW8> ;
+    cnw:tempo "Tempo di marcia" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "gr.c." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "clavecin (keyb.)" ;
+    cnw:incipitText "Fædreland! Fædreland!"@da ;
+    cnw:incipitText "Ja, tag os, vor Moder i din løfterige Favn"@da ;
+    cnw:incipitText "Havet omkring Danmark"@da ;
+    cnw:incipitText "Jeg mødte en Sang paa den alfare Vej"@da ;
+    cnw:incipitImage "cnw_008_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/lauritz_christian_nielsen>
+    a foaf:Agent ;
+    foaf:name "Lauritz Christian Nielsen" .
+

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_263ca0fc">
+   <meiHead xml:id="meiHead_1a27bc58">
+      <fileDesc xml:id="fileDesc_82a4dd57">
+         <titleStmt xml:id="titleStmt_b6a96b9f">
+            <title xml:id="title_f3b6f838">Concerto a cembalo obligato, violino 1mo, violino 2do, viola et basso</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_2482580e">
+            <respStmt xml:id="respStmt_f5b78d60">
+               <resp xml:id="resp_aca78d3b">Publisher</resp>
+            </respStmt>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_6c6017ce">
+            <title xml:id="title_e89f0ee5"/>
+            <identifier type="file_collection" xml:id="identifier_b65062d4">SchW</identifier>
+         </seriesStmt>
+         <notesStmt xml:id="notesStmt_da542458">
+            <annot type="private_notes" xml:id="annot_738d1807">
+               <p xml:id="idm14">SchM040</p>
+            </annot>
+         </notesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_27ef4206">
+         <appInfo xml:id="appInfo_9dcd6cfa">
+            <application version="2013" xml:id="application_2ccccd04">
+               <name xml:id="name_da7f2fb5">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_298643ec">
+            <p xml:id="idm198">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_03bb5a6f">
+         <work xml:id="work_95N2004F">
+            <identifier label="SchW" xml:id="identifier_8e307052">A1:012</identifier>
+            <title xml:id="title_4bdb12fa" xml:lang="de">Concerto a cembalo obligato, violino 1mo, violino 2do, viola et basso</title>
+            <contributor xml:id="respStmt_c15f0917">
+               <persName role="composer" xml:id="persName_d0ce6426">Johann Adolph Scheibe</persName>
+            </contributor>
+            <history xml:id="history_b9848e89">
+               <p xml:id="idm207">The present concerto for obligato harpsichord and strings – the only one to have survived for that combination – was composed sometime before 1745 when the latest transcript was dated and carried out in Darmstadt. The earliest set of parts (<rend xml:id="idm208" fontstyle="italic">D-B</rend>, BP 656) shows signs of having been a working copy rather than a fair copy as the harpsichord part in particular contains numerous changes and corrections which are included in the second set of parts.</p>
+            </history>
+            <langUsage xml:id="langUsage_065a5b52">
+               <language xml:id="en">English</language>
+               <language xml:id="de">German</language>
+               <language xml:id="it">Italian</language>
+            </langUsage>
+            <biblList xml:id="biblList_d8ff89f8">
+               <head xml:id="head_08bb19fa">Bibliography</head>
+               <bibl label="" xml:id="bibl_59cb7143">
+                  <genre xml:id="genre_be42b44d">book</genre>
+                  <author xml:id="author_fe4e9594">Joachim Jaenecke</author>
+                  <title level="m" xml:id="title_ab352cfb">Die Musikbibliothek des Ludwig Freiherrn von Pretlack (1716-1781)</title>
+                  <title level="s" xml:id="title_a7cf59f9"/>
+                  <imprint xml:id="imprint_123e5439">
+                     <date isodate="1973" xml:id="date_a897ed3c">(1973)</date>
+                     <pubPlace xml:id="pubPlace_a812231e">Wiesbaden</pubPlace>
+                  </imprint>
+               </bibl>
+            </biblList>
+            <classification xml:id="classification_759a0243">
+               <termList xml:id="termList_5b4278af">
+                  <term xml:id="term_62bb179f">Instrumental music</term>
+                  <term xml:id="idm232">Concerto</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_6c4740b0">
+               <expression xml:id="expression_95N20070">
+                  <title xml:id="title_15b16ea7" xml:lang="en"/>
+                  <key mode="major" pname="f" xml:id="key_f701418f"/>
+                  <history xml:id="history_b397fa9f">
+                     <p xml:id="idm239"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_3b4c07b5">
+                     <perfResList xml:id="perfResList_500a3dcb">
+                        <perfResList codedval="on" xml:id="perfResList_496c3a82">
+                           <head xml:id="head_fea6b293_0_0_0"/>
+                           <perfRes codedval="sa" count="1" xml:id="perfRes_e189d824">vl.1</perfRes>
+                           <perfRes codedval="sa" count="1" solo="false" xml:id="perfRes_ee75d20b">vl.2</perfRes>
+                           <perfRes codedval="sb" count="1" solo="false" xml:id="perfRes_8a01de3a">va.</perfRes>
+                           <perfRes codedval="sn" count="1" solo="false" xml:id="perfRes_1c5809bd">bs.</perfRes>
+                        </perfResList>
+                        <perfResList codedval="on" xml:id="perfResList_1cf3d866">
+                           <head xml:id="head_9b28c51c_0_0_0">soloist</head>
+                           <perfRes codedval="kc" count="1" xml:id="perfRes_86c33546">cemb. obl.</perfRes>
+                        </perfResList>
+                     </perfResList>
+                  </perfMedium>
+                  <componentList xml:id="componentGrp_4e1bb2bb">
+                     <expression n="1" xml:id="expression_d99439e6" label="1">
+                        <title xml:id="title_88d4688e" xml:lang="it"/>
+                        <contributor xml:id="respStmt_9371050f"/>
+                        <incip xml:id="incip_d8383318">
+                           <incipText xml:id="incipText_b50d2ad9"/>
+                           <graphic target="/dcm/assets/udgivelser/schw/incipits/lowres/SchM_040_001.png" label=""
+                                    targettype="lowres"
+                                    xml:id="graphic_0311fbb6"/>
+                           <graphic target="/dcm/assets/udgivelser/schw/incipits/hires/SchM_040_001.png" label=""
+                                    targettype="hires"
+                                    xml:id="graphic_4673b633"/>
+                        </incip>
+                        <tempo xml:id="tempo_76e54094">Vivace</tempo>
+                        <key mode="major" pname="f" xml:id="key_b74d4e90"/>
+                        <meter count="2" unit="4" xml:id="meter_ddb68e02"/>
+                        <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_2f179df8">
+                           <castList xml:id="castList_d56d60d7">
+                              <castItem xml:id="castItem_4c65c9fb"/>
+                           </castList>
+                           <perfResList xml:id="perfResList_55d4b6ee">
+                              <perfResList codedval="on" n="perfResList_496c3a82" xml:id="perfResList_cf6928f0">
+                                 <head xml:id="head_fea6b293_1"/>
+                                 <perfRes codedval="sa" count="1" n="perfRes_e189d824" xml:id="perfRes_f96a277a">vl.1</perfRes>
+                                 <perfRes codedval="sa" count="1" n="perfRes_ee75d20b" solo="false"
+                                          xml:id="perfRes_149df99c">vl.2</perfRes>
+                                 <perfRes codedval="sb" count="1" n="perfRes_8a01de3a" solo="false"
+                                          xml:id="perfRes_3f46e51e">va.</perfRes>
+                                 <perfRes codedval="sn" count="1" n="perfRes_1c5809bd" solo="false"
+                                          xml:id="perfRes_46e66a34">bs.</perfRes>
+                              </perfResList>
+                              <perfResList codedval="on" n="perfResList_1cf3d866" xml:id="perfResList_c19a2011">
+                                 <head xml:id="head_9b28c51c_1">soloist</head>
+                                 <perfRes codedval="kc" count="1" n="perfRes_86c33546" xml:id="perfRes_4130ef11">cemb. obl.</perfRes>
+                              </perfResList>
+                           </perfResList>
+                        </perfMedium>
+                     </expression>
+                     <expression n="2" xml:id="expression_da51b7bc" label="2">
+                        <title xml:id="title_d960ec75" xml:lang="en"/>
+                        <contributor xml:id="respStmt_1899f0d4"/>
+                        <incip xml:id="incip_cea5f012">
+                           <incipText xml:id="incipText_8b1eb643"/>
+                           <graphic target="/dcm/assets/udgivelser/schw/incipits/lowres/SchM_040_002.png" label=""
+                                    targettype="lowres"
+                                    xml:id="graphic_ed4703fd"/>
+                           <graphic target="/dcm/assets/udgivelser/schw/incipits/hires/SchM_040_002.png" label=""
+                                    targettype="hires"
+                                    xml:id="graphic_4e346d8d"/>
+                        </incip>
+                        <tempo xml:id="tempo_e7a58e64">Adagio</tempo>
+                        <key mode="major" pname="f" xml:id="key_d6e32e4a"/>
+                        <meter count="3" unit="4" xml:id="meter_7e30e5f5"/>
+                        <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_4ad0064f">
+                           <castList xml:id="castList_210afb49">
+                              <castItem xml:id="castItem_307f61ca"/>
+                           </castList>
+                           <perfResList xml:id="perfResList_2ccc0e83">
+                              <perfResList codedval="on" n="perfResList_496c3a82" xml:id="perfResList_5c3f750e">
+                                 <head xml:id="head_fea6b293_0_1"/>
+                                 <perfRes codedval="sa" count="1" n="perfRes_e189d824" xml:id="perfRes_1ca29742">vl.1</perfRes>
+                                 <perfRes codedval="sa" count="1" n="perfRes_ee75d20b" solo="false"
+                                          xml:id="perfRes_85c669af">vl.2</perfRes>
+                                 <perfRes codedval="sb" count="1" n="perfRes_8a01de3a" solo="false"
+                                          xml:id="perfRes_9a7c625c">va.</perfRes>
+                                 <perfRes codedval="sn" count="1" n="perfRes_1c5809bd" solo="false"
+                                          xml:id="perfRes_e99fd863">bs.</perfRes>
+                              </perfResList>
+                              <perfResList codedval="on" n="perfResList_1cf3d866" xml:id="perfResList_1f1d6a5f">
+                                 <head xml:id="head_9b28c51c_0_1">soloist</head>
+                                 <perfRes codedval="kc" count="1" n="perfRes_86c33546" xml:id="perfRes_f27e0430">cemb. obl.</perfRes>
+                              </perfResList>
+                           </perfResList>
+                        </perfMedium>
+                     </expression>
+                     <expression n="3" xml:id="expression_a2024ded" label="3">
+                        <title xml:id="title_8d545501" xml:lang="en"/>
+                        <contributor xml:id="respStmt_341767c7"/>
+                        <incip xml:id="incip_811f61ac">
+                           <incipText xml:id="incipText_ca41f021"/>
+                           <graphic target="/dcm/assets/udgivelser/schw/incipits/lowres/SchM_040_003.png" label=""
+                                    targettype="lowres"
+                                    xml:id="graphic_7c2527cb"/>
+                           <graphic target="/dcm/assets/udgivelser/schw/incipits/hires/SchM_040_003.png" label=""
+                                    targettype="hires"
+                                    xml:id="graphic_619c71ea"/>
+                        </incip>
+                        <tempo xml:id="tempo_432557fb">Poco presto</tempo>
+                        <key mode="major" pname="f" xml:id="key_bc58a5a7"/>
+                        <meter count="3" unit="8" xml:id="meter_4a1f27f5"/>
+                        <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_8b08b0b9">
+                           <castList xml:id="castList_26c78140">
+                              <castItem xml:id="castItem_097ef8eb"/>
+                           </castList>
+                           <perfResList xml:id="perfResList_a9e87c66">
+                              <perfResList codedval="on" n="perfResList_496c3a82" xml:id="perfResList_92f500e5">
+                                 <head xml:id="head_fea6b293_0_0_1"/>
+                                 <perfRes codedval="sa" count="1" n="perfRes_e189d824" xml:id="perfRes_c9afb94c">vl.1</perfRes>
+                                 <perfRes codedval="sb" count="1" n="perfRes_8a01de3a" solo="false"
+                                          xml:id="perfRes_464d6a93">va.</perfRes>
+                                 <perfRes codedval="sn" count="1" n="perfRes_1c5809bd" solo="false"
+                                          xml:id="perfRes_50ffe723">bs.</perfRes>
+                              </perfResList>
+                              <perfResList codedval="on" n="perfResList_1cf3d866" xml:id="perfResList_df62191c">
+                                 <head xml:id="head_9b28c51c_0_0_1">soloist</head>
+                                 <perfRes codedval="kc" count="1" n="perfRes_86c33546" xml:id="perfRes_07b76243">cemb. obl.</perfRes>
+                              </perfResList>
+                           </perfResList>
+                        </perfMedium>
+                     </expression>
+                  </componentList>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_0ad4bfb1">
+         <manifestation label="" xml:id="source_4dd66726">
+            <titleStmt xml:id="titleStmt_969d2787">
+               <title xml:id="title_06ec27b4">Score</title>
+            </titleStmt>
+            <notesStmt xml:id="notesStmt_51ae5a3e">
+               <annot type="source_description" xml:id="annot_424754b1">
+                  <p xml:id="idm21">Source presumably lost.</p>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_d1a21a0c">
+               <termList xml:id="termList_e85ea080">
+                  <term class="#DcmContentClass" xml:id="term_1801c00d">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_36f403bf">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_b074e5c9"/>
+                  <term class="#DcmScoringClass" xml:id="term_3f5657db">score</term>
+                  <term class="#DcmStateClass" xml:id="term_f6c6dc8a">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_a281fd72">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_9d9220d0"/>
+         </manifestation>
+         <manifestation label="" xml:id="source_e508bd6e">
+            <titleStmt xml:id="titleStmt_9040c0a2">
+               <title xml:id="title_bbf13742">Parts, transcript</title>
+            </titleStmt>
+            <physDesc xml:id="physDesc_8b6bead0">
+               <extent xml:id="extent_e2213a77">5 parts</extent>
+               <physMedium xml:id="physMedium_baca3cf3">Source includes a set of five instrumental parts (cemb. obl., vl.1, vl.2, va., vc.); it seems likely that this set was the basis of a new transcript (D-B, N.mus BP 655).</physMedium>
+            </physDesc>
+            <classification xml:id="classification_98b84fcf">
+               <termList xml:id="termList_9774864e">
+                  <term class="#DcmContentClass" xml:id="term_b5d9fc87">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_888fe212">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_3ba8d082">copy</term>
+                  <term class="#DcmScoringClass" xml:id="term_46287958">parts</term>
+                  <term class="#DcmStateClass" xml:id="term_478092e3">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_098517cf">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_a4830438">
+               <item label="" xml:id="item_27fb0505">
+                  <physLoc xml:id="physLoc_844caf2b">
+                     <repository xml:id="repository_7c9bc935">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_98cff7f5">D-B</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_616d1caa">N.mus. BP 656</identifier>
+                  </physLoc>
+                  <history>
+                     <provenance xml:id="provenance_e64511da">
+                        <eventList xml:id="eventList_3c26be17">
+                           <event xml:id="event_5aa9f340">
+                              <desc xml:id="desc_fec9dd80">Ludwig Freiherr von Pretlack</desc>
+                           </event>
+                        </eventList>
+                     </provenance>
+                  </history>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_92e3f687">
+               <manifestation label="" xml:id="source_6a6deeac">
+                  <titleStmt xml:id="titleStmt_ca41ca8e">
+                     <title xml:id="title_18250d66">Violino 1</title>
+                  </titleStmt>
+                  <physDesc xml:id="physDesc_ae6121a7">
+                     <titlePage label="Title on first music page (fol. 1r)" xml:id="titlePage_7d4fcf29">
+                        <p xml:id="idm61">Concerto.</p>
+                     </titlePage>
+                     <extent xml:id="extent_553bd4aa">1 bifolio</extent>
+                     <dimensions unit="cm" xml:id="dimensions_de0cedb1">21x27.4</dimensions>
+                     <watermark xml:id="watermark_8f49bc6e">a partly visible watermark; paper of a dense quality.</watermark>
+                     <physMedium xml:id="physMedium_61ebbad7">In 2<rend xml:id="idm66" rend="sup">o</rend>; oblong format; music (fols. 1r–4v); in all a single bifolio. Hand-ruled paper, 8 staves (9 mm; single rastrum used) in light brown ink and music in dark brown ink; few additions such as dynamics added in black ink; bottom two staves on fol. 1r have not been used. A fairly clean copy.</physMedium>
+                  </physDesc>
+               </manifestation>
+               <manifestation label="" xml:id="source_ce3663c7">
+                  <titleStmt xml:id="titleStmt_2a6376df">
+                     <title xml:id="title_894a099c">Violino 2</title>
+                  </titleStmt>
+                  <physDesc xml:id="physDesc_e2c9b192">
+                     <titlePage label="Title on first music page (fol. 1r)" xml:id="titlePage_be4fc237">
+                        <p xml:id="idm72">Concerto.</p>
+                     </titlePage>
+                     <extent xml:id="extent_1e79f9da">1 bifolio</extent>
+                     <dimensions unit="cm" xml:id="dimensions_10ad6ee0">21x27.4</dimensions>
+                     <watermark xml:id="watermark_47059cda">no visible watermarks; paper of a fairly dense quality.</watermark>
+                     <physMedium xml:id="physMedium_b915f04f">In 2<rend xml:id="idm77" rend="sup">o</rend>; oblong format; music (fols. 1r–4v); in all a single bifolio. Hand-ruled paper, 8 staves (9 mm; single rastrum used) in light brown ink and music in dark brown ink; bottom two staves on fol. 1r and bottom stave on fol. 2r have not been used. A fairly clean copy with a few changes, cancellations and additions.</physMedium>
+                  </physDesc>
+               </manifestation>
+               <manifestation label="" xml:id="source_fab7b536">
+                  <titleStmt xml:id="titleStmt_f1df79b7">
+                     <title xml:id="title_0dddcca7">Viola</title>
+                  </titleStmt>
+                  <physDesc xml:id="physDesc_ff773d5c">
+                     <titlePage label="Title on first music page (fol. 1r)" xml:id="titlePage_ab078d9a">
+                        <p xml:id="idm83">Concerto.</p>
+                     </titlePage>
+                     <extent xml:id="extent_86ede499">1 bifolio</extent>
+                     <dimensions unit="cm" xml:id="dimensions_7823151f">27.2x21.4</dimensions>
+                     <watermark xml:id="watermark_e9145459">no visible watermarks; paper of a fairly dense quality.</watermark>
+                     <physMedium xml:id="physMedium_b8aae7a6">In 2<rend xml:id="idm88" rend="sup">o</rend>; upright format, music (fols. 1r–4v); in all a single bifolio. Hand-ruled paper, 10 staves on fols. 1r, 2v and 11 staves on fols. 1v–2r (10 mm; single rastrum used) in light brown ink and music in dark brown ink; bottom stave on fol.1r and bottom five staves on fol. 4v have not been used. A clean copy with only a few changes and some additions (dynamics) in black ink.</physMedium>
+                  </physDesc>
+               </manifestation>
+               <manifestation label="" xml:id="source_3ffd2764">
+                  <titleStmt xml:id="titleStmt_cedbac2b">
+                     <title xml:id="title_29d35044">Violoncello</title>
+                  </titleStmt>
+                  <physDesc xml:id="physDesc_a7d8e14d">
+                     <titlePage label="Title on first music page (fol. 1r)" xml:id="titlePage_3a00a5f1">
+                        <p xml:id="idm94">Concerto.</p>
+                     </titlePage>
+                     <extent xml:id="extent_a9a92ab1">1 bifolio</extent>
+                     <dimensions unit="cm" xml:id="dimensions_146bd6d7">21x27</dimensions>
+                     <watermark xml:id="watermark_407b5246">a partly visible watermark; paper of a fairly dense quality.</watermark>
+                     <physMedium xml:id="physMedium_8a1037e5">In 2<rend xml:id="idm99" rend="sup">o</rend>; oblong format; music (fols. 1r–4v); in all a single bifolio. Hand-ruled paper, 8 staves (9 mm; single rastrum used) in light brown ink and music in dark brown ink; bottom two staves on fol. 1r and bottom four staves on fol. 4r have not been used. A clean copy.</physMedium>
+                  </physDesc>
+               </manifestation>
+               <manifestation label="" xml:id="source_ec911ad4">
+                  <titleStmt xml:id="titleStmt_5f054251">
+                     <title xml:id="title_d68d669c">Cembalo obligato</title>
+                  </titleStmt>
+                  <physDesc xml:id="physDesc_9fc23916">
+                     <titlePage label="Title on first music page (fol. 1r)" xml:id="titlePage_b7562ed7">
+                        <p xml:id="idm105">Concerto.</p>
+                     </titlePage>
+                     <extent xml:id="extent_08dd154f">2 bifolios</extent>
+                     <dimensions unit="cm" xml:id="dimensions_7fb0be3e">27x32.9</dimensions>
+                     <watermark xml:id="watermark_ffca041e">a partly visible watermark and countermark ‘AND?R’; paper of a dense quality.</watermark>
+                     <physMedium xml:id="physMedium_e4f5ea35">In 2<rend xml:id="idm110" rend="sup">o</rend>; oblong format, consisting of two nested and sewn bifolios; music (fols. 1r–4v); in all 2 bifolios. Hand-ruled paper, 12 staves (10 mm; single rastrum used) in light brown ink and music in black ink; an extra pair of staves has been added at the bottom of fol. 1v; bottom two staves on fols. 3r, 4r have not been used. A working copy with numerous changes, corrections and additions.</physMedium>
+                  </physDesc>
+               </manifestation>
+            </componentList>
+         </manifestation>
+         <manifestation label="" xml:id="source_95N20021">
+            <titleStmt xml:id="titleStmt_dbcd6fa0">
+               <title xml:id="title_2e95e8b5">Parts, transcript</title>
+            </titleStmt>
+            <physDesc xml:id="physDesc_11370518">
+               <extent xml:id="extent_6dce0981">5 parts</extent>
+               <physMedium xml:id="physMedium_f78c37e5">Source consists of five instrumental parts (cemb.obl., vl.1, vl.2, va., bs.).</physMedium>
+            </physDesc>
+            <classification xml:id="classification_4b424aaa">
+               <termList xml:id="termList_1a68e0e9">
+                  <term class="#DcmContentClass" xml:id="term_24eec456">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_158c438d">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_d6060807">copy</term>
+                  <term class="#DcmScoringClass" xml:id="term_ad81d1d0">parts</term>
+                  <term class="#DcmStateClass" xml:id="term_16ed7740">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_c9209000">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_83a8450f">
+               <item label="" xml:id="item_2d86b827">
+                  <physLoc xml:id="physLoc_b8f3f0c5">
+                     <repository xml:id="repository_d9f9fab7">
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_cc2b18b9">D-B</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_d3a5afb9">N.Mus. BP 655</identifier>
+                  </physLoc>
+                  <history>
+                     <provenance xml:id="provenance_d4a445b2">
+                        <eventList xml:id="eventList_387c6a21">
+                           <event xml:id="event_0017d471">
+                              <desc xml:id="desc_72cd8e51">Ludwig Freiherr von Pretlack</desc>
+                           </event>
+                        </eventList>
+                     </provenance>
+                  </history>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_a8e12842">
+               <manifestation label="" xml:id="source_b157a2d0">
+                  <titleStmt xml:id="titleStmt_3c2edd8e">
+                     <title xml:id="title_65aa4284">Violino 1</title>
+                  </titleStmt>
+                  <physDesc xml:id="physDesc_636bd36b">
+                     <titlePage label="Title on first music page (fol. 1v)" xml:id="titlePage_34f867de">
+                        <p xml:id="idm141">Concerto.</p>
+                     </titlePage>
+                     <extent xml:id="extent_d14206a2">1 bifolio</extent>
+                     <dimensions unit="cm" xml:id="dimensions_2019aa26">34.5x21.8</dimensions>
+                     <watermark xml:id="watermark_3f5914e3">no visible watermark; paper of a thick and dense quality.</watermark>
+                     <physMedium xml:id="physMedium_e67a906e">In 2<rend xml:id="idm146" rend="sup">o</rend>; upright format; blank page (fol. 1r), music (fols. 1v–2v); in all a single bifolio. Hand-ruled paper, 13 staves (8 mm; single rastrum used) in dark brown ink and music in same ink; bottom stave on fol. 2r has not been used. A clean copy.</physMedium>
+                  </physDesc>
+               </manifestation>
+               <manifestation label="" xml:id="source_673af284">
+                  <titleStmt xml:id="titleStmt_3a198884">
+                     <title xml:id="title_560bbfba">Violino 2</title>
+                  </titleStmt>
+                  <physDesc xml:id="physDesc_be42e780">
+                     <titlePage label="Title on first music page (fol. 1v)" xml:id="titlePage_96542012">
+                        <p xml:id="idm152">Concerto.</p>
+                     </titlePage>
+                     <extent xml:id="extent_95de4154">1 bifolio</extent>
+                     <dimensions unit="cm" xml:id="dimensions_7917d70e">34.5x21.8</dimensions>
+                     <watermark xml:id="watermark_a577f268">no visible watermarks; paper of a thick and dense quality.</watermark>
+                     <physMedium xml:id="physMedium_d510c66e">In 2<rend xml:id="idm157" rend="sup">o</rend>; upright format; blank page (fol. 1r), music (fols. 1r–2v); in all a single bifolio. Hand-ruled paper, 13 staves (8 mm; single rastrum used) in brown ink and music in dark brown ink; bottom stave on fols. 1r, 2v and bottom three staves on fol. 2r have not been used. A clean copy.</physMedium>
+                  </physDesc>
+               </manifestation>
+               <manifestation label="" xml:id="source_314ef650">
+                  <titleStmt xml:id="titleStmt_befe9d87">
+                     <title xml:id="title_3884ee6b">Viola</title>
+                  </titleStmt>
+                  <physDesc xml:id="physDesc_90ac64b2">
+                     <titlePage label="Title on first music page (fol. 1v)" xml:id="titlePage_6d405325">
+                        <p xml:id="idm163">Concerto.</p>
+                     </titlePage>
+                     <extent xml:id="extent_1ebe6d82">1 bifolio</extent>
+                     <dimensions unit="cm" xml:id="dimensions_539aaee6">34.5x21.8</dimensions>
+                     <watermark xml:id="watermark_2e9ca368">a faint watermark; paper of a thick and dense quality.</watermark>
+                     <physMedium xml:id="physMedium_72f54793">In 2<rend xml:id="idm168" rend="sup">o</rend>; upright format; blank page (fol. 1r), music (fols. 1v–2v); in all a single bifolio. Hand-ruled paper, 13 staves (9 mm; single rastrum used) in dark brown ink and music in same ink; bottom three staves on fol. 1v and bottom five staves on fol. 2r have not been used. A clean copy.</physMedium>
+                  </physDesc>
+               </manifestation>
+               <manifestation label="" xml:id="source_5a0ac06f">
+                  <titleStmt xml:id="titleStmt_74fc04bc">
+                     <title xml:id="title_2ac24831">Violone</title>
+                  </titleStmt>
+                  <physDesc xml:id="physDesc_26f6dc04">
+                     <titlePage label="Title on first music page (fol. 1v)" xml:id="titlePage_3064ec1b">
+                        <p xml:id="idm174">Concerto.</p>
+                     </titlePage>
+                     <extent xml:id="extent_4df59af2">1 bifolio</extent>
+                     <dimensions unit="cm" xml:id="dimensions_db5e4ea5">34.5x21.8</dimensions>
+                     <watermark xml:id="watermark_497e3c18">no visible watermark; paper of a thick and dense quality.</watermark>
+                     <physMedium xml:id="physMedium_2e96778e">In 2<rend xml:id="idm179" rend="sup">o</rend>; upright format; blank page (fol. 1r), music (fols. 1v–2v); in all a single bifolio. Hand-ruled paper, 13 staves (8 mm; single rastrum used) in brown ink and music in dark brown ink; bottom stave on fol. 1v and bottom five staves on fol. 2r have not been used. A clean copy.</physMedium>
+                  </physDesc>
+               </manifestation>
+               <manifestation label="" xml:id="source_76d2fa6b">
+                  <titleStmt xml:id="titleStmt_f30f2255">
+                     <title xml:id="title_b075f104">Cembalo obligato</title>
+                  </titleStmt>
+                  <physDesc xml:id="physDesc_790109e1">
+                     <titlePage label="" xml:id="titlePage_84c941c3">
+                        <p xml:id="idm185">CONCERTO | a | Cembalo Obligato | Violino Primo | Violino Secondo | Alto Viola | &amp;lt;Basso&amp;gt; [= in pencil] | del Sigr. Scheibe | ex Clave F. dur | Dstd. 1745. Nov.</p>
+                     </titlePage>
+                     <titlePage label="Title on first music page (fol. 1r)" xml:id="titlePage_e45f6ebc">
+                        <p xml:id="idm187">Concerto</p>
+                     </titlePage>
+                     <extent xml:id="extent_4ccf193e">3 bifolios</extent>
+                     <dimensions unit="cm" xml:id="dimensions_a4433390">34.5x21.8</dimensions>
+                     <watermark xml:id="watermark_204f01e3">a partly visible, faint watermark; paper of a thick and dense quality.</watermark>
+                     <physMedium xml:id="physMedium_f5625375">In 2<rend xml:id="idm192" rend="sup">o</rend>; upright format, consisting of 3 nested and sewn bifolios; title page (fol. 1r), blank page (fol. 1v), music (fols. 2r–6r), blank page (fol. 6v); in all 3 bifolios. Hand-ruled paper, 18 staves on fols. 2r–5v and 16 staves on fol. 6r (8 mm; single or possibly double rastrum used in a set of two staves) in light brown ink and music in black ink; bottom five staves on fol. 2r have not been used due to page turn. A clean copy with very few corrections.</physMedium>
+                  </physDesc>
+               </manifestation>
+            </componentList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm323">
+         <change isodate="2016-05-24" xml:id="change_95N10085">
+            <respStmt xml:id="idm325">
+               <name xml:id="idm326">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_00f9ec5e">
+               <p xml:id="p_76090019"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-03" xml:id="change_226N102D0">
+            <respStmt xml:id="idm330">
+               <name xml:id="idm331">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_180d17ad">
+               <p xml:id="p_bd96bbb4"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-11" xml:id="change_317N103E8">
+            <respStmt xml:id="idm335">
+               <name xml:id="idm336">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_a7cb1116">
+               <p xml:id="p_8b4e7b46"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-12" xml:id="change_319N103E9">
+            <respStmt xml:id="idm340">
+               <name xml:id="idm341">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_94c44420">
+               <p xml:id="p_42cf0b8e"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-17" xml:id="change_320N103E6">
+            <respStmt xml:id="idm345">
+               <name xml:id="idm346">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f7611ac9">
+               <p xml:id="p_0b3ca3d1"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-19" xml:id="change_332N1040B">
+            <respStmt xml:id="idm350">
+               <name xml:id="idm351">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_ce05f6d0">
+               <p xml:id="p_b850ecc8"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-22" xml:id="change_340N10425">
+            <respStmt xml:id="idm355">
+               <name xml:id="idm356">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_1162d7e3">
+               <p xml:id="p_ed479168"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-26" xml:id="change_343N1042B">
+            <respStmt xml:id="idm360">
+               <name xml:id="idm361">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_c51075a1">
+               <p xml:id="p_cd618a6a"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-28" xml:id="change_363N10464">
+            <respStmt xml:id="idm365">
+               <name xml:id="idm366">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_65484290">
+               <p xml:id="p_b0912d92"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-09-21" xml:id="change_366N1046A">
+            <respStmt xml:id="idm370">
+               <name xml:id="idm371">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_96d06e23">
+               <p xml:id="p_20402ffa"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-05" xml:id="change_8f81c6c2">
+            <respStmt xml:id="idm375">
+               <name xml:id="idm376">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_443ae321">
+               <p xml:id="p_79600b94"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-12" xml:id="change_a416c406">
+            <respStmt xml:id="idm380">
+               <name xml:id="idm381">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f86bed73">
+               <p xml:id="p_d8388fee"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-18" xml:id="change_398N104DB">
+            <respStmt xml:id="idm385">
+               <name xml:id="idm386">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b4ea26b6">
+               <p xml:id="p_04b8c5d1"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-20" xml:id="change_401N104E4">
+            <respStmt xml:id="idm390">
+               <name xml:id="idm391">atge</name>
+            </respStmt>
+            <changeDesc xml:id="idm392">
+               <p xml:id="idm393"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-01-24" xml:id="change_404N104EA">
+            <respStmt xml:id="idm395">
+               <name xml:id="idm396">ph</name>
+            </respStmt>
+            <changeDesc xml:id="idm397">
+               <p xml:id="idm398"/>
+            </changeDesc>
+         </change>
+         <change xml:id="idm399" isodate="2017-04-04" n="16">
+            <respStmt xml:id="idm400">
+               <name xml:id="idm401">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm402">
+               <p xml:id="idm403">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-09-06" xml:id="change_442N10508">
+            <respStmt xml:id="idm405">
+               <name xml:id="idm406">ph</name>
+            </respStmt>
+            <changeDesc xml:id="idm407">
+               <p xml:id="idm408"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-10-30T14:42:54.602Z" xml:id="change_451N10511">
+            <respStmt xml:id="idm410">
+               <name xml:id="idm411">atge</name>
+            </respStmt>
+            <changeDesc xml:id="idm412">
+               <p xml:id="idm413"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-14T16:42:59+01:00" xml:id="change_463N10458">
+            <respStmt xml:id="idm415">
+               <name xml:id="idm416">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm417">
+               <p xml:id="idm418">Batch transformation removing empty elements</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-15T15:05:35.682Z" xml:id="change_411N1049A">
+            <respStmt xml:id="idm420">
+               <name xml:id="idm421">ph</name>
+            </respStmt>
+            <changeDesc xml:id="idm422">
+               <p xml:id="idm423"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T16:29:05Z" xml:id="change_424N103E9">
+            <respStmt xml:id="idm425">
+               <name xml:id="idm426">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm427">
+               <p xml:id="idm428">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_429d1e484">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_433d1e483">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm429"/>
+</mei>

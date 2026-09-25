@@ -1,0 +1,48 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-209>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate: In Festo Sancti Joannis Baptistae"@de ;
+    dcterms:alternative "Singet dem Herrn"@de ;
+    dcterms:identifier "SchW B2:209" ;
+    cnw:cnwNumber "B2:209" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Sacred" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    cnw:editorialNote "(I.A.5.b. ‘Fest. Jahrgänge, nebst einigen Sonntags-Cantaten’): '[Scheibens, Joh. Adolph.] Cantate: In Fest. Joh. Bapt. Singet dem Herrn alle etc. à 2 Corni, 2 Oboi, 2 Violini, Viola, 4 Voci, Basso ed Organo. a 1 thl. 20 gl.'; ‘NB. In Partitur sind die Preiße etwas geringer.’" ;
+    cnw:editorialNote "(Lot 304): '[Scheibe, J. A.,] Am St. Johannisfeste. P. u. St. (2 mal). 35 [Bog.]'." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-209/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-209/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-209> ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "bc." ;
+    cnw:incipitText "Singet dem Herrn"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

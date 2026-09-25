@@ -1,0 +1,79 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW59>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kvintet for to violiner, to bratscher og cello"@da ;
+    dcterms:title "Quintet for Two Violins, Two Violas and Cello"@en ;
+    dcterms:identifier "CNW 59" ;
+    dcterms:identifier "CNU II/10" ;
+    dcterms:identifier "CNS 44" ;
+    dcterms:identifier "FS 5" ;
+    cnw:cnwNumber "59" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "5" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "1888–89" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:subject "String quintet" ;
+    dcterms:subject "Strygekvintet" ;
+    cnw:editorialNote "Published in: John Fellow (ed.): Emilie Demant Hatt, Foraarsbølger, Copenhagen 2002. The quintet is mentioned on p. 92." ;
+    cnw:editorialNote "Speciale." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-Dl" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "D-LEsta" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW59/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW59/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW59> ;
+    cnw:tempo "Allegro pastorale" ;
+    cnw:meter "9/8" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va.1" ;
+    cnw:performingForce "va.2" ;
+    cnw:performingForce "vc." ;
+    cnw:incipitImage "cnw_059_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/thorvald_nielsen_kvartetten_thorvald_nielsen_erling_bloch_hans_kassow_louis_jensen_1931>
+    a foaf:Agent ;
+    foaf:name "Thorvald Nielsen-Kvartetten (Thorvald Nielsen, Erling Bloch, Hans Kassow, Louis Jensen), 1931" .
+

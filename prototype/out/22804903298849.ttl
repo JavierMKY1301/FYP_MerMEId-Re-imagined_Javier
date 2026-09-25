@@ -1,0 +1,59 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW268>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Minnelied"@de ;
+    dcterms:title "Minnesinger's Song"@en ;
+    dcterms:alternative "Ich zog mir einen Falken"@de ;
+    dcterms:alternative "Old song from Kürenberg"@en ;
+    dcterms:identifier "Opus 38:3" ;
+    dcterms:identifier "NWGW 268" ;
+    dcterms:identifier "GW IV:10" ;
+    cnw:cnwNumber "268" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "38:3" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/j_c_f_haug> ;
+    dcterms:created "1861" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22785319841617> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW268/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW268/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW268> ;
+    cnw:key "A minor" ;
+    cnw:tempo "Andantino" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Ich zog mir einen Falken wohl länger als ein Jahr"@de ;
+    cnw:incipitImage "NWGW_268.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/j_c_f_haug>
+    a foaf:Agent ;
+    foaf:name "J.C.F. Haug" .
+

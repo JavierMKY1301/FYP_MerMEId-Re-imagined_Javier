@@ -1,0 +1,41 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWC4-005>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Fried. Wilh. Hastfers Goldgrube in Verbesserung der Schaafszucht, nebst einem zuverlässigen Mittel und Rath gegen die Schaafspocken"@de ;
+    dcterms:alternative "Et Lands Guld-Grube udi Faare-Avelens Forbedring, tilligemed et mod Faare-Kopper tilforladeligt Middel og Raad"@da ;
+    dcterms:identifier "SchW C4:005" ;
+    cnw:cnwNumber "C4:005" ;
+    cnw:catalogueCode "SchW" ;
+    cnw:textAuthor <https://cnw-ld.org/agent/friedrich_wilhelm_hastfer> ;
+    dcterms:created "1756" ;
+    dcterms:language "German" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Text" ;
+    dcterms:subject "Translations" ;
+    frbr:realization <https://cnw-ld.org/work/SchWC4-005/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWC4-005/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWC4-005> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/friedrich_wilhelm_hastfer>
+    a foaf:Agent ;
+    foaf:name "Friedrich Wilhelm Hastfer" .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

@@ -1,0 +1,53 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW82>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sonate for klaver"@da ;
+    dcterms:title "Sonate für das Pianoforte"@de ;
+    dcterms:title "Piano Sonata"@en ;
+    dcterms:identifier "Opus 28" ;
+    dcterms:identifier "NWGW 82" ;
+    dcterms:identifier "GW III:1" ;
+    cnw:cnwNumber "82" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "28" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "September 1839 to June 1854" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Piano" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW82/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW82/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW82> ;
+    cnw:key "E minor" ;
+    cnw:tempo "Allegro appasionato" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "NWGW_082_1_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/franz_liszt>
+    a foaf:Agent ;
+    foaf:name "Franz Liszt" .
+

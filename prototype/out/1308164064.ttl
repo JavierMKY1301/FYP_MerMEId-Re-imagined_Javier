@@ -1,0 +1,80 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW167>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Hiinsides Bjergene"@da ;
+    dcterms:title "Jenseits der Berge"@de ;
+    dcterms:title "Beyond the Mountains"@en ;
+    dcterms:alternative "Hvo higed' vel ikke i Ungdommens Tid"@da ;
+    dcterms:alternative "Wer sehnte sich nicht in der Jugendzeit"@de ;
+    dcterms:alternative "O who hath not yearn'd in his youthful day"@en ;
+    dcterms:identifier "HartW 167" ;
+    dcterms:identifier "DF 55" ;
+    cnw:cnwNumber "167" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/andreas_munch> ;
+    dcterms:created "1865-07-21" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW167/expression/1> ;
+    cnw:performanceCount 8 .
+
+<https://cnw-ld.org/work/HartW167/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW167> ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Mezzo Soprano" ;
+    cnw:incipitText "Hvo higed' vel ikke i Ungdommens Tid"@da ;
+    cnw:incipitText "Wer sehnte sich nicht in der Jugendzeit"@de ;
+    cnw:incipitText "O who hath not yearn'd in his youthful day"@en ;
+    cnw:incipitImage "hartw_167.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/andreas_munch>
+    a foaf:Agent ;
+    foaf:name "Andreas Munch" .
+
+<https://cnw-ld.org/agent/heinrich_zschalig>
+    a foaf:Agent ;
+    foaf:name "Heinrich Zschalig" .
+
+<https://cnw-ld.org/agent/mrs_john_p_morgan>
+    a foaf:Agent ;
+    foaf:name "Mrs John P. Morgan" .
+

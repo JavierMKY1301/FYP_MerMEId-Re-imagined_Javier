@@ -1,0 +1,80 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-435>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Singgedicht auf den Geburtstag seiner königlichen Hoheit des Kronprinzen Christian"@de ;
+    dcterms:identifier "SchW B2:435" ;
+    cnw:cnwNumber "B2:435" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_andreas_cramer> ;
+    dcterms:created "1761" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Secular" ;
+    cnw:editorialNote "'I Mandags blev ved Membra af det store Musikalske Selskab opført hos Hs. Kongl. Høyhed Kron-Printzen en prægtig Concert, Musiqven componeret af Capelmester Scheibe.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-435/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/SchWB2-435/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-435> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "Frolocke, glückliches Volk!"@de ;
+    cnw:incipitText "Beglückte, ja, wir kommen"@de ;
+    cnw:incipitText "Fürsten sind Götter! – Doch werden sie sterben!"@de ;
+    cnw:incipitText "Tödtend flammt das Weltgericht"@de ;
+    cnw:incipitText "Des Himmels schönste Kronen"@de ;
+    cnw:incipitText "Ich, wenn er sich von dir beherrschen läßt"@de ;
+    cnw:incipitText "Wie der Thau von Libanon"@de ;
+    cnw:incipitText "Noch blühn wir durch Friedrichs Milde! –"@de ;
+    cnw:incipitText "Eines Fürsten schönster Lohn"@de ;
+    cnw:incipitText "Noch blühn wir durch Friedrichs Milde! –"@de ;
+    cnw:incipitText "Er soll, was nun sein Vater thut"@de ;
+    cnw:incipitText "Ich winde meine Kränze"@de ;
+    cnw:incipitText "Er wähle sich nur dich, Religion"@de ;
+    cnw:incipitText "Wie seelig kann nicht schon auf Erden"@de ;
+    cnw:incipitText "Wir wollen alle Dich beglücken"@de ;
+    cnw:incipitText "Er wandle nur der Tugend Bahn"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johann_andreas_cramer>
+    a foaf:Agent ;
+    foaf:name "Johann Andreas Cramer" .
+
+<https://cnw-ld.org/agent/crown_prince_christian>
+    a foaf:Agent ;
+    foaf:name "Crown Prince Christian" .
+

@@ -1,0 +1,106 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW164>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Frühlings-Phantasie"@de ;
+    dcterms:title "Foraarsfantasi"@da ;
+    dcterms:title "Spring Fantasia"@en ;
+    dcterms:alternative "Concertstück für vier Solostimmen, Orchester und Pianoforte"@de ;
+    dcterms:identifier "Opus 23" ;
+    dcterms:identifier "NWGW 164" ;
+    dcterms:identifier "GW IV:3" ;
+    cnw:cnwNumber "164" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "23" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/edmund_lobedanz> ;
+    dcterms:created "End-dated 12 March 1852" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    cnw:editorialNote "Concept in German written by Emil Erslev. Gade's personal draft in Danish is enclosed in the same folder." ;
+    cnw:editorialNote "Concept written by Emil Erslev." ;
+    cnw:editorialNote "Gade has erroneously dated his letter \"Torsdag Aften d. 28 Novbr. 73.\" The 27th was  a Thursday." ;
+    cnw:manuscriptLocation "D-Bds" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-Zsch" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-Bds" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "Location of original letter unknown" ;
+    cnw:manuscriptLocation "D-F" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW164/expression/1> ;
+    cnw:performanceCount 68 .
+
+<https://cnw-ld.org/work/NWGW164/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW164> ;
+    cnw:key "G minor" ;
+    cnw:tempo "Allegro moderato e sostenuto" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Es füllt mir so innige Sehnsucht die Brust"@de ;
+    cnw:incipitText "Es sausen og brausen die Stürme so laut"@de ;
+    cnw:incipitText "Der Frühling ist da! der Mai ist da!"@de ;
+    cnw:incipitImage "NWGW_164_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/edmund_lobedanz>
+    a foaf:Agent ;
+    foaf:name "Edmund Lobedanz" .
+

@@ -1,0 +1,83 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW172>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Davids 115de Psalme"@da ;
+    dcterms:title "The 115th Psalm of David"@en ;
+    dcterms:alternative "Vi ville love Herren"@da ;
+    dcterms:identifier "HartW 172" ;
+    dcterms:identifier "DF 56" ;
+    cnw:cnwNumber "172" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/book_of_psalms_115_17_18> ;
+    dcterms:created "1871-07-29" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments" ;
+    dcterms:subject "Mixed choir" ;
+    frbr:realization <https://cnw-ld.org/work/HartW172/expression/1> ;
+    cnw:performanceCount 7 .
+
+<https://cnw-ld.org/work/HartW172/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW172> ;
+    cnw:tempo "Allegro commodo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "flic.ten." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Bass Baritone" ;
+    cnw:performingForce "Mezzo Soprano" ;
+    cnw:performingForce "Bass Baritone" ;
+    cnw:performingForce "Mezzo Soprano" ;
+    cnw:incipitText "Vi ville love Herren"@da ;
+    cnw:incipitText "Wir wollen loben den Herren"@de ;
+    cnw:incipitText "Resound the praise of God"@en ;
+    cnw:incipitText "De Døde kunne ikke love Herren"@da ;
+    cnw:incipitText "Die Todten können nicht loben den Herren"@de ;
+    cnw:incipitText "The dead, they can not praise the Lord"@en ;
+    cnw:incipitText "Men vi ville love Herren"@da ;
+    cnw:incipitText "Doch wir wollen loben den Herren"@de ;
+    cnw:incipitText "But now we will praise the Lord"@en ;
+    cnw:incipitImage "hartw_172_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/book_of_psalms_115_17_18>
+    a foaf:Agent ;
+    foaf:name "Book of Psalms 115:17-18" .
+

@@ -1,0 +1,58 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW72>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Acht Skizzen"@de ;
+    dcterms:title "Otte Skitser"@da ;
+    dcterms:title "Eight Sketches"@en ;
+    dcterms:identifier "Opus 31" ;
+    dcterms:identifier "HartW 72" ;
+    dcterms:identifier "JPEW III/1 no. 10" ;
+    dcterms:identifier "DF 25" ;
+    cnw:cnwNumber "72" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "31" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1840-1841" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Piano music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW72/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW72/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW72> ;
+    cnw:key "F major" ;
+    cnw:tempo "Allegro non troppo, grazioso" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "hartw_072_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/emma_hartmann>
+    a foaf:Agent ;
+    foaf:name "Emma Hartmann" .
+

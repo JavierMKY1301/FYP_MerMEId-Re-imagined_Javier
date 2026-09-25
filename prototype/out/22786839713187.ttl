@@ -1,0 +1,247 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW179>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Psyche"@de ;
+    dcterms:title "Psyche"@en ;
+    dcterms:title "Psyche"@da ;
+    dcterms:alternative "Concertstück für Soli, Chor und Orchester"@de ;
+    dcterms:alternative "Dramatic Poem Set to Music for Soli, Chorus and Orchestra"@en ;
+    dcterms:alternative "Concertstykke for Soli, Kor og Orkester"@da ;
+    dcterms:identifier "Opus 60" ;
+    dcterms:identifier "NWGW 179" ;
+    dcterms:identifier "GW IV:6" ;
+    cnw:cnwNumber "179" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "60" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/carl_andersen> ;
+    dcterms:created "June 1877 to May 1882" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:editorialNote "Concept" ;
+    cnw:manuscriptLocation "S-Uu" ;
+    cnw:manuscriptLocation "DK-Km" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-KNa" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "Privately owned" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "NL-DHnmi" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "NL-DHnmi" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-Dl" ;
+    cnw:manuscriptLocation "Location of original letter unknown" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW179/expression/1> ;
+    cnw:performanceCount 13 .
+
+<https://cnw-ld.org/work/NWGW179/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW179> ;
+    cnw:tempo "Allegro non troppo e con grazia - Andante con moto - Andantino con moto" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t" ;
+    cnw:performingForce "trb.b" ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "ptti." ;
+    cnw:performingForce "tam." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "In Hellas, in Hellas"@de ;
+    cnw:incipitText "In Hellas, in Hellas"@en ;
+    cnw:incipitText "Weh mir, fern von der theuren Heimath"@de ;
+    cnw:incipitText "Ah me! far from the home I long for"@en ;
+    cnw:incipitText "Psyche, höre, was wir dir verkünden"@de ;
+    cnw:incipitText "Psyche, hear thou what we have to teach thee"@en ;
+    cnw:incipitText "Wo bin ich? Dunkel mich umhüllt"@de ;
+    cnw:incipitText "Where am I? Darkness wraps me round"@en ;
+    cnw:incipitText "Psyche! Psyche! Wer ruft?"@de ;
+    cnw:incipitText "Psyche! Psyche! Who calls?"@en ;
+    cnw:incipitText "Im wallend, dunkelblauen Mantel"@de ;
+    cnw:incipitText "There comes with waving dusky robes bedight"@en ;
+    cnw:incipitText "Hört munt'rer Vögel Chor"@de ;
+    cnw:incipitText "The birds, in playful throng"@en ;
+    cnw:incipitText "Dank Euch, holde Schwestern"@de ;
+    cnw:incipitText "Thanks, ye kindly sisters"@en ;
+    cnw:incipitText "Psyche, Unsel'ge von Zweifel bethört"@de ;
+    cnw:incipitText "Psyche, unhappy, by doubt led astray"@en ;
+    cnw:incipitText "Voll Demuth, göttlich hehrer Eros"@de ;
+    cnw:incipitText "With meekness, god like Eros"@en ;
+    cnw:incipitText "Du siegtest, o Venus, das Herze ihr brach"@de ;
+    cnw:incipitText "Thou gainest, o Venus"@en ;
+    cnw:incipitText "Allbesieger, o Eros!"@de ;
+    cnw:incipitText "Thou art mighty, o Eros"@en ;
+    cnw:incipitText "Schatten schweben durch das Dunkel"@de ;
+    cnw:incipitText "Shadows hover, sad and mournful"@en ;
+    cnw:incipitText "Noch ruhet Morgendämmerung auf der Flur"@de ;
+    cnw:incipitText "Still rests the morning twilight"@en ;
+    cnw:incipitText "Eros! Ich fühl's, ich fühl's, dein Herz mir jetzt Verzeihung gab"@de ;
+    cnw:incipitText "Eros, I feel thy heart at last can pardon shew"@en ;
+    cnw:incipitText "Breit' aus die Flügel ohne Furcht und Beben"@de ;
+    cnw:incipitText "Spread out thy pinions, on their strength relying"@en ;
+    cnw:incipitText "Sei uns gegrüsst!"@de ;
+    cnw:incipitText "We great thee well"@en ;
+    cnw:incipitImage "NWGW_179_01.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/carl_andersen>
+    a foaf:Agent ;
+    foaf:name "Carl Andersen" .
+
+<https://cnw-ld.org/agent/edmund_lobedanz_german>
+    a foaf:Agent ;
+    foaf:name "Edmund Lobedanz (German)" .
+
+<https://cnw-ld.org/agent/j_troutbeck_english>
+    a foaf:Agent ;
+    foaf:name "J. Troutbeck (English)" .
+
+<https://cnw-ld.org/agent/alexandra_princess_of_wales>
+    a foaf:Agent ;
+    foaf:name "Alexandra, Princess of Wales" .
+

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_eed6a7c6">
+   <meiHead xml:id="meiHead_4de4ff11">
+      <fileDesc xml:id="fileDesc_d063b254">
+         <titleStmt xml:id="titleStmt_0e80155f">
+            <title xml:id="title_2899c3bf">Romancer og Sange</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_69b0dd8b">
+            <respStmt xml:id="respStmt_7e9ccb11">
+               <resp xml:id="resp_659807a0">Publisher</resp>
+               <corpName xml:id="corpName_60aed583">
+                  <abbr xml:id="abbr_d6d761dc">DCM</abbr>
+                  <expan xml:id="expan_35183239"/>
+                  <address xml:id="address_a7098c77">
+                     <addrLine xml:id="addrLine_e7f8ef4b"/>
+                     <addrLine xml:id="addrLine_90f2137b">
+                        <ptr label="" xml:id="ptr_N20265"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_3e2ca033">Inger Sørensen</persName>
+            </respStmt>
+            <date xml:id="date_bd6ceff3"/>
+            <availability xml:id="availability_37eaf9ff">
+               <useRestrict xml:id="useRestrict_ca643d10"/>
+            </availability>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_cd6d5967">
+            <title xml:id="title_fa441429">Niels W. Gade Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_681c5df0">NWGW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_ef991634">
+         <appInfo xml:id="appInfo_366707b1">
+            <application version="2013" xml:id="application_8be6f603">
+               <name xml:id="name_f44d72e3">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_3dc1c23d">
+            <p xml:id="idm66">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_a2baae1a">
+         <work xml:id="work_95N20052">
+            <identifier label="NWGW" xml:id="identifier_9cffb46a">Coll. 26</identifier>
+            <identifier label="DF175-177" xml:id="identifier_b3735cb8"/>
+            <title xml:id="title_d3a99b50" xml:lang="da">Romancer og Sange</title>
+            <contributor xml:id="respStmt_f6642af8">
+               <persName role="composer" xml:id="persName_cc388f49">Niels W. Gade</persName>
+            </contributor>
+            <creation xml:id="creation_1c0aafab">
+               <date xml:id="date_bbb38a2d"/>
+               <geogName xml:id="geogName_8db05ab5"/>
+            </creation>
+            <history xml:id="history_71f4763e">
+               <p xml:id="idm79"/>
+            </history>
+            <langUsage xml:id="langUsage_04616af6">
+               <language xml:id="en">English</language>
+               <language xml:id="da">Danish</language>
+            </langUsage>
+            <classification xml:id="classification_99eb87ac">
+               <termList xml:id="termList_cb5449e3">
+                  <term xml:id="term_05170f34">Vocal music</term>
+                  <term xml:id="term_29b34f02">Song</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_6b5879a3">
+               <expression xml:id="expression_95N20073">
+                  <title xml:id="title_21345daa" xml:lang="en"/>
+                  <creation xml:id="creation_35f06aeb">
+                     <date xml:id="date_e9e69c6d"/>
+                     <geogName xml:id="geogName_28dc2a91"/>
+                  </creation>
+                  <history xml:id="history_9ea44493">
+                     <p xml:id="idm101"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_caaf113b">
+                     <perfResList xml:id="perfResList_046756c0">
+                        <perfRes codedval="vn" count="1" solo="false" xml:id="perfRes_45caecd1">voice</perfRes>
+                        <perfRes codedval="ka" count="1" solo="false" xml:id="perfRes_9b64242a">pf.</perfRes>
+                     </perfResList>
+                  </perfMedium>
+                  <classification xml:id="classification_250de517">
+                     <termList xml:id="termList_6be89cdd">
+                        <term xml:id="term_91afdd3a"/>
+                     </termList>
+                  </classification>
+                  <componentList xml:id="componentGrp_f1d69a44"/>
+                  <relationList xml:id="relationList_e8ff28e5"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_b8fd0e81">
+               <relation label="Polsk Fædrelandssang" rel="hasPart" target="22804659077265.xml"
+                         xml:id="relation_c1906186"/>
+               <relation label="Birken" rel="hasPart" target="22804654792177.xml"
+                         xml:id="relation_bd20cbed"/>
+               <relation label="Serenade ved Strandbredden" rel="hasPart" target="22798182256851.xml"
+                         xml:id="relation_4b2b1b1e"/>
+               <relation label="Rosen" rel="hasPart" target="22798186409011.xml"
+                         xml:id="relation_9810ad12"/>
+               <relation label="En Situation" rel="hasPart" target="22798190306097.xml"
+                         xml:id="relation_73353673"/>
+               <relation label="Hemming Spillemands Sang" rel="hasPart" target="22930558052897.xml"
+                         xml:id="relation_b5c8a52e"/>
+               <relation label="Vise om Agnete og Havmanden" rel="hasPart" target="22930628993297.xml"
+                         xml:id="relation_3255bc43"/>
+               <relation label="Agnetes Vuggevise" rel="hasPart" target="22930587687107.xml"
+                         xml:id="relation_2ec81a9a"/>
+               <relation label="Fiskerdrengens Vise" rel="hasPart" target="22930650703841.xml"
+                         xml:id="relation_bbcd4d0a"/>
+               <relation label="Barcarole" rel="hasPart" target="22798088405473.xml"
+                         xml:id="relation_c0cad227"/>
+               <relation label="Havfruen" rel="hasPart" target="22798091768787.xml"
+                         xml:id="relation_361e58b3"/>
+               <relation label="Der Gondolier" rel="hasPart" target="22798111621155.xml"
+                         xml:id="relation_32bde155"/>
+               <relation label="Farvel lille Grete!" rel="hasPart" target="22798115560977.xml"
+                         xml:id="relation_4ce37474"/>
+               <relation label="Liden Kirsten" rel="hasPart" target="22798098202449.xml"
+                         xml:id="relation_dc6d45d3"/>
+               <relation label="Violerne" rel="hasPart" target="22798094848499.xml"
+                         xml:id="relation_5b24c3cb"/>
+               <relation label="Barcarole" rel="hasPart" target="22798088405473.xml"
+                         xml:id="relation_a2d6f70e"/>
+               <relation label="Spillemanden" rel="hasPart" target="22798104296003.xml"
+                         xml:id="relation_edb8f96a"/>
+               <relation label="Den Elskede" rel="hasPart" target="22804649300819.xml"
+                         xml:id="relation_90fc9d9c"/>
+               <relation label="Romanze" rel="hasPart" target="22798217489425.xml"
+                         xml:id="relation_f8d33d10"/>
+               <relation label="Martsviolerne" rel="hasPart" target="22800550934545.xml"
+                         xml:id="relation_873b25e9"/>
+               <relation label="Snee-Dronningen" rel="hasPart" target="22800555281731.xml"
+                         xml:id="relation_e8624923"/>
+               <relation label="Aprilsvise" rel="hasPart" target="22800569984291.xml"
+                         xml:id="relation_5d35d9c6"/>
+               <relation label="Den Eenlige" rel="hasPart" target="22800573396995.xml"
+                         xml:id="relation_c46b1e07"/>
+               <relation label="Pigens Sang ved Bækken" rel="hasPart" target="22800567468737.xml"
+                         xml:id="relation_e8064ea7"/>
+               <relation label="Deine Stimme lass ertönen" rel="hasPart" target="22804704384387.xml"
+                         xml:id="relation_c91a4347"/>
+               <relation label="Meinen Kranz hab' ich gesendet" rel="hasPart"
+                         target="22804708912147.xml"
+                         xml:id="relation_2fcc3e3c"/>
+               <relation label="Am Brunnen" rel="hasPart" target="22804714555025.xml"
+                         xml:id="relation_ab15d1db"/>
+               <relation label="Ständchen" rel="hasPart" target="22804719653681.xml"
+                         xml:id="relation_61c1aa9f"/>
+               <relation label="Wenn der letzte Saum des Tages" rel="hasPart"
+                         target="22804722932627.xml"
+                         xml:id="relation_1d80865b"/>
+               <relation label="Naar Solen skinner" rel="hasPart" target="22800562282707.xml"
+                         xml:id="relation_ca0cb517"/>
+               <relation label="Kong Valdemars Jagt" rel="hasPart" target="22798044005457.xml"
+                         xml:id="relation_08fd431e"/>
+               <relation label="Den 19. December 1863" rel="hasPart" target="22800690453507.xml"
+                         xml:id="relation_79cc1fc7"/>
+               <relation label="Knud Lavard" rel="hasPart" target="22798120750689.xml"
+                         xml:id="relation_bf60d4fd"/>
+               <relation label="Den lille Frugtsælgerske" rel="hasPart" target="22800593874865.xml"
+                         xml:id="relation_d891c3b7"/>
+               <relation label="Mariotta" rel="hasPart" target="22800774930963.xml"
+                         xml:id="relation_b9a7be1a"/>
+               <relation label="Fluen" rel="hasPart" target="22800588797137.xml"
+                         xml:id="relation_3d22dd97"/>
+               <relation label="Holger Danskes Hilsen til Frænderne" rel="hasPart"
+                         target="22800600401843.xml"
+                         xml:id="relation_5ad07c4e"/>
+               <relation label="Holgers Barndom" rel="hasPart" target="22800604121057.xml"
+                         xml:id="relation_2e6e0c68"/>
+               <relation label="Holgers Bortsendelse" rel="hasPart" target="22800609865841.xml"
+                         xml:id="relation_2e33325d"/>
+               <relation label="Holger Danskes Vei" rel="hasPart" target="22800617124579.xml"
+                         xml:id="relation_39ce3fa6"/>
+               <relation label="Holgers Kamp med Burmand" rel="hasPart" target="22800620367731.xml"
+                         xml:id="relation_6ae558f5"/>
+               <relation label="Prindsesse Gloriant" rel="hasPart" target="22800624305649.xml"
+                         xml:id="relation_6e29e071"/>
+               <relation label="Ved Keiserens Hof" rel="hasPart" target="22800628349553.xml"
+                         xml:id="relation_35953661"/>
+               <relation label="De elleve Jævningers Jordefærd" rel="hasPart"
+                         target="22800638628275.xml"
+                         xml:id="relation_61628e1d"/>
+               <relation label="Holgers Orlov og Hjemfart" rel="hasPart" target="22800642054659.xml"
+                         xml:id="relation_f1f9cac1"/>
+               <relation label="Hos Feen Morgana" rel="hasPart" target="22800649138865.xml"
+                         xml:id="relation_ff903d3a"/>
+               <relation label="Holger Danskes Tilbagekomst til Danmark" rel="hasPart"
+                         target="22800651580819.xml"
+                         xml:id="relation_115a2fdd"/>
+            </relationList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_698d43f0">
+         <manifestation label="" xml:id="source_95N20024">
+            <identifier label="" xml:id="identifier_75697f66"/>
+            <titleStmt xml:id="titleStmt_3b2f017f">
+               <title xml:id="title_3ae92755">Score, print</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_2c7083d9">
+               <publisher xml:id="publisher_1be54d4c">Wilhelm Hansen</publisher>
+               <pubPlace xml:id="pubPlace_e1bde6b9">Copenhagen</pubPlace>
+               <date enddate="1884" startdate="1876-11" xml:id="date_c331b215">Nov. 1876 to 1884</date>
+            </pubStmt>
+            <physDesc xml:id="physDesc_a9044192">
+               <titlePage label="" xml:id="titlePage_a0111ffb">
+                  <p xml:id="idm34">Niels W. Gade. / Romancer og Sange. / I [II], [III] AFDELING. / Forlæggerens Eiendom. / KJÖBENHAVN. / Wilhelm Hansens Musik-Forlag.</p>
+               </titlePage>
+               <extent xml:id="extent_24cb729c">40 pages (vol. 1)</extent>
+               <dimensions xml:id="dimensions_582e6a96">37 pages (vol. 2)</dimensions>
+               <dimensions xml:id="dimensions_5f046e01">38 pages (vol. 3)</dimensions>
+               <physMedium xml:id="physMedium_3c6ea3e9"/>
+            </physDesc>
+            <classification xml:id="classification_efcb1239">
+               <termList xml:id="termList_cc57a6e6">
+                  <term class="#DcmContentClass" xml:id="term_73c82a06">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_55093574">print</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_66049bcd"/>
+                  <term class="#DcmScoringClass" xml:id="term_2dcebfc9">score</term>
+                  <term class="#DcmStateClass" xml:id="term_940914b7">first edition</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_4f08b244">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_44bf4e28">
+               <item label="Gade's personal copy" xml:id="item_4e03e2ef">
+                  <identifier label="" xml:id="identifier_b6cafe17"/>
+                  <physLoc xml:id="physLoc_9556be13">
+                     <repository xml:id="repository_c97e6a0c">
+                        <corpName xml:id="corpName_992ae14f"/>
+                        <geogName xml:id="geogName_79b80179"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_3dd98e4d">DK-Kk</identifier>
+                     </repository>
+                     <identifier xml:id="identifier_5b6bd3b9">C II, 6 Gades Samling 205 s, D204</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_cc4c55f7"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_2e70f638"/>
+            <relationList xml:id="relationList_32298548">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_d203e213"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm159">
+         <change isodate="2016-09-01" xml:id="change_95N10088">
+            <respStmt xml:id="respStmt_4ec33229">
+               <name xml:id="resp_8a1d555b">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_cbbfd24f">
+               <p xml:id="p_0e0d2302"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-04" n="2" xml:id="change_1e9b475e">
+            <respStmt xml:id="respStmt_d585f012">
+               <name xml:id="resp_e7d3b326">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3d3148b6">
+               <p xml:id="p_607ffb3e">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-26T14:31:27.57Z" xml:id="change_172N10234">
+            <respStmt xml:id="respStmt_95129592">
+               <name xml:id="resp_047cca02">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f97b4e45">
+               <p xml:id="p_94e2a4c3"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-19T14:32:48.703Z" xml:id="change_178N1024A">
+            <respStmt xml:id="respStmt_b0977c9f">
+               <name xml:id="resp_04797f6a">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_0a4ebb46">
+               <p xml:id="p_0e55d5aa"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T09:20:16Z" xml:id="change_178N10203">
+            <respStmt xml:id="respStmt_66c63a2a">
+               <name xml:id="resp_fb6341f6">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_757aa54d">
+               <p xml:id="p_ceed3cff">Added incipit graphic URL</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T07:44:02.469Z" xml:id="change_188N1025B">
+            <respStmt xml:id="respStmt_0825c258">
+               <name xml:id="resp_70aa3585">atge</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_758030cb">
+               <p xml:id="p_a60dc132"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-03-05T16:06:07.056Z" xml:id="change_cb5f3117">
+            <respStmt xml:id="idm191">
+               <name xml:id="idm192">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_17730f5b">
+               <p xml:id="p_b82235c2"/>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_195d1e195">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_200d1e195">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_205d1e195">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm195"/>
+</mei>

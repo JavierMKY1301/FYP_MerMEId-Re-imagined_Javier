@@ -1,0 +1,66 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW115>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Digtning i Sang og Toner ved Svømmehallens Indvielse"@da ;
+    dcterms:title "Poetry in Song and Music for the Inauguration of the Public Swimming Baths"@en ;
+    dcterms:identifier "CNW 115" ;
+    dcterms:identifier "CNU III/3" ;
+    dcterms:identifier "CNS 313" ;
+    cnw:cnwNumber "115" ;
+    cnw:catalogueCode "CNW" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/hans_hartvig_seedorff_pedersen> ;
+    dcterms:created "1930" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Kantate" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW115/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW115/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW115> ;
+    cnw:tempo "Frejdigt / Cheerfully" ;
+    cnw:meter "6/4" ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "reciter" ;
+    cnw:incipitText "Vendt imod den friske Sø"@da ;
+    cnw:incipitText "Spurgte en Verden os fordum om Danskernes Idræt"@da ;
+    cnw:incipitText "Du er kort, fagre Sommer"@da ;
+    cnw:incipitImage "cnw_115_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/hans_hartvig_seedorff_pedersen>
+    a foaf:Agent ;
+    foaf:name "Hans Hartvig Seedorff Pedersen" .
+

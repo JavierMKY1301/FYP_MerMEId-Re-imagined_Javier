@@ -1,0 +1,42 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWC4-001>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Ausführlicher Unterricht von der Zucht und Wartung der besten Art von Schafen"@de ;
+    dcterms:alternative "Utförlig och Omständelig Underrättelse om fullgoda Fårs Ans och Skjötsel, til det Allmännas tjänst sammanfattad af Fried. W. Hastfer"@sv ;
+    dcterms:identifier "SchW C4:001" ;
+    cnw:cnwNumber "C4:001" ;
+    cnw:catalogueCode "SchW" ;
+    cnw:textAuthor <https://cnw-ld.org/agent/friedrich_wilhelm_hastfer> ;
+    dcterms:created "1754" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "Swedish" ;
+    dcterms:subject "Text" ;
+    dcterms:subject "Translations" ;
+    frbr:realization <https://cnw-ld.org/work/SchWC4-001/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWC4-001/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWC4-001> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/friedrich_wilhelm_hastfer>
+    a foaf:Agent ;
+    foaf:name "Friedrich Wilhelm Hastfer" .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

@@ -1,0 +1,61 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW311>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Ved H.N. Clausens Jordefærd 6te April 1877"@da ;
+    dcterms:title "At the Funeral of H.N. Clausen on 6 April 1877"@en ;
+    dcterms:title "Ved Carl Plougs Jordefærd"@da ;
+    dcterms:title "At the Funeral of Carl Ploug"@en ;
+    dcterms:alternative "Nu sank det hvide Hoved"@da ;
+    dcterms:alternative "Saa standsed brat"@da ;
+    dcterms:identifier "HartW 311" ;
+    cnw:cnwNumber "311" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/carl_ploug> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/c_c_jessen> ;
+    dcterms:created "1877-04-04" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    frbr:realization <https://cnw-ld.org/work/HartW311/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW311/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW311> ;
+    cnw:tempo "Andante" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Nu sank det hvide Hoved"@da ;
+    cnw:incipitText "Saa standsed brat det varme Hjertes Slag"@da ;
+    cnw:incipitImage "hartw_311_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/carl_ploug>
+    a foaf:Agent ;
+    foaf:name "Carl Ploug" .
+
+<https://cnw-ld.org/agent/c_c_jessen>
+    a foaf:Agent ;
+    foaf:name "C.C. Jessen" .
+

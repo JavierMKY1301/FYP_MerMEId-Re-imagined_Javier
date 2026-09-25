@@ -1,0 +1,81 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW70>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kvintet for fløjte, obo, klarinet, horn og fagot, opus 43"@da ;
+    dcterms:title "Quintet for Flute, Oboe, Clarinet, French Horn and Bassoon, Opus 43"@en ;
+    dcterms:identifier "Opus 43" ;
+    dcterms:identifier "CNW 70" ;
+    dcterms:identifier "CNU II/11" ;
+    dcterms:identifier "CNS 43" ;
+    dcterms:identifier "FS 100" ;
+    cnw:cnwNumber "70" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:opus "43" ;
+    cnw:fsNumber "100" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "1922" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:subject "Wind quartet" ;
+    dcterms:subject "Blæserkvintet" ;
+    cnw:editorialNote "Programme for undated concert" ;
+    cnw:editorialNote "DMA diss." ;
+    cnw:editorialNote "Ph.D. diss. (University of Copenhagen)" ;
+    cnw:editorialNote "MA diss." ;
+    cnw:editorialNote "(Facsimile edition)" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "privately owned" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    cnw:manuscriptLocation "D-LEsta" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Ordenskapitlet" ;
+    frbr:realization <https://cnw-ld.org/work/CNW70/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW70/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW70> ;
+    cnw:tempo "Allegro ben moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob./cor.ingl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fg." ;
+    cnw:incipitImage "cnw_070_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/k_benhavns_bl_serkvintet_svend_felumb_paul_hagemann_knud_lassen_aage_oxenvad_hans_s_rensen>
+    a foaf:Agent ;
+    foaf:name "Københavns Blæserkvintet (Svend Felumb, Paul Hagemann, Knud Lassen, Aage Oxenvad, Hans Sørensen)" .
+

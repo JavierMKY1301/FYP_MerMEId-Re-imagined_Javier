@@ -1,0 +1,55 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW305>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Blomstervise"@da ;
+    dcterms:title "Flower Lay"@en ;
+    dcterms:alternative "Danmarks Sommer gik sin Gang"@da ;
+    dcterms:alternative "Denmark's summer went along"@en ;
+    dcterms:identifier "CNW 305" ;
+    dcterms:identifier "CNU III/5, 240" ;
+    dcterms:identifier "CNS 80" ;
+    dcterms:identifier "FS 84" ;
+    cnw:cnwNumber "305" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "84" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/ludvig_holstein> ;
+    dcterms:created "1917" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/CNW305/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW305/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW305> ;
+    cnw:tempo "Let og hurtigt" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Danmarks Sommer gik sin Gang"@da ;
+    cnw:incipitText "Denmark's summer went along"@en ;
+    cnw:incipitImage "cnw_305.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/ludvig_holstein>
+    a foaf:Agent ;
+    foaf:name "Ludvig Holstein" .
+

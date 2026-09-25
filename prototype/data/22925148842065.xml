@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_95N20005">
+   <meiHead xml:id="meiHead_1cf30a64">
+      <fileDesc xml:id="fileDesc_6fe17d27">
+         <titleStmt xml:id="titleStmt_c490b69c">
+            <title xml:id="title_2c1ee72e">Frühling und Liebe</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_4025b1e7">
+            <respStmt xml:id="respStmt_id7588aacb">
+               <resp xml:id="resp_6097f339">Publisher</resp>
+               <corpName xml:id="corpName_id92926787">
+                  <abbr xml:id="abbr_69e36ed6">DCM</abbr>
+                  <expan xml:id="expan_b0cda192"/>
+                  <address xml:id="address_3b9f82b0">
+                     <addrLine xml:id="addrLine_37c925d5"/>
+                     <addrLine xml:id="addrLine_d37f4e0c">
+                        <ptr label="" xml:id="ptr_N20266"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_id3cf178cd">Inger Sørensen</persName>
+            </respStmt>
+            <date xml:id="date_ebea8356"/>
+            <availability xml:id="availability_d32250e3">
+               <useRestrict xml:id="useRestrict_4112c57e"/>
+            </availability>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_4289ea7f">
+            <title xml:id="title_id8f4393e3">Gade Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_ide680f18b">NWGW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_459b94e7">
+         <appInfo xml:id="appInfo_0d0d6f97">
+            <application version="2013" xml:id="application_1062df7c">
+               <name xml:id="name_0d2cb491">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_id436c42e2">
+            <p xml:id="idm66">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_fc473a19">
+         <work xml:id="work_id679bc92b">
+            <identifier label="NWGW" xml:id="identifier_06208305">280</identifier>
+            <title xml:id="title_id06a1f0fe" xml:lang="de">Frühling und Liebe</title>
+            <title type="alternative" xml:id="title_727ad740" xml:lang="de">Im Rosenbusch die Liebe schlief</title>
+            <contributor xml:id="respStmt_7bcfd233">
+               <persName role="composer" xml:id="persName_id3536b037">Niels W. Gade</persName>
+               <persName role="author" xml:id="persName_6a5f112b">August Heinrich Hoffmann von Fallersleben</persName>
+            </contributor>
+            <creation xml:id="creation_id6b01f11e">
+               <date isodate="1845-03-14" xml:id="date_3185ed8b">14 March 1845</date>
+               <geogName xml:id="geogName_id0e9881d4">Leipzig</geogName>
+            </creation>
+            <history xml:id="history_id64c0f454">
+               <p xml:id="idm80"/>
+            </history>
+            <langUsage xml:id="langUsage_f89bb3d4">
+               <language xml:id="en">English</language>
+               <language xml:id="de">German</language>
+            </langUsage>
+            <classification xml:id="classification_5df2085c">
+               <termList xml:id="termList_45375914">
+                  <term xml:id="term_077b71f4">Vocal music</term>
+                  <term xml:id="term_ddadaebd">Song</term>
+                  <term xml:id="term_86cb24a5">Duet</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_fbc2237e">
+               <expression xml:id="expression_ida8444f3e">
+                  <title xml:id="title_id90b3bd0b" xml:lang="en"/>
+                  <incip xml:id="idm99">
+                     <incipText xml:id="incipText_f815204c">
+                        <p xml:id="p_c129a980" xml:lang="de">Im Rosenbusch die Liebe schlief</p>
+                     </incipText>
+                     <graphic target="/dcm/assets/udgivelser/nwgw/incipits/lowres/NWGW_280.png" label=""
+                              targettype="lowres"
+                              xml:id="graphic_6418685226"/>
+                     <graphic target="/dcm/assets/udgivelser/nwgw/incipits/hires/NWGW_280.png" label=""
+                              targettype="hires"
+                              xml:id="graphic_2582578841"/>
+                  </incip>
+                  <key mode="major" pname="e" xml:id="key_d4abb6de"/>
+                  <meter count="6" unit="8" xml:id="meter_4e821d6a"/>
+                  <creation xml:id="creation_id3141439c">
+                     <date xml:id="date_778c8488"/>
+                     <geogName xml:id="geogName_id90289b1b"/>
+                  </creation>
+                  <history xml:id="history_idde493283">
+                     <p xml:id="idm110"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_idad28ed15">
+                     <perfResList xml:id="perfResList_2be858ad">
+                        <perfRes codedval="va" count="2" solo="false" xml:id="perfRes_6aced127">sopranos</perfRes>
+                        <perfRes codedval="ka" count="1" solo="false" xml:id="perfRes_c28b991e">pf.</perfRes>
+                     </perfResList>
+                  </perfMedium>
+                  <classification xml:id="classification_a87eb551">
+                     <termList xml:id="termList_27fade98">
+                        <term xml:id="term_abf5e001"/>
+                     </termList>
+                  </classification>
+                  <componentList xml:id="componentGrp_64a3126e"/>
+                  <relationList xml:id="relationList_cec98090"/>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_6a31f067">
+         <manifestation label="" xml:id="source_id117924fe">
+            <titleStmt xml:id="titleStmt_94001c49">
+               <title xml:id="title_id90d8f8ed">Score, autograph, fair copy</title>
+            </titleStmt>
+            <pubStmt xml:id="pubStmt_84dc26af"/>
+            <physDesc xml:id="physDesc_8c796068">
+               <titlePage label="" xml:id="titlePage_8150fb87">
+                  <p xml:id="idm30">Neun Lieder / im / Volkston / für zwei Sopranstimmen / mit Begleitung des Pianof: / componirt / von / Niels W: Gade / Op. 9 / d 11<rend xml:id="idm31" rend="sup">te</rend> Mai 1845.</p>
+               </titlePage>
+               <extent xml:id="extent_1c2c75a5">1 pages</extent>
+               <dimensions unit="cm" xml:id="dimensions_7ad63701">26 x 37</dimensions>
+               <physMedium xml:id="physMedium_c021775c">Written in ink. Paper: 10 staves. On staves 1-4 of a page also comprising "Frühlingsgruss" (NWGW 282). At the end of the music the text for the second stanza and the dating "Leipzig / 14 Martz / 1845".</physMedium>
+            </physDesc>
+            <notesStmt xml:id="notesStmt_6dc4bc7f">
+               <annot type="source_description" xml:id="annot_c4bf487c">
+                  <p xml:id="idm37">In a gathering of sketches and fair copies of works of the 1840s.</p>
+               </annot>
+            </notesStmt>
+            <classification xml:id="classification_c8bc9ae5">
+               <termList xml:id="termList_ed7c9ba1">
+                  <term class="#DcmContentClass" xml:id="term_f4d3b72d">notated music</term>
+                  <term class="#DcmPresentationClass" xml:id="term_d3a66ae9">manuscript</term>
+                  <term class="#DcmAuthorityClass" xml:id="term_cf7db007">autograph</term>
+                  <term class="#DcmScoringClass" xml:id="term_b7b1c48d">score</term>
+                  <term class="#DcmStateClass" xml:id="term_6f0133cb">fair copy</term>
+                  <term class="#DcmCompletenessClass" xml:id="term_3ba6a52e">complete</term>
+               </termList>
+            </classification>
+            <itemList xml:id="itemList_79ca0784">
+               <item label="" xml:id="item_aeb40e7e">
+                  <identifier label="" xml:id="identifier_dbbbe7a3"/>
+                  <physLoc xml:id="physLoc_bc7b801f">
+                     <repository xml:id="repository_29b2fa9a">
+                        <corpName xml:id="corpName_a98d52c5"/>
+                        <geogName xml:id="geogName_f8105db5"/>
+                        <identifier auth.uri="http://www.rism.info" auth="RISM" xml:id="identifier_7f15097c">DK-Kk</identifier>
+                        <ptr label="" mimetype="" xml:id="ptr_cdd67ca8"/>
+                     </repository>
+                     <identifier xml:id="identifier_f8482b39">C II, 6 Gades Samling 396 (Kapsel St - Sø)</identifier>
+                  </physLoc>
+                  <componentList xml:id="componentGrp_ec348bc6"/>
+               </item>
+            </itemList>
+            <componentList xml:id="componentGrp_dfb26ee0"/>
+            <relationList xml:id="relationList_1dd87b13">
+               <relation label="" rel="isEmbodimentOf" xml:id="relation_idc91497f0"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm120">
+         <change isodate="2015-05-28" xml:id="change_ida6676a78">
+            <respStmt xml:id="respStmt_f1648444">
+               <name xml:id="resp_a958ed4d">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_38e7432f">
+               <p xml:id="p_1f9a6c81"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_112idm140225669095792">
+            <respStmt xml:id="respStmt_e462c6c8">
+               <name xml:id="resp_c3c2ddfd">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_07795147">
+               <p xml:id="p_7a9580a1">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_115d1e131">
+            <respStmt xml:id="respStmt_71394a9a">
+               <name xml:id="resp_a1d3a4ce">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2a2afde0">
+               <p xml:id="p_a96bc698">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-06-24" xml:id="change_6961405f">
+            <respStmt xml:id="respStmt_46de8ba5">
+               <name xml:id="resp_4d942a95">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3c9b5b42">
+               <p xml:id="p_3878bfaa"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-06-27" xml:id="change_135N10187">
+            <respStmt xml:id="respStmt_c7057ba7">
+               <name xml:id="resp_4e5ec02e">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_484f5372">
+               <p xml:id="p_58af2eb9"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-02-17" xml:id="change_138N1018B">
+            <respStmt xml:id="respStmt_db7152eb">
+               <name xml:id="resp_9615eb0f">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_60a98b51">
+               <p xml:id="p_3b4ceb25"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-04-04" n="7" xml:id="change_9a59746e">
+            <respStmt xml:id="respStmt_bd37fb3b">
+               <name xml:id="resp_6bf30460">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_83058aba">
+               <p xml:id="p_2c5b5491">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-21T13:58:34.245Z" xml:id="change_558e10c3">
+            <respStmt xml:id="respStmt_94b627e7">
+               <name xml:id="resp_4663f94b">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8f863c1b">
+               <p xml:id="p_034db057"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-03T11:39:05.797Z" xml:id="change_64aa1355">
+            <respStmt xml:id="idm162">
+               <name xml:id="idm163">inso</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2f411030">
+               <p xml:id="p_c39fad50"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-18T11:51:34.737Z" xml:id="change_165N101C2">
+            <respStmt xml:id="idm167">
+               <name xml:id="idm168">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm169">
+               <p xml:id="idm170"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-01-24T15:20:06.306Z" xml:id="change_170N101CA">
+            <respStmt xml:id="idm172">
+               <name xml:id="idm173">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm174">
+               <p xml:id="idm175"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-04-03T13:02:18.886Z" xml:id="change_175N101D2">
+            <respStmt xml:id="idm177">
+               <name xml:id="idm178">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm179">
+               <p xml:id="idm180"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-04-18T12:00:09.429Z" xml:id="change_180N101DA">
+            <respStmt xml:id="idm182">
+               <name xml:id="idm183">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm184">
+               <p xml:id="idm185"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-05-03T13:42:21.29Z" xml:id="change_185N101E2">
+            <respStmt xml:id="idm187">
+               <name xml:id="idm188">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm189">
+               <p xml:id="idm190"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-05-09T11:29:02.745Z" xml:id="change_190N101EA">
+            <respStmt xml:id="idm192">
+               <name xml:id="idm193">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm194">
+               <p xml:id="idm195"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-05-29T13:08:51.553Z" xml:id="change_195N101F2">
+            <respStmt xml:id="idm197">
+               <name xml:id="idm198">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm199">
+               <p xml:id="idm200"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-13T14:44:09.889Z" xml:id="change_200N101FA">
+            <respStmt xml:id="idm202">
+               <name xml:id="idm203">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm204">
+               <p xml:id="idm205"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T09:20:10Z" xml:id="change_201N10136">
+            <respStmt xml:id="idm207">
+               <name xml:id="idm208">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm209">
+               <p xml:id="idm210">Added incipit graphic URL</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-06-21T10:07:21.391Z" xml:id="change_212N10215">
+            <respStmt xml:id="idm212">
+               <name xml:id="idm213">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm214">
+               <p xml:id="idm215"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-08-23T08:29:49.323Z" xml:id="change_217N1021C">
+            <respStmt xml:id="idm217">
+               <name xml:id="idm218">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm219">
+               <p xml:id="idm220"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-08-28T13:45:14.902Z" xml:id="change_222N10224">
+            <respStmt xml:id="idm222">
+               <name xml:id="idm223">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm224">
+               <p xml:id="idm225"/>
+            </changeDesc>
+         </change>
+         <change isodate="2018-09-12T14:43:48.274Z" xml:id="change_227N1022C">
+            <respStmt xml:id="idm227">
+               <name xml:id="idm228">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm229">
+               <p xml:id="idm230"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-02-27T09:36:53.508Z" xml:id="change_234N1023B">
+            <respStmt xml:id="idm232">
+               <name xml:id="idm233">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm234">
+               <p xml:id="idm235"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T14:45:50Z" xml:id="change_236N10148">
+            <respStmt xml:id="idm237">
+               <name xml:id="idm238">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm239">
+               <p xml:id="idm240">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_241d1e159">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_246d1e159">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_251d1e159">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm241"/>
+</mei>

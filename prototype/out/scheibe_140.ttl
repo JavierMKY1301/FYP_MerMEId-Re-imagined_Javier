@@ -1,0 +1,63 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-312>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Thränen der Sünder bey dem Kreuze Ihres Erlösers. Ein Oratorium"@de ;
+    dcterms:identifier "SchW B2:312" ;
+    cnw:cnwNumber "B2:312" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1746" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:subject "Oratorio" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Passion" ;
+    cnw:editorialNote " 'Der Hr. Verfasser hat dieses musikalische Oratorium als bloße Betrachtungen über den Tod Jesu abgefasset, welche Art von Paßionscantaten in gewisser Maße und in Ansehen der Erbauung einen Vorzug vor andern hat. Es kommen manche Redensarten darinn vor, die den Leser an die bekannte Stelle in dem Liede O Traurigkeit, o Herzeleid &c erinnern müssen [...] Wir wissen zwar, wie sich dergleichen Ausdrücke vertheidigen lassen, es ist aber doch ohne allen Zweifel viel besser, wenn man sich derselben enthält.'" ;
+    cnw:editorialNote "'Hermed bekiendt giøres for alle Liebhabere af Musiqven, at Torsdagen den 2 Martii bliver paa det Musicaliske Sælskabs Sahl opført et Passions-Oratorium kaldet Thränen der Sünder beym Creuze unsers Erlösers. Et Mesterstykke af den berømmelige Capellmester Scheibe.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-312/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-312/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-312> ;
+    cnw:incipitText "Das ist der grosse Tag"@de ;
+    cnw:incipitText "In JEsu Blut erfüllten Wunden"@de ;
+    cnw:incipitText "Es dient zu meinen Freuden"@de ;
+    cnw:incipitText "Erlöser! Da deine gemarterten Glieder ersterben"@de ;
+    cnw:incipitText "Für alle Sünde, die du je begangen"@de ;
+    cnw:incipitText "Doch ach! wie klein ist nicht die Zahl"@de ;
+    cnw:incipitText "Mit JEsus Blut erkauffte Seelen!"@de ;
+    cnw:incipitText "Wisset, daß ihr nicht mit vergänglichen Silber oder Gold erlöst seyd"@de ;
+    cnw:incipitText "Ein Lämmlein geht und trägt die Schuld der Welt"@de ;
+    cnw:incipitText "O! daß ich könnte Trähnen gnug vergiessen!"@de ;
+    cnw:incipitText "Heyland! ach, bey deinem Schmerze"@de ;
+    cnw:incipitText "Ja wohl, mein GOtt! dein Lieben"@de ;
+    cnw:incipitText "Bey diesem erstaunenden göttlichen Lieben"@de ;
+    cnw:incipitText "Ach grosser König, groß zu allen Zeiten!"@de ;
+    cnw:incipitText "Liebreicher Heyland, ja mir gehn die Schmerzen"@de ;
+    cnw:incipitText "Höllische Feinde, was wütet ihr noch?"@de ;
+    cnw:incipitText "O JEsu! wahrer Fürst des Lebens!"@de ;
+    cnw:incipitText "Wie werd ich denn so frölich seyn"@de ;
+    cnw:incipitText "Ihr aber, die ihr hier vor JEsu Augen stehet"@de ;
+    cnw:incipitText "So weinet, Sünder, weinet Blut!"@de ;
+    cnw:incipitText "Lasset uns mit Jesu sterben"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

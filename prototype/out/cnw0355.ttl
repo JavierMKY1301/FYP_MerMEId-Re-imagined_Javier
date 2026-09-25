@@ -1,0 +1,71 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW353>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Vaaren – Vaaren er i Brudd!"@da ;
+    dcterms:title "Springtime, springtime breaking through"@en ;
+    dcterms:alternative "Våren – våren er i brud!"@da ;
+    dcterms:identifier "CNW 353" ;
+    dcterms:identifier "CNU III/6, 313, 402" ;
+    dcterms:identifier "FS 118, 120" ;
+    cnw:cnwNumber "353" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "118, 120" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/morten_b_rup> ;
+    dcterms:created "1926" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/1f6c24d6_e41f_4647_8526_f33efc08faeb> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW353/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW353/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW353> ;
+    cnw:tempo "Ikke langsomt, men dog hymneagtigt" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Vaaren - Vaaren er i Brudd!"@da ;
+    cnw:incipitText "Springtime, springtime breaking through"@en ;
+    cnw:incipitText "Vaaren, Vaaren er i Brud!"@da ;
+    cnw:incipitText "Springtime, springtime breaking through"@en ;
+    cnw:incipitImage "cnw_353.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/morten_b_rup>
+    a foaf:Agent ;
+    foaf:name "Morten Børup" .
+
+<https://cnw-ld.org/agent/marinus_b_rup_from_latin>
+    a foaf:Agent ;
+    foaf:name "Marinus Børup (from Latin)" .
+

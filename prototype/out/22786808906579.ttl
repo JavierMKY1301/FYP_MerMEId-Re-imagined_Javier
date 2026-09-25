@@ -1,0 +1,123 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW22>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sommertag auf dem Lande, Opus 55"@de ;
+    dcterms:title "Sommerdag paa Landet, Opus 55"@da ;
+    dcterms:title "A Summer's Day in the Country, Opus 55"@en ;
+    dcterms:alternative "Fünf Orchesterstücke"@de ;
+    dcterms:alternative "Fem Orkesterstykker"@da ;
+    dcterms:alternative "Five Orchestral Pieces"@en ;
+    dcterms:identifier "Opus 55" ;
+    dcterms:identifier "NWGW 22" ;
+    dcterms:identifier "GW I:11" ;
+    cnw:cnwNumber "22" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "55" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "summer 1879" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Other orchestral music" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-KNa" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW22/expression/1> ;
+    cnw:performanceCount 16 .
+
+<https://cnw-ld.org/work/NWGW22/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW22> ;
+    cnw:key "A major" ;
+    cnw:tempo "Allegro vivo e grazioso" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va.1" ;
+    cnw:performingForce "va.2" ;
+    cnw:performingForce "vc.1" ;
+    cnw:performingForce "vc.2" ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va.1" ;
+    cnw:performingForce "va.2" ;
+    cnw:performingForce "vc.1" ;
+    cnw:performingForce "vc.2" ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va.1" ;
+    cnw:performingForce "va.2" ;
+    cnw:performingForce "vc.1" ;
+    cnw:performingForce "vc.2" ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va.1" ;
+    cnw:performingForce "vc.1" ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "picc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "timp." ;
+    cnw:incipitImage "NWGW_022_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+

@@ -1,0 +1,45 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWC4-011>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Peter Paars, ein comisches Heldengedicht"@de ;
+    dcterms:alternative "Peder Paars, Poema heroico-comicum"@da ;
+    dcterms:identifier "SchW C4:011" ;
+    cnw:cnwNumber "C4:011" ;
+    cnw:catalogueCode "SchW" ;
+    cnw:textAuthor <https://cnw-ld.org/agent/ludvig_holberg> ;
+    dcterms:created "1750" ;
+    dcterms:language "German" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Text" ;
+    dcterms:subject "Translations" ;
+    cnw:editorialNote "'Seit Johannis bin ich von musikalischen Arbeiten abgehalten worden, indem ich das dänische und comische Heldengedichte: Peter Paars von Holberg in deutsche Verse übersetzt habe. Es wird künftige Ostermeße gedruckt erscheinen.'" ;
+    cnw:editorialNote " The anonymous reviewer of the new 1764-edition writes that 'Deutsche Leser verstehen den größten Theil des komischen Witzes nicht, und was sie verstehen, kann ihnen wohl nicht gefallen; zumal da, wie wir gestehen müssen, Herr S. keine besondere Gabe zum Dichten hat. Das vorangesetzte Leben Holbergs, könnte denen gefallen, die das von Holbergen selbst lateinisch beschriebene Leben nicht gelesen haben. Ueberhaupt befürchten wir, daß Herr Scheibe so wenig Talent zur Biographie als zur Dichtkunst hat. Es ist wahr, er beschreibt alles, was geschehen ist, sehr genau und richtig, aber er weiß nicht wichtige Begebenheiten von schlechten zu unterscheiden, seine Schreibart ist sehr matt und schleppend; kurz, er hat alle Fehler der gemeinen deutschen Historienschreiben.'" ;
+    cnw:editorialNote "Scheibe's two German translations of Holberg's Peder Paars are briefly mentioned in connection with a new Danish edition that appeared in 1772." ;
+    cnw:manuscriptLocation "EV-TAu" ;
+    frbr:realization <https://cnw-ld.org/work/SchWC4-011/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWC4-011/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWC4-011> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/ludvig_holberg>
+    a foaf:Agent ;
+    foaf:name "Ludvig Holberg" .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

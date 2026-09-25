@@ -1,0 +1,106 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW150>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate i Anledning af Hans Majestæt Kongens höie Födselsfest"@da ;
+    dcterms:title "Cantata on the Occasion of His Majesty the King's High Birth Feast"@en ;
+    dcterms:alternative "Saa dunkel var den danske Sommerhimmel"@da ;
+    dcterms:identifier "HartW 150" ;
+    cnw:cnwNumber "150" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/carl_borgaard> ;
+    dcterms:created "1841-09-17" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Mixed choir" ;
+    frbr:realization <https://cnw-ld.org/work/HartW150/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW150/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW150> ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "C.A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Sopranos" ;
+    cnw:performingForce "Mezzo Soprano" ;
+    cnw:performingForce "Alto" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Mezzo Soprano" ;
+    cnw:performingForce "Alto" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "C.A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Saa dunkel var den danske Sommerhimmel"@da ;
+    cnw:incipitText "Som Mørke ruged' over Skov og Dal"@da ;
+    cnw:incipitText "Den Fryd som nys paa hver en Læbe smilte"@da ;
+    cnw:incipitText "Men Mørket [Solen] kæmpede mod Mulmet"@da ;
+    cnw:incipitText "Og Naturen smilte til sin Ven"@da ;
+    cnw:incipitText "Ak! Sommeren tidt er saa sludfuld og raa"@da ;
+    cnw:incipitText "Venlige Lund! Din kjölende Skygge Glæden et Paulun opbygge"@da ;
+    cnw:incipitImage "hartw_150_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/carl_borgaard>
+    a foaf:Agent ;
+    foaf:name "Carl Borgaard" .
+

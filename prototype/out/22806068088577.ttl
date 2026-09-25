@@ -1,0 +1,64 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW281>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Spanisches Lied"@de ;
+    dcterms:title "Spanish Song"@en ;
+    dcterms:title "Chanson espagnole"@fr ;
+    dcterms:alternative "Nelken wind' ich und Jasmin"@de ;
+    dcterms:alternative "Jasmine and carnation sweet"@en ;
+    dcterms:alternative "Jasmine twined with Gillyflower"@en ;
+    dcterms:alternative "Sous le ciel tout parfumé"@fr ;
+    dcterms:identifier "Opus 9:7" ;
+    dcterms:identifier "NWGW 281" ;
+    cnw:cnwNumber "281" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "9:7" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/from_the_spanish_by_emanuel_geibel> ;
+    dcterms:created "May 1845" ;
+    dcterms:language "English" ;
+    dcterms:language "French" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "Duet" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22771633684435> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW281/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGW281/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW281> ;
+    cnw:key "A minor" ;
+    cnw:tempo "Andante espressione - Allegretto - Andante" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "sopranos" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Nelken wind' ich und Jasmin"@de ;
+    cnw:incipitText "Jasmine and carnation sweet!"@en ;
+    cnw:incipitImage "NWGW_281.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/from_the_spanish_by_emanuel_geibel>
+    a foaf:Agent ;
+    foaf:name "From the Spanish by Emanuel Geibel" .
+

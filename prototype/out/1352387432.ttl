@@ -1,0 +1,48 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW51>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sonate for klaver 4 hænder i C-dur"@da ;
+    dcterms:title "Sonate à 4 mains"@fr ;
+    dcterms:title "Sonata for Piano Four Hands in C Major"@en ;
+    dcterms:identifier "Opus 4" ;
+    dcterms:identifier "HartW 51" ;
+    dcterms:identifier "DF 16" ;
+    cnw:cnwNumber "51" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "4" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1826" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "French" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    dcterms:subject "Piano duo" ;
+    frbr:realization <https://cnw-ld.org/work/HartW51/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW51/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW51> ;
+    cnw:key "C major" ;
+    cnw:tempo "Allegro" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "pf. four hands" ;
+    cnw:incipitImage "hartw_051_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

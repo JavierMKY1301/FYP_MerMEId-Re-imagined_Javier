@@ -1,0 +1,174 @@
+
+=== 1. Python dependency audit (OWASP A06) ===
+No known vulnerabilities found
+
+=== 2. JavaScript dependency audit (OWASP A06) ===
+# npm audit report
+
+esbuild  <=0.24.2
+Severity: moderate
+esbuild enables any website to send any requests to the development server and read the response - https://github.com/advisories/GHSA-67mh-4wv8-2f99
+fix available via `npm audit fix --force`
+Will install vite@8.3.1, which is a breaking change
+node_modules/esbuild
+  vite  <=6.4.2
+  Depends on vulnerable versions of esbuild
+  node_modules/vite
+
+react-router  6.0.0 - 7.17.0
+Severity: moderate
+React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass) - https://github.com/advisories/GHSA-wrjc-x8rr-h8h6
+React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration - https://github.com/advisories/GHSA-337j-9hxr-rhxg
+fix available via `npm audit fix --force`
+Will install react-router-dom@7.18.4, which is a breaking change
+node_modules/react-router
+  react-router-dom  6.0.0-alpha.0 - 7.17.0
+  Depends on vulnerable versions of react-router
+  node_modules/react-router-dom
+
+
+4 vulnerabilities (3 moderate, 1 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+=== 3. Injection tests against the live API (OWASP A03) ===
+============================= test session starts =============================
+platform win32 -- Python 3.14.6, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\javie\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\javie\OneDrive\Desktop\SIM stuff\FYP\CNW_feature_prototype\prototype
+plugins: anyio-4.14.2, locust-2.46.6
+collecting ... collected 38 items / 22 deselected / 16 selected
+
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[x") } INSERT DATA { <a:a> <a:b> <a:c> } #] PASSED [  6%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[x"} ; DROP GRAPH <https://cnw-ld.org/> ; #] PASSED [ 12%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[" } UNION { ?s ?p ?o } #] PASSED [ 18%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable['; DELETE WHERE { ?s ?p ?o } ;#] PASSED [ 25%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[x\\" } #] PASSED [ 31%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[<script>alert(1)</script>] PASSED [ 37%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[../../etc/passwd] PASSED [ 43%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[%00] PASSED [ 50%]
+tests/test_api_contract.py::TestInjection::test_search_is_not_injectable[\x00truncated] PASSED [ 56%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[catalogue] PASSED [ 62%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[genre] PASSED [ 68%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[key] PASSED [ 75%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[meter] PASSED [ 81%]
+tests/test_api_contract.py::TestInjection::test_every_filter_parameter_is_escaped[q] PASSED [ 87%]
+tests/test_api_contract.py::TestInjection::test_path_parameter_is_escaped PASSED [ 93%]
+tests/test_api_contract.py::TestInjection::test_errors_do_not_leak_internals PASSED [100%]
+
+============================== warnings summary ===============================
+..\..\..\..\..\..\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\fastapi\testclient.py:1
+  C:\Users\javie\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================ 16 passed, 22 deselected, 1 warning in 54.19s ================
+
+=== 4. OWASP ZAP baseline scan, API (A05, passive) ===
+Using the Automation Framework
+Total of 5 URLs
+PASS: Vulnerable JS Library (Powered by Retire.js) [10003]
+PASS: In Page Banner Information Leak [10009]
+PASS: Cookie No HttpOnly Flag [10010]
+PASS: Cookie Without Secure Flag [10011]
+PASS: Re-examine Cache-control Directives [10015]
+PASS: Content-Type Header Missing [10019]
+PASS: Anti-clickjacking Header [10020]
+PASS: X-Content-Type-Options Header Missing [10021]
+PASS: Information Disclosure - Debug Error Messages [10023]
+PASS: Information Disclosure - Sensitive Information in URL [10024]
+PASS: Information Disclosure - Sensitive Information in HTTP Referrer Header [10025]
+PASS: HTTP Parameter Override [10026]
+PASS: Information Disclosure - Suspicious Comments [10027]
+PASS: Off-site Redirect [10028]
+PASS: Cookie Poisoning [10029]
+PASS: User Controllable Charset [10030]
+PASS: User Controllable HTML Element Attribute (Potential XSS) [10031]
+PASS: Viewstate [10032]
+PASS: Directory Browsing [10033]
+PASS: Heartbleed OpenSSL Vulnerability (Indicative) [10034]
+PASS: Strict-Transport-Security Header [10035]
+PASS: HTTP Server Response Header [10036]
+PASS: Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s) [10037]
+PASS: Content Security Policy (CSP) Header Not Set [10038]
+PASS: X-Backend-Server Header Information Leak [10039]
+PASS: Secure Pages Include Mixed Content [10040]
+PASS: HTTP to HTTPS Insecure Transition in Form Post [10041]
+PASS: HTTPS to HTTP Insecure Transition in Form Post [10042]
+PASS: User Controllable JavaScript Event (XSS) [10043]
+PASS: Big Redirect Detected (Potential Sensitive Information Leak) [10044]
+PASS: Retrieved from Cache [10050]
+PASS: X-ChromeLogger-Data (XCOLD) Header Information Leak [10052]
+PASS: Cookie without SameSite Attribute [10054]
+PASS: X-Debug-Token Information Leak [10056]
+PASS: Username Hash Found [10057]
+PASS: X-AspNet-Version Response Header [10061]
+PASS: PII Disclosure [10062]
+PASS: Permissions Policy Header Not Set [10063]
+PASS: Timestamp Disclosure [10096]
+PASS: Hash Disclosure [10097]
+PASS: Cross-Domain Misconfiguration [10098]
+PASS: Source Code Disclosure [10099]
+PASS: Weak Authentication Method [10105]
+PASS: Reverse Tabnabbing [10108]
+PASS: Dangerous JS Functions [10110]
+PASS: Authentication Request Identified [10111]
+PASS: Session Management Response Identified [10112]
+PASS: Verification Request Identified [10113]
+PASS: Script Served From Malicious Domain (polyfill) [10115]
+PASS: ZAP is Out of Date [10116]
+PASS: Absence of Anti-CSRF Tokens [10202]
+PASS: Private IP Disclosure [2]
+PASS: Session ID in URL Rewrite [3]
+PASS: Script Passive Scan Rules [50001]
+PASS: Stats Passive Scan Rule [50003]
+PASS: Insecure JSF ViewState [90001]
+PASS: Java Serialization Object [90002]
+PASS: Charset Mismatch [90011]
+PASS: Application Error Disclosure [90022]
+PASS: WSDL File Detection [90030]
+PASS: Loosely Scoped Cookie [90033]
+WARN-NEW: Cross-Domain JavaScript Source File Inclusion [10017] x 2 
+	http://host.docker.internal:8000/ (200 OK)
+	http://host.docker.internal:8000/docs (200 OK)
+WARN-NEW: Non-Storable Content [10049] x 5 
+	http://host.docker.internal:8000/ (307 Temporary Redirect)
+	http://host.docker.internal:8000/ (200 OK)
+	http://host.docker.internal:8000/docs (200 OK)
+	http://host.docker.internal:8000/robots.txt (404 Not Found)
+	http://host.docker.internal:8000/sitemap.xml (404 Not Found)
+WARN-NEW: CSP: script-src unsafe-inline [10055] x 3 
+	http://host.docker.internal:8000/docs (200 OK)
+	http://host.docker.internal:8000/ (200 OK)
+	http://host.docker.internal:8000/docs (200 OK)
+WARN-NEW: Modern Web Application [10109] x 2 
+	http://host.docker.internal:8000/ (200 OK)
+	http://host.docker.internal:8000/docs (200 OK)
+WARN-NEW: Sub Resource Integrity Attribute Missing [90003] x 4 
+	http://host.docker.internal:8000/ (200 OK)
+	http://host.docker.internal:8000/ (200 OK)
+	http://host.docker.internal:8000/docs (200 OK)
+	http://host.docker.internal:8000/docs (200 OK)
+WARN-NEW: Cross-Origin-Embedder-Policy Header Missing or Invalid [90004] x 2 
+	http://host.docker.internal:8000/ (200 OK)
+	http://host.docker.internal:8000/docs (200 OK)
+FAIL-NEW: 0	FAIL-INPROG: 0	WARN-NEW: 6	WARN-INPROG: 0	INFO: 0	IGNORE: 0	PASS: 61
+ZAP API report written to results\security\zap_api_report.html
+
+=== 5. OWASP ZAP baseline scan, portal ===
+Using the Automation Framework
+Automation plan failures:
+	Job spider failed to access URL http://host.docker.internal:5173 : Connect to http://host.docker.internal:5173 [host.docker.internal/192.168.65.254] failed: Connection refused
+2026-09-25 09:21:18,413 Failed to access summary file /home/zap/zap_out.json
+ZAP portal report written to results\security\zap_portal_report.html
+
+=== Done ===
+Record in the evaluation chapter:
+  - vulnerable dependencies by severity, before and after any upgrade
+  - injection test results (expect all passing)
+  - ZAP alerts by risk level, and which were accepted rather than fixed
+
+Note: ZAP will flag missing security headers such as Content-Security-Policy
+on the development server. Decide per alert whether to fix it or to record
+it as accepted for a local research prototype, and say which in the report.

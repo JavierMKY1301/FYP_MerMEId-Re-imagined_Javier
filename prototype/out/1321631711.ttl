@@ -1,0 +1,72 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartWColl-06>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sechs Gesänge für eine Singstimme mit Begleitung des Pianoforte"@de ;
+    dcterms:identifier "Opus 55" ;
+    dcterms:identifier "HartW Coll. 06" ;
+    dcterms:identifier "DF 127" ;
+    cnw:cnwNumber "Coll. 06" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "55" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_felix_weisse> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/oscar_von_redwitz> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/joseph_von_eichendorff> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_wolfgang_von_goethe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/j_n_vogel> ;
+    dcterms:created "28 July 1853 to 13 Aug. 1853" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23414519603507> ;
+    cnw:manuscriptLocation "S-Skma" ;
+    frbr:realization <https://cnw-ld.org/work/HartWColl-06/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartWColl-06/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartWColl-06> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/christian_felix_weisse>
+    a foaf:Agent ;
+    foaf:name "Christian Felix Weisse" .
+
+<https://cnw-ld.org/agent/oscar_von_redwitz>
+    a foaf:Agent ;
+    foaf:name "Oscar von Redwitz" .
+
+<https://cnw-ld.org/agent/joseph_von_eichendorff>
+    a foaf:Agent ;
+    foaf:name "Joseph von Eichendorff" .
+
+<https://cnw-ld.org/agent/johann_wolfgang_von_goethe>
+    a foaf:Agent ;
+    foaf:name "Johann Wolfgang von Goethe" .
+
+<https://cnw-ld.org/agent/j_n_vogel>
+    a foaf:Agent ;
+    foaf:name "J.N. Vogel" .
+
+<https://cnw-ld.org/agent/sophie_gade>
+    a foaf:Agent ;
+    foaf:name "Sophie Gade" .
+

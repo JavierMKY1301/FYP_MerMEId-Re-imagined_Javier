@@ -1,0 +1,56 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW39>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Fantasiestücke für Klarinette (oder Violine) und Klavier"@de ;
+    dcterms:title "Fantasistykker for Clarinet (eller Violin) og Pianoforte"@da ;
+    dcterms:title "Fantasy Pieces for Clarinet (or Violin) and Pianoforte"@en ;
+    dcterms:identifier "Opus 43" ;
+    dcterms:identifier "NWGW 39" ;
+    dcterms:identifier "GW II:4" ;
+    cnw:cnwNumber "39" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "43" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "1864" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Chamber music" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW39/expression/1> ;
+    cnw:performanceCount 12 .
+
+<https://cnw-ld.org/work/NWGW39/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW39> ;
+    cnw:key "F major" ;
+    cnw:tempo "Andantino con moto" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "cl. or" ;
+    cnw:performingForce "vl." ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "NWGW_039_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/kgl_kapelmusicus_member_of_the_royal_danish_orchestra_christopher_mozart_petersen>
+    a foaf:Agent ;
+    foaf:name "Kgl. Kapelmusicus (Member of the Royal Danish Orchestra)Christopher Mozart Petersen" .
+

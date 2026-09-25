@@ -1,0 +1,96 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW181>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate ved Universitetets Fest i Anledning af Hans Majestæt Kong Christian den Niendes 70aars Fødselsdag den 8. April 1888."@da ;
+    dcterms:title "Cantata at the University's Feast on the Occasion of His Majesty King Christian IX's 70th Birthday on 8 April 1888"@en ;
+    dcterms:alternative "En Konges Haand har det plantet"@da ;
+    dcterms:identifier "Opus 84" ;
+    dcterms:identifier "HartW 181" ;
+    dcterms:identifier "DF 84" ;
+    cnw:cnwNumber "181" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "84" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/ernst_von_der_recke> ;
+    dcterms:created "15 July 1887 to 28 Sept. 1887" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Male choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW181/expression/1> ;
+    cnw:performanceCount 3 .
+
+<https://cnw-ld.org/work/HartW181/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW181> ;
+    cnw:tempo "Allegro risoluto, non troppo" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Tenor" ;
+    cnw:incipitText "En Konges Haand har det plantet, Kundskabs Træ i vor Jord"@da ;
+    cnw:incipitText "Sekler svandt"@da ;
+    cnw:incipitText "Og priset være hans Herskerslægt"@da ;
+    cnw:incipitText "Er paa Jord vi som de Svage vegne Fod for Fod"@da ;
+    cnw:incipitText "Og som i Natten ved Sanct Hans"@da ;
+    cnw:incipitText "Tog Kronen, Konge, Du i tunge Tider"@da ;
+    cnw:incipitText "Tynger end Kronen, den vorde Dig let"@da ;
+    cnw:incipitText "Tider der var, da et Kæmpekuld drog fra vort Hjem"@da ;
+    cnw:incipitText "De Dage svandt, for aldrig op at staa"@da ;
+    cnw:incipitText "Dog, har til Maal Du sat Dig, Drot"@da ;
+    cnw:incipitText "Bær da Spiret, Konge, som Du plejer"@da ;
+    cnw:incipitImage "hartw_181_01.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/ernst_von_der_recke>
+    a foaf:Agent ;
+    foaf:name "Ernst von der Recke" .
+
+<https://cnw-ld.org/agent/instrumentatition_otto_malling>
+    a foaf:Agent ;
+    foaf:name "Instrumentatition: Otto Malling" .
+

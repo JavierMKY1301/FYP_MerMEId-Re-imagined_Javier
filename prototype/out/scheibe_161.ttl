@@ -1,0 +1,46 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-427>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Latinske Cantata, indrettede i Anledning af den høye Formæling imellem Kron-Prints Gustav af Sverrig og Kron-Printsesse Sophie Magdalene af Dannemark"@da ;
+    dcterms:identifier "SchW B2:427" ;
+    cnw:cnwNumber "B2:427" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1766" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote "'I Morgen viser det Musikalske Selskab i Raadhuus-Strædet sin allerunderdanigste Beredvillighed imod det Høy-Kongelige Huus ved nogle Latinske Cantata, indrettede i Anledning af den høye Formæling imellem Deres Kongelige Høyheder Kron-Prints Gustav af Sverrig og Kron-Printsesse Sophie Magdalene af Dannemark. Compositionen af Musiqven har man den berømte Hr. Capel-Mester Scheibe at takke for, hvilken i Alting har paa det nøyeste opfyldt Poetens Hensigter, i at give hans Tanker den stærkeste Eftertryk, og paa det prægtigste berige og forhøye dem.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-427/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-427/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-427> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/crown_prince_gustav_of_sweden>
+    a foaf:Agent ;
+    foaf:name "Crown Prince Gustav of Sweden" .
+
+<https://cnw-ld.org/agent/princess_sophie_magdalene>
+    a foaf:Agent ;
+    foaf:name "Princess Sophie Magdalene" .
+

@@ -1,0 +1,58 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW341>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Skummende laa Havet"@da ;
+    dcterms:title "Foaming high, the waters rushed heavily ashore"@en ;
+    dcterms:alternative "Skummende lå havet"@da ;
+    dcterms:identifier "CNW 341" ;
+    dcterms:identifier "CNU III/6, 293" ;
+    dcterms:identifier "FS 54" ;
+    cnw:cnwNumber "341" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "54" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/olaf_hansen> ;
+    dcterms:created "[1913]" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/c473b2ec_0cd5_40cd_ae07_e3e620c5ed59> ;
+    frbr:realization <https://cnw-ld.org/work/CNW341/expression/1> ;
+    cnw:performanceCount 4 .
+
+<https://cnw-ld.org/work/CNW341/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW341> ;
+    cnw:tempo "Ikke for langsomt" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Skummende laa Havet og skyllede imod Strand"@da ;
+    cnw:incipitText "Foaming high, the waters rushed heavily ashore"@en ;
+    cnw:incipitImage "cnw_341.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/olaf_hansen>
+    a foaf:Agent ;
+    foaf:name "Olaf Hansen" .
+

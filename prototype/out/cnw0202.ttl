@@ -1,0 +1,66 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW202>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "De Refsnæsdrenge, de Samsøepiger"@da ;
+    dcterms:title "The boys of Refsnaes, the girls of Samsoe"@en ;
+    dcterms:alternative "De Refsnæsdrenge, de Samsøpiger"@da ;
+    dcterms:identifier "CNW 202" ;
+    dcterms:identifier "CNU III/4, 87; III/5, 173" ;
+    dcterms:identifier "CNS 88" ;
+    dcterms:identifier "FS 70, 103, 111" ;
+    cnw:cnwNumber "202" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "70, 103, 111" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/steen_steensen_blicher> ;
+    dcterms:created "1914-12-11" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22157659832449> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22225400586721> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW202/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW202/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW202> ;
+    cnw:tempo "Friskt og djærvt" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "De Refsnæsdrenge, de Samsøepiger"@da ;
+    cnw:incipitText "The boys of Refsnaes, the girls of Samsoe"@en ;
+    cnw:incipitText "De refsnæsdrenge, de samsøpiger"@da ;
+    cnw:incipitText "The boys of Refsnaes, the girls of Samsoe"@en ;
+    cnw:incipitImage "cnw_202.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/steen_steensen_blicher>
+    a foaf:Agent ;
+    foaf:name "Steen Steensen Blicher" .
+

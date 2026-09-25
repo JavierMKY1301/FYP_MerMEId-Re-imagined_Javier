@@ -1,0 +1,54 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW100>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Fantasiestücke für das Pianoforte"@de ;
+    dcterms:title "Fantasistykker for Pianoforte"@da ;
+    dcterms:title "Fantasia Pieces for Piano"@en ;
+    dcterms:identifier "Opus 54" ;
+    dcterms:identifier "HartW 100" ;
+    dcterms:identifier "JPEW III/2 no. 16" ;
+    dcterms:identifier "DF 33" ;
+    cnw:cnwNumber "100" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "54" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1855" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Piano music" ;
+    frbr:realization <https://cnw-ld.org/work/HartW100/expression/1> ;
+    cnw:performanceCount 3 .
+
+<https://cnw-ld.org/work/HartW100/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW100> ;
+    cnw:key "F-sharp major" ;
+    cnw:tempo "Allegro poco moderato, pastorale" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "hartw_100_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/clara_schumann>
+    a foaf:Agent ;
+    foaf:name "Clara Schumann" .
+

@@ -1,0 +1,85 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-310>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Passions-Oratorium som i Fasten opføres af Det musikalske Sælskab"@da ;
+    dcterms:identifier "SchW B2:310" ;
+    cnw:cnwNumber "B2:310" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/niels_krog_bredal> ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Oratorio" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Passion" ;
+    cnw:editorialNote " '[...] Ligeledes blev i forige Uge paa Hr. Borgemester Bredals Værelser opført en deel af afgangne Medailleur Arbins Venner den over ham af bemeldte Hr. Bredal componerede Sørge-Oratorie'." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-310/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-310/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-310> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "Ved høie Middagstid er saadant Mørke!"@da ;
+    cnw:incipitText "Bort med jordisk Roe og Glæde!"@da ;
+    cnw:incipitText "Uden Ophold bør vi græde"@da ;
+    cnw:incipitText "Jeg veed, o Herre Jesu Christ!"@da ;
+    cnw:incipitText "Nei, denne døende er meget mere, end en anden dødelig"@da ;
+    cnw:incipitText "Tidens umættede Tænder"@da ;
+    cnw:incipitText "Saa faldt den hele Last af Syndens Straf paa dig"@da ;
+    cnw:incipitText "Ei Helved-Slangens List og Rænke"@da ;
+    cnw:incipitText "Det er fuldendt – det glade Budskab"@da ;
+    cnw:incipitText "Kierlighed vandt Seier"@da ;
+    cnw:incipitText "Din Kamp er ude – og jeg staaer tilbage"@da ;
+    cnw:incipitText "Det uvelkomne Skraal af Jøders Skare"@da ;
+    cnw:incipitText "O Himmel! – hvilken Skare af Mirakler!"@da ;
+    cnw:incipitText "Herefter skal da Død og Grav"@da ;
+    cnw:incipitText "Jeg ønsker kun med Længsel"@da ;
+    cnw:incipitText "Dertil hielp os Christus vor Trøst"@da ;
+    cnw:incipitText "Jeg knurrer ei mod din dybe Viisdom"@da ;
+    cnw:incipitText "Min Siæl er tændt af ædel Iver"@da ;
+    cnw:incipitText "Nu aabnedes mit Øye giennem Taarer"@da ;
+    cnw:incipitText "Dybt er mit ømme Hierte saaret"@da ;
+    cnw:incipitText "I Korsets Skole, o korsfæstet Frelser!"@da ;
+    cnw:incipitText "Salighed og Smerte"@da ;
+    cnw:incipitText "Udvalgte Flok! – Ak! ved hans Blod udkaaret"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/niels_krog_bredal>
+    a foaf:Agent ;
+    foaf:name "Niels Krog Bredal" .
+

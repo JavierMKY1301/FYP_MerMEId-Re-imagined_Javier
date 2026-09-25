@@ -1,0 +1,149 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW180>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Der Strom"@de ;
+    dcterms:title "Der Strom"@da ;
+    dcterms:title "The River"@en ;
+    dcterms:alternative "Text nach Goethe's unvollendeter Dichtung Mahomed"@de ;
+    dcterms:alternative "Concertstück für Soli, gemischten Chor, oblg. Pianoforte und Orchester"@de ;
+    dcterms:alternative "af Goethes ufuldendte Digtning \"Mahomets Gesang\""@da ;
+    dcterms:alternative "Koncertstykke for Soli, Kor, Klaver og Orkester"@da ;
+    dcterms:alternative "From Goethe's unfinished Poem \"Song for Mohammed\""@en ;
+    dcterms:alternative "Concert Piece for Soli, Choir, Piano obbligato and Orchestra"@en ;
+    dcterms:identifier "Opus 64" ;
+    dcterms:identifier "NWGW 180" ;
+    dcterms:identifier "GW IV:7" ;
+    cnw:cnwNumber "180" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "64" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_wolfgang_von_goethe> ;
+    dcterms:created "April 1887 to September 1889" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:manuscriptLocation "D-DS" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "D-DS" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW180/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/NWGW180/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW180> ;
+    cnw:tempo "Moderato poco maestoso" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor. in E" ;
+    cnw:performingForce "cor. in F" ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "trgl." ;
+    cnw:performingForce "ptti." ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soprano" ;
+    cnw:performingForce "Alto" ;
+    cnw:performingForce "Tenor 1" ;
+    cnw:performingForce "Tenor 2" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor. in E" ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "Tenor 1" ;
+    cnw:performingForce "Tenor 2" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor. in F" ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "Soprano" ;
+    cnw:performingForce "Alto" ;
+    cnw:performingForce "Tenor 1" ;
+    cnw:performingForce "Tenor 2" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor. in E" ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "Soprano" ;
+    cnw:performingForce "Alto" ;
+    cnw:performingForce "Tenor 1" ;
+    cnw:performingForce "Tenor 2" ;
+    cnw:performingForce "Bass" ;
+    cnw:incipitText "Seht den Felsenquell, freudenhell, wie ein Sternenblick"@de ;
+    cnw:incipitText "See the rocky spring, glittering, like a starry eye"@en ;
+    cnw:incipitText "Bäche schmiegen sich gesellig an"@de ;
+    cnw:incipitText "Fontains follow, pleasant comrades they"@en ;
+    cnw:incipitText "Kommt ihr alle!"@de ;
+    cnw:incipitText "Come ye all then!"@en ;
+    cnw:incipitImage "NWGW_180_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/johann_wolfgang_von_goethe>
+    a foaf:Agent ;
+    foaf:name "Johann Wolfgang von Goethe" .
+
+<https://cnw-ld.org/agent/elsa_d_esterre_keeling_english>
+    a foaf:Agent ;
+    foaf:name "Elsa d'Esterre-Keeling (English)" .
+

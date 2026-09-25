@@ -1,0 +1,58 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW352>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sjølunds Sangere"@da ;
+    dcterms:title "Zealand Singers"@en ;
+    dcterms:alternative "Paa Sjølunds fagre, sommerskønne Ø"@da ;
+    dcterms:alternative "On Zealand's fair and lovely summer isle"@en ;
+    dcterms:identifier "CNW 352" ;
+    dcterms:identifier "CNU III/6, 311" ;
+    dcterms:identifier "CNS 305" ;
+    dcterms:identifier "FS 154" ;
+    cnw:cnwNumber "352" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "154" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/karl_elnegaard> ;
+    dcterms:created "1924" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    cnw:manuscriptLocation "privately owned" ;
+    frbr:realization <https://cnw-ld.org/work/CNW352/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW352/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW352> ;
+    cnw:tempo "Varmt bevæget" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Paa Sjølunds fagre, sommerskønne Ø"@da ;
+    cnw:incipitText "On Zealand's fair and lovely summer isle"@en ;
+    cnw:incipitImage "cnw_352.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/karl_elnegaard>
+    a foaf:Agent ;
+    foaf:name "Karl Elnegaard" .
+

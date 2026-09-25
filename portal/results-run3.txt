@@ -1,0 +1,136 @@
+
+Running 105 tests using 8 workers
+
+  ok   1 [chromium] › e2e\catalogue.spec.ts:84:3 › Catalogue browsing › sorting reorders the listing (5.6s)
+  ok   3 [chromium] › e2e\catalogue.spec.ts:60:3 › Catalogue browsing › lists works and reports the corpus size (5.5s)
+  ok   8 [chromium] › e2e\catalogue.spec.ts:132:3 › Search and filtering › a search with no matches explains itself (5.6s)
+  ok   6 [chromium] › e2e\catalogue.spec.ts:107:3 › Search and filtering › a filtered work appears exactly once (5.8s)
+  ok   5 [chromium] › e2e\catalogue.spec.ts:94:3 › Search and filtering › finds a work by catalogue number, with or without the prefix (5.9s)
+  ok   2 [chromium] › e2e\catalogue.spec.ts:68:3 › Catalogue browsing › pages through results without repeating a work (6.0s)
+  ok   7 [chromium] › e2e\catalogue.spec.ts:119:3 › Search and filtering › filters narrow the result count and clear restores it (6.0s)
+  ok   4 [chromium] › e2e\catalogue.spec.ts:77:3 › Catalogue browsing › page size control changes how many are shown (6.1s)
+  ok  11 [chromium] › e2e\catalogue.spec.ts:166:3 › Work detail › a work with no incipit says so plainly (2.7s)
+  ok  10 [chromium] › e2e\catalogue.spec.ts:147:3 › Work detail › the incipit is full width, not squeezed into a column (3.4s)
+  ok   9 [chromium] › e2e\catalogue.spec.ts:140:3 › Work detail › opens a record and shows catalogue fields (3.5s)
+  ok  12 [chromium] › e2e\catalogue.spec.ts:172:3 › Work detail › an unknown work does not crash the portal (4.5s)
+  ok  15 [chromium] › e2e\catalogue.spec.ts:199:3 › Accessibility (WCAG 2.2 AA) › the catalogue is operable by keyboard alone (4.9s)
+  ok  16 [chromium] › e2e\catalogue.spec.ts:235:3 › Accessibility (WCAG 2.2 AA) › interactive controls meet the 24 px minimum target size (5.3s)
+  ok  14 [chromium] › e2e\catalogue.spec.ts:189:3 › Accessibility (WCAG 2.2 AA) › work detail page has no automatically detectable violations (6.0s)
+  ok  17 [chromium] › e2e\catalogue.spec.ts:247:3 › Accessibility (WCAG 2.2 AA) › every form control has a label (3.6s)
+  ok  18 [chromium] › e2e\catalogue.spec.ts:261:3 › Network conditions and recovery › shows an error when the API is unreachable (3.2s)
+  ok  13 [chromium] › e2e\catalogue.spec.ts:179:3 › Accessibility (WCAG 2.2 AA) › catalogue page has no automatically detectable violations (6.6s)
+  ok  21 [chromium] › e2e\catalogue.spec.ts:286:3 › Network conditions and recovery › a missing incipit image does not break the page (2.8s)
+  ok  20 [chromium] › e2e\catalogue.spec.ts:277:3 › Network conditions and recovery › remains usable on a slow connection (3.3s)
+  ok  19 [chromium] › e2e\catalogue.spec.ts:267:3 › Network conditions and recovery › recovers once the API comes back (4.7s)
+  x   27 [firefox] › e2e\catalogue.spec.ts:107:3 › Search and filtering › a filtered work appears exactly once (9.6s)
+  ok  22 [firefox] › e2e\catalogue.spec.ts:77:3 › Catalogue browsing › page size control changes how many are shown (20.3s)
+  ok  31 [firefox] › e2e\catalogue.spec.ts:147:3 › Work detail › the incipit is full width, not squeezed into a column (1.8s)
+  ok  32 [firefox] › e2e\catalogue.spec.ts:166:3 › Work detail › a work with no incipit says so plainly (1.2s)
+  ok  23 [firefox] › e2e\catalogue.spec.ts:84:3 › Catalogue browsing › sorting reorders the listing (23.9s)
+  ok  33 [firefox] › e2e\catalogue.spec.ts:172:3 › Work detail › an unknown work does not crash the portal (2.6s)
+  ok  25 [firefox] › e2e\catalogue.spec.ts:94:3 › Search and filtering › finds a work by catalogue number, with or without the prefix (25.7s)
+  ok  29 [firefox] › e2e\catalogue.spec.ts:132:3 › Search and filtering › a search with no matches explains itself (25.3s)
+  ok  28 [firefox] › e2e\catalogue.spec.ts:119:3 › Search and filtering › filters narrow the result count and clear restores it (20.7s)
+  ok  26 [firefox] › e2e\catalogue.spec.ts:68:3 › Catalogue browsing › pages through results without repeating a work (25.0s)
+  ok  36 [firefox] › e2e\catalogue.spec.ts:199:3 › Accessibility (WCAG 2.2 AA) › the catalogue is operable by keyboard alone (6.5s)
+  ok  35 [firefox] › e2e\catalogue.spec.ts:189:3 › Accessibility (WCAG 2.2 AA) › work detail page has no automatically detectable violations (7.7s)
+  ok  38 [firefox] › e2e\catalogue.spec.ts:247:3 › Accessibility (WCAG 2.2 AA) › every form control has a label (6.2s)
+  ok  37 [firefox] › e2e\catalogue.spec.ts:235:3 › Accessibility (WCAG 2.2 AA) › interactive controls meet the 24 px minimum target size (7.2s)
+  ok  34 [firefox] › e2e\catalogue.spec.ts:179:3 › Accessibility (WCAG 2.2 AA) › catalogue page has no automatically detectable violations (10.7s)
+  ok  39 [firefox] › e2e\catalogue.spec.ts:261:3 › Network conditions and recovery › shows an error when the API is unreachable (5.9s)
+  ok  30 [firefox] › e2e\catalogue.spec.ts:140:3 › Work detail › opens a record and shows catalogue fields (21.0s)
+  ok  41 [firefox] › e2e\catalogue.spec.ts:277:3 › Network conditions and recovery › remains usable on a slow connection (4.8s)
+  ok  42 [firefox] › e2e\catalogue.spec.ts:286:3 › Network conditions and recovery › a missing incipit image does not break the page (4.8s)
+  ok  40 [firefox] › e2e\catalogue.spec.ts:267:3 › Network conditions and recovery › recovers once the API comes back (7.1s)
+  ok  43 [webkit] › e2e\catalogue.spec.ts:60:3 › Catalogue browsing › lists works and reports the corpus size (5.5s)
+  ok  45 [webkit] › e2e\catalogue.spec.ts:77:3 › Catalogue browsing › page size control changes how many are shown (6.5s)
+  ok  44 [webkit] › e2e\catalogue.spec.ts:68:3 › Catalogue browsing › pages through results without repeating a work (10.1s)
+  ok  46 [webkit] › e2e\catalogue.spec.ts:84:3 › Catalogue browsing › sorting reorders the listing (9.2s)
+  ok  47 [webkit] › e2e\catalogue.spec.ts:94:3 › Search and filtering › finds a work by catalogue number, with or without the prefix (11.6s)
+  ok  50 [webkit] › e2e\catalogue.spec.ts:132:3 › Search and filtering › a search with no matches explains itself (9.8s)
+  ok  48 [webkit] › e2e\catalogue.spec.ts:107:3 › Search and filtering › a filtered work appears exactly once (12.5s)
+  ok  49 [webkit] › e2e\catalogue.spec.ts:119:3 › Search and filtering › filters narrow the result count and clear restores it (12.6s)
+  ok  53 [webkit] › e2e\catalogue.spec.ts:166:3 › Work detail › a work with no incipit says so plainly (8.5s)
+  ok  51 [webkit] › e2e\catalogue.spec.ts:140:3 › Work detail › opens a record and shows catalogue fields (13.5s)
+  ok  54 [webkit] › e2e\catalogue.spec.ts:172:3 › Work detail › an unknown work does not crash the portal (8.7s)
+  ok  52 [webkit] › e2e\catalogue.spec.ts:147:3 › Work detail › the incipit is full width, not squeezed into a column (13.6s)
+  ok  57 [webkit] › e2e\catalogue.spec.ts:199:3 › Accessibility (WCAG 2.2 AA) › the catalogue is operable by keyboard alone (10.1s)
+  ok  24 [firefox] › e2e\catalogue.spec.ts:60:3 › Catalogue browsing › lists works and reports the corpus size (1.0m)
+  ok  60 [webkit] › e2e\catalogue.spec.ts:261:3 › Network conditions and recovery › shows an error when the API is unreachable (6.9s)
+  ok  55 [webkit] › e2e\catalogue.spec.ts:179:3 › Accessibility (WCAG 2.2 AA) › catalogue page has no automatically detectable violations (15.8s)
+  ok  56 [webkit] › e2e\catalogue.spec.ts:189:3 › Accessibility (WCAG 2.2 AA) › work detail page has no automatically detectable violations (15.3s)
+  ok  59 [webkit] › e2e\catalogue.spec.ts:247:3 › Accessibility (WCAG 2.2 AA) › every form control has a label (11.0s)
+  ok  58 [webkit] › e2e\catalogue.spec.ts:235:3 › Accessibility (WCAG 2.2 AA) › interactive controls meet the 24 px minimum target size (12.4s)
+  ok  62 [webkit] › e2e\catalogue.spec.ts:277:3 › Network conditions and recovery › remains usable on a slow connection (5.3s)
+  ok  61 [webkit] › e2e\catalogue.spec.ts:267:3 › Network conditions and recovery › recovers once the API comes back (8.9s)
+  ok  63 [mobile-chrome] › e2e\catalogue.spec.ts:60:3 › Catalogue browsing › lists works and reports the corpus size (3.0s)
+  ok  65 [mobile-chrome] › e2e\catalogue.spec.ts:68:3 › Catalogue browsing › pages through results without repeating a work (2.7s)
+  ok  66 [mobile-chrome] › e2e\catalogue.spec.ts:77:3 › Catalogue browsing › page size control changes how many are shown (2.5s)
+  ok  67 [mobile-chrome] › e2e\catalogue.spec.ts:84:3 › Catalogue browsing › sorting reorders the listing (2.8s)
+  ok  71 [mobile-chrome] › e2e\catalogue.spec.ts:132:3 › Search and filtering › a search with no matches explains itself (3.0s)
+  ok  68 [mobile-chrome] › e2e\catalogue.spec.ts:94:3 › Search and filtering › finds a work by catalogue number, with or without the prefix (3.3s)
+  ok  64 [webkit] › e2e\catalogue.spec.ts:286:3 › Network conditions and recovery › a missing incipit image does not break the page (6.5s)
+  ok  74 [mobile-chrome] › e2e\catalogue.spec.ts:166:3 › Work detail › a work with no incipit says so plainly (2.4s)
+  ok  70 [mobile-chrome] › e2e\catalogue.spec.ts:107:3 › Search and filtering › a filtered work appears exactly once (3.9s)
+  ok  69 [mobile-chrome] › e2e\catalogue.spec.ts:119:3 › Search and filtering › filters narrow the result count and clear restores it (4.1s)
+  ok  72 [mobile-chrome] › e2e\catalogue.spec.ts:140:3 › Work detail › opens a record and shows catalogue fields (3.7s)
+  ok  73 [mobile-chrome] › e2e\catalogue.spec.ts:147:3 › Work detail › the incipit is full width, not squeezed into a column (3.2s)
+  ok  75 [mobile-chrome] › e2e\catalogue.spec.ts:172:3 › Work detail › an unknown work does not crash the portal (3.5s)
+  ok  77 [mobile-chrome] › e2e\catalogue.spec.ts:199:3 › Accessibility (WCAG 2.2 AA) › the catalogue is operable by keyboard alone (2.9s)
+  ok  80 [mobile-chrome] › e2e\catalogue.spec.ts:261:3 › Network conditions and recovery › shows an error when the API is unreachable (3.5s)
+  ok  76 [mobile-chrome] › e2e\catalogue.spec.ts:179:3 › Accessibility (WCAG 2.2 AA) › catalogue page has no automatically detectable violations (4.8s)
+  ok  79 [mobile-chrome] › e2e\catalogue.spec.ts:247:3 › Accessibility (WCAG 2.2 AA) › every form control has a label (3.9s)
+  ok  78 [mobile-chrome] › e2e\catalogue.spec.ts:235:3 › Accessibility (WCAG 2.2 AA) › interactive controls meet the 24 px minimum target size (4.8s)
+  ok  81 [mobile-chrome] › e2e\catalogue.spec.ts:267:3 › Network conditions and recovery › recovers once the API comes back (4.8s)
+  ok  84 [mobile-chrome] › e2e\catalogue.spec.ts:286:3 › Network conditions and recovery › a missing incipit image does not break the page (2.3s)
+  ok  82 [mobile-chrome] › e2e\catalogue.spec.ts:277:3 › Network conditions and recovery › remains usable on a slow connection (3.4s)
+  ok  83 [mobile-chrome] › e2e\catalogue.spec.ts:189:3 › Accessibility (WCAG 2.2 AA) › work detail page has no automatically detectable violations (3.6s)
+  ok  86 [mobile-safari] › e2e\catalogue.spec.ts:60:3 › Catalogue browsing › lists works and reports the corpus size (8.8s)
+  ok  87 [mobile-safari] › e2e\catalogue.spec.ts:84:3 › Catalogue browsing › sorting reorders the listing (9.1s)
+  ok  85 [mobile-safari] › e2e\catalogue.spec.ts:77:3 › Catalogue browsing › page size control changes how many are shown (9.3s)
+  ok  92 [mobile-safari] › e2e\catalogue.spec.ts:132:3 › Search and filtering › a search with no matches explains itself (8.8s)
+  ok  88 [mobile-safari] › e2e\catalogue.spec.ts:107:3 › Search and filtering › a filtered work appears exactly once (10.4s)
+  ok  89 [mobile-safari] › e2e\catalogue.spec.ts:68:3 › Catalogue browsing › pages through results without repeating a work (10.6s)
+  ok  90 [mobile-safari] › e2e\catalogue.spec.ts:94:3 › Search and filtering › finds a work by catalogue number, with or without the prefix (10.7s)
+  ok  91 [mobile-safari] › e2e\catalogue.spec.ts:119:3 › Search and filtering › filters narrow the result count and clear restores it (10.6s)
+  ok  94 [mobile-safari] › e2e\catalogue.spec.ts:166:3 › Work detail › a work with no incipit says so plainly (5.6s)
+  ok  93 [mobile-safari] › e2e\catalogue.spec.ts:140:3 › Work detail › opens a record and shows catalogue fields (7.2s)
+  ok  95 [mobile-safari] › e2e\catalogue.spec.ts:147:3 › Work detail › the incipit is full width, not squeezed into a column (6.9s)
+  ok  96 [mobile-safari] › e2e\catalogue.spec.ts:172:3 › Work detail › an unknown work does not crash the portal (5.8s)
+  ok  99 [mobile-safari] › e2e\catalogue.spec.ts:199:3 › Accessibility (WCAG 2.2 AA) › the catalogue is operable by keyboard alone (6.0s)
+  ok 100 [mobile-safari] › e2e\catalogue.spec.ts:235:3 › Accessibility (WCAG 2.2 AA) › interactive controls meet the 24 px minimum target size (7.4s)
+  ok 101 [mobile-safari] › e2e\catalogue.spec.ts:247:3 › Accessibility (WCAG 2.2 AA) › every form control has a label (4.8s)
+  ok  98 [mobile-safari] › e2e\catalogue.spec.ts:189:3 › Accessibility (WCAG 2.2 AA) › work detail page has no automatically detectable violations (9.2s)
+  ok  97 [mobile-safari] › e2e\catalogue.spec.ts:179:3 › Accessibility (WCAG 2.2 AA) › catalogue page has no automatically detectable violations (9.7s)
+  ok 102 [mobile-safari] › e2e\catalogue.spec.ts:261:3 › Network conditions and recovery › shows an error when the API is unreachable (4.3s)
+  ok 105 [mobile-safari] › e2e\catalogue.spec.ts:286:3 › Network conditions and recovery › a missing incipit image does not break the page (3.6s)
+  ok 104 [mobile-safari] › e2e\catalogue.spec.ts:277:3 › Network conditions and recovery › remains usable on a slow connection (4.5s)
+  ok 103 [mobile-safari] › e2e\catalogue.spec.ts:267:3 › Network conditions and recovery › recovers once the API comes back (5.4s)
+
+
+  1) [firefox] › e2e\catalogue.spec.ts:107:3 › Search and filtering › a filtered work appears exactly once 
+
+    Error: browserContext.close: Protocol error (Browser.removeBrowserContext): can't access property "_maybeDontRestoreTabs", this._windows[aWindow.__SSi] is undefined
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\catalogue-Search-and-filte-11f26-d-work-appears-exactly-once-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\catalogue-Search-and-filte-11f26-d-work-appears-exactly-once-firefox\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\catalogue-Search-and-filte-11f26-d-work-appears-exactly-once-firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\catalogue-Search-and-filte-11f26-d-work-appears-exactly-once-firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [firefox] › e2e\catalogue.spec.ts:107:3 › Search and filtering › a filtered work appears exactly once 
+  104 passed (2.1m)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m

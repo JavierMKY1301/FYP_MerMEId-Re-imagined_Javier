@@ -1,0 +1,90 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW157>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate ved Universitetets Sörgefest over Kong Christian VIII"@da ;
+    dcterms:title "Cantata at the University's Mourning Ceremony for King Christian VIII"@en ;
+    dcterms:alternative "Kong Christian har sit Folk forladt"@da ;
+    dcterms:identifier "Opus 47" ;
+    dcterms:identifier "HartW 157" ;
+    dcterms:identifier "DF 140" ;
+    cnw:cnwNumber "157" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "47" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johan_ludvig_heiberg> ;
+    dcterms:created "25 Feb. to 11 March 1848" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Male choir" ;
+    frbr:realization <https://cnw-ld.org/work/HartW157/expression/1> ;
+    cnw:performanceCount 2 .
+
+<https://cnw-ld.org/work/HartW157/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW157> ;
+    cnw:tempo "Maestoso" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb.t." ;
+    cnw:performingForce "trb.b." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "arp." ;
+    cnw:performingForce "gong." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:incipitText "Kong Christian har sit Folk forladt"@da ;
+    cnw:incipitText "Hvo fatter Styrelsens forborgne Raad?"@da ;
+    cnw:incipitText "Kongen var en Mand, det Ord skal lyde indtil fjerne Slægt med Sandheds Røst"@da ;
+    cnw:incipitText "Høit stod han stillet paa Fjeldet"@da ;
+    cnw:incipitText "Døden har vundet, Livet har tabt"@da ;
+    cnw:incipitText "Ingen var paa Danmarks Herskersæde Musers Yngling som vor tabte Drot"@da ;
+    cnw:incipitText "O Konge! Din Fader i Døden gik"@da ;
+    cnw:incipitImage "hartw_157_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/johan_ludvig_heiberg>
+    a foaf:Agent ;
+    foaf:name "Johan Ludvig Heiberg" .
+

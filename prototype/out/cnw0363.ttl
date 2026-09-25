@@ -1,0 +1,71 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW361>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Paaske-Liljen"@da ;
+    dcterms:title "The Daffodil"@en ;
+    dcterms:alternative "Paaskeblomst! En Draabe stærk"@da ;
+    dcterms:alternative "Easter bloom! A potent drink"@en ;
+    dcterms:alternative "Påskeliljen"@da ;
+    dcterms:alternative "Påskeblomst! En dråbe stærk"@da ;
+    dcterms:identifier "CNW 361" ;
+    dcterms:identifier "CNU III/5, 146, 229; III/6, 324" ;
+    dcterms:identifier "CNS 302" ;
+    dcterms:identifier "FS 59, 103" ;
+    cnw:cnwNumber "361" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "59, 103" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/n_f_s_grundtvig> ;
+    dcterms:created "1910" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Påskeblomst! hvad vil du her?" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22225400586721> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/03f4c141_9dab_46d7_b8c1_9d0000cc997a> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/ef9c5b1c_889e_47bd_80c8_37902eb9e1a6> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW361/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW361/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW361> ;
+    cnw:tempo "Andantino" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Paaskeblomst! En Draabe stærk"@da ;
+    cnw:incipitText "Easter bloom! a potent drink"@en ;
+    cnw:incipitText "Paaskeblomst! En Draabe stærk"@da ;
+    cnw:incipitText "Easter bloom! a potent drink"@en ;
+    cnw:incipitText "Paaskeblomst! En Draabe stærk"@da ;
+    cnw:incipitText "Easter bloom! a potent drink"@en ;
+    cnw:incipitImage "cnw_361.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/n_f_s_grundtvig>
+    a foaf:Agent ;
+    foaf:name "N.F.S. Grundtvig" .
+

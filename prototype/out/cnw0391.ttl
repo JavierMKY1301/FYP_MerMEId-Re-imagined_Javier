@@ -1,0 +1,58 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW389>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Nu ruger paa Reden i Fjer og Straa"@da ;
+    dcterms:title "On straw and on feather the brooding call"@en ;
+    dcterms:alternative "Nu ruger på reden i fjer og strå"@da ;
+    dcterms:identifier "CNW 389" ;
+    dcterms:identifier "CNU III/5, 273; III/6, 398" ;
+    dcterms:identifier "CNS 198" ;
+    dcterms:identifier "FS 111" ;
+    cnw:cnwNumber "389" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "111" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/ludvig_holstein> ;
+    dcterms:created "Between 1926 and 1927" ;
+    cnw:dateNotBefore "1926"^^xsd:gYear ;
+    cnw:dateNotAfter "1927"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:subject "A cappella choral music" ;
+    frbr:realization <https://cnw-ld.org/work/CNW389/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW389/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW389> ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:incipitText "Nu ruger paa Reden i Fjer og Straa"@da ;
+    cnw:incipitText "On straw and on feather the brooding call"@en ;
+    cnw:incipitText "Nu ruger paa Reden i Fjer og Straa"@da ;
+    cnw:incipitText "On straw and on feather the brooding call"@en ;
+    cnw:incipitImage "cnw_389.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/ludvig_holstein>
+    a foaf:Agent ;
+    foaf:name "Ludvig Holstein" .
+

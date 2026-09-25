@@ -1,0 +1,73 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW178>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Luther paa Wartburg"@da ;
+    dcterms:title "Luther at Wartburg"@en ;
+    dcterms:alternative "I Saxernes Land"@da ;
+    dcterms:alternative "Digt af J.L. Heiberg for Chor, Baryton-Solo og Orchester"@da ;
+    dcterms:identifier "Opus 79" ;
+    dcterms:identifier "HartW 178" ;
+    cnw:cnwNumber "178" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "79" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johan_ludvig_heiberg> ;
+    dcterms:created "1884" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW178/expression/1> ;
+    cnw:performanceCount 3 .
+
+<https://cnw-ld.org/work/HartW178/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW178> ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Baritone" ;
+    cnw:incipitText "I Saxernes Land en mægtig skovgroet Klippe staaer"@da ;
+    cnw:incipitText "Fra liden Celle derinde vendt mod en Afgrund brat - Saa vidt i Dalen trænger Lyset fra Vinduets Baal"@da ;
+    cnw:incipitText "For Evangeliets Fugle Wartburg en Rede du var"@da ;
+    cnw:incipitImage "hartw_178_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/johan_ludvig_heiberg>
+    a foaf:Agent ;
+    foaf:name "Johan Ludvig Heiberg" .
+

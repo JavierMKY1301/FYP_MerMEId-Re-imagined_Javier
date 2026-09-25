@@ -1,0 +1,99 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-017>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantata auf das heilige Oster-Fest"@de ;
+    dcterms:alternative "Der Herr wird zu uns kommen"@de ;
+    dcterms:alternative "In Festo Paschatos. Feria II"@de ;
+    dcterms:identifier "SchW B2:017" ;
+    cnw:cnwNumber "B2:017" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Sacred" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    cnw:editorialNote "(I.A.5.b. ‘Fest. Jahrgänge, nebst einigen Sonntags-Cantaten’): '[Scheibens, Joh. Adolph,] Cantate: In Fest. Paschat. Fer. II. Der Herr wird zu uns kommen wie etc. à 2 Corni, 2 Oboi, 2 Violini, Viola, 4 Voci, Basso ed Organo. a 2 thl.'; ‘NB. In Partitur sind die Preiße etwas geringer.’" ;
+    cnw:editorialNote "No indication of instrumentation." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-017/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/SchWB2-017/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-017> ;
+    cnw:key "B minor" ;
+    cnw:tempo "Andante" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl.a." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "fl.a." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "A." ;
+    cnw:incipitText "Der Herr wird zu uns kommen"@de ;
+    cnw:incipitText "Wie wann des heissen Mittagsstrahl"@de ;
+    cnw:incipitText "Betrübtes Israel, du bist verlassen"@de ;
+    cnw:incipitText "Nein, nein, betrübte Herzen, nein"@de ;
+    cnw:incipitText "Dunkler Abend, düstre Schatten"@de ;
+    cnw:incipitText "Kein Regen kann so lieblich seyn"@de ;
+    cnw:incipitText "Ligt schon der Leib im finstern Grabe"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

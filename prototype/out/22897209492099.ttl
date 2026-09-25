@@ -1,0 +1,64 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGWA-27>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Bundeslied von Goethe"@de ;
+    dcterms:title "Comrade's Song"@en ;
+    dcterms:alternative "In allen guten Stunden"@de ;
+    dcterms:alternative "Componirt für Männerchor und Blasinstrumente"@de ;
+    dcterms:alternative "Composed for Male Choir and Brass Instruments"@en ;
+    dcterms:identifier "NWGW A 27" ;
+    dcterms:identifier "GW IV:11" ;
+    cnw:cnwNumber "A 27" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_wolfgang_von_goethe> ;
+    dcterms:created "October 1889" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Male choir" ;
+    frbr:realization <https://cnw-ld.org/work/NWGWA-27/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGWA-27/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGWA-27> ;
+    cnw:key "D major" ;
+    cnw:tempo "Allegro moderato. Feierlich" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "cnt." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb.b." ;
+    cnw:performingForce "timp." ;
+    cnw:incipitText "In allen guten Stunden, erhöht von Lieb' und Wein"@de ;
+    cnw:incipitImage "NWGW_A_27.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/johann_wolfgang_von_goethe>
+    a foaf:Agent ;
+    foaf:name "Johann Wolfgang von Goethe" .
+
+<https://cnw-ld.org/agent/tilsiter_s_ngerverein>
+    a foaf:Agent ;
+    foaf:name "Tilsiter Sängerverein" .
+

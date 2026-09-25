@@ -1,0 +1,221 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-430>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musica per l'eseqvie di Louisa regina di Danemarca"@it ;
+    dcterms:identifier "SchW B2:430" ;
+    cnw:cnwNumber "B2:430" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/gerhard_schaft> ;
+    dcterms:created "January 1752" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Secular" ;
+    cnw:editorialNote "'Saa snart Hans Majestet Allerhøyst Selv derpaa indfinder sig i Kirken, begynder Guds-Tienesten med en Sørge-Musiqve, som varer i det Længste 20 Minuter, hvornæst Biskop Hersleb holder en Dansk Prædiken over Esaiæ 38 Cap. 17 v. som varer i det høyeste en Time, derpaa en Sørge-Musiqve af 20 Minuter, hvorefter den første Hof-Prædikant Bluhme, holder den anden Prædiken i det Tydske Sprog over forbemeldte Text og besluttes endeligen Guds-Tienesten med en Sørge-Musiqve af 20 Minuter eller fleere Minuter. Medens den sidste Sørge-Musiqve vedvarer, tilbagebringes, som før er meldt, Hendes Majestæts Crone paa sædvanlig Maade udi det Kongelige inderste Forgemak [...]'" ;
+    cnw:editorialNote "The review mentions that at the previous concert a German 'Trauer-Cantate' was performed by a learned author (no name is mentioned and neither is the composer). The event was most likely 3 February 1751. One of the text sources is in fact bound with a libretto 'Trauer-Kantate, bey Gelegenheit des am 19 Decemb. 1751. [...] den 3ten Februar, 1752.' (DK-Kk, E 7292 4o); see SchW B7:001." ;
+    cnw:editorialNote "Scheibe mentions the work in connection with a performance of it in The Musical Society." ;
+    cnw:editorialNote "In margin at stave Scheibe has written 'Tenore'; however, he employs the C1-clef indicating a cantus part. The part might have been ascribed to either 'Dyden' or 'Kiærlighed'." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-430/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/SchWB2-430/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-430> ;
+    cnw:key "B minor" ;
+    cnw:tempo "Andante e maestoso" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob.gr." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob.gr." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob.gr." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob.gr." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob.gr." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C2." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob.gr." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "C2." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C2." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C2." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob.gr." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "C." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc. obl." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob.gr." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C1." ;
+    cnw:performingForce "C2." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Rinder i Taarer fra bundløse Floder"@da ;
+    cnw:incipitText "I Nordens Tvilling-Riiger"@da ;
+    cnw:incipitText "Ey noget Torden-Slag kand os saa bange giøre"@da ;
+    cnw:incipitText "Ja see! Hvor Skiæbnen har forøget Eders Smerte"@da ;
+    cnw:incipitText "Der er fornummet en Røst i det Høye"@da ;
+    cnw:incipitText "Bort Leeg og Lyst, og hvad som giver Glæde"@da ;
+    cnw:incipitText "Hvad nu? Hvad Graad! Hvad Jammer-Skriig?"@da ;
+    cnw:incipitText "See Kongens Datter og Dronning er prydet"@da ;
+    cnw:incipitText "See i Fred paakom mig en Bitterhed"@da ;
+    cnw:incipitText "Parnasse! Sid i Støv!"@da ;
+    cnw:incipitText "Nu sidde vi da og begræde"@da ;
+    cnw:incipitText "Vel er den følesløs"@da ;
+    cnw:incipitText "Høyst-Salige Luise!"@da ;
+    cnw:incipitText "Du Kongers Konge giv vor Konge Fryd og Glæde"@da ;
+    cnw:incipitImage "SchM_088_001a.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/gerhard_schaft>
+    a foaf:Agent ;
+    foaf:name "Gerhard Schaft" .
+
+<https://cnw-ld.org/agent/queen_louise>
+    a foaf:Agent ;
+    foaf:name "Queen Louise" .
+

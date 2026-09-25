@@ -1,0 +1,51 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGWColl-09>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Aquareller"@da ;
+    dcterms:title "Aquarellen"@de ;
+    dcterms:title "Aquarelles"@en ;
+    dcterms:alternative "Tonebilleder for Pianoforte"@da ;
+    dcterms:alternative "Kleine Tonbilder für Pianoforte"@de ;
+    dcterms:alternative "Little Tone-Pictures for the Pianoforte"@en ;
+    dcterms:identifier "Opus 19" ;
+    dcterms:identifier "NWGW Coll. 09" ;
+    dcterms:identifier "GW III:1" ;
+    cnw:cnwNumber "Coll. 09" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "19" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "November 1849 to December 1850" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Piano" ;
+    frbr:realization <https://cnw-ld.org/work/NWGWColl-09/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/NWGWColl-09/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGWColl-09> ;
+    cnw:performingForce "pf." ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/frederikke_brun>
+    a foaf:Agent ;
+    foaf:name "Frederikke Brun" .
+

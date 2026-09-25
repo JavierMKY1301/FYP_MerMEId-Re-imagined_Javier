@@ -1,0 +1,181 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-431>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Die Patrioten. Ein Singgedicht auf den Geburthstag Sr. königl. Hoheit des Kronprinzens von Dännemark"@de ;
+    dcterms:identifier "SchW B2:431" ;
+    cnw:cnwNumber "B2:431" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johann_andreas_cramer> ;
+    dcterms:created "1760" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:language "Italian" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    dcterms:subject "Secular" ;
+    cnw:editorialNote "'Den forhen i Raadhuusstrædet af det musicalske Sælskab paa Hans Kongelig Høyheds Cronprintsens Fødses Fest den 29 Januarii opførte Concert, blev i Mandags opført paa Slottet, i Hans Kongelig Høyheds Cronprintsens høye Overværelse, og blev anhort med stort Bifald.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-431/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-431/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-431> ;
+    cnw:key "D major" ;
+    cnw:tempo "Allegro assai" ;
+    cnw:meter "2/2" ;
+    cnw:performingForce "C.2" ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2/A." ;
+    cnw:performingForce "T.1" ;
+    cnw:performingForce "T.2" ;
+    cnw:performingForce "T.3" ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2/A." ;
+    cnw:performingForce "T.1" ;
+    cnw:performingForce "T.2" ;
+    cnw:performingForce "T.3" ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2/A." ;
+    cnw:performingForce "T.1" ;
+    cnw:performingForce "T.2" ;
+    cnw:performingForce "T.3" ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2/A." ;
+    cnw:performingForce "T.1" ;
+    cnw:performingForce "T.2" ;
+    cnw:performingForce "T.3" ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "C1." ;
+    cnw:performingForce "C.2/A." ;
+    cnw:performingForce "T1." ;
+    cnw:performingForce "T2." ;
+    cnw:performingForce "T3." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:performingForce "C.1" ;
+    cnw:performingForce "C.2/A." ;
+    cnw:performingForce "T.1" ;
+    cnw:performingForce "T.2" ;
+    cnw:performingForce "T.3" ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "clrno." ;
+    cnw:performingForce "princ." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:incipitText "Ertönet dankerfüllte Lieder!"@de ;
+    cnw:incipitText "Ja! danket, dankt!"@de ;
+    cnw:incipitText "Des Höflings Schmeicheleyen"@de ;
+    cnw:incipitText "Auf frommer Väter Wegen"@de ;
+    cnw:incipitText "Er sehe des Krieges zernichtende Flammen"@de ;
+    cnw:incipitText "Tochter des Himmels, unsterbliche Tugend, erscheine!"@de ;
+    cnw:incipitImage "SchM_152_001a.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johann_andreas_cramer>
+    a foaf:Agent ;
+    foaf:name "Johann Andreas Cramer" .
+
+<https://cnw-ld.org/agent/crown_prince_christian>
+    a foaf:Agent ;
+    foaf:name "Crown Prince Christian" .
+

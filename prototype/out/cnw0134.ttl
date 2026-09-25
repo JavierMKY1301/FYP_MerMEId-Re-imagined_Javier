@@ -1,0 +1,56 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW134>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Dansevise"@da ;
+    dcterms:title "Dance Ballad"@en ;
+    dcterms:alternative "Hr. Oluf der bredes dig Dug paa Disk"@da ;
+    dcterms:alternative "Sir Oluf, your table has fork and dish"@en ;
+    dcterms:alternative "Hr. Oluf der bredes dig dug på disk"@da ;
+    dcterms:identifier "CNW 134" ;
+    dcterms:identifier "CNU III/4, 19; I/7" ;
+    dcterms:identifier "CNS 342" ;
+    dcterms:identifier "FS 37" ;
+    cnw:cnwNumber "134" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "37" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/holger_drachmann> ;
+    dcterms:created "1906" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/CNW134/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW134/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW134> ;
+    cnw:tempo "Allegretto con brio" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Hr. Oluf der bredes dig Dug paa Disk"@da ;
+    cnw:incipitText "Sir Oluf, your table has fork and dish"@en ;
+    cnw:incipitImage "cnw_134.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/holger_drachmann>
+    a foaf:Agent ;
+    foaf:name "Holger Drachmann" .
+

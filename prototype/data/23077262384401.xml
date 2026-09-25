@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_95N20005">
+   <meiHead xml:id="meiHead_cbbedad3">
+      <fileDesc xml:id="fileDesc_35032fa4">
+         <titleStmt xml:id="titleStmt_e74f3110">
+            <title xml:id="title_85611453">Der Gehorsam</title>
+         </titleStmt>
+         <pubStmt xml:id="pubStmt_278d1b70">
+            <respStmt xml:id="respStmt_id8c4647df">
+               <resp xml:id="resp_92510d72">Publisher</resp>
+            </respStmt>
+         </pubStmt>
+         <seriesStmt xml:id="seriesStmt_1f703398">
+            <title xml:id="title_id58b0ee88"/>
+            <identifier type="file_collection" xml:id="identifier_id25b41a04">SchW</identifier>
+         </seriesStmt>
+         <notesStmt xml:id="notesStmt_7ebd7f4f">
+            <annot type="private_notes" xml:id="annot_7c58cb6d">
+               <p xml:id="idm14">SchM407</p>
+            </annot>
+         </notesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc_83e2f35e">
+         <appInfo xml:id="appInfo_a6f78d2d">
+            <application version="2013" xml:id="application_23f300e6">
+               <name xml:id="name_59ffd243">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_idfde3b71e">
+            <p xml:id="idm22">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="workDesc_b7c6948b">
+         <work xml:id="work_idc9e7f9e0">
+            <identifier label="SchW" xml:id="identifier_5fd175b7">B5:145</identifier>
+            <title xml:id="title_idbce74f5e" xml:lang="de">Der Gehorsam</title>
+            <title type="alternative" xml:id="title_c9e681f8" xml:lang="de">Mein Hündchen ist ein gutes Thier</title>
+            <contributor xml:id="respStmt_bd75ca05">
+               <persName role="composer" xml:id="persName_id2aee8601">Johann Adolph Scheibe</persName>
+               <persName role="author" xml:id="persName_30cd72c9">Christian Felix Weiße</persName>
+               <persName role="dedicatee" xml:id="persName_1634fadf">Christiane Elisabeth Weiße</persName>
+            </contributor>
+            <creation xml:id="creation_id7e00e774">
+               <date notafter="1768" notbefore="1765" xml:id="date_f943e2c3">1765–68</date>
+               <geogName xml:id="geogName_6ccde3e2">Copenhagen,</geogName>
+            </creation>
+            <history xml:id="history_id3752ce85">
+               <p xml:id="idm37">See introduction to SchW B5:Coll.003.<lb xml:id="idm38"/>Song is on p. 34.</p>
+            </history>
+            <langUsage xml:id="langUsage_bb678137">
+               <language xml:id="en">English</language>
+               <language xml:id="de">German</language>
+            </langUsage>
+            <classification xml:id="classification_565d0d02">
+               <termList xml:id="termList_91fd7e0b">
+                  <term xml:id="term_b3b5e65f">Vocal music</term>
+                  <term xml:id="term_ef707fbb">Song</term>
+                  <term xml:id="term_ee6aa409">Children's songs</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_a2bcf4fc">
+               <expression xml:id="expression_idca6bb418">
+                  <title xml:id="title_id27b452c9" xml:lang="en"/>
+                  <incip xml:id="incip_id41fd7626">
+                     <incipText xml:id="incipText_c57ceb9e">
+                        <p xml:id="p_1f8674ef" xml:lang="de">Mein Hündchen ist ein gutes Thier</p>
+                     </incipText>
+                     <graphic target="/dcm/assets/udgivelser/schw/incipits/lowres/SchM_407.png" label=""
+                              targettype="lowres"
+                              xml:id="graphic_218c5ccd"/>
+                     <graphic target="/dcm/assets/udgivelser/schw/incipits/hires/SchM_407.png" label=""
+                              targettype="hires"
+                              xml:id="graphic_d62b399b"/>
+                  </incip>
+                  <key mode="major" pname="a" xml:id="key_33e0bba0"/>
+                  <tempo xml:id="tempo_a3423793">Lebhaft</tempo>
+                  <meter sym="cut" xml:id="meter_8d5b6382"/>
+                  <history xml:id="history_id9e68343a">
+                     <p xml:id="idm66"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_idbcf8c5e2">
+                     <perfResList xml:id="perfResList_606e796c">
+                        <perfRes codedval="vn" count="1" solo="false" xml:id="perfRes_208242dc">voce</perfRes>
+                        <perfRes codedval="kc" count="1" solo="false" xml:id="perfRes_53c7945f">cemb.</perfRes>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_e11cb7e9">
+               <relation label="Kleine Lieder für Kinder zur Beförderung der Tugend. Zweyter Theil"
+                         rel="isPartOf"
+                         target="scheibe_193.xml"
+                         xml:id="relation_b3e91afe"/>
+            </relationList>
+         </work>
+      </workList>
+      <manifestationList xml:id="sourceDesc_5ff8d6aa">
+         <manifestation label="Score, print" target="scheibe_193.xml#source_d1e36"
+                        xml:id="source_db40b194"/>
+      </manifestationList>
+      <revisionDesc xml:id="idm73">
+         <change isodate="2015-09-15" xml:id="change_id8c873549">
+            <respStmt xml:id="idm75">
+               <name xml:id="idm76">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_00c42385">
+               <p xml:id="p_333d1731"/>
+            </changeDesc>
+         </change>
+         <change isodate="2015-09-16" xml:id="change_a0d4ff14">
+            <respStmt xml:id="idm80">
+               <name xml:id="idm81">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_187718cd">
+               <p xml:id="p_20686841"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-02-03" xml:id="change_c1a6762e">
+            <respStmt xml:id="idm85">
+               <name xml:id="idm86">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_5cb2ab73">
+               <p xml:id="p_5a0d4d3b"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-02-29" xml:id="change_dd8e0579">
+            <respStmt xml:id="idm90">
+               <name xml:id="idm91">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d731621f">
+               <p xml:id="p_da30e6c5"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-07" xml:id="change_8a42a59d">
+            <respStmt xml:id="idm95">
+               <name xml:id="idm96">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_14809154">
+               <p xml:id="p_ef28f9a1"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_107idm139909618737680">
+            <respStmt xml:id="idm100">
+               <name xml:id="idm101">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_fb9f6d71">
+               <p xml:id="p_466169c2">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_111d1e113">
+            <respStmt xml:id="idm105">
+               <name xml:id="idm106">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_3950d7a5">
+               <p xml:id="p_632dd02d">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-17" xml:id="change_115N10104">
+            <respStmt xml:id="idm110">
+               <name xml:id="idm111">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_9d968eff">
+               <p xml:id="p_734e18f0"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-19" xml:id="change_fe83b16d">
+            <respStmt xml:id="idm115">
+               <name xml:id="idm116">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_9b48fd55">
+               <p xml:id="p_cc71e04c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-23" xml:id="change_122N10156">
+            <respStmt xml:id="idm120">
+               <name xml:id="idm121">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_0fdba582">
+               <p xml:id="p_a13caf9c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-24" xml:id="change_125N1015C">
+            <respStmt xml:id="idm125">
+               <name xml:id="idm126">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_4e8d5feb">
+               <p xml:id="p_f1cda387"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-08-26" xml:id="change_128N10162">
+            <respStmt xml:id="idm130">
+               <name xml:id="idm131">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_5dde5483">
+               <p xml:id="p_458e1581"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-10" xml:id="change_131N10168">
+            <respStmt xml:id="idm135">
+               <name xml:id="idm136">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_0b62f65f">
+               <p xml:id="p_b0882bf6"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-13" xml:id="change_195aa1fa">
+            <respStmt xml:id="idm140">
+               <name xml:id="idm141">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_5c5e3f5a">
+               <p xml:id="p_68cb3473"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-19" xml:id="change_139N10188">
+            <respStmt xml:id="idm145">
+               <name xml:id="idm146">ph</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_c0c5cd3d">
+               <p xml:id="p_e465fdfa"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-20" xml:id="change_143N10194">
+            <respStmt xml:id="idm150">
+               <name xml:id="idm151">ph</name>
+            </respStmt>
+            <changeDesc xml:id="idm152">
+               <p xml:id="idm153"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-24" xml:id="change_146N1019A">
+            <respStmt xml:id="idm155">
+               <name xml:id="idm156">ph</name>
+            </respStmt>
+            <changeDesc xml:id="idm157">
+               <p xml:id="idm158"/>
+            </changeDesc>
+         </change>
+         <change xml:id="idm159" isodate="2017-04-04" n="18">
+            <respStmt xml:id="idm160">
+               <name xml:id="idm161">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm162">
+               <p xml:id="idm163">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-14T16:43:12+01:00" xml:id="change_184N100FB">
+            <respStmt xml:id="idm165">
+               <name xml:id="idm166">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm167">
+               <p xml:id="idm168">Batch transformation removing empty elements</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-11-20T16:29:14Z" xml:id="change_169N100CF">
+            <respStmt xml:id="idm170">
+               <name xml:id="idm171">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm172">
+               <p xml:id="idm173">Incipit links updated</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_174d1e98">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-01" xml:id="change_179d1e98">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Restore performance resource list</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm174"/>
+</mei>

@@ -1,0 +1,106 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW183>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate ved Universitetets Fest den 28. Maj i Anledning af Deres Majestæter Kongens og Dronningens Guldbryllup"@da ;
+    dcterms:title "Cantata at the University's Feast on the Occasion of their Majesties', the King's and Queen's Golden Wedding on 28 May"@en ;
+    dcterms:alternative "De Klokker ringe med Højtidsklang"@da ;
+    dcterms:identifier "HartW 183" ;
+    dcterms:identifier "DF 85" ;
+    cnw:cnwNumber "183" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_richardt> ;
+    dcterms:created "1891-1892" ;
+    cnw:dateNotBefore "1891"^^xsd:gYear ;
+    cnw:dateNotAfter "1892"^^xsd:gYear ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Male choir" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/HartW183/expression/1> ;
+    cnw:performanceCount 2 .
+
+<https://cnw-ld.org/work/HartW183/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW183> ;
+    cnw:tempo "Moderato, pastorale" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "trb." ;
+    cnw:performingForce "tb." ;
+    cnw:performingForce "timp." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Tenor" ;
+    cnw:incipitText "De Klokker ringe med Højtidsklang"@da ;
+    cnw:incipitText "Lad drages Dig i Minde, vor ejegode Drot"@da ;
+    cnw:incipitText "Ja, Kong Christian, i Danmarks Rige blev med Troskabs Ret Din Deel!"@da ;
+    cnw:incipitText "Kronens Guld og Troskabs Guld"@da ;
+    cnw:incipitText "De Sex sig tumled paa Bernstorffs Grund"@da ;
+    cnw:incipitText "Fredensborg! i høstlig Glans"@da ;
+    cnw:incipitText "De Klokker ringe med gylden Klang"@da ;
+    cnw:incipitText "Vort Land som nu de Tusind Aar"@da ;
+    cnw:incipitText "Vel har vi kun en liden Fløj"@da ;
+    cnw:incipitText "Men Bønnen stiger i samme Stund"@da ;
+    cnw:incipitImage "hartw_183_01.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/christian_richardt>
+    a foaf:Agent ;
+    foaf:name "Christian Richardt" .
+

@@ -1,0 +1,92 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW154>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Musik til Just Mathias Thieles Skuespil \"Klaus Rigmands Skat\""@da ;
+    dcterms:title "Music for Just Mathias Thiele's Play \"Klaus Rich Man's Treasure\""@en ;
+    dcterms:identifier "NWGW 154" ;
+    dcterms:identifier "GW VI:4" ;
+    cnw:cnwNumber "154" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/just_mathias_thiele> ;
+    dcterms:created "18 March 1859" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    cnw:editorialNote "Tune only." ;
+    cnw:editorialNote "Tune only." ;
+    frbr:realization <https://cnw-ld.org/work/NWGW154/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/NWGW154/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW154> ;
+    cnw:tempo "Tempo Ordinario" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "cor.cacc." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "cnt." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "cor.cacc." ;
+    cnw:performingForce "tr." ;
+    cnw:performingForce "cnt." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "cl." ;
+    cnw:performingForce "fg." ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:incipitText "Har jeg et Glas tilbage"@da ;
+    cnw:incipitText "Vaaren er ikke saa lystig endda"@da ;
+    cnw:incipitText "Vor Mark og Skov sig pryder smukt"@da ;
+    cnw:incipitText "Her komme vi Karle og Piger smaa"@da ;
+    cnw:incipitImage "NWGW_154_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/just_mathias_thiele>
+    a foaf:Agent ;
+    foaf:name "Just Mathias Thiele" .
+

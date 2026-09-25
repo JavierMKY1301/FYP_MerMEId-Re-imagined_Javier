@@ -1,0 +1,36 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWC3-001>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Anekdoten eines reisenden Russen über die Staatsverfassung, Sitten und Gebräuche der Dänen"@de ;
+    dcterms:alternative "En reisende Russers Anekdoter over de Danskes Statsforfatning, Sæder og Skikke, i Breve til sine Venner"@da ;
+    dcterms:identifier "SchW C3:001" ;
+    cnw:cnwNumber "C3:001" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:created "1771" ;
+    dcterms:language "German" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Text" ;
+    dcterms:subject "Satirical and political texts" ;
+    dcterms:subject "Criticism" ;
+    dcterms:subject "Politics" ;
+    cnw:editorialNote " 'I Almindelighed at dømme om disse Breve, saa forraade de uden Møye en Mand af Smag og Indsigt, men tillige en stor Flygtighed i at dømme, og en Lyst at giøre alle smaa Ting til Nationalfeyl, hvilken synes at være meer en Virkning af Misfornøyelse med visse Personer, end af et stadigt og modent Overleg. De virkelige Feyl, han har opdaget hos os, have længe været den fornuftigste Deel af Nationen bekiendte, og mange af de Misbruge, han klager over, har Regieringen allerede tildeels forrekommet. At han er en Tydsker, er ingen Tvivl, endskiønt hans Sprog slet ikke er ziirligt, og hans Stiil paa mange Steder meget skiødesløs.'" ;
+    cnw:editorialNote " Mentions the author of the Russian traveller." ;
+    frbr:realization <https://cnw-ld.org/work/SchWC3-001/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWC3-001/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWC3-001> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+

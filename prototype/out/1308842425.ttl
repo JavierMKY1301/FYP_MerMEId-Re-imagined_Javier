@@ -1,0 +1,68 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW160>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Quando corpus morietur"@la ;
+    dcterms:alternative "Naar mit Legem Døden møder"@da ;
+    dcterms:alternative "Motet for 3 solostemmer, blandet kor og strygere"@da ;
+    dcterms:identifier "Opus 15" ;
+    dcterms:identifier "HartW 160" ;
+    dcterms:identifier "DF 62" ;
+    cnw:cnwNumber "160" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "15" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/last_two_stanzas_of_the_thirteenth_century_sequence_stabat_mater> ;
+    dcterms:created "14 to 15 Nov. 1850" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "Latin" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    frbr:realization <https://cnw-ld.org/work/HartW160/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW160/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW160> ;
+    cnw:key "D minor" ;
+    cnw:tempo "Andante sostenuto, non troppo lento" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soprano" ;
+    cnw:performingForce "Tenor" ;
+    cnw:performingForce "Baritone" ;
+    cnw:incipitText "Quando corpus morietur"@la ;
+    cnw:incipitText "Naar mit Legem Døden møder"@da ;
+    cnw:incipitText "Quando corpus morietur"@la ;
+    cnw:incipitText "Naar mit Legem Døden møder"@da ;
+    cnw:incipitImage "hartw_160.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/last_two_stanzas_of_the_thirteenth_century_sequence_stabat_mater>
+    a foaf:Agent ;
+    foaf:name "Last two stanzas of the thirteenth-century sequence Stabat Mater" .
+

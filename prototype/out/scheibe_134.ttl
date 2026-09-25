@@ -1,0 +1,54 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-407>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantata ved den nye Slots-Kirkes Solenne Indvielse"@da ;
+    dcterms:identifier "SchW B2:407" ;
+    cnw:cnwNumber "B2:407" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/peder_sparki_r> ;
+    dcterms:created "1740" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Occasional" ;
+    cnw:editorialNote " 'Die bevorstehenden Geburtstage [SchW B2:400, B2:402] und die Einweÿhung des neuen Schloßes [SchW B2:407] werden mit der grösten Pracht begangen werden, und da ich zugleich durch meine Bedienung alle Freÿheit erhalte, alles nach meinem Gutbefinden anzuordnen, so werde allen Fleiß anwenden, daß so wohl die Music als die Poesie ein anderes Ansehn gewinnen, als sie einige Zeit in diesen Ländern gehabt haben.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-407/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-407/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-407> ;
+    cnw:incipitText "Hosianna! Lovet være Den, som kommer i HErrens Navn!"@da ;
+    cnw:incipitText "Med denne Bøn og Tak Hvers Hierte bryder ud"@da ;
+    cnw:incipitText "Hellige og store GUD?"@da ;
+    cnw:incipitText "Vi vil hernæst i Bøn vedblive"@da ;
+    cnw:incipitText "Hellighed og Herlighed"@da ;
+    cnw:incipitText "Saa gaae vi da ad Dine Porte ind med Glæde"@da ;
+    cnw:incipitText "Frisk op med Instrumenters Lyd"@da ;
+    cnw:incipitText "Saa er Indvielsen i JEsu Navn fuldendt"@da ;
+    cnw:incipitText "Din Lov vi vil da ey forglemme"@da ;
+    cnw:incipitText "Lovet være Herren Israels Gud"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/peder_sparki_r>
+    a foaf:Agent ;
+    foaf:name "Peder Sparkiær" .
+

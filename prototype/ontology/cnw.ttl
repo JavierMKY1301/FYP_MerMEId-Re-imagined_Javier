@@ -1,0 +1,160 @@
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+
+#################################################################
+#  CNW-LD application vocabulary
+#  A lightweight extension that sits ON TOP OF established
+#  vocabularies (FRBR core, Music Ontology, Dublin Core, FOAF).
+#  It declares ONLY the catalogue-specific terms those vocabularies
+#  do not provide. Everything else (dcterms:title, dcterms:creator,
+#  frbr:Work, frbr:Expression, foaf:Agent ...) is reused as-is.
+#################################################################
+
+<https://cnw-ld.org/ontology>
+    a owl:Ontology ;
+    rdfs:label "CNW Linked Data vocabulary"@en ;
+    rdfs:comment "Catalogue-specific properties for the Carl Nielsen Works (CNW) thematic catalogue, extending FRBR, Music Ontology, Dublin Core and FOAF."@en ;
+    owl:imports <http://purl.org/vocab/frbr/core#> ,
+                <http://purl.org/dc/terms/> .
+
+#####  Work-level identifiers  ####################################
+
+cnw:cnwNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "CNW number"@en ;
+    rdfs:comment "The work's number in the Catalogue of Carl Nielsen's Works."@en ;
+    rdfs:domain frbr:Work ;
+    rdfs:range  xsd:string .
+
+cnw:opus
+    a owl:DatatypeProperty ;
+    rdfs:label "opus number"@en ;
+    rdfs:comment "Opus number as assigned by the composer/publisher (normalised, e.g. '10.1')."@en ;
+    rdfs:domain frbr:Work ;
+    rdfs:range  xsd:string .
+
+cnw:fsNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "FS number"@en ;
+    rdfs:comment "Number in the older Fog-Schousboe (FS) Nielsen catalogue."@en ;
+    rdfs:domain frbr:Work ;
+    rdfs:range  xsd:string .
+
+#####  Work-level dating  #########################################
+
+cnw:dateNotBefore
+    a owl:DatatypeProperty ;
+    rdfs:label "date not before"@en ;
+    rdfs:comment "Earliest bound of an uncertain creation date."@en ;
+    rdfs:domain frbr:Work ;
+    rdfs:range  xsd:gYear .
+
+cnw:dateNotAfter
+    a owl:DatatypeProperty ;
+    rdfs:label "date not after"@en ;
+    rdfs:comment "Latest bound of an uncertain creation date."@en ;
+    rdfs:domain frbr:Work ;
+    rdfs:range  xsd:gYear .
+
+#####  Work-level agents & counts  ################################
+
+cnw:textAuthor
+    a owl:ObjectProperty ;
+    rdfs:label "text author"@en ;
+    rdfs:comment "Author of the sung or set text (librettist, poet), as distinct from the musical composer (dcterms:creator)."@en ;
+    rdfs:domain frbr:Work ;
+    rdfs:range  foaf:Agent .
+
+cnw:performanceCount
+    a owl:DatatypeProperty ;
+    rdfs:label "performance count"@en ;
+    rdfs:comment "Number of documented performance events recorded for the work."@en ;
+    rdfs:domain frbr:Work ;
+    rdfs:range  xsd:integer .
+
+#####  Editorial / source annotations (added for #7)  #############
+
+cnw:editorialNote
+    a owl:DatatypeProperty ;
+    rdfs:label "editorial note"@en ;
+    rdfs:comment "Free-text editorial description of the work, flattened from MEI <annot> (general)."@en ;
+    rdfs:domain frbr:Work ;
+    rdfs:range  xsd:string .
+
+cnw:sourceDescription
+    a owl:DatatypeProperty ;
+    rdfs:label "source description"@en ;
+    rdfs:comment "Editorial description of a source/manifestation, flattened from MEI <annot type='source_description'>."@en ;
+    rdfs:domain frbr:Work ;
+    rdfs:range  xsd:string .
+
+cnw:manuscriptLocation
+    a owl:DatatypeProperty ;
+    rdfs:label "manuscript location"@en ;
+    rdfs:comment "Holding repository of a source, typically a RISM siglum, from MEI <physLoc>/<repository>."@en ;
+    rdfs:domain frbr:Work ;
+    rdfs:range  xsd:string .
+
+#####  Expression-level musical attributes  ######################
+
+cnw:key
+    a owl:DatatypeProperty ;
+    rdfs:label "key"@en ;
+    rdfs:comment "Principal key of the expression, e.g. 'D major'."@en ;
+    rdfs:domain frbr:Expression ;
+    rdfs:range  xsd:string .
+
+cnw:tempo
+    a owl:DatatypeProperty ;
+    rdfs:label "tempo"@en ;
+    rdfs:comment "Tempo marking of the expression, e.g. 'Allegro'."@en ;
+    rdfs:domain frbr:Expression ;
+    rdfs:range  xsd:string .
+
+cnw:meter
+    a owl:DatatypeProperty ;
+    rdfs:label "meter"@en ;
+    rdfs:comment "Time signature of the expression, normalised to 'count/unit' (common -> 4/4, cut -> 2/2)."@en ;
+    rdfs:domain frbr:Expression ;
+    rdfs:range  xsd:string .
+
+cnw:performingForce
+    a owl:DatatypeProperty ;
+    rdfs:label "performing force"@en ;
+    rdfs:comment "A scoring / performing resource (instrument or voice) required by the expression."@en ;
+    rdfs:domain frbr:Expression ;
+    rdfs:range  xsd:string .
+
+cnw:incipitText
+    a owl:DatatypeProperty ;
+    rdfs:label "incipit text"@en ;
+    rdfs:comment "Opening words of the text incipit; language-tagged where the source specifies a language."@en ;
+    rdfs:domain frbr:Expression ;
+    rdfs:range  rdf:langString .
+
+cnw:incipitImage
+    a owl:DatatypeProperty ;
+    rdfs:label "incipit image"@en ;
+    rdfs:comment "Filename of a pre-rendered notated-incipit image referenced by the source."@en ;
+    rdfs:domain frbr:Expression ;
+    rdfs:range  xsd:string .
+
+cnw:hasNotatedIncipit
+    a owl:DatatypeProperty ;
+    rdfs:label "has notated incipit"@en ;
+    rdfs:comment "True if the source carries notation inside its <incip> element."@en ;
+    rdfs:domain frbr:Expression ;
+    rdfs:range  xsd:boolean .
+
+cnw:hasNotatedMusic
+    a owl:DatatypeProperty ;
+    rdfs:label "has notated music"@en ;
+    rdfs:comment "True if the record contains renderable notation anywhere (a Verovio-renderable <score>)."@en ;
+    rdfs:domain frbr:Expression ;
+    rdfs:range  xsd:boolean .

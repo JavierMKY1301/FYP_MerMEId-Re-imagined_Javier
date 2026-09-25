@@ -1,0 +1,47 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW140>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sørgemarsch ved Admiral Suensons Jordfæstelse fra Holmens Kirke Maj 1887"@da ;
+    dcterms:title "Trauermarsch bei der Beerdigung des Admirals Suenson in Holmens Kirche Mai 1887"@de ;
+    dcterms:title "Funeral March at the Interment of Admiral Suenson in Holmens Kirke May 1887"@en ;
+    dcterms:alternative "Ved en Søofficers Sørgehøjtid (Admiral Suenson)"@da ;
+    dcterms:identifier "NWGW 140" ;
+    dcterms:identifier "GW III:3" ;
+    cnw:cnwNumber "140" ;
+    cnw:catalogueCode "NWGW" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    dcterms:created "23 May 1887" ;
+    dcterms:language "German" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Organ" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW140/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/NWGW140/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW140> ;
+    cnw:key "C minor" ;
+    cnw:tempo "Maestoso, Allegro moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "org." ;
+    cnw:incipitImage "NWGW_140.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+

@@ -1,0 +1,82 @@
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+# A valid catalogue Work must carry the scholarly minimum: at least one title,
+# a named composer or arranger, and exactly one catalogue number from a known catalogue
+
+cnw:WorkShape
+    a sh:NodeShape ;
+    sh:targetClass frbr:Work ;
+    sh:property [
+        sh:path dcterms:title ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "Every work must have at least one title." ;
+    ] ;
+    sh:or (
+        [ sh:property [ sh:path dcterms:creator ; sh:minCount 1 ] ]
+        [ sh:property [ sh:path cnw:arranger  ; sh:minCount 1 ] ]
+    ) ;
+    sh:message "Every work must name at least one composer or arranger." ;
+    sh:property [
+        sh:path cnw:cnwNumber ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation ;
+        sh:message "Every work must have exactly one catalogue number." ;
+    ] ;
+    sh:property [
+        sh:path cnw:catalogueCode ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:in ( "CNW" "NWGW" "HartW" "SchW" ) ;
+        sh:severity sh:Violation ;
+        sh:message "Every work must declare exactly one known catalogue code." ;
+    ] ;
+    sh:property [
+        sh:path cnw:performanceCount ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+        sh:severity sh:Warning ;
+        sh:message "performanceCount should be a single integer." ;
+    ] ;
+    sh:property [
+        sh:path frbr:realization ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "A work should realise at least one expression." ;
+    ];
+    sh:property [
+        sh:path cnw:editorialNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Warning ;
+        sh:message "Editorial notes should be plain string literals." ;
+    ] ;
+    sh:property [
+        sh:path cnw:sourceDescription ;
+        sh:nodeKind sh:Literal ;
+        sh:severity sh:Warning ;
+    
+    ] .
+
+# Expression-level checks.
+cnw:ExpressionShape
+    a sh:NodeShape ;
+    sh:targetClass frbr:Expression ;
+    sh:property [
+        sh:path cnw:hasNotatedIncipit ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:boolean ;
+        sh:severity sh:Violation ;
+        sh:message "hasNotatedIncipit must be a single boolean." ;
+    ] ;
+    sh:property [
+        sh:path frbr:realizationOf ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "An expression must point back to its work (frbr:realizationOf)." ;
+    ] .

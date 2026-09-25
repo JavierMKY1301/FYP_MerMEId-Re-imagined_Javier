@@ -1,0 +1,62 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW209>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Patient"@da ;
+    dcterms:title "Patient"@en ;
+    dcterms:alternative "Hvor er hun ung og yndig"@da ;
+    dcterms:identifier "Opus 73:4" ;
+    dcterms:identifier "HartW 209" ;
+    dcterms:identifier "DF 59:4" ;
+    cnw:cnwNumber "209" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "73:4" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/christian_richardt> ;
+    dcterms:created "1876-01-06" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Choral music with instruments" ;
+    dcterms:subject "Mixed choir" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/1308317114> ;
+    cnw:manuscriptLocation "DK-Km" ;
+    frbr:realization <https://cnw-ld.org/work/HartW209/expression/1> ;
+    cnw:performanceCount 2 .
+
+<https://cnw-ld.org/work/HartW209/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW209> ;
+    cnw:tempo "Poco Andante" ;
+    cnw:meter "2/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc." ;
+    cnw:performingForce "cb." ;
+    cnw:incipitText "Hvor er hun ung og yndig som Engens Blomsterneg"@da ;
+    cnw:incipitImage "hartw_209.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/christian_richardt>
+    a foaf:Agent ;
+    foaf:name "Christian Richardt" .
+

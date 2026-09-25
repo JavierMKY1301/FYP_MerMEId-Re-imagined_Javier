@@ -1,0 +1,60 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW176>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Bruden"@da ;
+    dcterms:title "The Bride"@en ;
+    dcterms:alternative "Fra Floden de unge Piger"@da ;
+    dcterms:identifier "Opus 77:4" ;
+    dcterms:identifier "HartW 176" ;
+    dcterms:identifier "DF 141:4" ;
+    cnw:cnwNumber "176" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "77:4" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/emil_aarestrup> ;
+    dcterms:created "1880-04-13" ;
+    dcterms:language "English" ;
+    dcterms:language "Danish" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Women's choir" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/1322646495> ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/23414519603507> ;
+    cnw:editorialNote "This song is through-composed and has the character of a dramatic scene." ;
+    frbr:realization <https://cnw-ld.org/work/HartW176/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/HartW176/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW176> ;
+    cnw:key "G major" ;
+    cnw:tempo "Poco moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "A." ;
+    cnw:performingForce "Baritone" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Fra Floden de unge Piger med Fisk og Frugter gaae"@da ;
+    cnw:incipitImage "hartw_176.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/emil_aarestrup>
+    a foaf:Agent ;
+    foaf:name "Emil Aarestrup" .
+

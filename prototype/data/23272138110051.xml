@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1"
+     xml:id="mei_95N20005">
+   <meiHead xml:id="idm2">
+      <fileDesc xml:id="idm3">
+         <titleStmt xml:id="idm4">
+            <title xml:id="idm5">Der Oktober</title>
+         </titleStmt>
+         <pubStmt xml:id="idm6">
+            <respStmt xml:id="respStmt_id9b028ec9">
+               <resp xml:id="idm8">Publisher</resp>
+               <corpName xml:id="corpName_idcd134eb0">
+                  <abbr xml:id="idm10">DCM</abbr>
+                  <expan xml:id="idm11"/>
+                  <address xml:id="idm12">
+                     <addrLine xml:id="idm13"/>
+                     <addrLine xml:id="idm14"/>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_id41416adc">Inger Sørensen</persName>
+            </respStmt>
+         </pubStmt>
+         <seriesStmt xml:id="idm16">
+            <title xml:id="title_id12d4ef80">J.P.E. Hartmann Thematic Catalogue</title>
+            <identifier type="file_collection" xml:id="identifier_idc9933dd4">HartW</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="idm27">
+         <appInfo xml:id="idm28">
+            <application xml:id="idm29" version="2013">
+               <name xml:id="idm30">MerMEId</name>
+            </application>
+         </appInfo>
+         <projectDesc xml:id="projectDesc_id89ea56bb">
+            <p xml:id="idm32">Created using MerMEId</p>
+         </projectDesc>
+         <classDecls>
+            <taxonomy xml:id="DcmSourceClassification">
+               <category xml:id="DcmContentClass"/>
+               <category xml:id="DcmPresentationClass"/>
+               <category xml:id="DcmAuthorityClass"/>
+               <category xml:id="DcmScoringClass"/>
+               <category xml:id="DcmStateClass"/>
+               <category xml:id="DcmCompletenessClass"/>
+            </taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList xml:id="idm33">
+         <work xml:id="work_ida422ecd5">
+            <identifier xml:id="idm35" label="HartW">C 02</identifier>
+            <title xml:id="title_id49ac9e36" xml:lang="de">Der Oktober</title>
+            <contributor xml:id="idm38">
+               <persName role="composer" xml:id="persName_id44181bf3">J.P.E. Hartmann</persName>
+            </contributor>
+            <creation xml:id="creation_id08990a2a">
+               <date xml:id="idm41" isodate="1840">1840 ?</date>
+            </creation>
+            <history xml:id="history_id0496f9e2">
+               <eventList type="performances" xml:id="eventList_6edb34c4">
+                  <event xml:id="event_ab19120a">
+                     <date xml:id="idm45" isodate="1840-12-19">1840-12-19</date>
+                     <geogName role="venue" xml:id="geogName_f0e0d0e0">Hotel d'Angleterre</geogName>
+                     <geogName role="place" xml:id="geogName_f159f10e">Copenhagen</geogName>
+                     <corpName role="ensemble" xml:id="corpName_12daf4f3">Studenter-Sangforeningen</corpName>
+                     <persName role="conductor" xml:id="persName_54465fad">Johan Borup</persName>
+                     <desc xml:id="idm50"/>
+                     <biblList xml:id="biblList_2ee3ff82">
+                        <head xml:id="idm52">Reviews</head>
+                        <bibl label="" xml:id="bibl_0d7bcbf0">
+                           <genre xml:id="idm54">article</genre>
+                           <genre xml:id="idm55">journal</genre>
+                           <title xml:id="idm56" level="a"/>
+                           <title xml:id="idm57" level="j"/>
+                        </bibl>
+                     </biblList>
+                     <biblList xml:id="biblList_57358868">
+                        <head xml:id="idm59">Evidence</head>
+                     </biblList>
+                  </event>
+               </eventList>
+               <p xml:id="idm60">The work is only known from the programme for the first official concert of Studenter-Sangforeningen.</p>
+            </history>
+            <langUsage xml:id="idm61">
+               <language xml:id="en">English</language>
+               <language xml:id="de">German</language>
+            </langUsage>
+            <classification xml:id="idm64">
+               <termList xml:id="idm71">
+                  <term xml:id="idm72">Vocal music</term>
+                  <term xml:id="idm73">A cappella choral music</term>
+                  <term xml:id="idm74">Male choir</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="idm75">
+               <expression xml:id="expression_id60bceaee">
+                  <title xml:id="title_id35fc0ba9" xml:lang="en"/>
+                  <history xml:id="history_idff54fe45">
+                     <p xml:id="idm80"/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_id9c6d9461">
+                     <perfResList xml:id="idm82">
+                        <perfResList codedval="cc" xml:id="perfResList_d1fbdfaf">
+                           <head xml:id="idm84">Choir</head>
+                           <perfRes codedval="vd" count="1" xml:id="perfRes_fa23ca0e">T.</perfRes>
+                           <perfRes codedval="vd" count="1" solo="false" xml:id="perfRes_168a5a9c">T.</perfRes>
+                           <perfRes codedval="vf" count="1" solo="false" xml:id="perfRes_a8108520">B.</perfRes>
+                           <perfRes codedval="vf" count="1" xml:id="perfRes_284e1f5e">B.</perfRes>
+                        </perfResList>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList xml:id="idm19">
+         <manifestation label="" xml:id="source_idfc4e4070">
+            <identifier xml:id="idm21" label=""/>
+            <titleStmt xml:id="idm22">
+               <title xml:id="title_idf244d4a9"/>
+            </titleStmt>
+            <pubStmt xml:id="idm24"/>
+            <itemList xml:id="idm26"/>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc xml:id="idm89">
+         <change isodate="2016-02-03" xml:id="change_id410ecc40">
+            <respStmt xml:id="idm91">
+               <name xml:id="idm92">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm93">
+               <p xml:id="idm94"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-08" xml:id="change_132idm140122252024752">
+            <respStmt xml:id="idm96">
+               <name xml:id="idm97">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm98">
+               <p xml:id="idm99">Batch transformation migrating metadata to MerMEId rev. 948+</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-03-30" xml:id="change_135d1e161">
+            <respStmt xml:id="idm101">
+               <name xml:id="idm102">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm103">
+               <p xml:id="idm104">Batch transformation putting misplaced text back in place</p>
+            </changeDesc>
+         </change>
+         <change isodate="2016-04-14" xml:id="change_141N10146">
+            <respStmt xml:id="idm106">
+               <name xml:id="idm107">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm108">
+               <p xml:id="idm109"/>
+            </changeDesc>
+         </change>
+         <change isodate="2016-10-18" xml:id="change_144N1014C">
+            <respStmt xml:id="idm111">
+               <name xml:id="idm112">inso</name>
+            </respStmt>
+            <changeDesc xml:id="idm113">
+               <p xml:id="idm114"/>
+            </changeDesc>
+         </change>
+         <change xml:id="idm115" isodate="2017-04-04" n="6">
+            <respStmt xml:id="idm116">
+               <name xml:id="idm117">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm118">
+               <p xml:id="idm119">Converted to version 3.0.0 using mei21To30.xsl, version 1.0 beta for MerMEId</p>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-14T16:39:55+01:00" xml:id="change_156N10100">
+            <respStmt xml:id="idm121">
+               <name xml:id="idm122">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="idm123">
+               <p xml:id="idm124">Batch transformation removing empty elements</p>
+            </changeDesc>
+         </change>
+         <change isodate="2021-06-09" xml:id="change_125d1e121">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2022-12-02" xml:id="change_130d1e121">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Adjustments for MEI 4.0.1 validation</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music xml:id="idm125"/>
+</mei>

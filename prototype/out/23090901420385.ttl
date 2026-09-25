@@ -1,0 +1,50 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-307>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Passions-Cantate"@de ;
+    dcterms:alternative "Der aus Liebe sterbende Jesus: Das Haupt erblaßt"@de ;
+    dcterms:identifier "SchW B2:307" ;
+    cnw:cnwNumber "B2:307" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Church" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Passion" ;
+    cnw:editorialNote "(I.A.7.c. ‘Das Singen. Oratoria, und Paßions-Cantaten. Deutsche, in Stimmen.’): '[Scheibe, Joh. Adam [sic], Königl. Dän. Capellmeisters,] Passions-Cantate: Der aus Liebe sterbende Jesus: Das Haupt erblaßt &c. à 2 Flauti, 2 Oboi, 2 Flauti d'amore, 2 Violini, Viola, Voci, Violonc. picc. Basso ed Organo. a 8 thl. NB. In Partitur etwas weniger.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-307/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-307/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-307> ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "fl.a." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "vc.picc." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "bc." ;
+    cnw:incipitText "Das Haupt erblaßt"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

@@ -1,0 +1,48 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWA5-002>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Polyeukt"@fr ;
+    dcterms:identifier "SchW A5:002" ;
+    cnw:cnwNumber "A5:002" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/pierre_corneille> ;
+    dcterms:created "1738" ;
+    dcterms:language "Danish" ;
+    dcterms:language "French" ;
+    dcterms:subject "Theatre music" ;
+    dcterms:subject "Stage music" ;
+    dcterms:subject "Incidental music" ;
+    dcterms:subject "Instrumental music" ;
+    cnw:editorialNote "'Maaskee faa lagde Mærke til, at man imellem Akterne hørte traurige Symphonier? Vi ønske at man vilde lægge mærke til vor berømte Scheibes Afhandling om Symphonier****) [reference to: Critischer Musikus '3 Th. 67 Stück']  til Skuespil af forskiellig Art.'" ;
+    cnw:editorialNote "Having spoken about the Greek choruses, Cooke mentions on that 'the music, after an act should commence in the tone of the preceding passion, and be gradually varied till it accords with the tone of the passion that is to succeed in the next act; the music and the representation would both of them be gainers by this conjunction, which will thus appear: music that accords with the present tone of the mind is, upon that account doubly agreeable; and accordingly, though music singly may not have the power to raise so strong a passion as tragic sentiments, yet it tends greatly to support a passion already raised; further, it prepares us for the passion that follows, by inspiring chearful, tender, melancholy, or animated impressions as the subject requires [...]'. In the German translation which appeared two years later a footnote has been included referring to Lessing's 'Dramaturgie I. Th. 27' as well as the previous section, 26, where Lessing mentions Scheibe's 'Polyeukt', 'Mithridat' and his Critischer Musikus." ;
+    cnw:editorialNote "'Er machte 1738 den Versuch, zum Polyeukt und Mithridat besondere entsprechende Symphonien zu verfertigen, deren man sich hernach auch bei der Neuberschen Truppe, vornemlich zu Hamburg und Leipzig, nicht ohne grossen Beifall, bediente. In einem besondern Blatt seines kritischen Musikus (Stück 67) lies sich derselbe umständlich über diese neue Gattung und besonders darüber aus, was der Componist, um in derselben mit Ruhm zu arbeiten, beobachten müsse. Diese Regeln sind jedoch nur von wenigen, und zwar mit nicht gleichen Vortheilen für die theatralische Musik, befolgt worden, so daß Scheibe, welcher erst in 1776 verstarb, wenig von der zur Absicht gehabten Verbesserung der Theatermusik erlebt hat.'" ;
+    cnw:editorialNote "Mentions Gothaer Theatercalender 1777." ;
+    cnw:editorialNote " 'Er verfertigte zum Polieukt, Mithridat und andern Trauerspielen Symphonien, die mit dem Inhalte der Schauspiele übereinkamen, und die die Neuberin würklich aufführen liess.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWA5-002/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWA5-002/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWA5-002> ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/pierre_corneille>
+    a foaf:Agent ;
+    foaf:name "Pierre Corneille" .
+

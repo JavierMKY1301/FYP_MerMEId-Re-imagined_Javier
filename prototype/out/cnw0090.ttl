@@ -1,0 +1,58 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW90>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Tre klaverstykker"@da ;
+    dcterms:title "Three Piano Pieces"@en ;
+    dcterms:identifier "CNW 90" ;
+    dcterms:identifier "CNU II/12" ;
+    dcterms:identifier "CNS 19" ;
+    dcterms:identifier "FS 131" ;
+    cnw:cnwNumber "90" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "131" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    dcterms:created "1928" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    cnw:editorialNote "Specialeopgave." ;
+    cnw:editorialNote "Ph.D. dissertation." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "Privately owned" ;
+    cnw:manuscriptLocation "Privately owned" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "S-Skma" ;
+    frbr:realization <https://cnw-ld.org/work/CNW90/expression/1> ;
+    cnw:performanceCount 7 .
+
+<https://cnw-ld.org/work/CNW90/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW90> ;
+    cnw:tempo "Allegro fluente" ;
+    cnw:meter "4/8" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "cnw_090_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+

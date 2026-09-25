@@ -1,0 +1,70 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW108>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Kantate til Mindefesten for P.S. Krøyer"@da ;
+    dcterms:title "Cantata for the Commemoration of P.S. Krøyer"@en ;
+    dcterms:identifier "CNW 108" ;
+    dcterms:identifier "CNU IV/1, Add. 28" ;
+    dcterms:identifier "CNS 322" ;
+    dcterms:identifier "FS 56" ;
+    cnw:cnwNumber "108" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:fsNumber "56" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/l_c_nielsen> ;
+    dcterms:created "1909" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW108/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/CNW108/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW108> ;
+    cnw:tempo "Andantino espressivo" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "pf." ;
+    cnw:performingForce "S." ;
+    cnw:performingForce "Bar." ;
+    cnw:performingForce "reciter" ;
+    cnw:incipitText "Med dig gik noget mægtigt bort"@da ;
+    cnw:incipitText "Lys! Lys! sukker vi"@da ;
+    cnw:incipitText "Solen ser vi alle"@da ;
+    cnw:incipitText "Barnet leger"@da ;
+    cnw:incipitText "Med dig gik noget mægtig bort"@da ;
+    cnw:incipitImage "cnw_108_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/l_c_nielsen>
+    a foaf:Agent ;
+    foaf:name "L.C. Nielsen" .
+

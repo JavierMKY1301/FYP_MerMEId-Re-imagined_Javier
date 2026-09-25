@@ -1,0 +1,60 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW159>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Fragment af Oehlenschlägers \"Jesu Bjergprædiken\""@da ;
+    dcterms:title "Fragment of Oehlenschläger's \"Jesus' Sermon on The Mount\""@en ;
+    dcterms:alternative "Ser du ej Spurven hisset"@da ;
+    dcterms:identifier "Opus 49" ;
+    dcterms:identifier "HartW 159" ;
+    dcterms:identifier "DF 89" ;
+    cnw:cnwNumber "159" ;
+    cnw:catalogueCode "HartW" ;
+    cnw:opus "49" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/adam_oehlenschl_ger> ;
+    dcterms:created "1848-11-22" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Mixed choir" ;
+    frbr:realization <https://cnw-ld.org/work/HartW159/expression/1> ;
+    cnw:performanceCount 7 .
+
+<https://cnw-ld.org/work/HartW159/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW159> ;
+    cnw:key "B major" ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "Soprano" ;
+    cnw:performingForce "Alto" ;
+    cnw:performingForce "Bass" ;
+    cnw:performingForce "org." ;
+    cnw:incipitText "Ser du ej Spurven hisset"@da ;
+    cnw:incipitImage "hartw_159.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/adam_oehlenschl_ger>
+    a foaf:Agent ;
+    foaf:name "Adam Oehlenschläger" .
+

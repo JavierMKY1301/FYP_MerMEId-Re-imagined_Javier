@@ -1,0 +1,67 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW141>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Godnat, opus 21.7"@da ;
+    dcterms:title "Good Night, Opus 21.7"@en ;
+    dcterms:alternative "No wil a sej Jer Godnæt"@da ;
+    dcterms:alternative "Now I shall wish you good night"@en ;
+    dcterms:identifier "Opus 21.7" ;
+    dcterms:identifier "CNW 141" ;
+    dcterms:identifier "CNU III/4, 26" ;
+    dcterms:identifier "CNS 134" ;
+    dcterms:identifier "FS 42" ;
+    cnw:cnwNumber "141" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:opus "21.7" ;
+    cnw:fsNumber "42" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_v_jensen> ;
+    dcterms:created "1907-07-28" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22228475173875> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-København, Rigsarkivet" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW141/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW141/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW141> ;
+    cnw:tempo "Quasi allegretto (foredrages med en vis, træt Galgenhumor)" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "No wil a sej Jer Godnæt"@da ;
+    cnw:incipitText "Now I shall wish you good night"@en ;
+    cnw:incipitImage "cnw_141.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/bodil_neergaard>
+    a foaf:Agent ;
+    foaf:name "Bodil Neergaard" .
+
+<https://cnw-ld.org/agent/johannes_v_jensen>
+    a foaf:Agent ;
+    foaf:name "Johannes V. Jensen" .
+

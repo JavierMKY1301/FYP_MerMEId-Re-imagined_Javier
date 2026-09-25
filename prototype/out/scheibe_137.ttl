@@ -1,0 +1,81 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-304>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Gottselige Gedanken bey dem Kreuze unsers Erlösers. Ein Passions-Oratorium"@de ;
+    dcterms:identifier "SchW B2:304" ;
+    cnw:cnwNumber "B2:304" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/heinrich_august_gerlach> ;
+    dcterms:created "1742" ;
+    dcterms:language "Danish" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Oratorium" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Passion" ;
+    cnw:editorialNote "'Torsdagen den 23 Martii, bliver paa det Musicaliske Sælskabs Sahl opført et Passions-Oratorium, kaldet Gottselige Gedanken bey dem Creuze unsers Erlösers etc. etc. som er componeret af den berømmelige Capellmester Scheibe.'" ;
+    cnw:editorialNote "'Onsdagen den 29 Martii, bliver paa det Musicaliske Sælskabs Sahl igien opført det sidste Torsdag opførte Passions-Oratorium, kaldet: Gottselige Gedancken bey dem Creuze unsers Erlösers etc. Og Løverdagen den 1 April det ligeledes forhen opførte Danske Passions-Oratorium, kaldet: Gudelige Tanker over vor Frelseres Lidelse og Død etc.'" ;
+    cnw:editorialNote "'Noch melde als etwas Neues, daß ich vorigen Charfreitag [23 March] das Glück gehabt, eine Paßionsmusik in hiesiger Schloßkirche aufzuführen. Dieses ist dießfalls merkwürdig, weil dergleichen noch niemals in den Dänischen Landen geschweige im Königlichen Schloße geschehen ist. Und nun habe zugleich die gröste Hoffnung erhalten, in Kurzem die hiesige Capelle in beßeren Stand zu setzen, und mit Sängern und Instrum[ent]almusicanten zu vermehren.'" ;
+    cnw:editorialNote "(I.A.7.c. ‘Das Singen. Oratoria, und Paßions-Cantaten. Deutsche, in Stimmen.’): '[Scheibe, Joh. Adam [sic], Königl. Dän. Capellmeisters,] Paßions-Cantate: Gottselige Gedanken bey dem Kreuze unsers Erlösers: Wir giengen alle in der Irre etc. à 2 Flauti, 2 Oboi, 2 Violini, Viola, 4 Voci ed Organo. a 6 thl. 12 gl.'; ‘NB. In Partitur sind die Preiße etwas weniger.’" ;
+    cnw:editorialNote "'Der Abdruck, den ich davon besitze, hat die Aufschrift: Johann Arnold Eberts christliche Gedanken über das Leiden und Sterben des Erlösers, von einem Freunde der Wahrheit nebst einer Vorrede zum Druck befordert; Hamburg, 1742. 3 Bogen in 4. Dies Vorrede eines Ungenannten ist wider einen gewissen Dr. Gerlach gerichtet, der sichs erlaubt hatte, sich als den Verfasser dieses Singgedichts anzugeben, das am stillen Freitage 1742 in der Schloßkirche zu Kopenhagen, nach der Musik des dortigen Kapellmeisters Scheibe, aufgeführt wurde. Unter dem Texte stehen Anmerkungen, worin die in dem Kopenhagner Abdrucke gemachten Veränderungen gerügt werden.'" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-304/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-304/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-304> ;
+    cnw:performingForce "fl." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "bc." ;
+    cnw:incipitText "Wir giengen alle in der Irre wie Schaafe"@de ;
+    cnw:incipitText "Wenn meine Sünd mich kränken"@de ;
+    cnw:incipitText "Versamlet euch und werft die Blicke"@de ;
+    cnw:incipitText "Seht, welch ein Mensch"@de ;
+    cnw:incipitText "Verhüllt euch, seyd erweichet"@de ;
+    cnw:incipitText "Ist dieser nicht des Höchsten Sohn"@de ;
+    cnw:incipitText "Ja, dies ist GOttes Sohn"@de ;
+    cnw:incipitText "O Schöpfer, für deinem gewaltigen Schelten"@de ;
+    cnw:incipitText "O Welt! sieh hier dein Leben am Stamm des Kreuzes"@de ;
+    cnw:incipitText "Du stirbst, o GOTT! du stirbst"@de ;
+    cnw:incipitText "Man eilt dich zu tödten: verschone dein Leben!"@de ;
+    cnw:incipitText "Was soll ich dir immmehr, o Liebster"@de ;
+    cnw:incipitText "Was ist doch wol die Ursach solcher Plagen?"@de ;
+    cnw:incipitText "Ja, wir, nur wir begiengen gegen"@de ;
+    cnw:incipitText "Wie wunderbarlich ist doch diese Strafe"@de ;
+    cnw:incipitText "Du gabst uns erst den Geist"@de ;
+    cnw:incipitText "O unbegreiflich starke Triebe!"@de ;
+    cnw:incipitText "O du wunderbarer Rath"@de ;
+    cnw:incipitText "Doch das, was du erworben"@de ;
+    cnw:incipitText "O Heyland! dein betrübtes Leiden"@de ;
+    cnw:incipitText "O grosse Noth!"@de ;
+    cnw:incipitText "O GOTT! du kanst allein so lieben"@de ;
+    cnw:incipitText "Erhebet den Helden mit eben dem Mute"@de ;
+    cnw:incipitText "Und stolze Feind wißt"@de ;
+    cnw:incipitText "Mein JESUS stirbt: siegt rasende Feinde!"@de ;
+    cnw:incipitText "Bleibt in Andacht meine Sinnen"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/heinrich_august_gerlach>
+    a foaf:Agent ;
+    foaf:name "Heinrich August Gerlach" .
+

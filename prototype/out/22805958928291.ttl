@@ -1,0 +1,62 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/NWGW257>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Heinrich Frauenlob"@de ;
+    dcterms:alternative "Wo sich zum Rheinesstrome"@de ;
+    dcterms:alternative "Im Volkston"@de ;
+    dcterms:identifier "Opus 26:2" ;
+    dcterms:identifier "NWGW 257" ;
+    dcterms:identifier "GW IV:10" ;
+    cnw:cnwNumber "257" ;
+    cnw:catalogueCode "NWGW" ;
+    cnw:opus "26:2" ;
+    dcterms:creator <https://cnw-ld.org/agent/niels_w_gade> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/otto_roquette> ;
+    dcterms:created "1853" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "A cappella choral music" ;
+    dcterms:subject "Male choir" ;
+    dcterms:isPartOf <https://cnw-ld.org/collection/22781341302337> ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/NWGW257/expression/1> ;
+    cnw:performanceCount 14 .
+
+<https://cnw-ld.org/work/NWGW257/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/NWGW257> ;
+    cnw:key "G minor" ;
+    cnw:tempo "Moderato" ;
+    cnw:meter "3/4" ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "T." ;
+    cnw:performingForce "B." ;
+    cnw:performingForce "B." ;
+    cnw:incipitText "Wo sich zum Rheinesstrome die Hügel ziehn"@de ;
+    cnw:incipitImage "NWGW_257.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/niels_w_gade>
+    a foaf:Agent ;
+    foaf:name "Niels W. Gade" .
+
+<https://cnw-ld.org/agent/otto_roquette>
+    a foaf:Agent ;
+    foaf:name "Otto Roquette" .
+
+<https://cnw-ld.org/agent/pauliner_s_ngerverein>
+    a foaf:Agent ;
+    foaf:name "Pauliner Sängerverein" .
+

@@ -1,0 +1,62 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/CNW315>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Balladen om Bjørnen, opus 47"@da ;
+    dcterms:title "Ballad of the Bear, Opus 47"@en ;
+    dcterms:alternative "De dræbte Bjørnens Unger"@da ;
+    dcterms:alternative "The bear's two cubs were murdered"@en ;
+    dcterms:identifier "Opus 47" ;
+    dcterms:identifier "CNW 315" ;
+    dcterms:identifier "CNU III/5, 251" ;
+    dcterms:identifier "CNS 78" ;
+    dcterms:identifier "FS 109" ;
+    cnw:cnwNumber "315" ;
+    cnw:catalogueCode "CNW" ;
+    cnw:opus "47" ;
+    cnw:fsNumber "109" ;
+    dcterms:creator <https://cnw-ld.org/agent/carl_nielsen> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/aage_berntsen> ;
+    dcterms:created "1923" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    cnw:editorialNote "Speciale." ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    cnw:manuscriptLocation "DK-Kk" ;
+    frbr:realization <https://cnw-ld.org/work/CNW315/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/CNW315/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/CNW315> ;
+    cnw:tempo "Tempo giusto" ;
+    cnw:meter "4/4" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "De dræbte Bjørnens Unger"@da ;
+    cnw:incipitText "The bear's two cups were murdered"@en ;
+    cnw:incipitImage "cnw_315.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/carl_nielsen>
+    a foaf:Agent ;
+    foaf:name "Carl Nielsen" .
+
+<https://cnw-ld.org/agent/aage_berntsen>
+    a foaf:Agent ;
+    foaf:name "Aage Berntsen" .
+

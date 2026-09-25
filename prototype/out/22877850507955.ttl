@@ -1,0 +1,48 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-022>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate: In Dominica Jubilate"@de ;
+    dcterms:alternative "Die mit Thränen säen"@de ;
+    dcterms:identifier "SchW B2:022" ;
+    cnw:cnwNumber "B2:022" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Sacred" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Cantata" ;
+    cnw:editorialNote "(I.A.5.b. ‘Fest. Jahrgänge, nebst einigen Sonntags-Cantaten’): '[Scheibens, Joh. Adolph,] Cantate: In Dom. Jubilate. Die mit Thränen säen, à 2 Corni, 2 Oboi, 2 Violini, Viola, 4 Voci, Basso ed Organo. a 1 thl. 16 gl.'; ‘NB. In Partitur sind die Preiße etwas geringer.’" ;
+    cnw:editorialNote "(Lot 297 (1)): '[Scheibe, J. A.,] Am 1. Advent-Sonntage. [P. u. St.] 24 [Bog.] | (Mache dich auf Zion). St. - (Am Sonn- | tage Exaudi). P. - (Am Sonntage Ju- | bilate). P. u. St. 35 [Bog.]'. (Lot 298 (1)): '[Scheibe, J. A.,] Am Sonntage Jubilate. - Sonntage Can- | tate. St. - (Lobt d. Herrn). P. - (Wün- | schet Jerusalem Glück). P. u. St. 43 [Bog.]'." ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-022/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-022/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-022> ;
+    cnw:performingForce "cor." ;
+    cnw:performingForce "ob." ;
+    cnw:performingForce "vl.1" ;
+    cnw:performingForce "vl.2" ;
+    cnw:performingForce "va." ;
+    cnw:performingForce "org." ;
+    cnw:performingForce "bc." ;
+    cnw:incipitText "Die mit Thränen säen"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+

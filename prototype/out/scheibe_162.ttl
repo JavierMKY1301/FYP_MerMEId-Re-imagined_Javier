@@ -1,0 +1,68 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB2-411>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Cantate som til begge deres kongelige Majestæters Kong Christian den Syvendes og Dronning Caroline Mathildes Salvings-Fest blev opført"@da ;
+    dcterms:identifier "SchW B2:411" ;
+    cnw:cnwNumber "B2:411" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/johannes_ewald> ;
+    dcterms:created "1767" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Secular" ;
+    dcterms:subject "Occasional" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB2-411/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/SchWB2-411/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB2-411> ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "voice" ;
+    cnw:incipitText "Fred med den Salvede!"@da ;
+    cnw:incipitText "Christians skarpe Øye"@en ;
+    cnw:incipitText "Men milde Straaler skiød fra Heltens Øye"@da ;
+    cnw:incipitText "Afmægtig Stolthed falde under Thronen!"@da ;
+    cnw:incipitText "Flyer Laster, flyer for Christians Domme"@da ;
+    cnw:incipitText "Hist seer jeg een ærværdig Skare"@da ;
+    cnw:incipitText "Christian, salved Held i Norden"@da ;
+    cnw:incipitText "Lev længe Christian! Lev længe med Mathilde!"@da ;
+    cnw:incipitText "Fred med den Salvede!"@da ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe" .
+
+<https://cnw-ld.org/agent/johannes_ewald>
+    a foaf:Agent ;
+    foaf:name "Johannes Ewald" .
+
+<https://cnw-ld.org/agent/king_christian_vii>
+    a foaf:Agent ;
+    foaf:name "King Christian VII" .
+
+<https://cnw-ld.org/agent/queen_caroline_mathilde>
+    a foaf:Agent ;
+    foaf:name "Queen Caroline Mathilde" .
+

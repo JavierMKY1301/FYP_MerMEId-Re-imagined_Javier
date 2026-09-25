@@ -1,0 +1,48 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW103>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Sonatine for klaver i G-dur"@da ;
+    dcterms:title "Sonatina for Piano in G Major"@en ;
+    dcterms:title "Sonatine für Klavier in G-dur"@de ;
+    dcterms:identifier "HartW 103" ;
+    dcterms:identifier "JPEW III/1 no. 4" ;
+    dcterms:identifier "DF 36" ;
+    cnw:cnwNumber "103" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    dcterms:created "1863-07-16" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Instrumental music" ;
+    dcterms:subject "Music for one instrument" ;
+    dcterms:subject "Piano music" ;
+    cnw:editorialNote "Paper presented at the Grieg Conference in Copenhagen 12 August 2011." ;
+    frbr:realization <https://cnw-ld.org/work/HartW103/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW103/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW103> ;
+    cnw:key "G major" ;
+    cnw:tempo "Allegro non troppo" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitImage "hartw_103_1.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+

@@ -1,0 +1,52 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/HartW462>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Barnets Jul"@da ;
+    dcterms:title "The Child's Christmas"@en ;
+    dcterms:alternative "Nu stemmer Julen sin Klokkes Klang"@da ;
+    dcterms:alternative "En Sang til de Voxne"@da ;
+    dcterms:alternative "A Song for the Adults"@en ;
+    dcterms:identifier "HartW 462" ;
+    dcterms:identifier "DF 147" ;
+    cnw:cnwNumber "462" ;
+    cnw:catalogueCode "HartW" ;
+    dcterms:creator <https://cnw-ld.org/agent/j_p_e_hartmann> ;
+    cnw:textAuthor <https://cnw-ld.org/agent/holger_drachmann> ;
+    dcterms:created "1883-11-24" ;
+    dcterms:language "Danish" ;
+    dcterms:language "English" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Song" ;
+    frbr:realization <https://cnw-ld.org/work/HartW462/expression/1> ;
+    cnw:performanceCount 0 .
+
+<https://cnw-ld.org/work/HartW462/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/HartW462> ;
+    cnw:tempo "Allegretto" ;
+    cnw:meter "6/8" ;
+    cnw:performingForce "voice" ;
+    cnw:performingForce "pf." ;
+    cnw:incipitText "Nu stemmer Julen sin Klokkes Klang"@da ;
+    cnw:incipitImage "hartw_462.png" ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/j_p_e_hartmann>
+    a foaf:Agent ;
+    foaf:name "J.P.E. Hartmann" .
+
+<https://cnw-ld.org/agent/holger_drachmann>
+    a foaf:Agent ;
+    foaf:name "Holger Drachmann" .
+

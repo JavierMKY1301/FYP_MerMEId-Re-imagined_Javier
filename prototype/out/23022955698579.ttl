@@ -1,0 +1,77 @@
+@prefix ex:      <https://cnw-ld.org/> .
+@prefix cnw:     <https://cnw-ld.org/ontology#> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix mo:      <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cnw-ld.org/work/SchWB7-001>
+    a frbr:Work, mo:MusicalWork ;
+    dcterms:title "Trauer-Cantate, bey Gelegenheit des am 19 Decemb. 1751 erfolgten Absterben der Königinn und Frauen, Louise"@de ;
+    dcterms:identifier "SchW B7:001" ;
+    cnw:cnwNumber "B7:001" ;
+    cnw:catalogueCode "SchW" ;
+    dcterms:creator <https://cnw-ld.org/agent/johann_adolph_scheibe> ;
+    dcterms:created "1752" ;
+    dcterms:language "English" ;
+    dcterms:language "German" ;
+    dcterms:subject "Cantata" ;
+    dcterms:subject "Music for vocal soloists and instruments with or without choir" ;
+    dcterms:subject "Vocal music" ;
+    dcterms:subject "Secular" ;
+    dcterms:subject "Occasional" ;
+    frbr:realization <https://cnw-ld.org/work/SchWB7-001/expression/1> ;
+    cnw:performanceCount 1 .
+
+<https://cnw-ld.org/work/SchWB7-001/expression/1>
+    a frbr:Expression ;
+    frbr:realizationOf <https://cnw-ld.org/work/SchWB7-001> ;
+    cnw:incipitText "So auch jemand kämpfet"@de ;
+    cnw:incipitText "Wiewohl ist mir der Kampf gelungen!"@de ;
+    cnw:incipitText "Ewig ist mein Geist genesen"@de ;
+    cnw:incipitText "O wahre Lust!"@de ;
+    cnw:incipitText "Ich habe einen guten Kampfs gekämpfet"@de ;
+    cnw:incipitText "So singt Lovise jetzt"@de ;
+    cnw:incipitText "Ich habe den Lauf vollendet"@de ;
+    cnw:incipitText "Nun bleibt, was sterblich war, zurücke"@de ;
+    cnw:incipitText "Ich habe Glauben gehalten"@de ;
+    cnw:incipitText "Mein Glaube hat mir manchen Sieg"@de ;
+    cnw:incipitText "Kein Leiden, keine Pein"@de ;
+    cnw:incipitText "O! welche nie empfundne Lust"@de ;
+    cnw:incipitText "Wenn sich ein Geist besinnet"@de ;
+    cnw:incipitText "Doch es ist nicht so leicht"@de ;
+    cnw:incipitText "Oeffne deines Glaubens Ohren"@de ;
+    cnw:incipitText "So auch jemand kämpfet"@de ;
+    cnw:incipitText "Hinfort ist mir beygelegt die Krone der Gerechtigkeit"@de ;
+    cnw:incipitText "Ja wohl verklärte Königinn"@de ;
+    cnw:incipitText "Du trägst der Unschuld Perlenkleid"@de ;
+    cnw:incipitText "Du glänzest heller als die Sonne"@de ;
+    cnw:incipitText "Das Denkmahl Deiner Huld und Güte"@de ;
+    cnw:incipitText "Dich hatte Glück, Geburt und Stand"@de ;
+    cnw:incipitText "Wie betrübt ist Friedrichs Geist!"@de ;
+    cnw:incipitText "Ganz Dännemark und Engeland"@de ;
+    cnw:incipitText "Selbst die Tugend krönte Dich"@de ;
+    cnw:incipitText "Nun aber rühret unsre Brust"@de ;
+    cnw:incipitText "Gott weiß allein, wodurch auf Erden"@de ;
+    cnw:incipitText "Dir folgt, enselte Königinn"@de ;
+    cnw:incipitText "Lebe Hoffnungs-volle Jugend"@de ;
+    cnw:incipitText "Nun ruhe sanft in Deiner Gruft"@de ;
+    cnw:incipitText "Louise! schlafe wohl und sanft in deinem Grabe"@de ;
+    cnw:incipitText "Folgt nun auf wohl beschloßnen Kampf"@de ;
+    cnw:incipitText "Ach ich habe schon erblicket"@de ;
+    cnw:incipitText "Wer an mich gläubet, der wird leben"@de ;
+    cnw:hasNotatedIncipit false ;
+    cnw:hasNotatedMusic false .
+
+<https://cnw-ld.org/agent/johann_adolph_scheibe>
+    a foaf:Agent ;
+    foaf:name "Johann Adolph Scheibe?" .
+
+<https://cnw-ld.org/agent/queen_louise>
+    a foaf:Agent ;
+    foaf:name "Queen Louise" .
+
